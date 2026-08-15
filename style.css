@@ -134,6 +134,43 @@ a {
   padding: 32px;
 }
 
+.profile-lead {
+  margin: 0 0 28px;
+}
+
+.profile-subhead {
+  margin: 0 0 16px;
+  font-size: 1.05rem;
+  color: var(--accent-dark);
+}
+
+.career-list {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.career-list li {
+  padding: 16px 20px;
+  background: var(--bg-alt);
+  border-radius: 10px;
+  border-left: 3px solid var(--accent);
+}
+
+.career-tag {
+  display: block;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.profile-closing {
+  margin: 0;
+  color: var(--text-muted);
+}
+
 .profile-note {
   margin-top: 16px;
   margin-bottom: 0;
@@ -239,5 +276,9 @@ a {
 
   .app-screenshots img {
     height: 240px;
+  }
+
+  .hero-break {
+    display: none;
   }
 }
