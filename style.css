@@ -7,6 +7,8 @@
   --accent-dark: #234f38;
   --card-bg: #ffffff;
   --border: #e5e3da;
+  --amazon: #c47a1f;
+  --amazon-dark: #9c611a;
   --max-width: 880px;
 }
 
@@ -123,6 +125,11 @@ a {
   width: 4px;
   background: var(--accent);
   border-radius: 2px;
+}
+
+.section-lead {
+  margin: -16px 0 32px;
+  color: var(--text-muted);
 }
 
 /* profile */
@@ -259,6 +266,65 @@ a {
   color: var(--text-muted);
 }
 
+/* books */
+
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.book-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-tag {
+  display: inline-block;
+  align-self: flex-start;
+  background: var(--bg-alt);
+  color: var(--amazon-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+.book-title {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.book-desc {
+  margin: 0 0 20px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  flex-grow: 1;
+}
+
+.amazon-badge {
+  display: inline-block;
+  align-self: flex-start;
+  background: var(--amazon);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.15s ease;
+}
+
+.amazon-badge:hover {
+  background: var(--amazon-dark);
+}
+
 /* footer */
 
 .site-footer {
@@ -280,5 +346,9 @@ a {
 
   .hero-break {
     display: none;
+  }
+
+  .book-grid {
+    grid-template-columns: 1fr;
   }
 }
