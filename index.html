@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo" href="#top">Yuichi Sato</a>
@@ -35,8 +37,8 @@
 
   <section id="profile" class="section">
     <div class="wrap">
-      <h2 class="section-title">プロフィール</h2>
-      <div class="profile-card">
+      <h2 class="section-title reveal">プロフィール</h2>
+      <div class="profile-card reveal">
         <p class="profile-lead">
           北海道を拠点に活動する実業家／アプリケーション開発者／ビジネスコンサルタント。
           通信インフラ領域における光回線やビジネスフォンの現場営業、携帯キャリアショップの統括マネジメントに加え、
@@ -76,9 +78,9 @@
 
   <section id="works" class="section section-alt">
     <div class="wrap">
-      <h2 class="section-title">アプリ</h2>
+      <h2 class="section-title reveal">アプリ</h2>
 
-      <article class="app-card">
+      <article class="app-card reveal">
         <div class="app-card-head">
           <img class="app-icon" src="assets/img/mediatoolbox-icon.png" alt="MediaToolbox アイコン">
           <div>
@@ -111,11 +113,11 @@
 
   <section id="books" class="section">
     <div class="wrap">
-      <h2 class="section-title">書籍</h2>
-      <p class="section-lead">Kindleにて、ダイビングログブックと自作PCに関する実用書を出版しています。</p>
+      <h2 class="section-title reveal">書籍</h2>
+      <p class="section-lead reveal">Kindleにて、ダイビングログブックと自作PCに関する実用書を出版しています。</p>
 
       <div class="book-grid">
-        <article class="book-card">
+        <article class="book-card reveal">
           <img class="book-cover" src="assets/img/book-mydivelog-front.png" alt="MY 100 DIVES 表紙">
           <div class="book-body">
             <span class="book-tag">ダイビングログブック</span>
@@ -130,7 +132,7 @@
           </div>
         </article>
 
-        <article class="book-card">
+        <article class="book-card reveal">
           <img class="book-cover" src="assets/img/book-pc-parts-bible.jpg" alt="パソコンの黄金構成比で自作できるパーツ構成&神ガジェット最適化バイブル 表紙">
           <div class="book-body">
             <span class="book-tag">自作PCガイド</span>
@@ -144,7 +146,7 @@
           </div>
         </article>
 
-        <article class="book-card">
+        <article class="book-card reveal">
           <img class="book-cover" src="assets/img/book-pc-maintenance.jpg" alt="パーツ寿命を2倍に伸ばす「自作PCメンテナンス&トラブルシューティング」徹底解説 表紙">
           <div class="book-body">
             <span class="book-tag">自作PCガイド</span>
@@ -158,7 +160,7 @@
           </div>
         </article>
 
-        <article class="book-card">
+        <article class="book-card reveal">
           <img class="book-cover" src="assets/img/book-lease-goodbye.png" alt="リースは、もう終わりにしよう。 表紙">
           <div class="book-body">
             <span class="book-tag">自作PC × コスト削減</span>
@@ -182,5 +184,8 @@
   </div>
 </footer>
 
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="script.js"></script>
 </body>
 </html>
