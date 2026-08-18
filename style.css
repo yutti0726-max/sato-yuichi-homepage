@@ -412,10 +412,28 @@ a {
   font-size: 0.95rem;
 }
 
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
 .lang-badge {
   display: inline-block;
   background: var(--bg-alt);
   color: var(--accent-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.price-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
   padding: 4px 12px;
@@ -522,14 +540,12 @@ a {
 
 .book-tag {
   display: inline-block;
-  align-self: flex-start;
   background: var(--bg-alt);
   color: var(--amazon-dark);
   font-size: 0.75rem;
   font-weight: 700;
   padding: 4px 12px;
   border-radius: 999px;
-  margin-bottom: 12px;
 }
 
 .book-title {
