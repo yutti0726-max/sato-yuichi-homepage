@@ -138,6 +138,12 @@ a {
   font-size: 1.05rem;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .site-header nav {
   display: flex;
   align-items: center;
@@ -168,6 +174,64 @@ a {
 .site-header nav a.is-active:hover {
   color: #fff;
   background: var(--accent-dark);
+}
+
+/* language switch */
+
+.lang-switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 68px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  padding: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.lang-switch:hover {
+  border-color: var(--accent);
+}
+
+.lang-switch-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: calc(50% - 3px);
+  height: calc(100% - 6px);
+  border-radius: 999px;
+  background: var(--accent);
+  transition: transform 0.25s ease;
+  z-index: 0;
+}
+
+.lang-switch.is-en .lang-switch-thumb {
+  transform: translateX(100%);
+}
+
+.lang-switch-option {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  transition: color 0.25s ease;
+}
+
+.lang-switch:not(.is-en) .lang-switch-option[data-lang-option="ja"] {
+  color: #fff;
+}
+
+.lang-switch.is-en .lang-switch-option[data-lang-option="en"] {
+  color: #fff;
 }
 
 /* hero */
