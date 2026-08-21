@@ -301,8 +301,8 @@ a {
 }
 
 .hero-logo {
-  width: 88px;
-  height: 88px;
+  width: 150px;
+  height: auto;
   margin: 0 auto 20px;
   display: block;
   opacity: 0;
