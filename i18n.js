@@ -3,6 +3,7 @@ const translations = {
     nav_profile: 'プロフィール',
     nav_apps: 'アプリ',
     nav_books: '書籍',
+    nav_column: 'コラム',
 
     hero_eyebrow: '実業家 ・ アプリケーション開発者 ・ ビジネスコンサルタント',
     hero_lead: '現場で培った顧客心理分析力とテクノロジーへの知見を融合し、<br class="hero-break">日常の不便を解消する「ありそうでなかった」アプリケーションを開発しています。',
@@ -80,6 +81,7 @@ const translations = {
     nav_profile: 'Profile',
     nav_apps: 'Apps',
     nav_books: 'Books',
+    nav_column: 'Column',
 
     hero_eyebrow: 'Entrepreneur · App Developer · Business Consultant',
     hero_lead: 'Combining frontline customer-psychology insight with a passion for technology,<br class="hero-break"> I build apps that solve everyday frustrations nobody else quite got around to.',
