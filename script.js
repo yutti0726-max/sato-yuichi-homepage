@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const navLinks = Array.from(document.querySelectorAll('.site-header nav a'));
   const sections = navLinks
+    .filter((a) => a.getAttribute('href').startsWith('#'))
     .map((a) => document.querySelector(a.getAttribute('href')))
     .filter(Boolean);
 
