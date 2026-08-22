@@ -5,8 +5,9 @@ const translations = {
     nav_books: '書籍',
     nav_column: 'コラム',
 
-    hero_eyebrow: '実業家 ・ アプリケーション開発者 ・ ビジネスコンサルタント',
-    hero_lead: '現場で培った顧客心理分析力とテクノロジーへの知見を融合し、<br class="hero-break">日常の不便を解消する「ありそうでなかった」アプリケーションを開発しています。',
+    hero_eyebrow: 'Androidアプリ特集',
+    hero_h1: 'これだけは入れておきたい、Androidアプリ',
+    hero_lead: '日常の「あったらいいな」を形にする、佐藤雄一が開発・厳選したアプリを紹介します。',
 
     profile_title: 'プロフィール',
     profile_lead: '北海道を拠点に活動する実業家／アプリケーション開発者／ビジネスコンサルタント。通信インフラ領域における光回線やビジネスフォンの現場営業、携帯キャリアショップの統括マネジメントに加え、保険領域において高度なコンサルティング営業を経験。かんぽ生命での個人向け生命保険・第三分野（医療・がん等）から、東京海上日動の自動車保険をはじめとする損害保険、さらには法人向け生命保険のソリューション提案に至るまで、多岐にわたる金融・保険商品の販売現場で顧客心理の分析と成約ノウハウを体系化してきた。',
@@ -73,8 +74,8 @@ const translations = {
     book4_desc: '毎月のPCリース料金をやめ、自作PC×自己保守でコストを削減する実務バイブル。リースと購入のTCO比較や少額減価償却資産の特例を活用した節税テクニック、失敗しない黄金パーツ構成表、予防保守の手順、NASを活用したデータ保護（3-2-1ルール）までを1冊で網羅。',
     book4_cta: '📖 ¥480 でKindleを読む',
 
-    page_title: '佐藤雄一 | 実業家・アプリ開発者・ビジネスコンサルタント',
-    meta_description: '実業家・アプリ開発者・ビジネスコンサルタントの佐藤雄一の公式サイト。Androidアプリ「MediaToolbox」「PDFツールキット」「らくらく歩数計」とKindle書籍を紹介しています。',
+    page_title: 'Androidアプリでこれだけは入れておきたいアプリ特集 | 佐藤雄一',
+    meta_description: 'MediaToolbox（動画・画像変換）、PDFツールキット（PDF管理）、らくらく歩数計（シニア向け歩数計）など、Androidでこれだけは入れておきたい厳選アプリを開発・紹介。実業家・アプリ開発者 佐藤雄一が贈るアプリ特集。',
     back_to_top: 'トップに戻る',
   },
   en: {
@@ -83,8 +84,9 @@ const translations = {
     nav_books: 'Books',
     nav_column: 'Column',
 
-    hero_eyebrow: 'Entrepreneur · App Developer · Business Consultant',
-    hero_lead: 'Combining frontline customer-psychology insight with a passion for technology,<br class="hero-break"> I build apps that solve everyday frustrations nobody else quite got around to.',
+    hero_eyebrow: 'Android App Roundup',
+    hero_h1: 'Must-Have Android Apps, All in One Place',
+    hero_lead: 'A hand-picked lineup of apps built by Yuichi Sato to solve everyday little frustrations.',
 
     profile_title: 'Profile',
     profile_lead: 'Yuichi Sato is an entrepreneur, application developer, and business consultant based in Hokkaido, Japan. He built his career in telecom infrastructure sales &mdash; door-to-door fiber-optic internet (Flet&rsquo;s Hikari, au Hikari, TEPCO Hikari) and business phone sales &mdash; before moving into advanced insurance consulting: individual life and third-sector (medical, cancer) insurance at Japan Post Insurance, auto and other property insurance at Tokio Marine Nichido, and corporate life insurance solutions. Across this wide range of financial and insurance products, he has systematized an approach to reading customer psychology and closing deals.',
@@ -151,8 +153,8 @@ const translations = {
     book4_desc: 'A practical playbook for cutting costs by ditching monthly PC leases in favor of building and maintaining your own. Covers a lease-vs-buy total cost comparison, tax-saving techniques using Japan&rsquo;s small-value depreciable-asset rules, a proven parts-selection formula, preventive-maintenance steps, and NAS-based data protection (the 3-2-1 rule).',
     book4_cta: '📖 Read on Kindle &mdash; ¥480',
 
-    page_title: 'Yuichi Sato | Entrepreneur, App Developer & Business Consultant',
-    meta_description: 'Official site of Yuichi Sato — entrepreneur, app developer, and business consultant. Featuring the Android apps MediaToolbox, PDF Toolkit, and Rakuraku Step Counter, plus books on Kindle.',
+    page_title: 'Must-Have Android Apps — Curated by Yuichi Sato',
+    meta_description: 'MediaToolbox (video & image conversion), PDF Toolkit (PDF management), and Rakuraku Step Counter (senior-friendly pedometer) — a curated lineup of must-have Android apps, built and picked by entrepreneur and app developer Yuichi Sato.',
     back_to_top: 'Back to top',
   },
 };
