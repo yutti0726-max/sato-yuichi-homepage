@@ -15,6 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const navLinks = Array.from(document.querySelectorAll('.site-header nav a'));
+
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+
+  if (navToggle && siteNav) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = siteNav.classList.toggle('is-open');
+      navToggle.classList.toggle('is-open', isOpen);
+      navToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        siteNav.classList.remove('is-open');
+        navToggle.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
   const sections = navLinks
     .filter((a) => a.getAttribute('href').startsWith('#'))
     .map((a) => document.querySelector(a.getAttribute('href')))
