@@ -166,11 +166,18 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo" href="#top"><img src="assets/img/logo-mark.png" alt="SIGN" class="logo-mark"><span class="logo-text notranslate" translate="no">Yuichi Sato</span></a>
-    <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-    </button>
+    <div class="header-controls">
+      <button id="langSwitch" class="lang-switch" type="button" aria-label="Switch language / 言語を切り替え" aria-pressed="false">
+        <span class="lang-switch-option" data-lang-option="ja">JA</span>
+        <span class="lang-switch-option" data-lang-option="en">EN</span>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </button>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
     <div class="header-right" id="siteNav">
       <nav>
         <a href="#works" data-i18n="nav_apps">アプリ</a>
@@ -178,11 +185,6 @@
         <a href="#profile" data-i18n="nav_profile">プロフィール</a>
         <a href="/column/" data-i18n="nav_column">コラム</a>
       </nav>
-      <button id="langSwitch" class="lang-switch" type="button" aria-label="Switch language / 言語を切り替え" aria-pressed="false">
-        <span class="lang-switch-option" data-lang-option="ja">JA</span>
-        <span class="lang-switch-option" data-lang-option="en">EN</span>
-        <span class="lang-switch-thumb" aria-hidden="true"></span>
-      </button>
     </div>
   </div>
 </header>
