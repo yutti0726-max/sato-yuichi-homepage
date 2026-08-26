@@ -344,6 +344,7 @@ a {
   font-weight: 800;
   letter-spacing: 0.02em;
   color: var(--text-muted);
+  text-decoration: none;
   transition: color 0.25s ease;
 }
 
