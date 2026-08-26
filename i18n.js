@@ -4,6 +4,7 @@ const translations = {
     nav_apps: 'アプリ',
     nav_books: '書籍',
     nav_column: 'コラム',
+    nav_gear: 'おすすめ機材',
 
     hero_eyebrow: 'Androidアプリ特集',
     hero_h1: 'これだけは入れておきたい、Androidアプリ',
@@ -88,6 +89,7 @@ const translations = {
     nav_apps: 'Apps',
     nav_books: 'Books',
     nav_column: 'Column',
+    nav_gear: 'Gear',
 
     hero_eyebrow: 'Android App Roundup',
     hero_h1: 'Must-Have Android Apps, All in One Place',
