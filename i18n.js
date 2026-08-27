@@ -52,6 +52,16 @@ const translations = {
     app3_feat3: '【称号システム】歩いた距離に応じて称号がアップ。東京から日本列島制覇を目指す、ゲーム感覚の仕掛け',
     app3_feat4: '【目標達成通知】3,000／5,000／8,000／10,000／15,000歩など、その日の目標達成をお知らせ',
 
+    app4_tagline: 'スクリーンショットを撮るだけで自動的に文字を読み取る、OCR内蔵のスクリーンショット管理アプリ。',
+    app4_feat1: '【自動検知＋その場でOCR】スクリーンショットを撮った瞬間に自動で検知し、端末内で文字認識（OCR）を実行。結果をすぐポップアップ表示',
+    app4_feat2: '【好きな部分だけコピー・共有】認識した文字は範囲をドラッグで選んでコピー・共有（範囲選択しなければ全文コピー）',
+    app4_feat3: '【URLはタップでブラウザが開く】認識した文章中のURLは自動でリンク化され、タップでそのままブラウザが開く',
+    app4_feat4: '【履歴一覧】過去に撮ったスクリーンショットの認識結果を、あとから一覧で見返せる',
+    app4_feat5: '【個別削除・一括クリーンアップ】履歴だけでなく、端末に保存されているスクリーンショット画像本体もまとめて削除・整理できる',
+    app4_feat6: '【メモ機能】自由に文字を書き込んだり、コピーした文章を貼り付けて保存できるメモ帳（URLのタップにも対応）',
+    app4_feat7: '【端末内処理でプライバシーも安心】文字認識はすべて端末内で処理され、画像や認識テキストが外部サーバーに送信されることはない',
+    app4_feat8: '【使い方ガイド内蔵】画面右上の「使い方」ボタンから、初めてでも迷わない説明ページを表示',
+
     price_free: '無料',
     lang_badge: '🌐 日本語 / English 対応',
     cta_download: '📲 無料でダウンロード',
@@ -136,6 +146,16 @@ const translations = {
     app3_feat2: '[Home-Screen Widget] Shows today&rsquo;s steps and calories in large, easy-to-read text, resizable to fit your screen',
     app3_feat3: '[Rank System] Your rank climbs with the distance you&rsquo;ve walked &mdash; a game-like journey from Tokyo toward conquering the length of Japan',
     app3_feat4: '[Daily Goal Alerts] Get notified on hitting 3,000 / 5,000 / 8,000 / 10,000 / 15,000 steps in a day',
+
+    app4_tagline: 'Just take a screenshot and it automatically reads the text &mdash; a screenshot manager with built-in OCR.',
+    app4_feat1: '[Auto-Detect + Instant OCR] The moment you take a screenshot, it&rsquo;s detected automatically and text is recognized (OCR) right on the device &mdash; the result pops up immediately',
+    app4_feat2: '[Copy or Share Just What You Need] Drag to select just part of the recognized text to copy or share (copies the full text if nothing is selected)',
+    app4_feat3: '[URLs Open With a Tap] Any URL found in the recognized text is automatically turned into a link you can tap to open in your browser',
+    app4_feat4: '[History List] Look back at the recognition results from past screenshots in a list',
+    app4_feat5: '[Delete Individually or Clean Up in Bulk] Delete the history entry and the screenshot image itself together, or clean up clutter all at once',
+    app4_feat6: '[Memo Feature] A notepad for jotting down text or pasting in copied text to save (URLs inside are tappable too)',
+    app4_feat7: '[On-Device Processing for Privacy] Text recognition runs entirely on the device &mdash; images and recognized text are never sent to an external server',
+    app4_feat8: '[Built-In Guide] A how-to page is always one tap away from the button in the top right',
 
     price_free: 'Free',
     lang_badge: '🌐 Japanese / English',
