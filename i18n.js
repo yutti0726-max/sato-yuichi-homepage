@@ -157,6 +157,85 @@ const translations = {
     meta_description: 'MediaToolbox (video & image conversion), PDF Toolkit (PDF management), and Rakuraku Step Counter (senior-friendly pedometer) — a curated lineup of must-have Android apps, built and picked by entrepreneur and app developer Yuichi Sato.',
     back_to_top: 'Back to top',
   },
+  zh: {
+    nav_profile: '简介',
+    nav_apps: '应用',
+    nav_books: '书籍',
+    nav_column: '专栏',
+
+    hero_eyebrow: 'Android应用精选',
+    hero_h1: '不容错过的Android应用',
+    hero_lead: '佐藤雄一开发并精心挑选的应用，把日常生活中「要是有就好了」的想法变成现实。',
+
+    profile_title: '简介',
+    profile_lead: '以北海道为据点活动的实业家／应用开发者／商业顾问。在通信基础设施领域从事光纤网络与商用电话的一线销售，以及手机运营商门店的统筹管理，此外还在保险领域积累了高水平的顾问式销售经验。从日本邮政保险的个人人寿保险、第三领域保险（医疗、癌症保障等），到东京海上日动的汽车保险等财产保险，乃至企业团体人寿保险方案提案，在广泛的金融保险产品销售一线中，系统化地积累了顾客心理分析与成交诀窍。',
+    profile_subhead: '经历与业绩',
+
+    career1_tag: '通信・基础设施・门店管理',
+    career1_desc: '曾从事光纤网络（FLET’S光・au光・TEPCO光）的上门销售、商用电话销售及公寓设备协商工作。作为手机运营商门店店长／统筹负责人，主导组织运营与销售战略。',
+    career2_tag: '保险・金融顾问',
+    career2_desc: '在日本邮政保险负责人寿保险、第三领域保险的方案提案，在东京海上日动负责汽车保险等财产保险，并从事企业团体人寿保险销售。从个人人生规划到企业财务对策，致力于满足复杂需求的方案式销售。',
+    career3_tag: '技术・开发',
+    career3_desc: '基于超过100台自组装电脑的实战经验及硬件／软件知识，策划并开发能够将用户潜在需求转化为现实的实用应用程序。',
+
+    profile_closing: '将在一线积累的「洞察顾客本质需求的能力」，与通过组装、测试100台以上自组装电脑及各类数码产品所培养的软硬件知识相融合，策划、开发并发布兼具实用性与独创性、人人都能受益的应用程序。',
+
+    works_title: '应用',
+
+    app1_tagline: '可一站式转换视频・图片・音频・PDF的简易多媒体转换工具。',
+    app1_feat1: '【视频转换】可指定1080p/720p/360p等喜欢的分辨率，转换保存为MP4格式',
+    app1_feat2: '【图片缩放】可自由指定宽度和高度进行缩放（支持锁定长宽比）',
+    app1_feat3: '【音频提取】仅从视频中提取音频，保存为M4A格式',
+    app1_feat4: '【PDF转图片】将PDF各页导出为JPEG/PNG格式',
+    app1_feat5: '【图片转PDF】使用相机拍摄或已保存的图片制作PDF',
+    app1_note: '※ 目前处于测试上线准备阶段，正式上线前链接可能暂时无法显示。',
+
+    app2_tagline: '扫描・合并・拆分・压缩，PDF的日常操作一个应用全搞定。',
+    app2_feat1: '【扫描转PDF】用相机拍摄文件，自动校正后生成PDF',
+    app2_feat2: '【图片转PDF】将多张照片合并为一个PDF文件',
+    app2_feat3: '【合并PDF】将多个PDF文件合并为一个',
+    app2_feat4: '【拆分PDF】按页码范围或间隔拆分PDF',
+    app2_feat5: '【压缩PDF】缩小文件体积（页面将转换为图片）',
+
+    app3_name: '轻松计步器',
+    app3_tagline: '无需按键操作，自动记录步数，专为老年人设计的贴心计步应用。',
+    app3_feat1: '【自动计步】无需打开应用，后台自动记录步数',
+    app3_feat2: '【主屏幕小组件】以大字体显示今日步数和消耗卡路里，尺寸可调整',
+    app3_feat3: '【称号系统】根据步行距离升级称号，以「从东京走遍日本列岛」为目标的游戏化设计',
+    app3_feat4: '【目标达成提醒】3,000／5,000／8,000／10,000／15,000步等，当日目标达成时会收到通知',
+
+    price_free: '免费',
+    lang_badge: '🌐 支持日语 / 英语',
+    cta_download: '📲 免费下载',
+    note_pending: '※ 目前处于上线准备阶段，正式上线前链接可能暂时无法显示。',
+
+    books_title: '书籍',
+    books_lead: '已在Kindle出版潜水日志本及自组装电脑相关的实用指南书籍。',
+
+    book_tag_diving: '潜水日志本',
+    book_tag_pcguide: '自组装电脑指南',
+    book_tag_lease: '自组装电脑 × 降低成本',
+
+    book1_title: 'MY 100 DIVES：水肺潜水日志本（100次潜水记录，以及更远的未来）',
+    book1_desc: '预先涵盖证明潜水经验所需的各项数据（水深、水温、余压、配重、能见度、签名栏）的填写式日志本。除100次潜水的记录页外，还收录了在关键节点（第1、10、25、40、50、60、75、100次）设置的里程碑页面、潜水员个人资料、装备清单，以及日英对照的海洋生物检查表。适合以专业课程为目标的潜水员，也适合单纯想记录潜水足迹的爱好者。',
+    book1_cta: '📖 ¥1,628 在Kindle阅读',
+
+    book2_title: '电脑黄金配置比例装机指南：零件搭配与神级周边优化全攻略【2026年最新版】',
+    book2_desc: '拥有100台以上自组装电脑经验的作者，详细解读如何用2026年最新零件打造「不浪费一分预算」的黄金配置。介绍预算10万日元级、20万日元以下、30万日元级前段三条黄金装机路线，并解说能提升作业效率的神级周边设备。别再让预算浪费在配置失衡的品牌电脑上。',
+    book2_cta: '📖 ¥480 在Kindle阅读',
+
+    book3_title: '让爱机寿命翻倍的「自组装电脑保养与故障排除」全解析',
+    book3_desc: '拥有100台以上自组装经验的专业人士，详细解析能让爱机寿命翻倍的「物理保养」，以及自行解决突发故障的「故障排除」技巧。涵盖CPU散热硅脂涂抹技术、温度・电压・存储寿命的判读方法、开不了机时的排查流程，以及错误代码解析等实务内容。',
+    book3_cta: '📖 ¥480 在Kindle阅读',
+
+    book4_title: '不再租赁：初创企业・个体经营者的自组装电脑×自主维护完全省钱指南',
+    book4_desc: '一本告别每月电脑租赁费用，通过自组装电脑与自主维护来削减成本的实务指南。内容涵盖租赁与购买的总成本（TCO）对比、利用少额折旧资产特例的节税技巧、不会出错的黄金零件搭配表、预防性维护步骤，以及利用NAS实现数据保护（3-2-1原则）等，一册全面涵盖。',
+    book4_cta: '📖 ¥480 在Kindle阅读',
+
+    page_title: '不容错过的Android应用精选 | 佐藤雄一',
+    meta_description: 'MediaToolbox（视频・图片转换）、PDF工具箱（PDF管理）、轻松计步器（老年人专用计步器）等，精心开发并挑选的Android必备应用。由实业家・应用开发者佐藤雄一倾情呈现的应用精选。',
+    back_to_top: '返回顶部',
+  },
 };
 
 (function () {
@@ -178,10 +257,12 @@ const translations = {
     const backToTop = document.getElementById('backToTop');
     if (backToTop && dict.back_to_top) backToTop.setAttribute('aria-label', dict.back_to_top);
 
-    const switchBtn = document.getElementById('langSwitch');
-    if (switchBtn) {
-      switchBtn.classList.toggle('is-en', lang === 'en');
-      switchBtn.setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
+    const switchEl = document.getElementById('langSwitch');
+    if (switchEl) {
+      switchEl.setAttribute('data-lang', lang);
+      switchEl.querySelectorAll('.lang-switch-option').forEach((btn) => {
+        btn.setAttribute('aria-pressed', btn.getAttribute('data-lang-option') === lang ? 'true' : 'false');
+      });
     }
 
     localStorage.setItem(STORAGE_KEY, lang);
@@ -194,13 +275,15 @@ const translations = {
     } catch (e) {
       saved = 'ja';
     }
+    if (!translations[saved]) saved = 'ja';
     applyLang(saved);
 
-    const switchBtn = document.getElementById('langSwitch');
-    if (switchBtn) {
-      switchBtn.addEventListener('click', () => {
-        const current = document.documentElement.lang === 'en' ? 'en' : 'ja';
-        applyLang(current === 'en' ? 'ja' : 'en');
+    const switchEl = document.getElementById('langSwitch');
+    if (switchEl) {
+      switchEl.querySelectorAll('.lang-switch-option').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          applyLang(btn.getAttribute('data-lang-option'));
+        });
       });
     }
   });

@@ -22,7 +22,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Segoe UI", sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Segoe UI", sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.8;
@@ -303,15 +303,13 @@ a {
   position: relative;
   display: inline-flex;
   align-items: center;
-  width: 68px;
+  width: 108px;
   height: 30px;
   flex-shrink: 0;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--bg-alt);
   padding: 3px;
-  cursor: pointer;
-  font-family: inherit;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -323,7 +321,7 @@ a {
   position: absolute;
   top: 3px;
   left: 3px;
-  width: calc(50% - 3px);
+  width: calc((100% - 6px) / 3);
   height: calc(100% - 6px);
   border-radius: 999px;
   background: var(--accent);
@@ -331,27 +329,35 @@ a {
   z-index: 0;
 }
 
-.lang-switch.is-en .lang-switch-thumb {
+.lang-switch[data-lang="en"] .lang-switch-thumb {
   transform: translateX(100%);
+}
+
+.lang-switch[data-lang="zh"] .lang-switch-thumb {
+  transform: translateX(200%);
 }
 
 .lang-switch-option {
   position: relative;
   z-index: 1;
   flex: 1;
+  height: 100%;
+  border: none;
+  background: transparent;
+  padding: 0;
   text-align: center;
   font-size: 0.7rem;
   font-weight: 800;
+  font-family: inherit;
   letter-spacing: 0.02em;
   color: var(--text-muted);
+  cursor: pointer;
   transition: color 0.25s ease;
 }
 
-.lang-switch:not(.is-en) .lang-switch-option[data-lang-option="ja"] {
-  color: #fff;
-}
-
-.lang-switch.is-en .lang-switch-option[data-lang-option="en"] {
+.lang-switch[data-lang="ja"] .lang-switch-option[data-lang-option="ja"],
+.lang-switch[data-lang="en"] .lang-switch-option[data-lang-option="en"],
+.lang-switch[data-lang="zh"] .lang-switch-option[data-lang-option="zh"] {
   color: #fff;
 }
 
