@@ -58,11 +58,19 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
-    <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-    </button>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pdftoolkit-merge-compress.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pdftoolkit-merge-compress.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pdftoolkit-merge-compress.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
     <div class="header-right" id="siteNav">
       <nav>
         <a href="/zh/#works">应用</a>

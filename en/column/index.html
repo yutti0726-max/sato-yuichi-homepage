@@ -33,11 +33,19 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
-    <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-    </button>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
     <div class="header-right" id="siteNav">
       <nav>
         <a href="/en/#works">Apps</a>
