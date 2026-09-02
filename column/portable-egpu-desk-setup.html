@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>ノートPC+eGPUで作る、省スペース最強デスク環境｜Type-C1本で全部つながるセットアップ</title>
+<meta name="description" content="軽量・長時間駆動のノートPC1台をベースに、帰宅後はType-Cケーブル1本でeGPU・キーボード・ディスプレイ・マウス・外付けSSDが全て繋がるデスク環境を構築した記録です。外出先では最軽量、自宅では最強のゲーミング環境に切り替わります。">
+<link rel="canonical" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "ノートPC+eGPUで作る、省スペース最強デスク環境",
+  "description": "軽量ノートPC1台をベースに、Type-Cケーブル1本でeGPU・キーボード・ディスプレイ・マウス・外付けSSDが全て繋がるデスク環境を構築した記録です。",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-parts-bible.jpg",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/column/portable-egpu-desk-setup.html",
+  "datePublished": "2026-09-02"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
+    { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
+    { "@type": "ListItem", "position": 3, "name": "ノートPC+eGPUの最強デスク環境" }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/#works">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/#profile">プロフィール</a>
+        <a href="/column/" class="is-active">コラム</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ ノートPC+eGPUの最強デスク環境</p>
+      <span class="article-tag">自作PC</span>
+      <h1>ノートPC+eGPUで作る、省スペース最強デスク環境｜Type-C1本で全部つながるセットアップ</h1>
+      <p class="article-lead">ローカルAIも高グラフィック設定のゲームも常用しているわけではないので、普段使いは軽量なノートPC1台で十分。ですが帰宅後は、Type-Cケーブル1本を挿すだけでeGPU・キーボード・ディスプレイ・マウス・外付けSSDまで一気に接続され、最強のデスク環境に切り替わります。外に出るときは身軽に、家では妥協なく。そんなセットアップを組んだ記録です。</p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>ベースは軽量・長時間駆動のノートPC</h2>
+      <p>普段使っているのはASUSのS14です。インテル® Core™ Ultra 9 プロセッサー 386Hを搭載し、メモリ32GB、ストレージ1TBという構成です。ローカルAIを常用しているわけでも、高グラフィック設定でゲームをするわけでもないので、日常使いではこのスペックで十分すぎるほど快適に動きます。それよりも軽量で長時間使えることを優先してこのモデルを選びました。</p>
+
+      <h2>帰宅後はeGPUで一気にハイスペック環境へ</h2>
+      <p>自宅に戻ると、外付けのeGPU「GIGABYTE AORUS RTX 5060 Ti AI Box」を使用しています。eGPU(外付けグラフィックボックス)は、普段は軽量なノートPCで持ち歩き、必要なときだけ据え置きの高性能グラフィックカードに接続してパワーを引き出せるのが最大のメリットです。ノートPC単体では対応しきれない最新ゲームや重い処理も、帰宅後はこのeGPUを介してデスクトップ級のパフォーマンスで扱えるようになります。</p>
+
+      <h2>Type-Cケーブル1本で全部つながる集約セットアップ</h2>
+      <p>このセットアップの一番のポイントは、ノートPCとeGPUをType-Cケーブル1本で接続するだけで、あとの機材がすべて連動して繋がることです。帰宅して「ケーブルを挿す」というたった1つの動作で、以下がすべて有効になります。</p>
+      <ul>
+        <li>外付けグラフィックカード(GIGABYTE AORUS RTX 5060 Ti AI Box)</li>
+        <li>キーボード・テンキー</li>
+        <li>メインディスプレイ</li>
+        <li>マウス</li>
+        <li>外付けストレージ(SanDisk 1TB エクストリームポータブルSSD)</li>
+      </ul>
+      <p>これまでのようにケーブルを何本も挿し直す手間がなく、帰宅後すぐに作業もゲームも始められる環境になりました。</p>
+
+      <h2>デスクを構成する各パーツ</h2>
+
+      <h3>テンキー：EPOMAKER EK21 VIA ガスケットテンキー</h3>
+      <p>テンキーにはEPOMAKER EK21 VIA ガスケットテンキー ゲーミングキーボード(Black Silver Wisteria V2)を使用しています。以前<a href="/column/keyboard-mod-silent-typing.html">キーボードのカスタム記事</a>で紹介したのと同じ静音スイッチ・キーキャップに換装済みで、メインキーボードと統一感のある打鍵感・静音性を実現しています。</p>
+
+      <h3>デスクエクステンダー：サンワダイレクト 折りたたみ クランプ式</h3>
+      <p>デスクスペースを広げるために、サンワダイレクトのデスクエクステンダー(折りたたみ・クランプ式)を導入しました。デスク自体を買い替えることなく、必要なときだけ作業スペースを拡張できるのが便利なポイントです。</p>
+
+      <h3>リストレスト：Faluber 漆塗り木製リストレスト</h3>
+      <p>手首の負担を減らすために、Faluberの漆塗り木製リストレスト(ウッドパームレスト、黒)を使用しています。長時間のタイピングでも疲れにくく、動きもスムーズなので、作業時間が長い日でも快適さが違います。</p>
+
+      <h3>マウス：ATK FIERCE X</h3>
+      <p>マウスは、これまで50個ほど試した中で一番しっくりきたATK FIERCE Xに落ち着きました。筆者は手が小さく、掴み持ち(クローグリップ)でマウスを操作するタイプなのですが、この持ち方・手の大きさに合うマウスはなかなか見つからず、かなりの数を試すことになりました。同じように手が小さい、掴み持ちをする方には特におすすめしたいマウスです。</p>
+
+      <div class="note-box">マウス選びは「人気だから」「グリップ形状が良いとされているから」だけで選ぶと、自分の手のサイズや持ち方に合わないことがあります。可能であれば実際に手に取って、自分の持ち方(かぶせ持ち・つかみ持ち・つまみ持ち)に合うかどうかを確認してから選ぶのがおすすめです。</div>
+
+      <h3>ディスプレイ：Titan Army ゲーミング液晶ディスプレイ 24.5型</h3>
+      <p>メインディスプレイにはTitan Armyのゲーミング液晶ディスプレイ(24.5型)を使用し、ノートPCの画面はサブディスプレイとして活用しています。作業時はこの2画面構成で効率よく進め、ゲームをするときはTitan Armyのディスプレイのみの表示に切り替えています。ノートPCの画面もあわせて描画してしまうと、その分の処理がゲームの快適さを削ってしまうため、ゲーム中はセカンドディスプレイ(Titan Army)単独表示にすることで、処理をゲームに集中させています。</p>
+
+      <h2>外出時はノートPC+モバイルマウスだけ</h2>
+      <p>外に出かけるときは、このノートPCとロジクールのMX ANYWHERE 3S FOR BUSINESSだけを持ち歩いています。インテル® Core™ Ultra 9 プロセッサー 386H搭載のこのノートPCはバッテリー持ちが非常に良く、外出先でも長時間、電源を気にせず作業を続けられます。荷物を最小限に抑えながら、作業効率は落とさないという両立ができています。</p>
+
+      <h2>このセットアップの利点</h2>
+      <ul>
+        <li><strong>省スペース</strong>：据え置きのデスクトップPCを持たなくても、帰宅時だけデスクトップ級の環境に変わる</li>
+        <li><strong>ケーブル1本の手軽さ</strong>：Type-Cケーブル1本の抜き差しだけで、複数の周辺機器がまとめて切り替わる</li>
+        <li><strong>用途に応じた最適化</strong>：作業時はデュアルディスプレイ、ゲーム時はシングルディスプレイと、シーンに応じて処理配分を切り替えられる</li>
+        <li><strong>外出時の身軽さ</strong>：ノートPCとモバイルマウスだけあれば、長時間の作業にも対応できる</li>
+        <li><strong>ゲーム性能の妥協なし</strong>：eGPUのおかげで、最新のゲームでも動かせないタイトルがほぼない</li>
+      </ul>
+
+      <h2>まとめ</h2>
+      <p>「外では軽く長く使いたい」「家では妥協のない性能がほしい」という、一見相反する2つの要望を、ノートPC+eGPU+集約ドッキングという構成で両立させることができました。据え置きのデスクトップPCを組まなくても、ノートPC1台を軸にケーブル1本で環境を切り替えるという選択肢は、省スペースかつ柔軟性の高い働き方・遊び方を求める方には特におすすめです。</p>
+
+      <div class="related-articles reveal">
+        <h2>あわせて読みたい</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/column/keyboard-mod-silent-typing.html">
+            <span class="column-card-tag">自作PC</span>
+            <h2>深夜作業のための静音メカニカルキーボード自作</h2>
+          </a>
+          <a class="column-card" href="/gear/">
+            <span class="column-card-tag">おすすめ機材</span>
+            <h2>おすすめ機材まとめ</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/privacy/">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../script.js"></script>
+</body>
+</html>
