@@ -33,7 +33,8 @@
   "author": { "@type": "Person", "name": "佐藤雄一" },
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/column/pdftoolkit-merge-compress.html",
-  "datePublished": "2026-08-21"
+  "datePublished": "2026-08-21",
+  "dateModified": "2026-09-03"
 }
 </script>
 <script type="application/ld+json">
@@ -44,6 +45,56 @@
     { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
     { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
     { "@type": "ListItem", "position": 3, "name": "スマホでPDFを結合・圧縮する方法" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "スマホでPDFを結合する手順",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "アプリを起動", "text": "PDFツールキットを起動する。" },
+    { "@type": "HowToStep", "position": 2, "name": "紙の書類をスキャン", "text": "紙の書類であれば「スキャンしてPDF化」で撮影し、自動補正でPDFに変換する。" },
+    { "@type": "HowToStep", "position": 3, "name": "PDFを結合", "text": "手元にある複数のPDFを選び、「PDFを結合」で1つにまとめる。" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "PDFを結合する順番はどうやって決まりますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "選択した順番がそのまま結合後のページ順になります。結合前に並び順を確認しておくと、あとから調整する手間が省けます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "圧縮するとPDF内の文字は検索・コピーできなくなりますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "PDFツールキットの圧縮はページを画像として書き出し直す仕組みのため、もとの文書が検索・コピー可能なPDFだった場合、圧縮後は文字が画像化されて検索・コピーができなくなります。原本は別で保存しておくのがおすすめです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "スマホの写真だけでもPDFを作れますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。「画像からPDF作成」機能で、カメラロールに保存済みの複数の写真をまとめて1つのPDFに変換できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "PDFツールキットは無料で使えますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "無料でダウンロード・利用できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "結合したPDFを再び分割することはできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。「PDFを分割」機能でページ範囲や間隔を指定して、必要な部分だけを新しいPDFとして切り出せます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "スキャンした書類の文字を検索・コピーすることはできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "OCR機能を使えば、スキャンした文字を認識させて検索・コピーできる状態にできます。" }
+    }
   ]
 }
 </script>
@@ -89,15 +140,17 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ PDFを結合・圧縮する方法</p>
       <span class="article-tag">PDF・アプリ</span>
       <h1>スマホでPDFを結合・圧縮する方法｜無料アプリだけで完結</h1>
+      <p class="article-meta">更新日：2026年9月3日</p>
       <p class="article-lead">契約書や請求書、資料などバラバラのPDFを1つにまとめたい。あるいは容量が大きすぎてメールに添付できないPDFを軽くしたい。そんなとき、パソコンがなくてもスマホアプリだけで解決できます。</p>
+      <p><strong>結論から言うと、無料のPDFツールキットアプリを使えば、複数のPDFの結合も、重いPDFの圧縮も、パソコンなしでスマホだけで完結します。</strong></p>
     </div>
 
     <div class="article-content">
 
-      <h2>PDFを結合したくなる場面</h2>
+      <h2>PDFを結合したくなるのはどんな場面？</h2>
       <p>紙の書類を1枚ずつスキャンすると、PDFがページごとにバラバラのファイルになってしまうことがあります。役所や取引先への提出物は「1つのPDFにまとめてください」と指定されることも多く、結合の作業が必要になります。</p>
 
-      <h2>スマホでPDFを結合する手順</h2>
+      <h2>スマホでPDFを結合する手順は？</h2>
       <ol>
         <li>PDFツールキットを起動する</li>
         <li>紙の書類であれば「スキャンしてPDF化」で撮影し、自動補正でPDFに変換する</li>
@@ -105,14 +158,24 @@
       </ol>
       <p>すでに写真として保存してある画像も、「画像からPDF作成」で複数枚をまとめて1つのPDFに変換できます。</p>
 
-      <h2>PDFを圧縮してファイルサイズを軽くする方法</h2>
+      <h2>PDFを圧縮してファイルサイズを軽くするには？</h2>
       <p>メールやLINEでPDFが送れないときは、「PDFを圧縮」機能でファイルサイズを縮小できます。写真や図表を多く含むPDFほど圧縮の効果が出やすい傾向があります。</p>
       <div class="note-box">PDFツールキットの圧縮機能は、PDFのページを画像として書き出し直すことでファイルサイズを縮小する仕組みです。もとの文書内の文字が検索・コピーできるPDFだった場合、圧縮後は文字が画像化されて検索やコピーができなくなる点には注意してください。あとで文字を検索したい書類は、圧縮前の原本も別で保存しておくと安心です。</div>
 
-      <h2>PDFを分割したいときは</h2>
+      <h2>PDFを分割したいときは？</h2>
       <p>逆に1つのPDFの一部だけを取り出したい場合は、「PDFを分割」でページ範囲や間隔を指定して切り出せます。まとめる・分けるの両方に対応しているので、書類整理が一通り完結します。</p>
 
-      <h2>アプリを選ぶときのポイント</h2>
+      <h2>結合・圧縮・分割、どの機能を使えばいい？</h2>
+      <div class="table-wrap">
+      <table>
+        <tr><th>やりたいこと</th><th>使う機能</th><th>こんな場面に</th></tr>
+        <tr><td>複数のPDFを1つにまとめたい</td><td>PDFを結合</td><td>ページごとにバラバラのスキャン書類を1ファイルで提出したいとき</td></tr>
+        <tr><td>ファイルサイズを軽くしたい</td><td>PDFを圧縮</td><td>メールやLINEの添付上限で送れないとき</td></tr>
+        <tr><td>一部のページだけ取り出したい</td><td>PDFを分割</td><td>大きな資料から必要なページだけ共有したいとき</td></tr>
+      </table>
+      </div>
+
+      <h2>アプリを選ぶときのポイントは？</h2>
       <ul>
         <li>無料で使えるか（都度課金や広告の有無）</li>
         <li>スキャン・結合・分割・圧縮がひとつのアプリで完結するか</li>
@@ -121,7 +184,7 @@
       </ul>
       <p>複数のアプリを使い分けるより、1つのアプリで完結させたほうが、操作を覚える手間も少なくすみます。</p>
 
-      <h2>アップデートで使えるようになった機能</h2>
+      <h2>アップデートで使えるようになった機能は？</h2>
       <p>PDFツールキットはアップデートにより、スキャンした文字を認識して検索・コピーできるOCR機能、ページの回転、必要なページだけを新しいPDFとして取り出す抽出機能、PDFのページを画像として共有する機能、手書きでサインや書き込みを追加する機能が新たに使えるようになりました。結合・分割・圧縮だけでなく、書類まわりの作業をより幅広くこの1つでカバーできます。</p>
 
       <div class="cta-card reveal">
@@ -129,6 +192,38 @@
         <h3>PDFツールキット</h3>
         <p>スキャン・結合・分割・圧縮・OCR文字認識までこれ1つ。無料・日本語対応。</p>
         <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.pdfkit" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+      </div>
+
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. PDFを結合する順番はどうやって決まりますか？</h3>
+          <p>A. 選択した順番がそのまま結合後のページ順になります。結合前に並び順を確認しておくと、あとから調整する手間が省けます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 圧縮するとPDF内の文字は検索・コピーできなくなりますか？</h3>
+          <p>A. PDFツールキットの圧縮はページを画像として書き出し直す仕組みのため、もとの文書が検索・コピー可能なPDFだった場合、圧縮後は文字が画像化されて検索・コピーができなくなります。原本は別で保存しておくのがおすすめです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. スマホの写真だけでもPDFを作れますか？</h3>
+          <p>A. はい。「画像からPDF作成」機能で、カメラロールに保存済みの複数の写真をまとめて1つのPDFに変換できます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. PDFツールキットは無料で使えますか？</h3>
+          <p>A. 無料でダウンロード・利用できます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 結合したPDFを再び分割することはできますか？</h3>
+          <p>A. はい。「PDFを分割」機能でページ範囲や間隔を指定して、必要な部分だけを新しいPDFとして切り出せます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. スキャンした書類の文字を検索・コピーすることはできますか？</h3>
+          <p>A. OCR機能を使えば、スキャンした文字を認識させて検索・コピーできる状態にできます。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
       </div>
 
       <div class="related-articles reveal">

@@ -1026,6 +1026,53 @@ a {
   font-size: 0.9rem;
 }
 
+.author-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 32px 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.author-box strong {
+  color: var(--text);
+}
+
+.author-box a {
+  color: var(--accent-dark);
+}
+
+.article-content .table-wrap {
+  overflow-x: auto;
+  margin: 0 0 24px;
+}
+
+.article-content .table-wrap table {
+  margin: 0;
+}
+
+.faq-item {
+  margin: 0 0 20px;
+}
+
+.faq-item h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.faq-item p {
+  margin: 0;
+}
+
+.article-meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0 14px;
+}
+
 .related-articles {
   margin: 48px 0 0;
 }

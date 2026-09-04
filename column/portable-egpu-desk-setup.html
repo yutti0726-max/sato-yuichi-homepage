@@ -31,7 +31,8 @@
   "author": { "@type": "Person", "name": "佐藤雄一" },
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/column/portable-egpu-desk-setup.html",
-  "datePublished": "2026-09-02"
+  "datePublished": "2026-09-02",
+  "dateModified": "2026-09-03"
 }
 </script>
 <script type="application/ld+json">
@@ -42,6 +43,39 @@
     { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
     { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
     { "@type": "ListItem", "position": 3, "name": "ノートPC+eGPUの最強デスク環境" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "eGPUとは何ですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "普段は軽量なノートPCで持ち歩き、必要なときだけ据え置きの高性能グラフィックカードに接続してパワーを引き出せる、外付けのグラフィックボックスです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "Type-Cケーブル1本ですべて接続できるのはなぜですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "eGPU本体がキーボード・ディスプレイ・マウス・外付けSSDのハブを兼ねているため、ノートPCとeGPUをType-Cケーブル1本で接続するだけで、あとの機材がまとめて連動して有効になります。" }
+    },
+    {
+      "@type": "Question",
+      "name": "ゲーム中にノートPCの画面も一緒に使うべきですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "ゲーム中はノートPCの画面もあわせて描画すると、その分の処理がゲームの快適さを削ってしまうため、メインディスプレイのみのシングル表示にするのがおすすめです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "マウス選びで重視すべきことは何ですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "スペックよりも、自分の手の大きさと持ち方(かぶせ持ち・つかみ持ち・つまみ持ち)に合うかどうかが重要です。実際に手に取って確認してから選ぶのがおすすめです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "外出時はどんな構成で持ち歩いていますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "ノートPC本体とモバイルマウス(MX ANYWHERE 3S FOR BUSINESS)だけを持ち歩いています。バッテリー持ちの良いノートPCなら、これだけで長時間の作業に対応できます。" }
+    }
   ]
 }
 </script>
@@ -81,7 +115,9 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ ノートPC+eGPUの最強デスク環境</p>
       <span class="article-tag">自作PC</span>
       <h1>ノートPC+eGPUで作る、省スペース最強デスク環境｜Type-C1本で全部つながるセットアップ</h1>
+      <p class="article-meta">更新日：2026年9月3日</p>
       <p class="article-lead">ローカルAIも高グラフィック設定のゲームも常用しているわけではないので、普段使いは軽量なノートPC1台で十分。ですが帰宅後は、Type-Cケーブル1本を挿すだけでeGPU・キーボード・ディスプレイ・マウス・外付けSSDまで一気に接続され、最強のデスク環境に切り替わります。外に出るときは身軽に、家では妥協なく。そんなセットアップを組んだ記録です。</p>
+      <p><strong>結論から言うと、軽量ノートPC+eGPUドッキング構成にすれば、外出先では最軽量、帰宅後はType-Cケーブル1本でデスクトップ級の環境に一瞬で切り替えられます。</strong></p>
     </div>
 
     <div class="article-content">
@@ -89,10 +125,10 @@
       <h2>ベースは軽量・長時間駆動のノートPC</h2>
       <p>普段使っているのはASUSのS14です。インテル® Core™ Ultra 9 プロセッサー 386Hを搭載し、メモリ32GB、ストレージ1TBという構成です。ローカルAIを常用しているわけでも、高グラフィック設定でゲームをするわけでもないので、日常使いではこのスペックで十分すぎるほど快適に動きます。それよりも軽量で長時間使えることを優先してこのモデルを選びました。</p>
 
-      <h2>帰宅後はeGPUで一気にハイスペック環境へ</h2>
+      <h2>帰宅後はどうやってハイスペック環境に切り替える？</h2>
       <p>自宅に戻ると、外付けのeGPU「GIGABYTE AORUS RTX 5060 Ti AI Box」を使用しています。eGPU(外付けグラフィックボックス)は、普段は軽量なノートPCで持ち歩き、必要なときだけ据え置きの高性能グラフィックカードに接続してパワーを引き出せるのが最大のメリットです。ノートPC単体では対応しきれない最新ゲームや重い処理も、帰宅後はこのeGPUを介してデスクトップ級のパフォーマンスで扱えるようになります。</p>
 
-      <h2>Type-Cケーブル1本で全部つながる集約セットアップ</h2>
+      <h2>Type-Cケーブル1本で全部つながる仕組みとは？</h2>
       <p>このセットアップの一番のポイントは、ノートPCとeGPUをType-Cケーブル1本で接続するだけで、あとの機材がすべて連動して繋がることです。帰宅して「ケーブルを挿す」というたった1つの動作で、以下がすべて有効になります。</p>
       <ul>
         <li>外付けグラフィックカード(GIGABYTE AORUS RTX 5060 Ti AI Box)</li>
@@ -103,7 +139,7 @@
       </ul>
       <p>これまでのようにケーブルを何本も挿し直す手間がなく、帰宅後すぐに作業もゲームも始められる環境になりました。</p>
 
-      <h2>デスクを構成する各パーツ</h2>
+      <h2>デスクを構成する各パーツは？</h2>
 
       <h3>テンキー：EPOMAKER EK21 VIA ガスケットテンキー</h3>
       <p>テンキーにはEPOMAKER EK21 VIA ガスケットテンキー ゲーミングキーボード(Black Silver Wisteria V2)を使用しています。以前<a href="/column/keyboard-mod-silent-typing.html">キーボードのカスタム記事</a>で紹介したのと同じ静音スイッチ・キーキャップに換装済みで、メインキーボードと統一感のある打鍵感・静音性を実現しています。</p>
@@ -122,10 +158,10 @@
       <h3>ディスプレイ：Titan Army ゲーミング液晶ディスプレイ 24.5型</h3>
       <p>メインディスプレイにはTitan Armyのゲーミング液晶ディスプレイ(24.5型)を使用し、ノートPCの画面はサブディスプレイとして活用しています。作業時はこの2画面構成で効率よく進め、ゲームをするときはTitan Armyのディスプレイのみの表示に切り替えています。ノートPCの画面もあわせて描画してしまうと、その分の処理がゲームの快適さを削ってしまうため、ゲーム中はセカンドディスプレイ(Titan Army)単独表示にすることで、処理をゲームに集中させています。</p>
 
-      <h2>外出時はノートPC+モバイルマウスだけ</h2>
+      <h2>外出時はどんな構成にしている？</h2>
       <p>外に出かけるときは、このノートPCとロジクールのMX ANYWHERE 3S FOR BUSINESSだけを持ち歩いています。インテル® Core™ Ultra 9 プロセッサー 386H搭載のこのノートPCはバッテリー持ちが非常に良く、外出先でも長時間、電源を気にせず作業を続けられます。荷物を最小限に抑えながら、作業効率は落とさないという両立ができています。</p>
 
-      <h2>このセットアップの利点</h2>
+      <h2>このセットアップの利点は？</h2>
       <ul>
         <li><strong>省スペース</strong>：据え置きのデスクトップPCを持たなくても、帰宅時だけデスクトップ級の環境に変わる</li>
         <li><strong>ケーブル1本の手軽さ</strong>：Type-Cケーブル1本の抜き差しだけで、複数の周辺機器がまとめて切り替わる</li>
@@ -137,6 +173,34 @@
       <h2>まとめ</h2>
       <p>「外では軽く長く使いたい」「家では妥協のない性能がほしい」という、一見相反する2つの要望を、ノートPC+eGPU+集約ドッキングという構成で両立させることができました。据え置きのデスクトップPCを組まなくても、ノートPC1台を軸にケーブル1本で環境を切り替えるという選択肢は、省スペースかつ柔軟性の高い働き方・遊び方を求める方には特におすすめです。</p>
 
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. eGPUとは何ですか？</h3>
+          <p>A. 普段は軽量なノートPCで持ち歩き、必要なときだけ据え置きの高性能グラフィックカードに接続してパワーを引き出せる、外付けのグラフィックボックスです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Type-Cケーブル1本ですべて接続できるのはなぜですか？</h3>
+          <p>A. eGPU本体がキーボード・ディスプレイ・マウス・外付けSSDのハブを兼ねているため、ノートPCとeGPUをType-Cケーブル1本で接続するだけで、あとの機材がまとめて連動して有効になります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. ゲーム中にノートPCの画面も一緒に使うべきですか？</h3>
+          <p>A. ゲーム中はノートPCの画面もあわせて描画すると、その分の処理がゲームの快適さを削ってしまうため、メインディスプレイのみのシングル表示にするのがおすすめです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. マウス選びで重視すべきことは何ですか？</h3>
+          <p>A. スペックよりも、自分の手の大きさと持ち方(かぶせ持ち・つかみ持ち・つまみ持ち)に合うかどうかが重要です。実際に手に取って確認してから選ぶのがおすすめです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 外出時はどんな構成で持ち歩いていますか？</h3>
+          <p>A. ノートPC本体とモバイルマウス(MX ANYWHERE 3S FOR BUSINESS)だけを持ち歩いています。バッテリー持ちの良いノートPCなら、これだけで長時間の作業に対応できます。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
+      </div>
+
       <div class="related-articles reveal">
         <h2>あわせて読みたい</h2>
         <div class="related-grid">
@@ -144,9 +208,9 @@
             <span class="column-card-tag">自作PC</span>
             <h2>深夜作業のための静音メカニカルキーボード自作</h2>
           </a>
-          <a class="column-card" href="/gear/">
-            <span class="column-card-tag">おすすめ機材</span>
-            <h2>おすすめ機材まとめ</h2>
+          <a class="column-card" href="/column/pc-parts-priority-cpu-memory-gpu.html">
+            <span class="column-card-tag">自作PC</span>
+            <h2>自作PCで本当に重要なパーツはどこか</h2>
           </a>
         </div>
       </div>

@@ -33,7 +33,8 @@
   "author": { "@type": "Person", "name": "佐藤雄一" },
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html",
-  "datePublished": "2026-08-25"
+  "datePublished": "2026-08-25",
+  "dateModified": "2026-09-03"
 }
 </script>
 <script type="application/ld+json">
@@ -44,6 +45,52 @@
     { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
     { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
     { "@type": "ListItem", "position": 3, "name": "動画をMP4に変換する方法" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "MediaToolboxで動画をMP4に変換する手順",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "動画リサイズを選択", "text": "アプリを起動し、「動画リサイズ」を選択する。" },
+    { "@type": "HowToStep", "position": 2, "name": "動画を選ぶ", "text": "変換したい動画を選ぶ。" },
+    { "@type": "HowToStep", "position": 3, "name": "出力解像度を選ぶ", "text": "出力解像度を1080p／720p／360pから選択する。" },
+    { "@type": "HowToStep", "position": 4, "name": "変換して保存", "text": "「変換して保存」をタップすれば、MP4形式で端末に保存される。" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "なぜiPhoneの動画は再生できないことがあるのですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "iPhoneは初期設定で「HEVC」という形式で動画を保存しますが、古いパソコンや一部のWebサービスはこの形式に対応しておらず、再生・アップロードできないことがあります。" }
+    },
+    {
+      "@type": "Question",
+      "name": "MP4に変換すれば必ず再生できるようになりますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "MP4(H.264)はほぼすべてのパソコン・スマホ・Webサービスが対応している事実上の標準形式のため、多くのケースで解決します。ただし対応形式は提出先によって異なるため、心配な場合は事前に確認してください。" }
+    },
+    {
+      "@type": "Question",
+      "name": "変換すると画質は落ちますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "出力解像度を元の動画と同じ設定にすれば、画質の劣化は最小限に抑えられます。解像度を下げるほどファイルサイズは軽くなりますが、その分画質も落ちます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "変換にインターネット接続は必要ですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "MediaToolboxでの変換は端末内で完結するため、外部サーバーへのアップロードは不要です。" }
+    },
+    {
+      "@type": "Question",
+      "name": "Androidの動画でもMP4への変換は必要になりますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "機種によっては再生互換性の低い形式で保存されることがあり、その場合はMP4に変換することで再生・共有がスムーズになります。" }
+    }
   ]
 }
 </script>
@@ -89,16 +136,18 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ 動画をMP4に変換する方法</p>
       <span class="article-tag">動画・アプリ</span>
       <h1>スマホで動画をMP4に変換する方法｜再生できない・アップロードできないときの対処法</h1>
+      <p class="article-meta">更新日：2026年9月3日</p>
       <p class="article-lead">iPhoneで撮った動画をパソコンで開こうとしたら再生できなかった、あるいは特定のWebサービスに動画をアップロードしようとしたら形式エラーになった。そんな経験はないでしょうか。この記事では、スマホだけで動画をMP4形式に変換する方法を解説します。</p>
+      <p><strong>結論から言うと、無料アプリで動画をMP4(H.264)形式に変換すれば、ほとんどのパソコン・Webサービスで問題なく再生・アップロードできるようになります。</strong></p>
     </div>
 
     <div class="article-content">
 
-      <h2>動画が再生・アップロードできなくなる原因</h2>
+      <h2>動画が再生・アップロードできなくなる原因は？</h2>
       <p>iPhoneで動画を撮影すると、初期設定では「HEVC」という形式（拡張子は.mov）で保存されます。HEVCはファイルサイズを抑えられる優秀な形式ですが、古いパソコンや一部のWebサービス・業務システムでは対応しておらず、「再生できない」「アップロードできない」といったトラブルの原因になります。Androidでも、機種によっては再生互換性の低い形式で保存されることがあります。</p>
       <p>こうしたトラブルの多くは、動画をより汎用的な「MP4（H.264）」形式に変換することで解決します。MP4はほとんどのパソコン・スマホ・Webサービスが対応している、事実上の標準形式です。</p>
 
-      <h2>動画をMP4に変換する方法</h2>
+      <h2>動画をMP4に変換する方法は？</h2>
       <h3>1. パソコンの動画編集・変換ソフトを使う</h3>
       <p>細かい設定ができますが、パソコンへの転送とソフトのインストールが必要で、外出先ではすぐに対応できません。</p>
 
@@ -108,7 +157,7 @@
       <h3>3. スマホアプリで変換する</h3>
       <p>スマホ内に保存されている動画を選ぶだけで、外部にアップロードすることなくMP4に変換できます。通信量を気にせず、その場で完結するのがメリットです。</p>
 
-      <h2>MediaToolboxで動画をMP4に変換する手順</h2>
+      <h2>MediaToolboxで動画をMP4に変換する手順は？</h2>
       <ol>
         <li>アプリを起動し、「動画リサイズ」を選択</li>
         <li>変換したい動画を選ぶ</li>
@@ -119,7 +168,7 @@
 
       <div class="note-box">MP4に変換する際は、あわせて解像度を選び直すことになります。パソコンで編集に使う場合は1080p、SNS投稿や共有が目的なら720p程度で十分なことがほとんどです。用途に対して画質を上げすぎると、ファイルサイズだけが大きくなってしまうので注意してください。</div>
 
-      <h2>動画のMP4変換以外にもできる「変換」</h2>
+      <h2>動画のMP4変換以外にもできる「変換」とは？</h2>
       <p>MediaToolboxは動画のMP4変換だけでなく、画像についても幅・高さの指定リサイズに加えて、JPEG／PNG／WEBPの間で出力形式を選んで変換できます。撮影日時などのメタデータ（EXIF情報）も保持されるので、写真の管理を崩さずに形式だけを変換したい場合にも使えます。</p>
       <p>さらに、動画から音声だけを取り出してM4A形式で保存する「音声抽出」や、PDFの各ページをJPEG/PNGとして書き出す「PDFを画像に変換」、カメラ撮影や保存済みの画像から新しいPDFを作る「画像をPDFに変換」にも対応しています。動画・画像・音声・PDF、スマホの中の「変換したい」をこのアプリ1つでまとめて解決できます。</p>
 
@@ -131,6 +180,34 @@
         <h3>MediaToolbox</h3>
         <p>動画・画像・音声・PDFをまとめて変換できる、シンプルなマルチメディア変換ツール。無料・日本語対応。</p>
         <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.satoyuichi.mediatoolbox" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+      </div>
+
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. なぜiPhoneの動画は再生できないことがあるのですか？</h3>
+          <p>A. iPhoneは初期設定で「HEVC」という形式で動画を保存しますが、古いパソコンや一部のWebサービスはこの形式に対応しておらず、再生・アップロードできないことがあります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. MP4に変換すれば必ず再生できるようになりますか？</h3>
+          <p>A. MP4(H.264)はほぼすべてのパソコン・スマホ・Webサービスが対応している事実上の標準形式のため、多くのケースで解決します。ただし対応形式は提出先によって異なるため、心配な場合は事前に確認してください。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 変換すると画質は落ちますか？</h3>
+          <p>A. 出力解像度を元の動画と同じ設定にすれば、画質の劣化は最小限に抑えられます。解像度を下げるほどファイルサイズは軽くなりますが、その分画質も落ちます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 変換にインターネット接続は必要ですか？</h3>
+          <p>A. MediaToolboxでの変換は端末内で完結するため、外部サーバーへのアップロードは不要です。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Androidの動画でもMP4への変換は必要になりますか？</h3>
+          <p>A. 機種によっては再生互換性の低い形式で保存されることがあり、その場合はMP4に変換することで再生・共有がスムーズになります。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
       </div>
 
       <div class="related-articles reveal">

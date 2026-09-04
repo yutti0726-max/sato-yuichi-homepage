@@ -33,7 +33,8 @@
   "author": { "@type": "Person", "name": "佐藤雄一" },
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/column/mediatoolbox-video-compress.html",
-  "datePublished": "2026-08-21"
+  "datePublished": "2026-08-21",
+  "dateModified": "2026-09-03"
 }
 </script>
 <script type="application/ld+json">
@@ -44,6 +45,57 @@
     { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
     { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
     { "@type": "ListItem", "position": 3, "name": "スマホで動画のファイルサイズを圧縮する方法" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "MediaToolboxで動画を圧縮する手順",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "動画リサイズを選択", "text": "アプリを起動し、「動画リサイズ」を選択する。" },
+    { "@type": "HowToStep", "position": 2, "name": "動画を選ぶ", "text": "圧縮したい動画を選ぶ。" },
+    { "@type": "HowToStep", "position": 3, "name": "出力解像度を選ぶ", "text": "出力解像度を1080p／720p／360pから選択する。" },
+    { "@type": "HowToStep", "position": 4, "name": "変換して保存", "text": "「変換して保存」をタップすれば完了。" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "動画を圧縮すると画質はどのくらい落ちますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "解像度を1段階(1080p→720pなど)下げる程度であれば、スマホの画面で見る分には大きな劣化は感じにくいです。用途に応じて解像度を選ぶのがポイントです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "圧縮すると音声も劣化しますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "MediaToolboxの動画リサイズは主に解像度を調整する機能のため、音声への影響は最小限です。" }
+    },
+    {
+      "@type": "Question",
+      "name": "MediaToolboxはiPhoneでも使えますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "MediaToolboxはAndroid向けの無料アプリです。iPhoneでは利用できません。" }
+    },
+    {
+      "@type": "Question",
+      "name": "圧縮にかかる時間はどれくらいですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "動画の長さや選んだ解像度によりますが、数秒〜数十秒程度で完了することがほとんどです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "圧縮した動画はどこに保存されますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "端末のダウンロードフォルダ内に保存されます。保存先は端末の設定によって多少異なる場合があります。" }
+    },
+    {
+      "@type": "Question",
+      "name": "LINEで送れる動画サイズの上限はどれくらいですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "LINEの動画送信にはファイルサイズの上限があります。正確な上限は仕様変更でも変わるため、圧縮後にファイルサイズを確認してから送るのが確実です。" }
+    }
   ]
 }
 </script>
@@ -89,15 +141,17 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ 動画のファイルサイズを圧縮する方法</p>
       <span class="article-tag">動画・アプリ</span>
       <h1>スマホで動画のファイルサイズを圧縮する方法｜送れないときの対処法</h1>
+      <p class="article-meta">更新日：2026年9月3日</p>
       <p class="article-lead">スマホで撮った動画をLINEやメールで送ろうとしたら「ファイルが大きすぎます」と表示された経験はないでしょうか。この記事では、パソコンを使わずスマホだけで動画のファイルサイズを圧縮する方法を、目的別の解像度の目安つきで解説します。</p>
+      <p><strong>結論から言うと、無料アプリで動画の解像度を1080p→720pや360pに下げてMP4形式で書き出せば、画質の破綻を抑えながらファイルサイズを大幅に軽くできます。</strong></p>
     </div>
 
     <div class="article-content">
 
-      <h2>なぜ動画のファイルサイズは大きくなるのか</h2>
+      <h2>なぜ動画のファイルサイズは大きくなるのか？</h2>
       <p>動画のファイルサイズは主に「解像度」「ビットレート」「長さ」の3つで決まります。最近のスマホは初期設定でフルHD（1080p）や4Kで撮影するため、数分の動画でも数百MB〜1GBを超えることが珍しくありません。LINEやメールには送信できるファイルサイズの上限があるため、高画質のまま送ろうとすると弾かれてしまいます。</p>
 
-      <h2>動画を圧縮する3つの方法</h2>
+      <h2>動画を圧縮する3つの方法とは？</h2>
       <h3>1. 送信先アプリの自動圧縮に任せる</h3>
       <p>LINEなどは送信時にある程度自動で画質を落としてくれますが、圧縮の度合いを自分で調整できず、画質が思った以上に粗くなることがあります。</p>
 
@@ -107,7 +161,7 @@
       <h3>3. スマホアプリで解像度を指定して変換する</h3>
       <p>もっとも手軽なのが、スマホアプリで出力解像度を指定してMP4形式に変換する方法です。スマホの中だけで完結し、数タップで作業が終わります。</p>
 
-      <h2>MediaToolboxで動画を圧縮する手順</h2>
+      <h2>MediaToolboxで動画を圧縮する手順は？</h2>
       <ol>
         <li>アプリを起動し、「動画リサイズ」を選択</li>
         <li>圧縮したい動画を選ぶ</li>
@@ -116,16 +170,18 @@
       </ol>
       <p>解像度を下げるほどファイルサイズは小さくなります。用途に応じて解像度を使い分けるのがポイントです。</p>
 
-      <h2>用途別・解像度の選び方の目安</h2>
+      <h2>用途別に解像度はどう選べばいい？</h2>
+      <div class="table-wrap">
       <table>
         <tr><th>用途</th><th>おすすめ解像度</th><th>ポイント</th></tr>
         <tr><td>LINEやメールで手早く送りたい</td><td>360p〜720p</td><td>ファイルサイズを優先。多少画質は粗くなる</td></tr>
         <tr><td>SNSに投稿する</td><td>720p</td><td>画面が小さい端末で見る分には十分な画質</td></tr>
         <tr><td>保存用・後で見返したい</td><td>1080p</td><td>画質を優先しつつ、元の4Kよりは軽くできる</td></tr>
       </table>
+      </div>
       <div class="note-box">動画の長さが長いほどファイルサイズも大きくなります。数分を超える動画は、解像度を下げても十分に軽くならない場合があるので、必要な部分だけを短く撮る・切り出すのも有効です。</div>
 
-      <h2>動画圧縮以外にもできること</h2>
+      <h2>動画圧縮以外にもできることは？</h2>
       <p>MediaToolboxは動画のリサイズ以外にも、画像の自由なリサイズやJPEG／PNG／WEBPへの形式変換、動画からの音声抽出（M4A形式）、PDFと画像の相互変換（PDF→画像、画像→PDF）にも対応しています。動画・画像・音声・PDFの「変換したい」を、このアプリ1つでまとめて解決できます。</p>
 
       <div class="cta-card reveal">
@@ -133,6 +189,38 @@
         <h3>MediaToolbox</h3>
         <p>動画・画像・音声・PDFをまとめて変換できる、シンプルなマルチメディア変換ツール。無料・日本語対応。</p>
         <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.satoyuichi.mediatoolbox" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+      </div>
+
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. 動画を圧縮すると画質はどのくらい落ちますか？</h3>
+          <p>A. 解像度を1段階(1080p→720pなど)下げる程度であれば、スマホの画面で見る分には大きな劣化は感じにくいです。用途に応じて解像度を選ぶのがポイントです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 圧縮すると音声も劣化しますか？</h3>
+          <p>A. MediaToolboxの動画リサイズは主に解像度を調整する機能のため、音声への影響は最小限です。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. MediaToolboxはiPhoneでも使えますか？</h3>
+          <p>A. MediaToolboxはAndroid向けの無料アプリです。iPhoneでは利用できません。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 圧縮にかかる時間はどれくらいですか？</h3>
+          <p>A. 動画の長さや選んだ解像度によりますが、数秒〜数十秒程度で完了することがほとんどです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 圧縮した動画はどこに保存されますか？</h3>
+          <p>A. 端末のダウンロードフォルダ内に保存されます。保存先は端末の設定によって多少異なる場合があります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. LINEで送れる動画サイズの上限はどれくらいですか？</h3>
+          <p>A. LINEの動画送信にはファイルサイズの上限があります。正確な上限は仕様変更でも変わるため、圧縮後にファイルサイズを確認してから送るのが確実です。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
       </div>
 
       <div class="related-articles reveal">
@@ -149,6 +237,10 @@
           <a class="column-card" href="/column/seniorpedometer-guide.html">
             <span class="column-card-tag">健康・アプリ</span>
             <h2>シニア向け歩数計アプリの選び方</h2>
+          </a>
+          <a class="column-card" href="/column/diving-underwater-video-mp4-convert.html">
+            <span class="column-card-tag">ダイビング</span>
+            <h2>水中動画をスマホでMP4に変換・圧縮する方法</h2>
           </a>
         </div>
       </div>
