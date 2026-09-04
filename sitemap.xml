@@ -211,7 +211,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://yuichi-sato.com/column/mediatoolbox-image-resize.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-audio-extract.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
