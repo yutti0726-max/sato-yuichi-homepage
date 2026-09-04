@@ -199,6 +199,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://yuichi-sato.com/column/mediatoolbox-encode-guide.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/column/mediatoolbox-image-convert.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/column/mediatoolbox-audio-extract.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/column/pdftoolkit-android-guide.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/column/pdftoolkit-split-guide.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-merge-compress.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>

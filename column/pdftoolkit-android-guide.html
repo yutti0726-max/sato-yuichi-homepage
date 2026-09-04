@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>Android(スマホ)でPDFを編集する方法まとめ｜結合・分割・圧縮・OCR・サインを1つのアプリで</title>
+<meta name="description" content="AndroidでPDFを結合・分割・圧縮・OCR文字認識・サインしたいときに使えるアプリと使い方をまとめて解説。パソコンなしでスマホだけでPDF作業を完結させる方法を紹介します。">
+<link rel="canonical" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Android(スマホ)でPDFを編集する方法まとめ",
+  "description": "AndroidでPDFを結合・分割・圧縮・OCR文字認識・サインしたいときに使えるアプリと使い方をまとめて解説します。",
+  "image": "https://yuichi-sato.com/assets/img/pdftoolkit-icon.png",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/column/pdftoolkit-android-guide.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-03"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
+    { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
+    { "@type": "ListItem", "position": 3, "name": "AndroidでPDFを編集する方法まとめ" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "AndroidでPDFを編集するのに専用のパソコンソフトは必要ですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "必要ありません。PDFツールキットのようなアプリを使えば、結合・分割・圧縮・OCR・サインまで、スマホだけで完結します。" }
+    },
+    {
+      "@type": "Question",
+      "name": "無料でPDFを編集できるアプリはありますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。PDFツールキットは無料でダウンロード・利用できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "紙の書類をそのままPDF化することはできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。「スキャンしてPDF化」機能を使えば、カメラで撮影するだけで傾き補正・トリミングされたPDFに変換できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "PDF編集アプリを選ぶときのポイントは何ですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "無料で使えるか、スキャン・結合・分割・圧縮が1つのアプリで完結するか、OCRに対応しているか、日本語に対応しているかがポイントです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "スキャンしたPDFの文字を検索・コピーできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "OCR機能を使えば、スキャンした文字を認識させて検索・コピーできる状態にできます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "PDFに手書きでサインを入れることはできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。手書きでサインや書き込みを追加する機能に対応しています。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/#works">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/#profile">プロフィール</a>
+        <a href="/column/" class="is-active">コラム</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ AndroidでPDFを編集する方法まとめ</p>
+      <span class="article-tag">PDF・アプリ</span>
+      <h1>Android(スマホ)でPDFを編集する方法まとめ｜結合・分割・圧縮・OCR・サインを1つのアプリで</h1>
+      <p class="article-meta">更新日：2026年9月3日</p>
+      <p class="article-lead">「PDFを結合したい」「重くて送れないPDFを軽くしたい」「スキャンしたPDFの文字を検索できるようにしたい」。AndroidでのPDF作業は、パソコンがなくても無料アプリ1つで完結できます。この記事では、PDF編集アプリ「PDFツールキット」でできることを機能別にまとめて紹介します。</p>
+      <p><strong>結論から言うと、Android用の無料アプリ「PDFツールキット」を使えば、スキャン・結合・分割・圧縮・OCR文字認識・サインまで、PDFに関するほぼすべての作業をこのアプリ1つで完結できます。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>AndroidでPDFを編集する方法にはどんな選択肢がある？</h2>
+      <p>AndroidでPDFを編集する方法は大きく3つあります。パソコンに転送してソフトを使う方法、ブラウザ上のオンラインサービスを使う方法、そしてスマホアプリで直接編集する方法です。パソコンへの転送は手間がかかり、オンラインサービスは個人情報を含む書類のアップロードに不安が残ります。スマホアプリであれば、外出先でもその場で完結し、機密性の高い書類も端末外に出すことなく処理できます。</p>
+
+      <h2>PDFツールキットでできることは？</h2>
+      <div class="table-wrap">
+      <table>
+        <tr><th>機能</th><th>できること</th><th>詳しい解説</th></tr>
+        <tr><td>スキャンしてPDF化</td><td>紙の書類をカメラで撮影し、傾き補正・トリミングしてPDF化</td><td>-</td></tr>
+        <tr><td>画像からPDF作成</td><td>複数の写真をまとめて1つのPDFに変換</td><td><a href="/column/pdftoolkit-image-to-pdf.html">写真を1つのPDFに変換する方法</a></td></tr>
+        <tr><td>PDFを結合</td><td>複数のPDFを1つのファイルにまとめる</td><td><a href="/column/pdftoolkit-merge-compress.html">スマホでPDFを結合・圧縮する方法</a></td></tr>
+        <tr><td>PDFを圧縮</td><td>ファイルサイズを縮小してメール添付しやすくする</td><td><a href="/column/pdftoolkit-merge-compress.html">スマホでPDFを結合・圧縮する方法</a></td></tr>
+        <tr><td>PDFを分割</td><td>必要なページ範囲だけを新しいPDFとして切り出す</td><td><a href="/column/pdftoolkit-split-guide.html">PDFを分割する方法</a></td></tr>
+        <tr><td>OCR文字認識</td><td>スキャンした文字を検索・コピーできる状態にする</td><td><a href="/column/pdftoolkit-ocr-guide.html">PDFの文字を検索・コピーできるようにする方法</a></td></tr>
+        <tr><td>ページの回転・抽出</td><td>向きの直しや、必要なページだけの書き出し</td><td>-</td></tr>
+        <tr><td>手書きサイン・書き込み</td><td>PDF上に直接サインや文字を書き込む</td><td>-</td></tr>
+      </table>
+      </div>
+
+      <h2>それぞれの機能はどんな場面で使う？</h2>
+      <ul>
+        <li><strong>紙の書類が手元にある</strong>：スキャンしてPDF化</li>
+        <li><strong>写真として撮りためた書類がある</strong>：画像からPDF作成</li>
+        <li><strong>提出物を1つのファイルにまとめたい</strong>：PDFを結合</li>
+        <li><strong>メールやLINEで送れないほど重い</strong>：PDFを圧縮</li>
+        <li><strong>大きな資料から一部だけ渡したい</strong>：PDFを分割</li>
+        <li><strong>後から文字を検索・コピーしたい</strong>：OCR文字認識</li>
+        <li><strong>契約書にサインが必要</strong>：手書きサイン・書き込み</li>
+      </ul>
+
+      <div class="note-box">1つのアプリで完結させることで、複数のアプリを覚える手間や、書類を何度もアプリ間でやり取りする手間を省けます。特にOCR対応のアプリは、書類の後からの検索性が大きく変わるため、選ぶ際のポイントにしてみてください。</div>
+
+      <h2>アプリを選ぶときのポイントは？</h2>
+      <ul>
+        <li>無料で使えるか（都度課金や広告の有無）</li>
+        <li>スキャン・結合・分割・圧縮・OCRが1つのアプリで完結するか</li>
+        <li>日本語に対応しているか</li>
+        <li>処理が端末内で完結し、書類を外部サーバーに送信しないか</li>
+      </ul>
+
+      <h2>まとめ</h2>
+      <p>AndroidでのPDF作業は、パソコンやオンラインサービスを使わなくても、機能の揃ったアプリ1つで完結できます。結合・分割・圧縮・OCR・サインなど、必要な機能に応じて上の表からそれぞれの詳しい使い方も確認してみてください。</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../assets/img/pdftoolkit-icon.png" alt="PDFツールキット アイコン">
+        <h3>PDFツールキット</h3>
+        <p>スキャン・結合・分割・圧縮・OCR文字認識までこれ1つ。カメラで撮ってすぐPDF化できる無料アプリ。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.pdfkit" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+      </div>
+
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. AndroidでPDFを編集するのに専用のパソコンソフトは必要ですか？</h3>
+          <p>A. 必要ありません。PDFツールキットのようなアプリを使えば、結合・分割・圧縮・OCR・サインまで、スマホだけで完結します。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 無料でPDFを編集できるアプリはありますか？</h3>
+          <p>A. はい。PDFツールキットは無料でダウンロード・利用できます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 紙の書類をそのままPDF化することはできますか？</h3>
+          <p>A. はい。「スキャンしてPDF化」機能を使えば、カメラで撮影するだけで傾き補正・トリミングされたPDFに変換できます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. PDF編集アプリを選ぶときのポイントは何ですか？</h3>
+          <p>A. 無料で使えるか、スキャン・結合・分割・圧縮が1つのアプリで完結するか、OCRに対応しているか、日本語に対応しているかがポイントです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. スキャンしたPDFの文字を検索・コピーできますか？</h3>
+          <p>A. OCR機能を使えば、スキャンした文字を認識させて検索・コピーできる状態にできます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. PDFに手書きでサインを入れることはできますか？</h3>
+          <p>A. はい。手書きでサインや書き込みを追加する機能に対応しています。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>あわせて読みたい</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/column/pdftoolkit-merge-compress.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>スマホでPDFを結合・圧縮する方法</h2>
+          </a>
+          <a class="column-card" href="/column/pdftoolkit-image-to-pdf.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>写真を1つのPDFに変換する方法</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/privacy/">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../script.js"></script>
+</body>
+</html>

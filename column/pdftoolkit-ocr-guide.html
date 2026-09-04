@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>PDFの文字を検索・コピーできるようにする方法｜スマホでOCR</title>
+<meta name="description" content="スキャンしたPDFの文字が検索・コピーできない。そんなときにスマホアプリのOCR機能で文字を認識させ、検索・コピー可能なPDFに変換する方法を解説します。">
+<link rel="canonical" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "PDFの文字を検索・コピーできるようにする方法｜スマホでOCR",
+  "description": "スキャンしたPDFの文字をOCR機能で認識させ、検索・コピー可能なPDFに変換する方法を解説します。",
+  "image": "https://yuichi-sato.com/assets/img/pdftoolkit-icon.png",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-03"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
+    { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
+    { "@type": "ListItem", "position": 3, "name": "PDFの文字を検索・コピーできるようにする方法" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "PDFツールキットでPDFをOCR処理する手順",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "PDFを開く", "text": "PDFツールキットで、文字を認識させたいPDFを開く。" },
+    { "@type": "HowToStep", "position": 2, "name": "OCR機能を選択", "text": "メニューからOCR(文字認識)機能を選択する。" },
+    { "@type": "HowToStep", "position": 3, "name": "処理を実行", "text": "処理を実行すると、PDF内の文字が認識され、検索・コピーできる状態になる。" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "OCRとは何ですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "画像として保存された文字を認識し、検索・コピー可能なテキストデータに変換する技術のことです。" }
+    },
+    {
+      "@type": "Question",
+      "name": "スキャンしたPDFの文字がコピーできないのはなぜですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "スキャンやカメラ撮影で作成したPDFは、ページ全体が「画像」として保存されているため、文字情報を持たず、そのままでは検索・コピーができません。" }
+    },
+    {
+      "@type": "Question",
+      "name": "OCRの認識精度はどれくらいですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "文字の鮮明さや撮影状態によって精度は変わります。傾きや影のない、明るい環境で撮影したスキャンほど認識精度が高くなります。" }
+    },
+    {
+      "@type": "Question",
+      "name": "手書きの文字もOCRで認識できますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "活字に比べて手書き文字は認識精度が下がる傾向があります。特に崩した字や乱雑な手書きは正しく認識されないことがあります。" }
+    },
+    {
+      "@type": "Question",
+      "name": "OCR処理したPDFは元のレイアウトが崩れますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "PDFツールキットのOCRは、見た目のページ画像はそのままに、裏側に検索可能な文字情報を追加する形式のため、レイアウトは崩れません。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/#works">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/#profile">プロフィール</a>
+        <a href="/column/" class="is-active">コラム</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ PDFの文字を検索・コピーできるようにする方法</p>
+      <span class="article-tag">PDF・アプリ</span>
+      <h1>PDFの文字を検索・コピーできるようにする方法｜スマホでOCR</h1>
+      <p class="article-meta">更新日：2026年9月3日</p>
+      <p class="article-lead">紙の書類をスキャンしてPDF化したものの、中の文字が検索もコピーもできない。そんな経験はないでしょうか。これはPDFが「画像」として保存されているために起こる、よくあるつまずきポイントです。この記事では、スマホアプリのOCR機能でPDFの文字を検索・コピーできる状態にする方法を解説します。</p>
+      <p><strong>結論から言うと、OCR(文字認識)機能を使えば、スキャンしたPDFの見た目を変えずに、検索・コピーできる文字情報を追加できます。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>なぜスキャンしたPDFの文字は検索・コピーできないのか？</h2>
+      <p>紙の書類をカメラで撮影してPDF化した場合、そのPDFはページ全体が1枚の「画像」として保存されています。見た目には文字が写っていても、コンピューター上ではただの画像データであり、文字情報としては認識されていません。そのため、検索窓に単語を入力しても該当ページがヒットせず、文字をドラッグしてコピーすることもできません。</p>
+
+      <h2>OCR(文字認識)とは何か？</h2>
+      <p>OCR(Optical Character Recognition)は、画像の中に写っている文字の形を解析し、テキストデータとして認識する技術です。OCR処理を行うと、画像として保存されていたPDFに「検索・コピー可能な文字情報」が追加され、見た目はそのままに、テキストとしても扱えるPDFに変わります。</p>
+
+      <h2>PDFツールキットでOCR処理をする手順は？</h2>
+      <ol>
+        <li>PDFツールキットで、文字を認識させたいPDFを開く</li>
+        <li>メニューからOCR(文字認識)機能を選択する</li>
+        <li>処理を実行すると、PDF内の文字が認識され、検索・コピーできる状態になる</li>
+      </ol>
+      <p>処理はすべて端末内で完結するため、契約書や個人情報を含む書類でも外部サーバーに送信されることなく処理できます。</p>
+
+      <div class="note-box">OCRの認識精度は、撮影・スキャン時の画質に大きく左右されます。傾きや影がなく、文字がくっきり写っている状態でスキャンしておくと、後のOCR処理の精度も上がります。</div>
+
+      <h2>OCR処理はどんな場面で役立つ？</h2>
+      <ul>
+        <li><strong>過去の契約書や資料を検索したい</strong>：大量にスキャンした書類から、キーワードで該当ページをすぐに探せる</li>
+        <li><strong>書類の一部を引用・転記したい</strong>：手入力せずに文字をそのままコピーできる</li>
+        <li><strong>紙の資料をテキストデータとして保存したい</strong>：手書きでの入力し直しが不要になる</li>
+      </ul>
+
+      <h2>まとめ</h2>
+      <p>スキャンしたPDFの文字が検索・コピーできないのは、PDFが画像として保存されているためです。OCR機能を使えば、見た目のレイアウトを変えることなく、検索・コピー可能な文字情報をPDFに追加できます。書類の管理や検索性を高めたい方は、ぜひ活用してみてください。</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../assets/img/pdftoolkit-icon.png" alt="PDFツールキット アイコン">
+        <h3>PDFツールキット</h3>
+        <p>スキャン・結合・分割・圧縮・OCR文字認識までこれ1つ。カメラで撮ってすぐPDF化できる無料アプリ。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.pdfkit" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+      </div>
+
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. OCRとは何ですか？</h3>
+          <p>A. 画像として保存された文字を認識し、検索・コピー可能なテキストデータに変換する技術のことです。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. スキャンしたPDFの文字がコピーできないのはなぜですか？</h3>
+          <p>A. スキャンやカメラ撮影で作成したPDFは、ページ全体が「画像」として保存されているため、文字情報を持たず、そのままでは検索・コピーができません。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. OCRの認識精度はどれくらいですか？</h3>
+          <p>A. 文字の鮮明さや撮影状態によって精度は変わります。傾きや影のない、明るい環境で撮影したスキャンほど認識精度が高くなります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 手書きの文字もOCRで認識できますか？</h3>
+          <p>A. 活字に比べて手書き文字は認識精度が下がる傾向があります。特に崩した字や乱雑な手書きは正しく認識されないことがあります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. OCR処理したPDFは元のレイアウトが崩れますか？</h3>
+          <p>A. PDFツールキットのOCRは、見た目のページ画像はそのままに、裏側に検索可能な文字情報を追加する形式のため、レイアウトは崩れません。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>あわせて読みたい</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/column/pdftoolkit-android-guide.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>AndroidでPDFを編集する方法まとめ</h2>
+          </a>
+          <a class="column-card" href="/column/pdftoolkit-split-guide.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>PDFを分割する方法</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/privacy/">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../script.js"></script>
+</body>
+</html>
