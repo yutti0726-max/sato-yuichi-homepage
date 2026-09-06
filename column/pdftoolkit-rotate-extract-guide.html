@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>PDFのページを回転・抽出する方法｜向きの直しから必要ページの切り出しまで</title>
+<meta name="description" content="スキャンしたPDFのページが横向きになってしまった、必要なページだけ取り出したい。そんなときに使えるページ回転・抽出機能の使い方と、分割機能との違いを解説します。">
+<link rel="canonical" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "PDFのページを回転・抽出する方法｜向きの直しから必要ページの切り出しまで",
+  "description": "スキャンしたPDFのページが横向きになってしまった、必要なページだけ取り出したい。そんなときに使えるページ回転・抽出機能の使い方を解説します。",
+  "image": "https://yuichi-sato.com/assets/img/pdftoolkit-icon.png",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html",
+  "datePublished": "2026-09-07",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
+    { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
+    { "@type": "ListItem", "position": 3, "name": "PDFのページを回転・抽出する方法" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "PDFツールキットでページを回転する手順",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "PDFを開く", "text": "向きを直したいPDFを開き、ページ一覧を表示する。" },
+    { "@type": "HowToStep", "position": 2, "name": "ページのメニューを開く", "text": "回転したいページのサムネイルからメニューを開く。" },
+    { "@type": "HowToStep", "position": 3, "name": "回転を選択する", "text": "回転を選択し、正しい向きになるまで90度ずつ回す。" },
+    { "@type": "HowToStep", "position": 4, "name": "保存する", "text": "変更を保存する。" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "PDFツールキットで必要なページだけを抽出する手順",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "PDFを開く", "text": "抽出元のPDFを開く。" },
+    { "@type": "HowToStep", "position": 2, "name": "抽出機能を選択する", "text": "ページ抽出機能を選択する。" },
+    { "@type": "HowToStep", "position": 3, "name": "必要なページを選ぶ", "text": "取り出したいページにチェックを入れる。" },
+    { "@type": "HowToStep", "position": 4, "name": "新しいPDFとして保存する", "text": "選択したページだけを、新しい1つのPDFとして保存する。" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "スキャンしたPDFのページが横向きになるのはなぜですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "紙の書類をカメラで撮影する向き(縦持ち・横持ち)によって、そのままPDF化するとページの向きがそろわないことがあります。ページ回転機能を使えば、ページごとに正しい向きへ直せます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "ページの回転はページごとに個別にできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。PDF全体ではなく、ページごとに個別に回転を指定できます。複数ページの向きがバラバラでも、それぞれ正しい向きに直せます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "ページの「抽出」と「分割」はどう違いますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "抽出は、離れた位置にある必要なページだけを選んで1つの新しいPDFにまとめる機能です。分割は、連続したページ範囲でファイルを区切って複数のPDFに分ける機能です。1〜3ページ目と8ページ目だけをまとめたい場合は抽出、1〜3ページ目と4ページ目以降で2つのファイルに分けたい場合は分割を使います。" }
+    },
+    {
+      "@type": "Question",
+      "name": "抽出した後も元のPDFは残りますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。抽出は元のPDFから新しいPDFを作成する操作のため、元のファイルはそのまま残ります。" }
+    },
+    {
+      "@type": "Question",
+      "name": "特定のページだけを画像として取り出すこともできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。ページごとに「画像として共有」を選べば、そのページだけをJPEG・PNGなどの画像として書き出し、SNSやチャットで共有できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "回転や抽出をした後にファイルサイズは変わりますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "抽出はページ数が減るため、元のPDFよりファイルサイズは小さくなります。回転はページの向きの情報を変えるだけなので、サイズへの影響はほとんどありません。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/#works">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/#profile">プロフィール</a>
+        <a href="/column/" class="is-active">コラム</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ PDFのページを回転・抽出する方法</p>
+      <span class="article-tag">PDF・アプリ</span>
+      <h1>PDFのページを回転・抽出する方法｜向きの直しから必要ページの切り出しまで</h1>
+      <p class="article-meta">更新日：2026年9月7日</p>
+      <p class="article-lead">スキャンしたPDFの一部のページだけ向きが横になっている、大きな資料から必要な数ページだけを取り出して渡したい。そんなページ単位のちょっとした調整も、スマホアプリだけで完結できます。</p>
+      <p><strong>結論から言うと、PDFツールキットのページ回転機能を使えばページごとに向きを直せ、ページ抽出機能を使えば必要なページだけを新しいPDFとして取り出せます。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>PDFのページ向きがおかしくなるのはなぜ起きる？</h2>
+      <p>紙の書類をスマホのカメラで撮影してPDF化する際、書類やスマホの向き(縦持ち・横持ち)がページごとに異なると、できあがったPDFの中でページの向きがそろわないことがあります。閲覧や印刷のたびに首をかしげて見る必要が出てしまうため、向きを直しておくと快適です。</p>
+
+      <h2>PDFツールキットでページを回転する手順は？</h2>
+      <ol>
+        <li>向きを直したいPDFを開き、ページ一覧を表示する</li>
+        <li>回転したいページのサムネイルからメニューを開く</li>
+        <li>回転を選択し、正しい向きになるまで90度ずつ回す</li>
+        <li>変更を保存する</li>
+      </ol>
+      <p>ページごとに個別に回転できるため、PDF内の一部のページだけ向きがおかしい場合も、そのページだけをピンポイントで直せます。</p>
+
+      <h2>必要なページだけを抽出する手順は？</h2>
+      <ol>
+        <li>抽出元のPDFを開く</li>
+        <li>ページ抽出機能を選択する</li>
+        <li>取り出したいページにチェックを入れる</li>
+        <li>選択したページだけを、新しい1つのPDFとして保存する</li>
+      </ol>
+      <p>元のPDFはそのまま残るため、大きな資料の一部だけを別ファイルとして渡したい場合に、元データを崩さず安全に取り出せます。</p>
+
+      <div class="note-box">「抽出」と「分割」は似ていますが目的が異なります。<strong>抽出</strong>は、離れた位置にある必要なページだけを選んで1つのファイルにまとめる機能、<strong>分割</strong>は連続したページ範囲でファイル自体を複数に区切る機能です。詳しくは<a href="/column/pdftoolkit-split-guide.html">PDFを分割する方法</a>もあわせてご覧ください。</div>
+
+      <h2>ページを画像として書き出すこともできる？</h2>
+      <p>特定の1ページだけをSNSやチャットで共有したい場合は、そのページを「画像として共有」する機能も使えます。ページ一覧からページを選び、画像として書き出すだけで、JPEGやPNG形式の画像として送信・投稿できます。PDFファイルをそのまま送るより、閲覧環境を選ばず手軽に共有できるのがメリットです。</p>
+
+      <h2>どんな場面で使う？</h2>
+      <ul>
+        <li><strong>スキャンした書類の一部ページが横向きになった</strong>：ページ回転で直す</li>
+        <li><strong>契約書のうち必要な条項のページだけ渡したい</strong>：ページ抽出で切り出す</li>
+        <li><strong>資料の1ページだけをSNSに投稿したい</strong>：画像として共有する</li>
+      </ul>
+
+      <h2>まとめ</h2>
+      <p>ページの向きの乱れや、必要なページだけを取り出したいというニーズは、資料を扱う中でよく発生します。PDFツールキットなら、回転・抽出・画像としての共有をアプリ1つで完結でき、パソコンに転送し直す手間がかかりません。</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../assets/img/pdftoolkit-icon.png" alt="PDFツールキット アイコン">
+        <h3>PDFツールキット</h3>
+        <p>スキャン・結合・分割・圧縮・OCR文字認識までこれ1つ。カメラで撮ってすぐPDF化できる無料アプリ。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.pdfkit" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+      </div>
+
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. スキャンしたPDFのページが横向きになるのはなぜですか？</h3>
+          <p>A. 紙の書類をカメラで撮影する向き(縦持ち・横持ち)によって、そのままPDF化するとページの向きがそろわないことがあります。ページ回転機能を使えば、ページごとに正しい向きへ直せます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. ページの回転はページごとに個別にできますか？</h3>
+          <p>A. はい。PDF全体ではなく、ページごとに個別に回転を指定できます。複数ページの向きがバラバラでも、それぞれ正しい向きに直せます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. ページの「抽出」と「分割」はどう違いますか？</h3>
+          <p>A. 抽出は、離れた位置にある必要なページだけを選んで1つの新しいPDFにまとめる機能です。分割は、連続したページ範囲でファイルを区切って複数のPDFに分ける機能です。1〜3ページ目と8ページ目だけをまとめたい場合は抽出、1〜3ページ目と4ページ目以降で2つのファイルに分けたい場合は分割を使います。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 抽出した後も元のPDFは残りますか？</h3>
+          <p>A. はい。抽出は元のPDFから新しいPDFを作成する操作のため、元のファイルはそのまま残ります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 特定のページだけを画像として取り出すこともできますか？</h3>
+          <p>A. はい。ページごとに「画像として共有」を選べば、そのページだけをJPEG・PNGなどの画像として書き出し、SNSやチャットで共有できます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 回転や抽出をした後にファイルサイズは変わりますか？</h3>
+          <p>A. 抽出はページ数が減るため、元のPDFよりファイルサイズは小さくなります。回転はページの向きの情報を変えるだけなので、サイズへの影響はほとんどありません。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>あわせて読みたい</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/column/pdftoolkit-split-guide.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>PDFを分割する方法</h2>
+          </a>
+          <a class="column-card" href="/column/pdftoolkit-android-guide.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>AndroidでPDFを編集する方法まとめ</h2>
+          </a>
+          <a class="column-card" href="/column/pdftoolkit-scan-guide.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>紙の書類をスマホでスキャンしてPDF化する方法</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/privacy/">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../script.js"></script>
+</body>
+</html>
