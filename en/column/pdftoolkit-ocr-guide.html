@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>How to Make PDF Text Searchable and Copyable | OCR on Your Phone</title>
+<meta name="description" content="Can't search or copy text in a scanned PDF? Here's how to use a phone app's OCR feature to recognize the text and turn it into a searchable, copyable PDF.">
+<link rel="canonical" href="https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-ocr-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Make PDF Text Searchable and Copyable | OCR on Your Phone",
+  "description": "How to use a phone app's OCR feature to recognize scanned text and turn it into a searchable, copyable PDF.",
+  "image": "https://yuichi-sato.com/assets/img/pdftoolkit-icon.png",
+  "author": { "@type": "Person", "name": "Yuichi Sato" },
+  "publisher": { "@type": "Person", "name": "Yuichi Sato" },
+  "mainEntityOfPage": "https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yuichi-sato.com/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Column", "item": "https://yuichi-sato.com/en/column/" },
+    { "@type": "ListItem", "position": 3, "name": "How to Make PDF Text Searchable and Copyable" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to run OCR on a PDF in PDF Toolkit",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "Open the PDF", "text": "In PDF Toolkit, open the PDF whose text you want to recognize." },
+    { "@type": "HowToStep", "position": 2, "name": "Select OCR", "text": "From the menu, select the OCR (text recognition) feature." },
+    { "@type": "HowToStep", "position": 3, "name": "Run the process", "text": "Running it recognizes the text in the PDF, making it searchable and copyable." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is OCR?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It's a technology that recognizes text saved as an image and converts it into searchable, copyable text data." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why can't I copy text from a scanned PDF?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A PDF created from a scan or camera photo has each whole page saved as an \"image,\" carrying no text data, so it can't be searched or copied as-is." }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate is OCR recognition?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Accuracy varies with how clear the text is and the conditions it was captured under. A scan taken in bright light, without tilt or shadow, gives higher recognition accuracy." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can OCR recognize handwritten text too?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Handwritten text tends to be recognized less accurately than printed text. Messy or heavily stylized handwriting in particular may not be recognized correctly." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does OCR break the original layout of a PDF?",
+      "acceptedAnswer": { "@type": "Answer", "text": "PDF Toolkit's OCR keeps the visible page image exactly as it is and adds searchable text data underneath, so the layout stays intact." }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pdftoolkit-ocr-guide.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pdftoolkit-ocr-guide.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pdftoolkit-ocr-guide.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/en/#works">Apps</a>
+        <a href="/en/#books">Books</a>
+        <a href="/en/#profile">Profile</a>
+        <a href="/en/column/" class="is-active">Column</a>
+        <a href="/en/gear/">Gear</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/en/">Home</a> ＞ <a href="/en/column/">Column</a> ＞ How to Make PDF Text Searchable and Copyable</p>
+      <span class="article-tag">PDF & Apps</span>
+      <h1>How to Make PDF Text Searchable and Copyable | OCR on Your Phone</h1>
+      <p class="article-meta">Updated: September 7, 2026</p>
+      <p class="article-lead">You scanned a paper document into a PDF, but the text inside can't be searched or copied. Sound familiar? This is a common snag that happens because the PDF is saved as an "image." This article explains how to use a phone app's OCR feature to make PDF text searchable and copyable.</p>
+      <p><strong>In short, OCR (text recognition) adds searchable, copyable text data to a scanned PDF without changing how it looks.</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>Why Can't Text in a Scanned PDF Be Searched or Copied?</h2>
+      <p>When you photograph a paper document with your camera and turn it into a PDF, the whole page is saved as a single "image." Even though text is visible to the eye, on a computer it's just image data — it isn't recognized as text information. That's why typing a word into a search box won't find the matching page, and you can't drag to copy the text.</p>
+
+      <h2>What Is OCR (Text Recognition)?</h2>
+      <p>OCR (Optical Character Recognition) is a technology that analyzes the shapes of characters visible in an image and recognizes them as text data. Running OCR adds "searchable, copyable text information" to a PDF that was previously just an image — the look stays exactly the same, but the PDF can now also be handled as text.</p>
+
+      <h2>How Do I Run OCR in PDF Toolkit?</h2>
+      <ol>
+        <li>In PDF Toolkit, open the PDF whose text you want to recognize</li>
+        <li>From the menu, select the OCR (text recognition) feature</li>
+        <li>Running it recognizes the text in the PDF, making it searchable and copyable</li>
+      </ol>
+      <p>Since processing happens entirely on-device, contracts and documents containing personal information can be processed without ever being sent to an external server.</p>
+
+      <div class="note-box">OCR accuracy depends heavily on image quality at the time of capture. Scanning with clear, sharp text and no tilt or shadow will improve the accuracy of the OCR step that follows.</div>
+
+      <h2>Where Is OCR Actually Useful?</h2>
+      <ul>
+        <li><strong>Searching past contracts or documents</strong>: quickly find the right page among a large batch of scanned documents by keyword</li>
+        <li><strong>Quoting or transcribing part of a document</strong>: copy text directly instead of retyping it by hand</li>
+        <li><strong>Saving paper materials as text data</strong>: no need to retype anything by hand</li>
+      </ul>
+
+      <h2>Summary</h2>
+      <p>Text in a scanned PDF can't be searched or copied because the PDF is saved as an image. OCR lets you add searchable, copyable text information without changing how the page looks. If you want better document management and searchability, give it a try.</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../../assets/img/pdftoolkit-icon.png" alt="PDF Toolkit icon">
+        <h3>PDF Toolkit</h3>
+        <p>Scan, merge, split, compress, and OCR text recognition — all in one. A free app that turns a camera shot into a PDF instantly.</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.pdfkit" target="_blank" rel="noopener">📲 Download for free</a>
+      </div>
+
+      <div class="reveal">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>Q. What is OCR?</h3>
+          <p>A. It's a technology that recognizes text saved as an image and converts it into searchable, copyable text data.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Why can't I copy text from a scanned PDF?</h3>
+          <p>A. A PDF created from a scan or camera photo has each whole page saved as an "image," carrying no text data, so it can't be searched or copied as-is.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. How accurate is OCR recognition?</h3>
+          <p>A. Accuracy varies with how clear the text is and the conditions it was captured under. A scan taken in bright light, without tilt or shadow, gives higher recognition accuracy.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Can OCR recognize handwritten text too?</h3>
+          <p>A. Handwritten text tends to be recognized less accurately than printed text. Messy or heavily stylized handwriting in particular may not be recognized correctly.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Does OCR break the original layout of a PDF?</h3>
+          <p>A. PDF Toolkit's OCR keeps the visible page image exactly as it is and adds searchable text data underneath, so the layout stays intact.</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>Author: Yuichi Sato</strong> (Entrepreneur, has built 100+ custom PCs / PADI Certified Diver). Full profile <a href="/en/#profile">here</a>.
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>You might also like</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/en/column/pdftoolkit-android-guide.html">
+            <span class="column-card-tag">PDF & Apps</span>
+            <h2>How to Edit PDFs on Android</h2>
+          </a>
+          <a class="column-card" href="/en/column/pdftoolkit-split-guide.html">
+            <span class="column-card-tag">PDF & Apps</span>
+            <h2>How to Split a PDF</h2>
+          </a>
+          <a class="column-card" href="/en/column/pdftoolkit-scan-guide.html">
+            <span class="column-card-tag">PDF & Apps</span>
+            <h2>How to Scan Paper Documents into a PDF</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato &middot; <a href="/en/privacy/">Privacy Policy</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

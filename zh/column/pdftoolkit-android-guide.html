@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>如何在Android手机上编辑PDF｜合并・分割・压缩・OCR・签名一个应用搞定</title>
+<meta name="description" content="汇总在Android上合并、分割、压缩、OCR文字识别、签署PDF时可用的应用与操作方法。介绍无需电脑，仅用手机即可完成PDF相关工作的方法。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-android-guide.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "如何在Android手机上编辑PDF",
+  "description": "汇总在Android上合并、分割、压缩、OCR文字识别、签署PDF时可用的应用与操作方法。",
+  "image": "https://yuichi-sato.com/assets/img/pdftoolkit-icon.png",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "专栏", "item": "https://yuichi-sato.com/zh/column/" },
+    { "@type": "ListItem", "position": 3, "name": "如何在Android手机上编辑PDF" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "在Android上编辑PDF需要专用的电脑软件吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "不需要。使用像PDF工具箱这样的应用，合并、分割、压缩、OCR、签名等操作，仅用手机就能完成。" }
+    },
+    {
+      "@type": "Question",
+      "name": "有免费编辑PDF的应用吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "有。PDF工具箱可以免费下载和使用。" }
+    },
+    {
+      "@type": "Question",
+      "name": "可以直接将纸质文件转换为PDF吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。使用“扫描生成PDF”功能，用相机拍摄即可转换为经过校正倾斜、裁剪处理的PDF。" }
+    },
+    {
+      "@type": "Question",
+      "name": "选择PDF编辑应用时应该注意什么？",
+      "acceptedAnswer": { "@type": "Answer", "text": "是否免费使用、扫描・合并・分割・压缩是否能在一个应用内完成、是否支持OCR、是否支持你所用的语言，是几个关键点。" }
+    },
+    {
+      "@type": "Question",
+      "name": "扫描后的PDF文字可以搜索与复制吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "使用OCR功能，可以将扫描的文字识别出来，变为可搜索、可复制的状态。" }
+    },
+    {
+      "@type": "Question",
+      "name": "可以在PDF上添加手写签名吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。支持直接在文档上添加手写签名或文字批注。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pdftoolkit-android-guide.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pdftoolkit-android-guide.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pdftoolkit-android-guide.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/#profile">简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/gear/">推荐装备</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 如何在Android手机上编辑PDF</p>
+      <span class="article-tag">PDF·应用</span>
+      <h1>如何在Android手机上编辑PDF｜合并・分割・压缩・OCR・签名一个应用搞定</h1>
+      <p class="article-meta">更新日期：2026年9月7日</p>
+      <p class="article-lead">“想合并PDF”“想把发不出去的过大PDF压缩一下”“想让扫描的PDF文字可以搜索”——在Android上处理PDF，无需电脑，仅用一个免费应用就能完成。本文将按功能逐一介绍PDF编辑应用“PDF工具箱”能做的事情。</p>
+      <p><strong>简单来说，使用Android免费应用“PDF工具箱”，扫描、合并、分割、压缩、OCR文字识别、签名等几乎所有与PDF相关的工作，都能用这一个应用完成。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>在Android上编辑PDF有哪些方法？</h2>
+      <p>在Android上编辑PDF大致有三种方法：将文件传输到电脑上用软件处理、使用浏览器上的在线服务、以及直接用手机应用编辑。传输到电脑比较麻烦，在线服务则让人担心上传含有个人信息的文件是否安全。如果用手机应用，即使在外出时也能当场完成，机密性较高的文件也无需离开设备本身。</p>
+
+      <h2>PDF工具箱能做什么？</h2>
+      <div class="table-wrap">
+      <table>
+        <tr><th>功能</th><th>能做的事</th><th>详细说明</th></tr>
+        <tr><td>扫描生成PDF</td><td>用相机拍摄纸质文件，自动校正倾斜并裁剪生成PDF</td><td><a href="/zh/column/pdftoolkit-scan-guide.html">如何用手机扫描纸质文件生成PDF</a></td></tr>
+        <tr><td>由照片创建PDF</td><td>将多张照片合并为一个PDF</td><td><a href="/zh/column/pdftoolkit-image-to-pdf.html">将照片转换为PDF的方法</a></td></tr>
+        <tr><td>合并PDF</td><td>将多个PDF合并为一个文件</td><td><a href="/zh/column/pdftoolkit-merge-compress.html">合并与压缩PDF的方法</a></td></tr>
+        <tr><td>压缩PDF</td><td>缩小文件大小，便于邮件发送</td><td><a href="/zh/column/pdftoolkit-merge-compress.html">合并与压缩PDF的方法</a></td></tr>
+        <tr><td>分割PDF</td><td>只取出需要的页面范围生成新PDF</td><td><a href="/zh/column/pdftoolkit-split-guide.html">如何分割PDF</a></td></tr>
+        <tr><td>OCR文字识别</td><td>让扫描的文字变得可搜索、可复制</td><td><a href="/zh/column/pdftoolkit-ocr-guide.html">如何让PDF文字可以搜索与复制</a></td></tr>
+        <tr><td>旋转与提取页面</td><td>修正页面方向，或只导出需要的页面</td><td><a href="/zh/column/pdftoolkit-rotate-extract-guide.html">如何旋转与提取PDF页面</a></td></tr>
+        <tr><td>手写签名与批注</td><td>直接在PDF上书写签名或文字</td><td><a href="/zh/column/pdftoolkit-signature-guide.html">如何在PDF上添加手写签名</a></td></tr>
+      </table>
+      </div>
+
+      <h2>各功能分别在什么场景下使用？</h2>
+      <ul>
+        <li><strong>手头有纸质文件</strong>：扫描生成PDF</li>
+        <li><strong>已经拍摄积攒了一些文件照片</strong>：由照片创建PDF</li>
+        <li><strong>想把要提交的资料合并成一个文件</strong>：合并PDF</li>
+        <li><strong>文件太大，邮件或聊天工具发不出去</strong>：压缩PDF</li>
+        <li><strong>只想分享大份资料中的一部分</strong>：分割PDF</li>
+        <li><strong>之后想搜索或复制文字</strong>：OCR文字识别</li>
+        <li><strong>合同需要签名</strong>：手写签名与批注</li>
+      </ul>
+
+      <div class="note-box">用一个应用完成所有操作，可以省去学习多个应用、以及在应用之间来回传输文件的麻烦。尤其是支持OCR的应用，会大大改变文件日后的可搜索性，选择时值得作为重点考虑。</div>
+
+      <h2>选择应用时应该注意什么？</h2>
+      <ul>
+        <li>是否免费使用（是否有单次付费或广告）</li>
+        <li>扫描・合并・分割・压缩・OCR是否能在一个应用中完成</li>
+        <li>是否支持你所用的语言</li>
+        <li>处理是否在设备本地完成，不会将文件发送到外部服务器</li>
+      </ul>
+
+      <h2>总结</h2>
+      <p>在Android上处理PDF，无需电脑或在线服务，只需一个功能齐全的应用即可完成。无论是合并、分割、压缩、OCR还是签名，都可以根据需要，参考上表中对应的详细操作方法。</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../../assets/img/pdftoolkit-icon.png" alt="PDF工具箱 icon">
+        <h3>PDF工具箱</h3>
+        <p>扫描、合并、分割、压缩、OCR文字识别，一个应用全搞定。拍照即可立即生成PDF的免费应用。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.pdfkit" target="_blank" rel="noopener">📲 免费下载</a>
+      </div>
+
+      <div class="reveal">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <h3>Q. 在Android上编辑PDF需要专用的电脑软件吗？</h3>
+          <p>A. 不需要。使用像PDF工具箱这样的应用，合并、分割、压缩、OCR、签名等操作，仅用手机就能完成。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 有免费编辑PDF的应用吗？</h3>
+          <p>A. 有。PDF工具箱可以免费下载和使用。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 可以直接将纸质文件转换为PDF吗？</h3>
+          <p>A. 可以。使用“扫描生成PDF”功能，用相机拍摄即可转换为经过校正倾斜、裁剪处理的PDF。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 选择PDF编辑应用时应该注意什么？</h3>
+          <p>A. 是否免费使用、扫描・合并・分割・压缩是否能在一个应用内完成、是否支持OCR、是否支持你所用的语言，是几个关键点。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 扫描后的PDF文字可以搜索与复制吗？</h3>
+          <p>A. 使用OCR功能，可以将扫描的文字识别出来，变为可搜索、可复制的状态。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 可以在PDF上添加手写签名吗？</h3>
+          <p>A. 可以。支持直接在文档上添加手写签名或文字批注。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・自组电脑100台以上经验／PADI认证潜水员）。详细简介请见<a href="/zh/#profile">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>延伸阅读</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/pdftoolkit-merge-compress.html">
+            <span class="column-card-tag">PDF·应用</span>
+            <h2>合并与压缩PDF的方法</h2>
+          </a>
+          <a class="column-card" href="/zh/column/pdftoolkit-image-to-pdf.html">
+            <span class="column-card-tag">PDF·应用</span>
+            <h2>将照片转换为PDF的方法</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>
