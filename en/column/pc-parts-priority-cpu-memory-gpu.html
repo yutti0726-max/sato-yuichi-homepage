@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>Which Parts Actually Matter in a Custom PC? | What a 3-Way SLI Build Taught Me About GPU Limits and Why CPU/Memory Matter More</title>
+<meta name="description" content="What running three high-end graphics cards in a 3-way SLI build taught me — that stacking more GPU past a point is mostly self-satisfaction — and why CPU and memory matter more for everyday comfort.">
+<link rel="canonical" href="https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-parts-priority-cpu-memory-gpu.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Which Parts Actually Matter in a Custom PC?",
+  "description": "What a 3-way SLI build taught me about GPU limits, and why CPU and memory matter more for everyday comfort.",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-parts-bible.jpg",
+  "author": { "@type": "Person", "name": "Yuichi Sato" },
+  "publisher": { "@type": "Person", "name": "Yuichi Sato" },
+  "mainEntityOfPage": "https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yuichi-sato.com/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Column", "item": "https://yuichi-sato.com/en/column/" },
+    { "@type": "ListItem", "position": 3, "name": "Which Parts Really Matter in a Custom PC" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I buy a high-end graphics card?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It's enough to meet the recommended specs for the games you actually want to play. Beyond that, the difference you can feel is minor, and it shifts from performance gain into self-satisfaction territory." }
+    },
+    {
+      "@type": "Question",
+      "name": "If my budget is limited, what should I prioritize?",
+      "acceptedAnswer": { "@type": "Answer", "text": "If you do a lot of video editing or encoding, prioritize the GPU; if you multitask or run several apps at once, prioritize memory and CPU. It makes a big difference to how satisfied you feel day to day." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much memory do I need to feel comfortable?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The ideal amount depends on how you use your PC, but the more often you run multiple tasks at once, the more directly a lack of memory translates into a sluggish feel." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a benefit to a multi-card setup like 3-way SLI?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Having actually built and tested it, stacking that much GPU had only a marginal impact on gaming, with a barely noticeable difference in practice." }
+    },
+    {
+      "@type": "Question",
+      "name": "Which affects everyday operation more, CPU or GPU?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The CPU (and memory) is what affects nearly every scenario of using a PC — launching apps, browser behavior, multitasking comfort. The GPU is a part that matters for specific use cases." }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-parts-priority-cpu-memory-gpu.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pc-parts-priority-cpu-memory-gpu.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pc-parts-priority-cpu-memory-gpu.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/en/#works">Apps</a>
+        <a href="/en/#books">Books</a>
+        <a href="/en/#profile">Profile</a>
+        <a href="/en/column/" class="is-active">Column</a>
+        <a href="/en/gear/">Gear</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/en/">Home</a> ＞ <a href="/en/column/">Column</a> ＞ Which Parts Really Matter in a Custom PC</p>
+      <span class="article-tag">Custom PC</span>
+      <h1>Which Parts Actually Matter in a Custom PC? | What a 3-Way SLI Build Taught Me About GPU Limits and Why CPU/Memory Matter More</h1>
+      <p class="article-meta">Updated: September 7, 2026</p>
+      <p class="article-lead">I once ran a "3-way SLI" setup with three high-end graphics cards stacked together. Drawing on that experience, here's a candid look at the limits of spending on graphics cards, and why CPU and memory are actually what matter most for everyday comfort.</p>
+      <p><strong>In short, a GPU only needs to meet the recommended specs for the games you want to play — CPU and memory are what more directly shape your everyday comfort.</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>Is More GPU Always Better?</h2>
+      <p>I once ran a "3-way SLI" setup with three high-end graphics cards. The short version: stacking that much GPU had only a marginal impact on gaming, and honestly, it didn't go much beyond "self-satisfaction." The reason is simple — developers have no reason to build a game that only runs comfortably on that kind of extreme setup. Games are made to run on the environment most players actually have, so an extremely over-specced build produces only a barely noticeable difference in practice.</p>
+      <p>A graphics card just needs to meet the recommended specs for the games you actually want to play — that's the conclusion I reached through this experience. Wanting more than that is, in my view, more about hobby and self-satisfaction than actual performance gain.</p>
+
+      <h2>Which Shapes Everyday Use More, GPU or CPU/Memory?</h2>
+      <div class="table-wrap">
+      <table>
+        <tr><th></th><th>Graphics Card</th><th>CPU / Memory</th></tr>
+        <tr><td>Where it makes a difference</td><td>Specific uses like gaming, video encoding</td><td>Nearly everything — app launches, browsing, multitasking</td></tr>
+        <tr><td>Impact of overspending</td><td>Barely noticeable difference (self-satisfaction territory)</td><td>More capacity/newer generation tends to translate directly into everyday comfort</td></tr>
+        <tr><td>Who should prioritize it</td><td>Anyone who wants to meet the recommended specs for a game they want to play</td><td>Anyone handling multiple tasks at once, prioritizing everyday snappiness</td></tr>
+      </table>
+      </div>
+
+      <h2>Why Do CPU and Memory Shape Everyday Use So Much?</h2>
+      <p>CPU and memory, on the other hand, are extremely important. GPU performance matters for specific tasks like video encoding, but for "everything else you do every day," it's the CPU and memory that have a direct impact.</p>
+      <ul>
+        <li><strong>App launch speed</strong>: CPU and memory performance translates directly into how fast things feel</li>
+        <li><strong>How light your browser feels</strong>: the more tabs you keep open, the more you're affected by memory capacity</li>
+        <li><strong>Comfort when running multiple tasks at once</strong>: the more multitasking-heavy your workflow, the more directly memory shortage translates into a sluggish feel</li>
+        <li><strong>Power consumption</strong>: CPU generation and efficiency can significantly change power draw for the same workload</li>
+      </ul>
+      <p>A graphics card is "a part that matters for specific uses (gaming, encoding)," while CPU and memory are "parts that matter in every scenario of using a PC." If you want to raise your everyday comfort across the board, I believe you should prioritize investing in CPU and memory first.</p>
+
+      <div class="note-box">If your budget is limited when choosing parts, it helps to first map out how you actually use your PC day to day. If you do a lot of video editing or encoding, prioritize the GPU; if you multitask or run several apps at once, prioritize memory and CPU. It makes a big difference to how satisfied you feel day to day.</div>
+
+      <h2>Summary</h2>
+      <p>A graphics card only needs to meet the recommended specs for the games you want to play — stacking more beyond that produces only a barely noticeable difference, which is the real conclusion I reached from running three of them. CPU and memory, on the other hand, are high-return parts that directly shape comfort in every scenario of using a PC. If you're stuck on which parts to choose, I'd recommend going back to how you actually use your PC and setting your priorities from there.</p>
+
+      <div class="cta-card reveal">
+        <img class="book-cover" src="../../assets/img/book-pc-parts-bible.jpg" alt="The Golden Ratio PC Build Bible cover">
+        <h3>The Golden Ratio PC Build Bible: Perfect Parts & Gadget Optimization</h3>
+        <p>A Kindle book by an author with 100+ custom PC builds, thoroughly explaining the golden ratio that doesn't waste a single yen of your budget. (Japanese-language ebook.)</p>
+        <a class="amazon-badge" href="https://amzn.asia/d/03SI9M8q?tag=yuttitti-22" target="_blank" rel="noopener">📖 Read on Kindle for ¥480</a>
+      </div>
+
+      <div class="reveal">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>Q. Should I buy a high-end graphics card?</h3>
+          <p>A. It's enough to meet the recommended specs for the games you actually want to play. Beyond that, the difference you can feel is minor, and it shifts from performance gain into self-satisfaction territory.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. If my budget is limited, what should I prioritize?</h3>
+          <p>A. If you do a lot of video editing or encoding, prioritize the GPU; if you multitask or run several apps at once, prioritize memory and CPU. It makes a big difference to how satisfied you feel day to day.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. How much memory do I need to feel comfortable?</h3>
+          <p>A. The ideal amount depends on how you use your PC, but the more often you run multiple tasks at once, the more directly a lack of memory translates into a sluggish feel.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Is there a benefit to a multi-card setup like 3-way SLI?</h3>
+          <p>A. Having actually built and tested it, stacking that much GPU had only a marginal impact on gaming, with a barely noticeable difference in practice.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Which affects everyday operation more, CPU or GPU?</h3>
+          <p>A. The CPU (and memory) is what affects nearly every scenario of using a PC — launching apps, browser behavior, multitasking comfort. The GPU is a part that matters for specific use cases.</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>Author: Yuichi Sato</strong> (Entrepreneur, has built 100+ custom PCs / PADI Certified Diver). Full profile <a href="/en/#profile">here</a>.
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>You might also like</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/en/column/portable-egpu-desk-setup.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>A Laptop + eGPU Setup for the Ultimate Space-Saving Desk</h2>
+          </a>
+          <a class="column-card" href="/en/column/pc-input-devices-fit-over-spec.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>Mice and Keyboards Are About Fit, Not Specs</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato &middot; <a href="/en/privacy/">Privacy Policy</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

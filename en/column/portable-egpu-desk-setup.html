@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>A Laptop + eGPU Setup for the Ultimate Space-Saving Desk | Everything Connects Through One Type-C Cable</title>
+<meta name="description" content="A record of building a desk setup where a single lightweight, long-battery-life laptop connects to an eGPU, keyboard, display, mouse, and external SSD through just one Type-C cable at home. Lightest possible on the go, uncompromising at home.">
+<link rel="canonical" href="https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "A Laptop + eGPU Setup for the Ultimate Space-Saving Desk",
+  "description": "A record of building a desk setup where a lightweight laptop connects to an eGPU, keyboard, display, mouse, and external SSD through just one Type-C cable.",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-parts-bible.jpg",
+  "author": { "@type": "Person", "name": "Yuichi Sato" },
+  "publisher": { "@type": "Person", "name": "Yuichi Sato" },
+  "mainEntityOfPage": "https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html",
+  "datePublished": "2026-09-02",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yuichi-sato.com/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Column", "item": "https://yuichi-sato.com/en/column/" },
+    { "@type": "ListItem", "position": 3, "name": "A Laptop + eGPU Ultimate Desk Setup" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an eGPU?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It's an external graphics box that you connect to only when you need it, pulling power from a stationary high-performance graphics card while day-to-day you carry around just a lightweight laptop." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does one Type-C cable connect everything?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The eGPU unit itself doubles as a hub for the keyboard, display, mouse, and external SSD, so connecting the laptop to the eGPU with a single Type-C cable activates all the other gear together." }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use the laptop's own screen too while gaming?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Rendering to the laptop's screen as well while gaming eats into the processing budget that would otherwise go to the game, so a single-display setup on just the main monitor is recommended." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I prioritize when choosing a mouse?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fit with your hand size and grip style (palm, claw, or fingertip) matters more than specs. It's best to actually hold one and check before deciding." }
+    },
+    {
+      "@type": "Question",
+      "name": "What do you carry when you're out and about?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Just the laptop itself and a mobile mouse (MX Anywhere 3S for Business). A laptop with good battery life is enough on its own for long stretches of work." }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/portable-egpu-desk-setup.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/portable-egpu-desk-setup.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/portable-egpu-desk-setup.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/en/#works">Apps</a>
+        <a href="/en/#books">Books</a>
+        <a href="/en/#profile">Profile</a>
+        <a href="/en/column/" class="is-active">Column</a>
+        <a href="/en/gear/">Gear</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/en/">Home</a> ＞ <a href="/en/column/">Column</a> ＞ A Laptop + eGPU Ultimate Desk Setup</p>
+      <span class="article-tag">Custom PC</span>
+      <h1>A Laptop + eGPU Setup for the Ultimate Space-Saving Desk | Everything Connects Through One Type-C Cable</h1>
+      <p class="article-meta">Updated: September 7, 2026</p>
+      <p class="article-lead">I don't run local AI or heavy-graphics gaming as a daily habit, so a single lightweight laptop is plenty for everyday use. But once I get home, plugging in just one Type-C cable connects an eGPU, keyboard, display, mouse, and external SSD all at once, switching everything into the ultimate desk setup. Light on the go, no compromises at home — here's the record of building that setup.</p>
+      <p><strong>In short, a lightweight laptop plus an eGPU docking setup lets you be as light as possible on the go, and switch to a desktop-class environment the instant you plug in one Type-C cable at home.</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>The Base: A Lightweight, Long-Battery-Life Laptop</h2>
+      <p>My daily driver is an ASUS S14, with an Intel® Core™ Ultra 9 Processor 386H, 32GB of memory, and 1TB of storage. I don't run local AI as a daily habit, and I don't game at high graphics settings, so this spec runs more than comfortably enough for everyday use. I prioritized being lightweight and lasting a long time on battery over raw specs when choosing this model.</p>
+
+      <h2>How Do I Switch to a High-Spec Environment at Home?</h2>
+      <p>Once I'm back home, I use an external eGPU — the GIGABYTE AORUS RTX 5060 Ti AI Box. The biggest benefit of an eGPU (external graphics box) is that you carry around a lightweight laptop day-to-day, and connect to a stationary high-performance graphics card only when you need the extra power. Even the newest games or heavy workloads that a laptop alone can't handle become desktop-class performance once I'm home and routed through this eGPU.</p>
+
+      <h2>How Does One Type-C Cable Connect Everything?</h2>
+      <p>The best part of this setup is that connecting the laptop to the eGPU with just one Type-C cable activates all the other gear together. Getting home and doing exactly one thing — plugging in the cable — turns on all of the following:</p>
+      <ul>
+        <li>External graphics card (GIGABYTE AORUS RTX 5060 Ti AI Box)</li>
+        <li>Keyboard and number pad</li>
+        <li>Main display</li>
+        <li>Mouse</li>
+        <li>External storage (SanDisk 1TB Extreme Portable SSD)</li>
+      </ul>
+      <p>There's no more plugging in a pile of cables one by one like before — I can start working or gaming the moment I get home.</p>
+
+      <h2>What's on the Desk?</h2>
+
+      <h3>Number Pad: EPOMAKER EK21 VIA Gasket Numpad</h3>
+      <p>For a number pad, I use the EPOMAKER EK21 VIA Gasket Numpad Gaming Keyboard (Black Silver Wisteria V2). It's already fitted with the same silent switches and keycaps I covered in my <a href="/en/column/keyboard-mod-silent-typing.html">keyboard mod article</a>, giving a consistent feel and silence with my main keyboard.</p>
+
+      <h3>Desk Extender: Sanwa Direct Folding Clamp-Type</h3>
+      <p>To expand desk space, I added a Sanwa Direct desk extender (folding, clamp-mounted). It's convenient because it lets me extend my work area only when I need it, without replacing the desk itself.</p>
+
+      <h3>Wrist Rest: Faluber Urushi-Lacquered Wooden Wrist Rest</h3>
+      <p>To reduce strain on my wrists, I use Faluber's urushi-lacquered wooden wrist rest (wood palm rest, black). It stays comfortable even on days with a lot of typing, and moves smoothly, which makes a real difference on long work days.</p>
+
+      <h3>Mouse: ATK FIERCE X</h3>
+      <p>For a mouse, I settled on the ATK FIERCE X after trying around 50 others — it's the one that felt the most right. I have small hands and use a claw grip, and a mouse that fits both that grip and hand size well was surprisingly hard to find, which is what led to trying so many. If you also have small hands and use a claw grip, this is one I'd especially recommend.</p>
+
+      <div class="note-box">Choosing a mouse based purely on "it's popular" or "the grip shape is supposed to be good" can leave you with something that doesn't fit your hand size or grip style. If you can, actually hold one and check whether it fits your grip (palm, claw, or fingertip) before deciding.</div>
+
+      <h3>Display: Titan Army 24.5" Gaming Monitor</h3>
+      <p>I use a Titan Army 24.5" gaming monitor as the main display, with the laptop's own screen as a secondary display. That two-screen setup keeps work efficient, and when I'm gaming I switch to showing only the Titan Army display. Rendering to the laptop's screen as well while gaming eats into the processing budget that would otherwise go to the game, so keeping the second display (Titan Army) as the sole output during gaming lets all the processing focus on the game.</p>
+
+      <h2>What Do I Carry When I'm Out and About?</h2>
+      <p>When I head out, I carry just this laptop and Logitech's MX Anywhere 3S for Business. This laptop, with its Intel® Core™ Ultra 9 Processor 386H, has excellent battery life, letting me keep working for long stretches on the go without worrying about power. I've managed to keep what I carry to a minimum without sacrificing how much I can get done.</p>
+
+      <h2>What Are the Advantages of This Setup?</h2>
+      <ul>
+        <li><strong>Space-saving</strong>: no need to own a stationary desktop PC — it becomes desktop-class only when I'm home</li>
+        <li><strong>The ease of one cable</strong>: plugging or unplugging a single Type-C cable switches multiple peripherals together</li>
+        <li><strong>Optimized for the use case</strong>: dual display for work, single display for gaming — processing power routes to whichever scene fits</li>
+        <li><strong>Lightness on the go</strong>: the laptop and a mobile mouse alone are enough for long stretches of work</li>
+        <li><strong>No compromise on gaming performance</strong>: thanks to the eGPU, there's almost no recent title I can't run</li>
+      </ul>
+
+      <h2>Summary</h2>
+      <p>Two seemingly conflicting wants — "light and long-lasting on the go" and "uncompromising performance at home" — turned out to be compatible with a laptop + eGPU + consolidated docking setup. Rather than building a stationary desktop, switching your environment with one cable around a single laptop is a great option for anyone who wants a space-saving, flexible way to work and play.</p>
+
+      <div class="reveal">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>Q. What is an eGPU?</h3>
+          <p>A. It's an external graphics box that you connect to only when you need it, pulling power from a stationary high-performance graphics card while day-to-day you carry around just a lightweight laptop.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Why does one Type-C cable connect everything?</h3>
+          <p>A. The eGPU unit itself doubles as a hub for the keyboard, display, mouse, and external SSD, so connecting the laptop to the eGPU with a single Type-C cable activates all the other gear together.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Should I use the laptop's own screen too while gaming?</h3>
+          <p>A. Rendering to the laptop's screen as well while gaming eats into the processing budget that would otherwise go to the game, so a single-display setup on just the main monitor is recommended.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. What should I prioritize when choosing a mouse?</h3>
+          <p>A. Fit with your hand size and grip style (palm, claw, or fingertip) matters more than specs. It's best to actually hold one and check before deciding.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. What do you carry when you're out and about?</h3>
+          <p>A. Just the laptop itself and a mobile mouse (MX Anywhere 3S for Business). A laptop with good battery life is enough on its own for long stretches of work.</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>Author: Yuichi Sato</strong> (Entrepreneur, has built 100+ custom PCs / PADI Certified Diver). Full profile <a href="/en/#profile">here</a>.
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>You might also like</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/en/column/keyboard-mod-silent-typing.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>A Silent Mechanical Keyboard Build for Late-Night Work</h2>
+          </a>
+          <a class="column-card" href="/en/column/pc-parts-priority-cpu-memory-gpu.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>Which Parts Actually Matter in a Custom PC?</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato &middot; <a href="/en/privacy/">Privacy Policy</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

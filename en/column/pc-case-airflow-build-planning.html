@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>A Custom PC Case Mistake | Choosing on Looks Alone, and Why Airflow and Cable Planning Matter</title>
+<meta name="description" content="What I learned from choosing a PC case on looks alone and regretting it: why expandability and airflow design matter. Also covers why planning your cabling and build order before you start pays off.">
+<link rel="canonical" href="https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "A Custom PC Case Mistake | Airflow and Cable Planning Matter",
+  "description": "What I learned from choosing a PC case on looks alone: why expandability, airflow design, and planning your cabling ahead of time matter.",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-maintenance.jpg",
+  "author": { "@type": "Person", "name": "Yuichi Sato" },
+  "publisher": { "@type": "Person", "name": "Yuichi Sato" },
+  "mainEntityOfPage": "https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yuichi-sato.com/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Column", "item": "https://yuichi-sato.com/en/column/" },
+    { "@type": "ListItem", "position": 3, "name": "Case Choice, Airflow & Cable Planning" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is it fine to choose a PC case on looks alone?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It might be fine in the short term, but ignoring expandability and airflow tends to lead to regret over the long run. Check the fan count/size it supports and whether it's designed with airflow in mind." }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if airflow is poor?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Heat builds up more easily, leading to thermal throttling (reduced performance) and a shorter lifespan for your parts." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does cable routing affect airflow?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Cables blocking the path air needs to travel disrupt airflow and reduce cooling efficiency." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I plan before starting a build?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Decide your cable routing and the order you'll install parts in ahead of time. Building without a plan tends to mean re-doing work or struggling to isolate the cause of an issue." }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I test that things work during the build?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Rather than powering on only after everything is fully assembled, checking that a minimal configuration boots at key stages makes it much easier to isolate the cause if something goes wrong." }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-case-airflow-build-planning.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pc-case-airflow-build-planning.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pc-case-airflow-build-planning.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/en/#works">Apps</a>
+        <a href="/en/#books">Books</a>
+        <a href="/en/#profile">Profile</a>
+        <a href="/en/column/" class="is-active">Column</a>
+        <a href="/en/gear/">Gear</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/en/">Home</a> ＞ <a href="/en/column/">Column</a> ＞ Case Choice, Airflow & Cable Planning</p>
+      <span class="article-tag">Custom PC</span>
+      <h1>A Custom PC Case Mistake | Choosing on Looks Alone, and Why Airflow and Cable Planning Matter</h1>
+      <p class="article-meta">Updated: September 7, 2026</p>
+      <p class="article-lead">A PC case is a part that's easy to choose on looks alone at first. But thinking about long-term use, I've come to feel strongly that expandability and airflow (how air moves through the case) are extremely important. I'll also cover why planning your cabling and build order before you start matters.</p>
+      <p><strong>In short, choose a PC case for its expandability and airflow, not just its looks, and planning your cable routing and build order beforehand cuts down on trouble significantly.</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>What Happened When I Chose a Case on Looks Alone?</h2>
+      <p>When picking a PC case, I've chosen purely on design and how cool it looked at first. That's fine in the short term, but thinking about long-term use, I came to regret undervaluing expandability (how easy it is to add or swap parts) and airflow (how air moves inside).</p>
+
+      <h2>Why Does "Airflow" Matter More Than People Expect?</h2>
+      <p>Where air enters a PC case, what path it travels, and where it gets exhausted — designing this airflow efficiently makes a massive difference to how hot the inside of your PC runs. It's easy to overlook when you're focused purely on looks, but it's actually a very important factor.</p>
+      <ul>
+        <li><strong>Intake/exhaust balance</strong>: a poor balance of intake and exhaust fan placement and count lets heat build up inside the case</li>
+        <li><strong>Cable routing</strong>: cables blocking the path air needs to travel disrupt airflow and reduce cooling efficiency</li>
+        <li><strong>Part placement</strong>: parts that generate heat placed too close together end up interfering with each other's heat</li>
+      </ul>
+      <p>Heat directly affects processing performance and how long your parts last. When temperatures stay high, a CPU or graphics card will throttle its own performance to keep heat down (thermal throttling), so even high-end parts can't deliver their real performance. Accumulated heat damage also shortens the actual lifespan of your parts.</p>
+
+      <div class="note-box">When choosing a case, check not just the looks but the number and size of fans it supports, and whether it's designed with airflow in mind (often listed on the manufacturer's product page) — this can save you from regret down the line.</div>
+
+      <h2>What Should I Plan Before Starting a Build?</h2>
+      <p>It also matters to decide, before you start assembling, how you'll route your cables and in what order you'll install parts. Building without a plan tends to mean discovering mid-build that "I should have routed this cable first" and having to redo work, or not knowing which part is causing a problem when you power it on.</p>
+      <ul>
+        <li><strong>Decide your cable routing first</strong>: discovering a cable that can't be routed later on means pulling parts back out to redo the build</li>
+        <li><strong>Decide your build order before starting</strong>: picture ahead of time the order you'll mount parts to the motherboard, and the order you'll install into the case</li>
+        <li><strong>Test at each stage</strong>: rather than powering on only after everything is fully assembled, checking that a minimal configuration boots at key stages makes it easier to isolate the cause if something goes wrong</li>
+      </ul>
+
+      <h2>Summary</h2>
+      <p>It's tempting to choose a PC case purely on its visual impression, but I've come to feel strongly that expandability and airflow deserve real weight, precisely because it's a part you'll use for a long time. Planning your cabling and build order ahead of time also cuts down on unnecessary rework and sources of trouble.</p>
+
+      <div class="cta-card reveal">
+        <img class="book-cover" src="../../assets/img/book-pc-maintenance.jpg" alt="Double Your Parts' Lifespan: The Complete Custom PC Maintenance & Troubleshooting Guide cover">
+        <h3>Double Your Parts' Lifespan: The Complete Custom PC Maintenance & Troubleshooting Guide</h3>
+        <p>A Kindle book covering how to read temperature, voltage, and storage lifespan, plus a practical troubleshooting flow for isolating problems. (Japanese-language ebook.)</p>
+        <a class="amazon-badge" href="https://amzn.asia/d/0cEq9G5i?tag=yuttitti-22" target="_blank" rel="noopener">📖 Read on Kindle for ¥480</a>
+      </div>
+
+      <div class="reveal">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>Q. Is it fine to choose a PC case on looks alone?</h3>
+          <p>A. It might be fine in the short term, but ignoring expandability and airflow tends to lead to regret over the long run. Check the fan count/size it supports and whether it's designed with airflow in mind.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. What happens if airflow is poor?</h3>
+          <p>A. Heat builds up more easily, leading to thermal throttling (reduced performance) and a shorter lifespan for your parts.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Does cable routing affect airflow?</h3>
+          <p>A. Yes. Cables blocking the path air needs to travel disrupt airflow and reduce cooling efficiency.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. What should I plan before starting a build?</h3>
+          <p>A. Decide your cable routing and the order you'll install parts in ahead of time. Building without a plan tends to mean re-doing work or struggling to isolate the cause of an issue.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. When should I test that things work during the build?</h3>
+          <p>A. Rather than powering on only after everything is fully assembled, checking that a minimal configuration boots at key stages makes it much easier to isolate the cause if something goes wrong.</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>Author: Yuichi Sato</strong> (Entrepreneur, has built 100+ custom PCs / PADI Certified Diver). Full profile <a href="/en/#profile">here</a>.
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>You might also like</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/en/column/pc-build-power-explosion-mistake.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>I Plugged In a GPU While the Power Was Still On, and It Exploded</h2>
+          </a>
+          <a class="column-card" href="/en/column/pc-parts-priority-cpu-memory-gpu.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>Which Parts Actually Matter in a Custom PC?</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato &middot; <a href="/en/privacy/">Privacy Policy</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

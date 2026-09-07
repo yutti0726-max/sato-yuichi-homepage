@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>自组电脑机箱选择的失败谈｜只看外观后悔的散热气流与布线规划</title>
+<meta name="description" content="从只看外观选择PC机箱而后悔的经历中学到的、扩展性与散热气流设计的重要性。同时讲解为什么组装前应该规划好布线与步骤。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "自组电脑机箱选择的失败谈｜散热气流与布线规划的重要性",
+  "description": "从只看外观选择PC机箱而后悔的经历中，讲解扩展性、散热气流设计、以及布线规划的重要性。",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-maintenance.jpg",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "专栏", "item": "https://yuichi-sato.com/zh/column/" },
+    { "@type": "ListItem", "position": 3, "name": "机箱选择与散热气流・布线规划" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "只看外观选择PC机箱可以吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "短期内可能没问题，但考虑到长期使用，轻视扩展性和散热气流容易导致后悔。请确认支持的风扇数量・尺寸，以及是否有散热气流设计。" }
+    },
+    {
+      "@type": "Question",
+      "name": "散热气流不好会有什么影响？",
+      "acceptedAnswer": { "@type": "Answer", "text": "热量容易积聚，可能导致热降频（性能下降）以及配件寿命缩短。" }
+    },
+    {
+      "@type": "Question",
+      "name": "线缆的走线方式和散热气流有关系吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "有关系。如果线缆挡住了空气流通的路径，会打乱散热气流，降低散热效率。" }
+    },
+    {
+      "@type": "Question",
+      "name": "组装前应该规划些什么？",
+      "acceptedAnswer": { "@type": "Answer", "text": "事先决定好布线路径以及组装配件的顺序。如果毫无计划地组装，容易导致返工或难以排查故障原因。" }
+    },
+    {
+      "@type": "Question",
+      "name": "组装过程中应该在什么时候做动作确认？",
+      "acceptedAnswer": { "@type": "Answer", "text": "不要等全部组装完成后才通电，而是在关键节点用最小配置进行开机确认，这样出现问题时更容易排查原因。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-case-airflow-build-planning.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pc-case-airflow-build-planning.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pc-case-airflow-build-planning.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/#profile">简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/gear/">推荐装备</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 机箱选择与散热气流・布线规划</p>
+      <span class="article-tag">自组电脑</span>
+      <h1>自组电脑机箱选择的失败谈｜只看外观后悔的散热气流与布线规划</h1>
+      <p class="article-meta">更新日期：2026年9月7日</p>
+      <p class="article-lead">PC机箱是最初很容易只凭外观来选择的配件。但考虑到长期使用，我深刻体会到扩展性和散热气流（内部空气的流动）非常重要。同时也会介绍为什么组装前的布线与步骤规划如此重要。</p>
+      <p><strong>简单来说，选择PC机箱时不应只看外观，而要重视扩展性和散热气流，在组装前规划好布线路径与步骤，可以大幅减少故障发生。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>只看外观选机箱出了什么问题？</h2>
+      <p>选择PC机箱时，我曾经一开始只凭设计和外观的帅气程度来选择。短期内这样做没什么问题，但考虑到要长期使用，我后悔当初轻视了扩展性（是否便于增加、更换配件）和散热气流（内部空气的流动）。</p>
+
+      <h2>容易被忽视的“散热气流”为何如此重要？</h2>
+      <p>PC机箱内部，风从哪里进入、经过哪里、又从哪里排出——把这个散热气流的设计做得高效，机箱内部的温度状态会大不相同。如果一味在意外观设计，很容易忽视这一点，但实际上这是非常重要的因素。</p>
+      <ul>
+        <li><strong>进气与排气的平衡</strong>：进气风扇和排气风扇的布置与数量如果失衡，热量容易在机箱内积聚</li>
+        <li><strong>线缆的走线方式</strong>：如果线缆挡住了空气流通的路径，会打乱散热气流，降低散热效率</li>
+        <li><strong>配件的布局</strong>：发热配件之间距离太近，彼此的热量会相互干扰</li>
+      </ul>
+      <p>温度直接影响处理性能和配件寿命。持续处于高温状态时，CPU和显卡会通过降低性能来抑制发热（热降频），导致高性能配件也无法发挥出本来的实力。而且，热量损伤的累积，也会成为缩短配件寿命本身的原因。</p>
+
+      <div class="note-box">选择机箱时，不要只看外观，还要确认支持的风扇数量・尺寸，以及是否是考虑到散热气流的设计（厂商产品页面通常会有相关说明），这样可以避免后续的后悔。</div>
+
+      <h2>组装前应该规划些什么？</h2>
+      <p>在开始组装作业之前，事先决定好线缆的走线方式，以及按什么顺序组装配件，也是很重要的一点。如果毫无计划地组装，中途可能会发现“这根线应该先穿过去”，导致返工，或者通电时不知道是哪个配件导致无法正常工作。</p>
+      <ul>
+        <li><strong>先确定布线路径</strong>：如果后来发现有线缆无法穿过，就得把配件拆下来重新组装</li>
+        <li><strong>先确定组装顺序再开始</strong>：事先设想好主板上配件的安装顺序，以及装入机箱的顺序</li>
+        <li><strong>在各阶段进行动作确认</strong>：不要等全部组装完成后才通电，而是在关键节点用最小配置进行开机确认，这样出现问题时更容易排查原因</li>
+      </ul>
+
+      <h2>总结</h2>
+      <p>PC机箱容易凭外观印象来选择，但正因为是要长期使用的配件，我深刻体会到应该重视扩展性和散热气流。同时，在组装前认真规划好布线与步骤，可以减少不必要的返工和故障的发生原因。</p>
+
+      <div class="cta-card reveal">
+        <img class="book-cover" src="../../assets/img/book-pc-maintenance.jpg" alt="让配件寿命翻倍：自组电脑维护与故障排查完全指南 封面">
+        <h3>让配件寿命翻倍：自组电脑维护与故障排查完全指南</h3>
+        <p>涵盖温度、电压、存储寿命的解读方法，以及故障排查流程的实务向Kindle电子书。（日语电子书）</p>
+        <a class="amazon-badge" href="https://amzn.asia/d/0cEq9G5i?tag=yuttitti-22" target="_blank" rel="noopener">📖 ¥480 阅读Kindle电子书</a>
+      </div>
+
+      <div class="reveal">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <h3>Q. 只看外观选择PC机箱可以吗？</h3>
+          <p>A. 短期内可能没问题，但考虑到长期使用，轻视扩展性和散热气流容易导致后悔。请确认支持的风扇数量・尺寸，以及是否有散热气流设计。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 散热气流不好会有什么影响？</h3>
+          <p>A. 热量容易积聚，可能导致热降频（性能下降）以及配件寿命缩短。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 线缆的走线方式和散热气流有关系吗？</h3>
+          <p>A. 有关系。如果线缆挡住了空气流通的路径，会打乱散热气流，降低散热效率。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 组装前应该规划些什么？</h3>
+          <p>A. 事先决定好布线路径以及组装配件的顺序。如果毫无计划地组装，容易导致返工或难以排查故障原因。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 组装过程中应该在什么时候做动作确认？</h3>
+          <p>A. 不要等全部组装完成后才通电，而是在关键节点用最小配置进行开机确认，这样出现问题时更容易排查原因。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・自组电脑100台以上经验／PADI认证潜水员）。详细简介请见<a href="/zh/#profile">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>延伸阅读</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/pc-build-power-explosion-mistake.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>带电插拔显卡电源线导致“爆炸”的经历</h2>
+          </a>
+          <a class="column-card" href="/zh/column/pc-parts-priority-cpu-memory-gpu.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>自组电脑中真正重要的配件是什么</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

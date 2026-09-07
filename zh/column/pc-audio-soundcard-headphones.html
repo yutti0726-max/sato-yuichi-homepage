@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>解决自组电脑的音频问题｜声卡噪音与音乐/游戏耳机的区分使用</title>
+<meta name="description" content="介绍在为廉价声卡的噪音困扰后，改用USB接口类型解决问题的经历，以及为什么应该区分使用音乐用和游戏用耳机。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-audio-soundcard-headphones.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "解决自组电脑的音频问题｜声卡噪音与音乐/游戏耳机的区分使用",
+  "description": "介绍改用USB接口声卡解决廉价声卡噪音问题的经历，以及为什么应该区分使用音乐用和游戏用耳机。",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-parts-bible.jpg",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "专栏", "item": "https://yuichi-sato.com/zh/column/" },
+    { "@type": "ListItem", "position": 3, "name": "解决自组电脑的音频问题" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "内置声卡产生噪音的原因是什么？",
+      "acceptedAnswer": { "@type": "Answer", "text": "主要原因是内置类型固有的结构弱点——容易拾取PC机箱内部电源和其他配件产生的电气噪音。" }
+    },
+    {
+      "@type": "Question",
+      "name": "解决噪音问题需要昂贵的声卡吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "不一定需要昂贵的产品，有时只需从内置类型换成外置（USB接口）类型就能解决。" }
+    },
+    {
+      "@type": "Question",
+      "name": "音乐用和游戏用耳机有什么区别？",
+      "acceptedAnswer": { "@type": "Answer", "text": "音乐用耳机的调音多注重低音与音场的悦耳表现，而游戏用耳机则需要注重方位感的调音，便于分辨脚步声、枪声的方向与距离。" }
+    },
+    {
+      "@type": "Question",
+      "name": "一副耳机能同时兼顾两种用途吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "根据尝试过多款机型的切身体验，完全兼顾两者是很难的。按用途区分使用，可以让两种体验都不打折扣地享受。" }
+    },
+    {
+      "@type": "Question",
+      "name": "不试听就直接购买耳机可以吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "由于对声音的偏好因人而异，建议如果条件允许，尽量先试听再购买。尤其是游戏用耳机，对方位感的感受因人而异较为明显。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-audio-soundcard-headphones.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pc-audio-soundcard-headphones.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pc-audio-soundcard-headphones.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/#profile">简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/gear/">推荐装备</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 解决自组电脑的音频问题</p>
+      <span class="article-tag">自组电脑</span>
+      <h1>解决自组电脑的音频问题｜声卡噪音与音乐/游戏耳机的区分使用</h1>
+      <p class="article-meta">更新日期：2026年9月7日</p>
+      <p class="article-lead">这是一份关于自组电脑“音频”方面的失败与改善记录。介绍我曾经因为单纯图便宜选购的声卡噪音问题而烦恼，最终改用USB接口类型解决的经历，以及后来开始区分使用音乐用和游戏用耳机的原因。</p>
+      <p><strong>简单来说，内置声卡的噪音问题往往通过改用USB接口类型就能解决，而音乐用和游戏用耳机分开使用，能让两者都更舒适地享受。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>单纯图便宜选的声卡出了什么问题？</h2>
+      <p>我曾经抱着“反正便宜的总比没有强”的想法，购买了一款廉价的内置声卡。但实际使用后，噪音相当严重，根本无法舒适地享受音乐或游戏音效。原因与其说是声卡本身的品质，不如说是内置类型固有的结构弱点——容易拾取PC机箱内部其他配件产生的电气噪音。</p>
+
+      <h2>换成USB接口类型后怎么样了？</h2>
+      <p>于是我换成了USB接口类型的声卡（外置USB DAC/声卡），噪音完全消失，体验变得非常舒适。USB接口类型可以把音频处理电路放在不易受机箱内部电源和配件干扰的位置，因此比内置类型更容易获得干净的音质。如果对音质有追求，比起内置的廉价声卡，值得考虑一下USB外置类型，这是我的切身体会。</p>
+
+      <div class="note-box">如果为声卡噪音而烦恼，在提升声卡本身档次之前，不妨先试试从内置类型换成外置（USB接口）类型，有时就能解决问题。因为很多情况下，原因就在于机箱内部电源或线缆产生的电气干扰。</div>
+
+      <h2>耳机应该区分音乐用和游戏用吗？</h2>
+      <p>想把音乐听得好听的需求，和想在FPS等游戏中通过声音准确判断敌人位置的需求，对声音特性的要求完全不同。音乐欣赏用耳机的调音多注重让低音和音场表现得悦耳，而FPS这类游戏则需要注重方位感的调音，便于分辨脚步声、枪声的方向与距离。根据尝试过多款机型的切身体验，用一副耳机完美兼顾这两者是很困难的。</p>
+      <p>为音乐用和游戏用分别准备适合各自用途的耳机后，两种体验都能不打折扣地享受了。</p>
+
+      <div class="note-box">由于对声音的偏好因人而异，不要仅凭评测或参数判断，建议如果条件允许，尽量先试听再购买。尤其是游戏用耳机，对方位感的感受因人而异较为明显。</div>
+
+      <h2>总结</h2>
+      <p>音频方面的问题，容易让人误以为原因就是“声卡的性能”，但实际上是内置还是外置这种连接方式，往往影响更大。而耳机也不必追求“一副好的走天下”，按用途区分使用，才能让音乐和游戏都获得各自本该有的享受方式。</p>
+
+      <div class="reveal">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <h3>Q. 内置声卡产生噪音的原因是什么？</h3>
+          <p>A. 主要原因是内置类型固有的结构弱点——容易拾取PC机箱内部电源和其他配件产生的电气噪音。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 解决噪音问题需要昂贵的声卡吗？</h3>
+          <p>A. 不一定需要昂贵的产品，有时只需从内置类型换成外置（USB接口）类型就能解决。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 音乐用和游戏用耳机有什么区别？</h3>
+          <p>A. 音乐用耳机的调音多注重低音与音场的悦耳表现，而游戏用耳机则需要注重方位感的调音，便于分辨脚步声、枪声的方向与距离。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 一副耳机能同时兼顾两种用途吗？</h3>
+          <p>A. 根据尝试过多款机型的切身体验，完全兼顾两者是很难的。按用途区分使用，可以让两种体验都不打折扣地享受。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 不试听就直接购买耳机可以吗？</h3>
+          <p>A. 由于对声音的偏好因人而异，建议如果条件允许，尽量先试听再购买。尤其是游戏用耳机，对方位感的感受因人而异较为明显。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・自组电脑100台以上经验／PADI认证潜水员）。详细简介请见<a href="/zh/#profile">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>延伸阅读</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/keyboard-mod-silent-typing.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>为深夜工作打造静音机械键盘</h2>
+          </a>
+          <a class="column-card" href="/zh/column/portable-egpu-desk-setup.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>用笔记本电脑+eGPU打造省空间的顶级桌面环境</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

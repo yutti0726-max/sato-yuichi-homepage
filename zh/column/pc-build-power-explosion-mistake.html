@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>自组电脑失败谈｜带电插拔显卡电源线导致"爆炸"的经历</title>
+<meta name="description" content="100台以上自组电脑经验中最大的失误，是在电源未关闭的状态下将电源线插入了显卡。介绍这场真实发生的事故，以及从中学到的"越熟练越危险"的教训。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "自组电脑失败谈｜带电插拔显卡电源线导致“爆炸”的经历",
+  "description": "介绍在电源未关闭的状态下将电源线插入显卡而引发的事故，以及从中学到的教训。",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-maintenance.jpg",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "专栏", "item": "https://yuichi-sato.com/zh/column/" },
+    { "@type": "ListItem", "position": 3, "name": "带电插拔显卡事故" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "电脑通电状态下触碰配件会怎样？",
+      "acceptedAnswer": { "@type": "Answer", "text": "电流会涌入带电的接口，有可能导致零件损坏，或伴随巨响出现火花。作业前务必先关闭电源。" }
+    },
+    {
+      "@type": "Question",
+      "name": "自组电脑作业中最重要的安全措施是什么？",
+      "acceptedAnswer": { "@type": "Answer", "text": "在拔掉电源线插头，或将电源供应器本体的开关关闭的状态下进行作业。" }
+    },
+    {
+      "@type": "Question",
+      "name": "为什么经验丰富的人反而更容易出事故？",
+      "acceptedAnswer": { "@type": "Answer", "text": "因为经验越丰富，越容易在“这点小事应该没问题”的心态下想省略基本步骤。越是熟练的时候，越要彻底遵守基本操作。" }
+    },
+    {
+      "@type": "Question",
+      "name": "这次事故避免了显卡的损坏吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "这次事故中损坏的是电源供应器，但显卡等其他配件也有可能被波及，现在回想起来，这确实是一个非常危险的行为。" }
+    },
+    {
+      "@type": "Question",
+      "name": "静电对策也同样重要吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "静电对策（使用防静电手环，或触碰金属放电等）也是避免损坏配件的基本要点之一，建议一并留意。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-build-power-explosion-mistake.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pc-build-power-explosion-mistake.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pc-build-power-explosion-mistake.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/#profile">简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/gear/">推荐装备</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 带电插拔显卡事故</p>
+      <span class="article-tag">自组电脑</span>
+      <h1>自组电脑失败谈｜带电插拔显卡电源线导致“爆炸”的经历</h1>
+      <p class="article-meta">更新日期：2026年9月7日</p>
+      <p class="article-lead">如果问我在100台以上的自组电脑经历中最大的失误是什么，我会毫不犹豫地说出这一件事。在机箱电源未关闭的状态下，我把电源线插入了显卡，伴随巨大的爆炸声，真的“炸”了。冷静想想这是理所当然会出问题的事，为什么还是犯下了这样的失误？在此分享这段经历与教训。</p>
+      <p><strong>简单来说，自组电脑的事故比起新手，反而更容易发生在“已经熟练”的阶段，即使有经验，也绝不能省略先关闭电源再作业这一基本步骤。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>发生了什么？</h2>
+      <p>曾经有一次，我在PC机箱电源未关闭的状态下，把辅助电源线插入了显卡。理所当然地，电流强行涌入了带电的接口，伴随巨大的爆炸声，真的“炸”了。虽然损坏的是电源供应器（PSU）一侧，但考虑到显卡等其他配件也有可能被波及，现在回想起来，这确实是相当危险的行为。</p>
+
+      <h2>为什么会犯下如此基本的失误？</h2>
+      <p>关闭电源后再作业，是自组电脑中最基本的基本操作。这一点我脑子里当然十分清楚。即便如此，事故发生的最大原因，还是那种“这点小事应该没问题”的熟练所带来的松懈。正因为组装过几十台、上百台电脑的经验，才会出现想省略基本步骤的瞬间。忘记了新手的谨慎之时，恰恰是最容易发生危险事故的时候，这一点我深有体会。</p>
+
+      <div class="note-box">自组电脑的作业，必须在拔掉电源线插头、或将电源供应器本体的开关关闭的状态下进行，这是铁律。不要以为“没按电源按钮就没事”，只要插着电源插座，就要视为随时可能通电。</div>
+
+      <h2>从这次经历中学到了什么？</h2>
+      <ul>
+        <li><strong>越熟练越不能省略基本操作</strong>：经验年数越长，越容易在“反正我已经懂了”的心态下想省略基本步骤</li>
+        <li><strong>养成作业前必定确认通电状态的习惯</strong>：每次都仪式般地走完同样的步骤，可以防止粗心导致的失误</li>
+        <li><strong>更换配件或增设时，坚持“再麻烦也要每次关闭电源”</strong>：不因为“只是小作业”而省略，结果反而是最快的捷径</li>
+      </ul>
+
+      <h2>总结</h2>
+      <p>自组电脑的事故，切身感受是比起新手，反而更容易发生在“已经熟练”的阶段。彻底遵守基本步骤，恰恰是经验丰富的人容易忘记的地方，但无论是为了保护配件，还是为了自身的安全，即使觉得麻烦也不省略，才是最重要的一点。</p>
+
+      <div class="cta-card reveal">
+        <img class="book-cover" src="../../assets/img/book-pc-maintenance.jpg" alt="让配件寿命翻倍：自组电脑维护与故障排查完全指南 封面">
+        <h3>让配件寿命翻倍：自组电脑维护与故障排查完全指南</h3>
+        <p>拥有100台以上自组经验的专业人士，彻底讲解延长爱机寿命的物理维护方法，以及自行解决故障的排查流程的Kindle电子书。（日语电子书）</p>
+        <a class="amazon-badge" href="https://amzn.asia/d/0cEq9G5i?tag=yuttitti-22" target="_blank" rel="noopener">📖 ¥480 阅读Kindle电子书</a>
+      </div>
+
+      <div class="reveal">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <h3>Q. 电脑通电状态下触碰配件会怎样？</h3>
+          <p>A. 电流会涌入带电的接口，有可能导致零件损坏，或伴随巨响出现火花。作业前务必先关闭电源。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 自组电脑作业中最重要的安全措施是什么？</h3>
+          <p>A. 在拔掉电源线插头，或将电源供应器本体的开关关闭的状态下进行作业。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 为什么经验丰富的人反而更容易出事故？</h3>
+          <p>A. 因为经验越丰富，越容易在“这点小事应该没问题”的心态下想省略基本步骤。越是熟练的时候，越要彻底遵守基本操作。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 这次事故避免了显卡的损坏吗？</h3>
+          <p>A. 这次事故中损坏的是电源供应器，但显卡等其他配件也有可能被波及，现在回想起来，这确实是一个非常危险的行为。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 静电对策也同样重要吗？</h3>
+          <p>A. 静电对策（使用防静电手环，或触碰金属放电等）也是避免损坏配件的基本要点之一，建议一并留意。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・自组电脑100台以上经验／PADI认证潜水员）。详细简介请见<a href="/zh/#profile">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>延伸阅读</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/keyboard-mod-silent-typing.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>为深夜工作打造静音机械键盘</h2>
+          </a>
+          <a class="column-card" href="/zh/column/portable-egpu-desk-setup.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>用笔记本电脑+eGPU打造省空间的顶级桌面环境</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

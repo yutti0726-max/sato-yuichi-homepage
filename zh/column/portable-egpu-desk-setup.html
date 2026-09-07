@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>用笔记本电脑+eGPU打造省空间的顶级桌面环境｜一根Type-C线搞定一切</title>
+<meta name="description" content="以一台轻便、长续航的笔记本电脑为基础，回家后只需插上一根Type-C线，就能同时连接eGPU、键盘、显示器、鼠标、外置SSD的桌面环境搭建记录。外出时最轻便，在家时最强悍。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "用笔记本电脑+eGPU打造省空间的顶级桌面环境",
+  "description": "以一台轻便的笔记本电脑为基础，通过一根Type-C线连接eGPU、键盘、显示器、鼠标、外置SSD的桌面环境搭建记录。",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-parts-bible.jpg",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html",
+  "datePublished": "2026-09-02",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "专栏", "item": "https://yuichi-sato.com/zh/column/" },
+    { "@type": "ListItem", "position": 3, "name": "笔记本电脑+eGPU的顶级桌面环境" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "eGPU是什么？",
+      "acceptedAnswer": { "@type": "Answer", "text": "这是一种外置显卡盒，平时携带轻便的笔记本电脑外出，只在需要时连接到固定放置的高性能显卡上，发挥出更强的性能。" }
+    },
+    {
+      "@type": "Question",
+      "name": "为什么一根Type-C线就能连接所有设备？",
+      "acceptedAnswer": { "@type": "Answer", "text": "由于eGPU本体兼具键盘、显示器、鼠标、外置SSD的集线器功能，只需用一根Type-C线连接笔记本电脑和eGPU，其余设备就会随之统一联动生效。" }
+    },
+    {
+      "@type": "Question",
+      "name": "打游戏时应该同时使用笔记本电脑的屏幕吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "打游戏时如果同时渲染笔记本电脑的屏幕，会占用本应用于游戏的处理性能，因此建议只用主显示器进行单屏显示。" }
+    },
+    {
+      "@type": "Question",
+      "name": "选鼠标时应该重视什么？",
+      "acceptedAnswer": { "@type": "Answer", "text": "比起参数，更重要的是是否符合自己的手掌大小和握持方式（掌握、抓握、指握）。建议实际拿在手里确认后再选择。" }
+    },
+    {
+      "@type": "Question",
+      "name": "外出时是怎样的配置？",
+      "acceptedAnswer": { "@type": "Answer", "text": "只携带笔记本电脑本体和移动鼠标（MX Anywhere 3S For Business）。只要笔记本电脑续航够好，仅凭这些就能应对长时间的工作。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/portable-egpu-desk-setup.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/portable-egpu-desk-setup.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/portable-egpu-desk-setup.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/#profile">简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/gear/">推荐装备</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 笔记本电脑+eGPU的顶级桌面环境</p>
+      <span class="article-tag">自组电脑</span>
+      <h1>用笔记本电脑+eGPU打造省空间的顶级桌面环境｜一根Type-C线搞定一切</h1>
+      <p class="article-meta">更新日期：2026年9月7日</p>
+      <p class="article-lead">本地AI和高画质游戏并非日常使用，所以平时一台轻便的笔记本电脑就足够了。但回家后，只需插上一根Type-C线，eGPU、键盘、显示器、鼠标、外置SSD就会一口气全部连接，切换为最强的桌面环境。外出时轻装上阵，在家时毫不妥协——这是搭建这套设置的记录。</p>
+      <p><strong>简单来说，采用轻便笔记本电脑+eGPU扩展坞的组合，外出时能做到最轻便，回家后只需一根Type-C线，就能瞬间切换为台式机级别的环境。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>基础：轻便、长续航的笔记本电脑</h2>
+      <p>我平时使用的是ASUS的S14。搭载英特尔® 酷睿™ Ultra 9 处理器 386H，配置32GB内存、1TB存储。由于本地AI和高画质游戏设置都不是日常使用需求，日常使用这个配置已经绰绰有余、运行流畅。相比性能，我更优先考虑轻便和长续航，因此选择了这款机型。</p>
+
+      <h2>回家后如何切换为高性能环境？</h2>
+      <p>回到家后，我会使用外置eGPU“GIGABYTE AORUS RTX 5060 Ti AI Box”。eGPU（外置显卡盒）最大的优点，就是平时携带轻便的笔记本电脑外出，只在需要时连接到固定放置的高性能显卡上，发挥出更强的性能。笔记本电脑单独难以应对的最新游戏和繁重处理任务，回家后通过这个eGPU就能以台式机级别的性能来处理。</p>
+
+      <h2>一根Type-C线连接所有设备的原理是？</h2>
+      <p>这套设置最大的亮点，就是只需用一根Type-C线连接笔记本电脑和eGPU，其余所有设备就会统一联动生效。回家后只需“插上线”这一个动作，以下设备就全部启用：</p>
+      <ul>
+        <li>外置显卡（GIGABYTE AORUS RTX 5060 Ti AI Box）</li>
+        <li>键盘・数字键盘</li>
+        <li>主显示器</li>
+        <li>鼠标</li>
+        <li>外置存储（SanDisk 1TB Extreme便携式SSD）</li>
+      </ul>
+      <p>不再需要像以前那样反复插拔多根线缆，回家后立刻就能开始工作或游戏。</p>
+
+      <h2>桌面由哪些配件组成？</h2>
+
+      <h3>数字键盘：EPOMAKER EK21 VIA 垫圈式数字键盘</h3>
+      <p>数字键盘方面，我使用的是EPOMAKER EK21 VIA垫圈式数字键盘游戏键盘（Black Silver Wisteria V2）。它已经换装了与<a href="/zh/column/keyboard-mod-silent-typing.html">键盘改装文章</a>中介绍的相同静音轴体与键帽，与主键盘在打字手感和静音性上保持了统一。</p>
+
+      <h3>桌面延伸架：三荣直销 折叠夹式</h3>
+      <p>为了扩展桌面空间，我引入了三荣直销的桌面延伸架（折叠、夹式）。无需更换桌子本身，就能在需要时扩展工作空间，这一点很方便。</p>
+
+      <h3>护腕垫：Faluber 漆器木质护腕垫</h3>
+      <p>为了减轻手腕的负担，我使用Faluber的漆器木质护腕垫（木质掌托，黑色）。即使长时间打字也不容易疲劳，移动也很顺滑，工作时间较长的日子也能保持舒适。</p>
+
+      <h3>鼠标：ATK FIERCE X</h3>
+      <p>鼠标方面，我在尝试了约50款之后，最终选定了手感最契合的ATK FIERCE X。我手比较小，操作鼠标时习惯抓握式（claw grip），很难找到适合这种握法和手掌大小的鼠标，因此试了相当多的型号。如果你和我一样手比较小、习惯抓握式，特别推荐这款鼠标。</p>
+
+      <div class="note-box">如果只凭“很受欢迎”“据说握感形状不错”这类理由选择鼠标，可能会不符合自己的手掌大小或握持方式。如果条件允许，建议实际拿在手里，确认是否符合自己的握持方式（掌握、抓握、指握）后再做选择。</div>
+
+      <h3>显示器：Titan Army 24.5英寸电竞显示器</h3>
+      <p>主显示器使用的是Titan Army的24.5英寸电竞显示器，笔记本电脑自身的屏幕则作为副显示器使用。工作时以这种双屏配置高效推进，打游戏时则切换为仅显示Titan Army这一台显示器。打游戏时如果同时渲染笔记本电脑的屏幕，会占用本应用于游戏的处理性能，因此游戏中让第二显示器（Titan Army）单独显示，把处理能力集中用于游戏。</p>
+
+      <h2>外出时是怎样的配置？</h2>
+      <p>外出时，我只携带这台笔记本电脑和罗技的MX Anywhere 3S For Business。搭载英特尔® 酷睿™ Ultra 9 处理器 386H的这台笔记本电脑续航非常出色，即使在外也能长时间工作而不用担心电量。做到了在最大限度精简携带物品的同时，不牺牲工作效率。</p>
+
+      <h2>这套设置的优点是？</h2>
+      <ul>
+        <li><strong>省空间</strong>：无需拥有固定的台式机，只在回家时切换为台式机级别的环境</li>
+        <li><strong>一根线的便捷</strong>：只需插拔一根Type-C线，多个外围设备就能统一切换</li>
+        <li><strong>按用途优化</strong>：工作时双屏、游戏时单屏，可根据场景切换处理能力的分配</li>
+        <li><strong>外出时的轻便</strong>：只要有笔记本电脑和移动鼠标，就能应对长时间工作</li>
+        <li><strong>游戏性能毫不妥协</strong>：得益于eGPU，几乎没有跑不动的最新游戏大作</li>
+      </ul>
+
+      <h2>总结</h2>
+      <p>“外出时想轻便、能长时间使用”与“在家想要毫不妥协的性能”，这两个看似矛盾的需求，通过笔记本电脑+eGPU+集成扩展坞的组合得以兼顾。不组装固定的台式机，而是以一台笔记本电脑为核心，通过一根线切换环境——这种选择特别推荐给追求省空间、灵活工作和娱乐方式的人。</p>
+
+      <div class="reveal">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <h3>Q. eGPU是什么？</h3>
+          <p>A. 这是一种外置显卡盒，平时携带轻便的笔记本电脑外出，只在需要时连接到固定放置的高性能显卡上，发挥出更强的性能。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 为什么一根Type-C线就能连接所有设备？</h3>
+          <p>A. 由于eGPU本体兼具键盘、显示器、鼠标、外置SSD的集线器功能，只需用一根Type-C线连接笔记本电脑和eGPU，其余设备就会随之统一联动生效。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 打游戏时应该同时使用笔记本电脑的屏幕吗？</h3>
+          <p>A. 打游戏时如果同时渲染笔记本电脑的屏幕，会占用本应用于游戏的处理性能，因此建议只用主显示器进行单屏显示。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 选鼠标时应该重视什么？</h3>
+          <p>A. 比起参数，更重要的是是否符合自己的手掌大小和握持方式（掌握、抓握、指握）。建议实际拿在手里确认后再选择。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 外出时是怎样的配置？</h3>
+          <p>A. 只携带笔记本电脑本体和移动鼠标（MX Anywhere 3S For Business）。只要笔记本电脑续航够好，仅凭这些就能应对长时间的工作。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・自组电脑100台以上经验／PADI认证潜水员）。详细简介请见<a href="/zh/#profile">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>延伸阅读</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/keyboard-mod-silent-typing.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>为深夜工作打造静音机械键盘</h2>
+          </a>
+          <a class="column-card" href="/zh/column/pc-parts-priority-cpu-memory-gpu.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>自组电脑中真正重要的配件是什么</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

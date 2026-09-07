@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>A Custom PC Horror Story | I Plugged In a GPU While the Power Was Still On, and It Exploded</title>
+<meta name="description" content="My worst mistake across 100+ custom PC builds: plugging a power cable into a graphics card while the PC was still on. Here's what actually happened, and the lesson that familiarity is more dangerous than inexperience.">
+<link rel="canonical" href="https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "A Custom PC Horror Story | I Plugged In a GPU While the Power Was Still On, and It Exploded",
+  "description": "The accident that happened when I plugged a power cable into a graphics card while the PC was still on, and the lesson I learned from it.",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-maintenance.jpg",
+  "author": { "@type": "Person", "name": "Yuichi Sato" },
+  "publisher": { "@type": "Person", "name": "Yuichi Sato" },
+  "mainEntityOfPage": "https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-07"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yuichi-sato.com/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Column", "item": "https://yuichi-sato.com/en/column/" },
+    { "@type": "ListItem", "position": 3, "name": "The Live-Power GPU Accident" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if I touch PC parts while the power is still on?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Current can flow into a live connector, risking damage to components or sparks with a loud bang. Always power the system off before working on it." }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the single most important safety step when building a PC?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Work with the power cable unplugged from the wall, or the switch on the power supply unit itself switched off." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are experienced people more prone to accidents like this?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The more experience you build up, the more moments arise where you're tempted to skip a basic step, thinking \"this should be fine.\" Sticking to the basics matters most exactly once you've gotten comfortable." }
+    },
+    {
+      "@type": "Question",
+      "name": "Did this avoid damaging the graphics card?",
+      "acceptedAnswer": { "@type": "Answer", "text": "In this accident, what broke was the power supply unit, but other parts like the graphics card could easily have been caught up in it too — looking back, it was a genuinely dangerous thing to do." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is static electricity protection just as important?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Static protection (using a wrist strap, or discharging by touching metal) is another basic worth keeping in mind alongside this, to avoid damaging parts." }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-build-power-explosion-mistake.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pc-build-power-explosion-mistake.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pc-build-power-explosion-mistake.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/en/#works">Apps</a>
+        <a href="/en/#books">Books</a>
+        <a href="/en/#profile">Profile</a>
+        <a href="/en/column/" class="is-active">Column</a>
+        <a href="/en/gear/">Gear</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/en/">Home</a> ＞ <a href="/en/column/">Column</a> ＞ The Live-Power GPU Accident</p>
+      <span class="article-tag">Custom PC</span>
+      <h1>A Custom PC Horror Story | I Plugged In a GPU While the Power Was Still On, and It Exploded</h1>
+      <p class="article-meta">Updated: September 7, 2026</p>
+      <p class="article-lead">If you asked me for my single worst mistake across 100+ custom PC builds, I wouldn't hesitate to name this one. I plugged an auxiliary power cable into a graphics card while the case's power was still on, and it genuinely "exploded" with a loud bang. It's obvious in hindsight — so why did I make a mistake like that? Here's what happened, and what I learned.</p>
+      <p><strong>In short, custom PC accidents tend to happen once you've gotten comfortable, not while you're still a beginner — and no amount of experience excuses skipping the basic step of powering the system off before working on it.</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>What Actually Happened?</h2>
+      <p>I once plugged an auxiliary power cable into a graphics card while the PC case's power was still switched on. Naturally, current forced its way into a live connector, and it genuinely "exploded" with a loud bang. What broke was the power supply unit (PSU), but thinking back on it, considering the graphics card and other parts could easily have been caught up in it too, it was a genuinely dangerous thing to do.</p>
+
+      <h2>Why Did I Make Such a Basic Mistake?</h2>
+      <p>Working with the power off is about as basic as basics get in custom PC building. I knew that perfectly well in my head. Even so, the root cause of this accident was the complacency of experience — thinking "this should be fine." Having built dozens, hundreds of PCs is exactly what creates moments where you skip a basic step. I learned the hard way that the most dangerous accidents happen right after you've forgotten a beginner's caution.</p>
+
+      <div class="note-box">The golden rule for custom PC work: always work with the power cable unplugged from the wall, or the switch on the power supply unit itself switched off. Don't assume "it's fine because I haven't pressed the power button" — as long as it's plugged into the wall, treat it as potentially live.</div>
+
+      <h2>What Did I Learn from This?</h2>
+      <ul>
+        <li><strong>Don't skip the basics just because you're used to it</strong>: the more years of experience you have, the more moments arise where you want to skip a basic step because "I already know this"</li>
+        <li><strong>Build a habit of always checking power state before working</strong>: going through the same steps ritually every time prevents careless mistakes</li>
+        <li><strong>Always power off for a part swap or upgrade, no matter how minor it feels</strong>: not skipping it "because it's just a small job" turns out to be the fastest path in the end</li>
+      </ul>
+
+      <h2>Summary</h2>
+      <p>My honest sense is that custom PC accidents happen more to people who've "gotten comfortable" than to beginners. Sticking to the basics is exactly what experienced people tend to forget — but not skipping them, even when it feels tedious, is the most important thing, both for the parts and for your own safety.</p>
+
+      <div class="cta-card reveal">
+        <img class="book-cover" src="../../assets/img/book-pc-maintenance.jpg" alt="Double Your Parts' Lifespan: The Complete Custom PC Maintenance & Troubleshooting Guide cover">
+        <h3>Double Your Parts' Lifespan: The Complete Custom PC Maintenance & Troubleshooting Guide</h3>
+        <p>A Kindle book by a pro with 100+ custom PC builds, covering the physical maintenance that extends your machine's lifespan and troubleshooting you can do yourself. (Japanese-language ebook.)</p>
+        <a class="amazon-badge" href="https://amzn.asia/d/0cEq9G5i?tag=yuttitti-22" target="_blank" rel="noopener">📖 Read on Kindle for ¥480</a>
+      </div>
+
+      <div class="reveal">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>Q. What happens if I touch PC parts while the power is still on?</h3>
+          <p>A. Current can flow into a live connector, risking damage to components or sparks with a loud bang. Always power the system off before working on it.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. What's the single most important safety step when building a PC?</h3>
+          <p>A. Work with the power cable unplugged from the wall, or the switch on the power supply unit itself switched off.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Why are experienced people more prone to accidents like this?</h3>
+          <p>A. The more experience you build up, the more moments arise where you're tempted to skip a basic step, thinking "this should be fine." Sticking to the basics matters most exactly once you've gotten comfortable.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Did this avoid damaging the graphics card?</h3>
+          <p>A. In this accident, what broke was the power supply unit, but other parts like the graphics card could easily have been caught up in it too — looking back, it was a genuinely dangerous thing to do.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Is static electricity protection just as important?</h3>
+          <p>A. Static protection (using a wrist strap, or discharging by touching metal) is another basic worth keeping in mind alongside this, to avoid damaging parts.</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>Author: Yuichi Sato</strong> (Entrepreneur, has built 100+ custom PCs / PADI Certified Diver). Full profile <a href="/en/#profile">here</a>.
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>You might also like</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/en/column/keyboard-mod-silent-typing.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>A Silent Mechanical Keyboard Build for Late-Night Work</h2>
+          </a>
+          <a class="column-card" href="/en/column/portable-egpu-desk-setup.html">
+            <span class="column-card-tag">Custom PC</span>
+            <h2>A Laptop + eGPU Setup for the Ultimate Space-Saving Desk</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato &middot; <a href="/en/privacy/">Privacy Policy</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>
