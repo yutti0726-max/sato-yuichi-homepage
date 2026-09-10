@@ -1,885 +1,1474 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yuichi-sato.com/privacy/</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/privacy/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/privacy/</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/privacy/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/privacy/</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/privacy/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/gear/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/gear/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/gear/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/gear/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/gear/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/gear/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/gear/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/gear/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/gear/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/gear/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/gear/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/gear/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/gear/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/gear/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/gear/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-license-guide.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-ear-equalizing-tips.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-beginner-gear-guide.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-rescue-diver-guide.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-glossary.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-glossary.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-after-dive-safety.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-marine-life-encounters.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-prescription-mask-guide.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-seasickness-remedy.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-weight-fin-adjustment.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-underwater-photography.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/keyboard-mod-silent-typing.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/portable-egpu-desk-setup.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-case-airflow-build-planning.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-video-compress.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-encode-guide.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-image-convert.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-image-resize.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-audio-extract.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-android-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-split-guide.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-merge-compress.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-scan-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-signature-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-widget-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/readshot-screenshot-text-copy.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-video-compress.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-video-compress.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-video-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-mp4-convert.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-mp4-convert.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-encode-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-encode-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-encode-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-audio-extract.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-audio-extract.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-audio-extract.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-image-convert.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-image-convert.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-image-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-image-resize.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-image-resize.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-image-resize.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-pdf-to-image.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-pdf-to-image.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/mediatoolbox-pdf-to-image.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-merge-compress.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-merge-compress.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-merge-compress.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-image-to-pdf.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-image-to-pdf.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-image-to-pdf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-android-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-ocr-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-ocr-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-split-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-split-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-split-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-scan-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-scan-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-scan-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-rotate-extract-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-rotate-extract-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-rotate-extract-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-signature-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-signature-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-signature-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-guide.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-guide.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-battery-permission-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-battery-permission-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-battery-permission-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-widget-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-widget-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-widget-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-motivation-titles-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-motivation-titles-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/seniorpedometer-motivation-titles-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/readshot-screenshot-text-copy.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/readshot-screenshot-text-copy.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/readshot-screenshot-text-copy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/keyboard-mod-silent-typing.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/keyboard-mod-silent-typing.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/keyboard-mod-silent-typing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-audio-soundcard-headphones.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-input-devices-fit-over-spec.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-input-devices-fit-over-spec.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-input-devices-fit-over-spec.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-parts-priority-cpu-memory-gpu.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-parts-priority-cpu-memory-gpu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-license-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-license-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-license-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-ear-equalizing-tips.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-ear-equalizing-tips.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-ear-equalizing-tips.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-beginner-gear-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-beginner-gear-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-beginner-gear-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-spots-kerama-shakotan.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-spots-kerama-shakotan.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-spots-kerama-shakotan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-rescue-diver-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-rescue-diver-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-rescue-diver-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-glossary.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-glossary.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-glossary.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-glossary.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-after-dive-safety.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-after-dive-safety.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-after-dive-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-marine-life-encounters.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-marine-life-encounters.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-marine-life-encounters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-prescription-mask-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-prescription-mask-guide.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-prescription-mask-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-seasickness-remedy.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-seasickness-remedy.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-seasickness-remedy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-equipment-trouble-trust-instructor.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-equipment-trouble-trust-instructor.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-equipment-trouble-trust-instructor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-weight-fin-adjustment.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-weight-fin-adjustment.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-weight-fin-adjustment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-underwater-photography.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-underwater-photography.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-underwater-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-underwater-video-mp4-convert.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-underwater-video-mp4-convert.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/diving-underwater-video-mp4-convert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/golf-consistent-scoring-without-practice.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/golf-consistent-scoring-without-practice.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/golf-consistent-scoring-without-practice.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/dance-breakdance-rhythm-tone-deaf.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/dance-breakdance-rhythm-tone-deaf.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/dance-breakdance-rhythm-tone-deaf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/darts-barrel-selection-grouping-mental.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/darts-barrel-selection-grouping-mental.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/darts-barrel-selection-grouping-mental.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/billiards-home-table-cue-ball-control.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/billiards-home-table-cue-ball-control.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/billiards-home-table-cue-ball-control.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
   </url>
 </urlset>

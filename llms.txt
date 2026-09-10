@@ -1,0 +1,103 @@
+# Yuichi Sato (佐藤雄一) — Android apps, practical Kindle guides, and how-to columns
+
+> Personal site of Yuichi Sato, an entrepreneur and Android app developer based in
+> Hokkaido, Japan. The site publishes free Android utility apps, practical Kindle
+> books, and a large library of how-to columns on smartphone file conversion, PDF
+> editing, PC building, scuba diving, and hobbies. Every page is available in
+> Japanese (default), English (/en/), and Simplified Chinese (/zh/) with matching
+> hreflang. Canonical host: https://yuichi-sato.com
+
+## Key pages
+
+- [Home / app lineup](https://yuichi-sato.com/): overview of all apps, books, and profile
+- [Columns index](https://yuichi-sato.com/column/): full how-to article library
+- [Recommended gear](https://yuichi-sato.com/gear/): PC, keyboard, monitor and desk-setup picks
+- [Privacy policy](https://yuichi-sato.com/privacy/)
+- English home: https://yuichi-sato.com/en/  ·  Chinese home: https://yuichi-sato.com/zh/
+
+## Apps (all free, Android)
+
+- [MediaToolbox](https://play.google.com/store/apps/details?id=com.satoyuichi.mediatoolbox): video/image/audio/PDF converter — resize video to MP4, resize images, extract audio to M4A, PDF↔image
+- [PDF Toolkit](https://play.google.com/store/apps/details?id=com.snaptools.pdfkit): scan to PDF, merge/split/compress, OCR text recognition, rotate/extract pages, handwritten signature
+- [Rakuraku Step Counter / らくらく歩数計](https://play.google.com/store/apps/details?id=com.yutti.seniorpedometer): automatic step tracking designed for seniors, no button operation
+- [Readshot](https://play.google.com/store/apps/details?id=com.snaptools.readshot): screenshot manager with built-in OCR — copy text from any screenshot instantly
+- [HagLog / ハグログ](https://play.google.com/store/apps/details?id=com.snaptools.haglog): digital baby record book — photo diary, growth records, hand/footprints, printable memory PDF
+
+## Books (Kindle)
+
+- MY 100 DIVES: fill-in scuba diving logbook (depth, temperature, pressure, weight, visibility, sign-off) — https://amzn.asia/d/0fyPEuUH
+- The "Golden Ratio" PC Build Bible [2026 Edition]: no-waste parts selection from someone who has built 100+ PCs — https://amzn.asia/d/03SI9M8q
+- Self-build PC Maintenance & Troubleshooting: double your machine's lifespan — https://amzn.asia/d/0cEq9G5i
+- No More Leasing: cut cost with self-built PCs and self-maintenance for startups and sole proprietors — https://amzn.asia/d/0jjHObPt
+
+## Columns — smartphone file conversion (MediaToolbox)
+
+- [Compress a video's file size on your phone](https://yuichi-sato.com/column/mediatoolbox-video-compress.html)
+- [Convert a video to MP4 on your phone](https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html)
+- [How to encode / convert video on a phone](https://yuichi-sato.com/column/mediatoolbox-encode-guide.html)
+- [Extract audio only from a video (M4A)](https://yuichi-sato.com/column/mediatoolbox-audio-extract.html)
+- [Convert images to JPEG / PNG / WEBP](https://yuichi-sato.com/column/mediatoolbox-image-convert.html)
+- [Resize an image to any width/height](https://yuichi-sato.com/column/mediatoolbox-image-resize.html)
+- [Convert a PDF to images (JPEG/PNG)](https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html)
+
+## Columns — PDF editing on Android (PDF Toolkit)
+
+- [Edit PDFs on Android — merge, split, compress, OCR, sign in one app](https://yuichi-sato.com/column/pdftoolkit-android-guide.html)
+- [Scan paper documents to PDF with auto-crop and deskew](https://yuichi-sato.com/column/pdftoolkit-scan-guide.html)
+- [Merge and compress PDFs on a phone with free apps only](https://yuichi-sato.com/column/pdftoolkit-merge-compress.html)
+- [Split a PDF — extract just the pages you need](https://yuichi-sato.com/column/pdftoolkit-split-guide.html)
+- [Make PDF text searchable and copyable with OCR](https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html)
+- [Rotate and extract PDF pages](https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html)
+- [Add a handwritten signature to a PDF](https://yuichi-sato.com/column/pdftoolkit-signature-guide.html)
+- [Convert photos into a single PDF for submission](https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html)
+
+## Columns — step counter app (Rakuraku Step Counter)
+
+- [How to choose a step-counter app for seniors](https://yuichi-sato.com/column/seniorpedometer-guide.html)
+- [Do step-counter apps drain the battery? Why "physical activity" permission is needed](https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html)
+- [Put a step-counter widget on your home screen](https://yuichi-sato.com/column/seniorpedometer-widget-guide.html)
+- [Tips to keep walking — titles, notifications, and records that beat giving up](https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html)
+
+## Columns — screenshot OCR (Readshot)
+
+- [Copy text from a screenshot in a second](https://yuichi-sato.com/column/readshot-screenshot-text-copy.html)
+
+## Columns — scuba diving
+
+- [How to get a PADI C-card (diving licence) — cost, steps, first-hand account](https://yuichi-sato.com/column/diving-license-guide.html)
+- [Ear equalizing tips — how to do it without pain](https://yuichi-sato.com/column/diving-ear-equalizing-tips.html)
+- [Beginner's diving gear guide — what to buy vs. what to rent](https://yuichi-sato.com/column/diving-beginner-gear-guide.html)
+- [Best domestic dive spots — Kerama Islands vs. Shakotan Peninsula compared](https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html)
+- [What is a Rescue Diver? What the certification covers](https://yuichi-sato.com/column/diving-rescue-diver-guide.html)
+- [Diving glossary — basic terms for beginners](https://yuichi-sato.com/column/diving-glossary.html)
+- [What to watch out for after a dive — time before flying, condition management](https://yuichi-sato.com/column/diving-after-dive-safety.html)
+- [Marine life encountered at Kerama and Shakotan — whales, whitetip sharks, tuna, sea lions, turtles](https://yuichi-sato.com/column/diving-marine-life-encounters.html)
+- [Choosing a prescription dive mask — clear vision even with astigmatism or poor eyesight](https://yuichi-sato.com/column/diving-prescription-mask-guide.html)
+- [Seasickness remedies for diving — beating it with Aneron](https://yuichi-sato.com/column/diving-seasickness-remedy.html)
+- [Equipment trouble mid-dive — why trusting your instructor matters](https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html)
+- [Finding your correct weight and choosing fins](https://yuichi-sato.com/column/diving-weight-fin-adjustment.html)
+- [How to shoot underwater photos — using the Insta360 Ace 2 Pro](https://yuichi-sato.com/column/diving-underwater-photography.html)
+- [Convert and compress underwater dive video to MP4 on a phone](https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html)
+
+## Columns — PC building
+
+- [Which PC parts actually matter — the limits of the GPU, and why CPU and memory count](https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html)
+- [PC build failure story — exploding a GPU by plugging a cable in while powered on](https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html)
+- [PC case selection mistakes — airflow and cable planning matter more than looks](https://yuichi-sato.com/column/pc-case-airflow-build-planning.html)
+- [Mouse and keyboard: "fit" over "spec"](https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html)
+- [Solving PC audio problems — sound-board noise and headphone use](https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html)
+- [Building a silent mechanical keyboard for late-night work — Keychron Q3 Ultra 8K custom](https://yuichi-sato.com/column/keyboard-mod-silent-typing.html)
+- [Laptop + eGPU: a space-saving desk setup connected by a single USB-C cable](https://yuichi-sato.com/column/portable-egpu-desk-setup.html)
+
+## Columns — hobbies
+
+- [Breaking 100 in golf consistently without practice — what matters more than distance](https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html)
+- [You can improve at dance even with no sense of rhythm — breakdancing since high school](https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html)
+- [Darts improvement is mental plus barrel selection — daily grouping practice](https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html)
+- [Installing a billiard table at home — cue-ball control is the foundation](https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html)
+
+## Optional
+
+- Full URL list (all languages): https://yuichi-sato.com/sitemap.xml
+- English column index: https://yuichi-sato.com/en/column/
+- Chinese column index: https://yuichi-sato.com/zh/column/
