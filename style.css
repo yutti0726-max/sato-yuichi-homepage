@@ -656,6 +656,9 @@ a {
 
 .app-screenshots img {
   height: 320px;
+  /* HTML側の width/height 属性はレイアウトずれ防止の比率指定なので、
+     幅は高さに合わせて自動計算させる（属性値をそのまま使わせない）。 */
+  width: auto;
   border-radius: 12px;
   border: 1px solid var(--border);
   flex-shrink: 0;
