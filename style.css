@@ -255,8 +255,10 @@ a {
 }
 
 @media (max-width: 719px) {
+  /* Nav links are always visible below the header on mobile now (see
+     .header-right below) — the hamburger toggle is no longer needed. */
   .nav-toggle {
-    display: flex;
+    display: none;
   }
 
   .header-inner {
@@ -269,33 +271,24 @@ a {
 
   .header-right {
     flex-basis: 100%;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-  }
-
-  .header-right.is-open {
-    max-height: 400px;
     margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
   }
 
   .site-header nav {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
   }
 
   .site-header nav a {
-    padding: 12px 4px;
-    border-radius: 0;
-    border-bottom: 1px solid var(--border);
+    padding: 8px 14px;
+    font-size: 0.88rem;
   }
 
-  .site-header nav a:last-child {
-    border-bottom: none;
+  .gear-section-title {
+    scroll-margin-top: 190px;
   }
 }
 
@@ -863,6 +856,32 @@ a {
   color: var(--text-muted);
 }
 
+.column-jumpnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.column-jumpnav a {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.column-jumpnav a:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 .column-list {
   display: flex;
   flex-direction: column;
@@ -1116,6 +1135,7 @@ a {
   margin: 40px 0 16px;
   padding-bottom: 8px;
   border-bottom: 2px solid var(--border);
+  scroll-margin-top: 90px;
 }
 
 .gear-grid {
