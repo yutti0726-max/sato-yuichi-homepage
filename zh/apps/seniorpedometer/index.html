@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>轻松计步器｜无需按键操作的老年人友好计步应用</title>
+<meta name="description" content="无需按键操作，自动记录步数，专为老年人设计的贴心计步应用「轻松计步器」。了解详细功能与使用方法，称号系统与目标达成提醒让坚持步行更容易。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/apps/seniorpedometer/">
+<link rel="stylesheet" href="../../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/seniorpedometer/">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/seniorpedometer/">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/seniorpedometer/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuichi-sato.com/zh/apps/seniorpedometer/">
+<meta property="og:title" content="轻松计步器｜无需按键操作的老年人友好计步应用">
+<meta property="og:description" content="无需按键操作，自动记录步数，专为老年人设计的贴心计步应用「轻松计步器」。了解详细功能与使用方法，称号系统与目标达成提醒让坚持步行更容易。">
+<meta property="og:site_name" content="佐藤雄一">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="轻松计步器｜无需按键操作的老年人友好计步应用">
+<meta name="twitter:description" content="无需按键操作，自动记录步数，专为老年人设计的贴心计步应用「轻松计步器」。了解详细功能与使用方法，称号系统与目标达成提醒让坚持步行更容易。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "轻松计步器",
+  "url": "https://yuichi-sato.com/zh/apps/seniorpedometer/",
+  "image": "https://yuichi-sato.com/assets/img/seniorpedometer-icon.png",
+  "description": "无需按键操作，自动记录步数，专为老年人设计的贴心计步应用。",
+  "operatingSystem": "Android",
+  "applicationCategory": "HealthApplication",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "应用", "item": "https://yuichi-sato.com/zh/#works" },
+    { "@type": "ListItem", "position": 3, "name": "轻松计步器" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "轻松计步器可以免费使用吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。可从Google Play免费下载使用。" }
+    },
+    {
+      "@type": "Question",
+      "name": "不每天打开应用也能记录步数吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。即使不打开应用，也会在后台自动记录步数。" }
+    },
+    {
+      "@type": "Question",
+      "name": "可以在主屏幕上确认步数吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。主屏幕小组件会以大字体显示今日步数和消耗卡路里，尺寸也可调整。" }
+    },
+    {
+      "@type": "Question",
+      "name": "有没有帮助坚持下去的功能？",
+      "acceptedAnswer": { "@type": "Answer", "text": "有。根据步行距离升级的称号系统，以及达成当日目标步数时的通知功能。" }
+    },
+    {
+      "@type": "Question",
+      "name": "可以帮父母或祖父母设置吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。只需授予一个权限即可自动开始记录，操作简单，家人也可以代为设置。" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/apps/seniorpedometer/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/apps/seniorpedometer/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/apps/seniorpedometer/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/#profile">个人简介</a>
+        <a href="/zh/column/">专栏</a>
+        <a href="/zh/gear/">推荐器材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/#works">应用</a> ＞ 轻松计步器</p>
+      <span class="article-tag">健康・应用</span>
+      <h1>轻松计步器｜无需按键操作的老年人友好计步应用</h1>
+      <p class="article-meta">更新日期：2026年9月14日</p>
+      <p class="article-lead">是否曾经安装过计步应用，却因为操作复杂而没能坚持下去？轻松计步器无需任何按键操作，自动记录步数，专为老年人设计，使用起来更轻松。</p>
+      <p><strong>简单来说，安装后授予权限，之后只需随身携带手机，步数就会自动记录。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../../../assets/img/seniorpedometer-icon.png" alt="轻松计步器 图标" width="252" height="252" loading="lazy" decoding="async">
+        <h3>轻松计步器</h3>
+        <p>无需按键操作，自动记录步数，专为老年人设计的贴心计步应用。本人使用方便，家人代为设置也同样简单。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.yutti.seniorpedometer" target="_blank" rel="noopener">📲 免费下载</a>
+      </div>
+
+      <h2>适合什么样的人？</h2>
+      <p>以下情况适合使用轻松计步器。</p>
+      <ul>
+        <li>曾经尝试过计步应用，但操作太复杂没能坚持</li>
+        <li>希望不打开应用也能自动记录步数</li>
+        <li>希望在主屏幕上一目了然地确认今日步数</li>
+        <li>希望有一些动力来坚持步行</li>
+        <li>想为异地生活的父母或祖父母设置计步应用的家人</li>
+      </ul>
+
+      <h2>主要功能</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>功能</th><th>可以做什么</th></tr></thead>
+          <tbody>
+            <tr><td>自动计步</td><td>无需打开应用，后台自动记录步数</td></tr>
+            <tr><td>主屏幕小组件</td><td>以大字体显示今日步数和消耗卡路里，尺寸可调整</td></tr>
+            <tr><td>称号系统</td><td>根据步行距离升级称号，以「从东京走遍日本列岛」为目标的游戏化设计</td></tr>
+            <tr><td>目标达成提醒</td><td>3,000／5,000／8,000／10,000／15,000步等，当日目标达成时会收到通知</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="../../../assets/img/seniorpedometer-1-main.png" alt="轻松计步器 主画面截图" width="384" height="834" loading="lazy" decoding="async">
+        <img src="../../../assets/img/seniorpedometer-2-titles.png" alt="轻松计步器 称号列表画面截图" width="384" height="834" loading="lazy" decoding="async">
+      </div>
+
+      <h2>使用流程</h2>
+      <p>安装后，只需授予计步所需的权限(身体活动)即可完成设置。之后只要随身携带手机，步数就会自动记录。将小组件添加到主屏幕后，无需打开应用也能一目了然地查看今日步数。</p>
+
+      <div class="note-box">轻松计步器是Android专用应用，不支持iPhone(iOS)。</div>
+
+      <h2>常见问题</h2>
+      <div class="faq-item">
+        <h3>Q. 轻松计步器可以免费使用吗？</h3>
+        <p>A. 可以。可从Google Play免费下载使用。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 不每天打开应用也能记录步数吗？</h3>
+        <p>A. 可以。即使不打开应用，也会在后台自动记录步数。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 可以在主屏幕上确认步数吗？</h3>
+        <p>A. 可以。主屏幕小组件会以大字体显示今日步数和消耗卡路里，尺寸也可调整。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 有没有帮助坚持下去的功能？</h3>
+        <p>A. 有。根据步行距离升级的称号系统，以及达成当日目标步数时的通知功能。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 可以帮父母或祖父母设置吗？</h3>
+        <p>A. 可以。只需授予一个权限即可自动开始记录，操作简单，家人也可以代为设置。</p>
+      </div>
+
+      <div class="cta-card reveal">
+        <h3>希望轻松坚持步行？</h3>
+        <p>无需复杂操作，只需随身携带手机。本人设置或家人代为设置都同样简单。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.yutti.seniorpedometer" target="_blank" rel="noopener">📲 免费下载</a>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・应用开发者）。详细个人简介请见<a href="/zh/#profile">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>各功能的详细使用方法</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/seniorpedometer-guide.html">
+            <span class="column-card-tag">健康・应用</span>
+            <h2>如何为老年人挑选计步器应用</h2>
+          </a>
+          <a class="column-card" href="/zh/column/seniorpedometer-battery-permission-guide.html">
+            <span class="column-card-tag">健康・应用</span>
+            <h2>计步器应用会消耗电池吗？</h2>
+          </a>
+          <a class="column-card" href="/zh/column/seniorpedometer-widget-guide.html">
+            <span class="column-card-tag">健康・应用</span>
+            <h2>如何将计步器小组件添加到主屏幕</h2>
+          </a>
+          <a class="column-card" href="/zh/column/seniorpedometer-motivation-titles-guide.html">
+            <span class="column-card-tag">健康・应用</span>
+            <h2>坚持步行的诀窍</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../../script.js"></script>
+</body>
+</html>

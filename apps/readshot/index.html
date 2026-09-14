@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ</title>
+<meta name="description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・URLはタップでブラウザが開く・端末内処理でプライバシーも安心。">
+<link rel="canonical" href="https://yuichi-sato.com/apps/readshot/">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/readshot/">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/readshot/">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/readshot/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuichi-sato.com/apps/readshot/">
+<meta property="og:title" content="Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ">
+<meta property="og:description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・URLはタップでブラウザが開く・端末内処理でプライバシーも安心。">
+<meta property="og:site_name" content="佐藤雄一 公式サイト">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ">
+<meta name="twitter:description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・URLはタップでブラウザが開く・端末内処理でプライバシーも安心。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Readshot",
+  "url": "https://yuichi-sato.com/apps/readshot/",
+  "image": "https://yuichi-sato.com/assets/img/readshot-icon.png",
+  "description": "スクリーンショットを撮るだけで自動的に文字を読み取る、OCR内蔵のスクリーンショット管理アプリ。",
+  "operatingSystem": "Android",
+  "applicationCategory": "UtilitiesApplication",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
+    { "@type": "ListItem", "position": 2, "name": "アプリ", "item": "https://yuichi-sato.com/#works" },
+    { "@type": "ListItem", "position": 3, "name": "Readshot" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "スクショの文字はどうやってコピーしますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "スクリーンショットを撮った瞬間に自動で文字認識(OCR)が実行され、結果がすぐポップアップ表示されます。範囲をドラッグして選べばその部分だけ、選ばなければ全文をコピー・共有できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "文字を読み取ったスクショの中にURLがあったらどうなりますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "認識した文章中のURLは自動でリンク化され、タップするとそのままブラウザが開きます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "過去のスクショの認識結果を見返せますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "見返せます。履歴一覧から過去に撮ったスクリーンショットの認識結果をあとから確認できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "認識した文字や画像は外部に送信されますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "送信されません。文字認識はすべて端末内で処理され、画像や認識テキストが外部サーバーに送られることはありません。" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="ja" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/apps/readshot/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/apps/readshot/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/apps/readshot/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/#works">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/#profile">プロフィール</a>
+        <a href="/column/">コラム</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/#works">アプリ</a> ＞ Readshot</p>
+      <span class="article-tag">スクショ・アプリ</span>
+      <h1>Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ</h1>
+      <p class="article-meta">更新日：2026年9月14日</p>
+      <p class="article-lead">画面に表示された文字を手入力し直すのは面倒です。Readshotは、スクリーンショットを撮った瞬間に自動で文字を認識(OCR)し、そのままコピー・共有できるアプリです。</p>
+      <p><strong>結論から言うと、スクショを撮るだけで、画面上の文字を手入力せずにコピーできるようになります。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../../assets/img/readshot-icon.png" alt="Readshot アイコン" width="252" height="252" loading="lazy" decoding="async">
+        <h3>Readshot</h3>
+        <p>スクリーンショットを撮るだけで自動的に文字を読み取る、OCR内蔵のスクリーンショット管理アプリ。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.readshot" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+        <p class="app-note">※ 現在公開準備中のため、公開までリンク先が表示されない場合があります。</p>
+      </div>
+
+      <h2>どんな人におすすめですか？</h2>
+      <p>次のような場面が多い方に向いています。</p>
+      <ul>
+        <li>画面に表示された文字を、手入力でメモし直すのが面倒</li>
+        <li>スクショの中のURLを、いちいち検索し直している</li>
+        <li>過去に撮ったスクショの内容を、あとから探し出すのが大変</li>
+        <li>撮りっぱなしでスクショが溜まっていく端末の写真フォルダを整理したい</li>
+      </ul>
+
+      <h2>主な機能</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>機能</th><th>できること</th></tr></thead>
+          <tbody>
+            <tr><td>自動検知＋その場でOCR</td><td>スクリーンショットを撮った瞬間に自動で検知し、端末内で文字認識(OCR)を実行。結果をすぐポップアップ表示</td></tr>
+            <tr><td>好きな部分だけコピー・共有</td><td>認識した文字は範囲をドラッグで選んでコピー・共有(範囲選択しなければ全文コピー)</td></tr>
+            <tr><td>URLはタップでブラウザが開く</td><td>認識した文章中のURLは自動でリンク化され、タップでそのままブラウザが開く</td></tr>
+            <tr><td>履歴一覧</td><td>過去に撮ったスクリーンショットの認識結果を、あとから一覧で見返せる</td></tr>
+            <tr><td>個別削除・一括クリーンアップ</td><td>履歴だけでなく、端末に保存されているスクリーンショット画像本体もまとめて削除・整理できる</td></tr>
+            <tr><td>メモ機能</td><td>自由に文字を書き込んだり、コピーした文章を貼り付けて保存できるメモ帳(URLのタップにも対応)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>使い方の流れ</h2>
+      <p>いつもどおりスマホでスクリーンショットを撮るだけです。撮影を検知すると自動でOCRが実行され、結果がポップアップ表示されます。文字が正しく認識されたら、そのままコピーまたは共有できます。</p>
+
+      <div class="note-box">文字認識はすべて端末内で処理され、画像や認識テキストが外部サーバーに送信されることはありません。ReadshotはAndroid専用アプリです。</div>
+
+      <h2>よくある質問</h2>
+      <div class="faq-item">
+        <h3>Q. スクショの文字はどうやってコピーしますか？</h3>
+        <p>A. スクリーンショットを撮った瞬間に自動で文字認識(OCR)が実行され、結果がすぐポップアップ表示されます。範囲をドラッグして選べばその部分だけ、選ばなければ全文をコピー・共有できます。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 文字を読み取ったスクショの中にURLがあったらどうなりますか？</h3>
+        <p>A. 認識した文章中のURLは自動でリンク化され、タップするとそのままブラウザが開きます。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 過去のスクショの認識結果を見返せますか？</h3>
+        <p>A. 見返せます。履歴一覧から過去に撮ったスクリーンショットの認識結果をあとから確認できます。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 認識した文字や画像は外部に送信されますか？</h3>
+        <p>A. 送信されません。文字認識はすべて端末内で処理され、画像や認識テキストが外部サーバーに送られることはありません。</p>
+      </div>
+
+      <div class="cta-card reveal">
+        <h3>スクショの文字入力をなくしたい方へ</h3>
+        <p>手入力の手間を減らしたい方へ — Readshotなら、撮った瞬間に文字がコピーできる状態になります。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.readshot" target="_blank" rel="noopener">📲 無料でダウンロード</a>
+        <p class="app-note">※ 現在公開準備中のため、公開までリンク先が表示されない場合があります。</p>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・アプリ開発者）。詳しいプロフィールは<a href="/#profile">こちら</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>あわせて読みたい</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/column/readshot-screenshot-text-copy.html">
+            <span class="column-card-tag">スクショ・アプリ</span>
+            <h2>スクリーンショットの文字を一瞬でコピーする方法</h2>
+          </a>
+          <a class="column-card" href="/column/pdftoolkit-ocr-guide.html">
+            <span class="column-card-tag">PDF・アプリ</span>
+            <h2>PDFの文字を検索・コピーできるようにする方法</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/privacy/">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>Readshot｜截图即可自动识别文字的OCR应用</title>
+<meta name="description" content="只需截图，Readshot就会自动识别文字。可只复制需要的部分，URL点击即可打开，所有处理均在设备本地完成以保护隐私。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/apps/readshot/">
+<link rel="stylesheet" href="../../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/readshot/">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/readshot/">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/readshot/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuichi-sato.com/zh/apps/readshot/">
+<meta property="og:title" content="Readshot｜截图即可自动识别文字的OCR应用">
+<meta property="og:description" content="只需截图，Readshot就会自动识别文字。可只复制需要的部分，URL点击即可打开，所有处理均在设备本地完成以保护隐私。">
+<meta property="og:site_name" content="佐藤雄一">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Readshot｜截图即可自动识别文字的OCR应用">
+<meta name="twitter:description" content="只需截图，Readshot就会自动识别文字。可只复制需要的部分，URL点击即可打开，所有处理均在设备本地完成以保护隐私。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Readshot",
+  "url": "https://yuichi-sato.com/zh/apps/readshot/",
+  "image": "https://yuichi-sato.com/assets/img/readshot-icon.png",
+  "description": "只需拍摄截图，即可自动识别文字的OCR内置截图管理应用。",
+  "operatingSystem": "Android",
+  "applicationCategory": "UtilitiesApplication",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "应用", "item": "https://yuichi-sato.com/zh/#works" },
+    { "@type": "ListItem", "position": 3, "name": "Readshot" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "如何复制截图中的文字？",
+      "acceptedAnswer": { "@type": "Answer", "text": "截图的瞬间会自动执行文字识别(OCR)，结果立即弹窗显示。拖动选择需要的部分即可复制或分享，不选择范围则复制全文。" }
+    },
+    {
+      "@type": "Question",
+      "name": "截图中如果有URL会怎样？",
+      "acceptedAnswer": { "@type": "Answer", "text": "识别出的文字中的URL会自动转为链接，点击即可直接打开浏览器。" }
+    },
+    {
+      "@type": "Question",
+      "name": "可以查看过去截图的识别结果吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。通过历史记录列表可以随时查看过去截图的识别结果。" }
+    },
+    {
+      "@type": "Question",
+      "name": "识别的文字或图片会被发送到外部吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "不会。文字识别完全在设备本地完成，图片和识别文本不会发送至外部服务器。" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/apps/readshot/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/apps/readshot/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/apps/readshot/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/#profile">个人简介</a>
+        <a href="/zh/column/">专栏</a>
+        <a href="/zh/gear/">推荐器材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/#works">应用</a> ＞ Readshot</p>
+      <span class="article-tag">截图・应用</span>
+      <h1>Readshot｜截图即可自动识别文字的OCR应用</h1>
+      <p class="article-meta">更新日期：2026年9月14日</p>
+      <p class="article-lead">手动重新输入屏幕上显示的文字很麻烦。Readshot会在截图的瞬间自动识别文字(OCR)，可以直接复制或分享。</p>
+      <p><strong>简单来说，只需截图，屏幕上的文字无需手动输入即可复制。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../../../assets/img/readshot-icon.png" alt="Readshot 图标" width="252" height="252" loading="lazy" decoding="async">
+        <h3>Readshot</h3>
+        <p>只需拍摄截图，即可自动识别文字的OCR内置截图管理应用。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.readshot" target="_blank" rel="noopener">📲 免费下载</a>
+        <p class="app-note">※ 目前处于上线准备阶段，正式上线前链接可能暂时无法显示。</p>
+      </div>
+
+      <h2>适合什么样的人？</h2>
+      <p>以下情况适合使用Readshot。</p>
+      <ul>
+        <li>经常需要手动重新输入屏幕上显示的文字</li>
+        <li>每次都要重新搜索截图中出现的URL</li>
+        <li>事后很难从大量截图中找到需要的内容</li>
+        <li>想整理越积越多的截图照片</li>
+      </ul>
+
+      <h2>主要功能</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>功能</th><th>可以做什么</th></tr></thead>
+          <tbody>
+            <tr><td>自动检测＋即时OCR</td><td>截图的瞬间自动检测并在设备本地完成文字识别(OCR)，结果立即弹窗显示</td></tr>
+            <tr><td>仅复制/分享所需部分</td><td>拖动选择需要的文字范围进行复制或分享(不选择范围则复制全文)</td></tr>
+            <tr><td>URL点击即可打开浏览器</td><td>识别文字中的URL会自动转为链接，点击即可直接打开浏览器</td></tr>
+            <tr><td>历史记录列表</td><td>可随时查看过去截图的识别结果列表</td></tr>
+            <tr><td>单独删除・批量清理</td><td>不仅是记录，保存在设备中的截图图片本身也可一并删除整理</td></tr>
+            <tr><td>备忘录功能</td><td>可自由书写文字，或粘贴复制的内容保存(其中的URL同样可点击打开)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>使用流程</h2>
+      <p>只需像平时一样截图。Readshot会自动检测并执行OCR，弹出识别结果。文字识别正确后，即可直接复制或分享。</p>
+
+      <div class="note-box">文字识别完全在设备本地完成，图片和识别文本不会发送至外部服务器。Readshot是Android专用应用。</div>
+
+      <h2>常见问题</h2>
+      <div class="faq-item">
+        <h3>Q. 如何复制截图中的文字？</h3>
+        <p>A. 截图的瞬间会自动执行文字识别(OCR)，结果立即弹窗显示。拖动选择需要的部分即可复制或分享，不选择范围则复制全文。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 截图中如果有URL会怎样？</h3>
+        <p>A. 识别出的文字中的URL会自动转为链接，点击即可直接打开浏览器。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 可以查看过去截图的识别结果吗？</h3>
+        <p>A. 可以。通过历史记录列表可以随时查看过去截图的识别结果。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 识别的文字或图片会被发送到外部吗？</h3>
+        <p>A. 不会。文字识别完全在设备本地完成，图片和识别文本不会发送至外部服务器。</p>
+      </div>
+
+      <div class="cta-card reveal">
+        <h3>厌倦了手动重新输入截图中的文字？</h3>
+        <p>省去手动输入的麻烦——用Readshot，截图的瞬间文字就已经可以复制了。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.readshot" target="_blank" rel="noopener">📲 免费下载</a>
+        <p class="app-note">※ 目前处于上线准备阶段，正式上线前链接可能暂时无法显示。</p>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・应用开发者）。详细个人简介请见<a href="/zh/#profile">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>相关推荐</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/readshot-screenshot-text-copy.html">
+            <span class="column-card-tag">截图・应用</span>
+            <h2>如何瞬间复制截图中的文字</h2>
+          </a>
+          <a class="column-card" href="/zh/column/pdftoolkit-ocr-guide.html">
+            <span class="column-card-tag">PDF・应用</span>
+            <h2>如何让PDF文字可以搜索与复制</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../../script.js"></script>
+</body>
+</html>
