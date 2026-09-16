@@ -11,6 +11,8 @@
   --amazon-dark: #9c611a;
   --rakuten: #bf0000;
   --rakuten-dark: #8f0000;
+  --garmin: #9c7a2e;
+  --garmin-dark: #7a5f22;
   --max-width: 880px;
 }
 
@@ -781,6 +783,30 @@ a {
 }
 
 .amazon-badge:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.garmin-badge {
+  display: inline-block;
+  align-self: flex-start;
+  background: var(--garmin);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 14px rgba(156, 122, 46, 0.25);
+  transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.garmin-badge:hover {
+  background: var(--garmin-dark);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 10px 22px rgba(156, 122, 46, 0.3);
+}
+
+.garmin-badge:active {
   transform: translateY(0) scale(0.97);
 }
 

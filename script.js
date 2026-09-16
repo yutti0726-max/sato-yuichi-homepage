@@ -75,8 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------------------------------------------------------------
      アウトバウンドクリック計測（GA4）
-     Google Play / Kindle / Amazon物販 / 楽天 への遷移を記録する。
-     全ページで共通の script.js なので、ページ側の変更は不要。
+     Google Play / Kindle / Amazon物販 / 楽天 / Garmin Connect IQ への
+     遷移を記録する。全ページで共通の script.js なので、ページ側の
+     変更は不要。
      --------------------------------------------------------------- */
   const APP_NAMES = {
     'com.satoyuichi.mediatoolbox': 'MediaToolbox',
@@ -91,6 +92,10 @@ document.addEventListener('DOMContentLoaded', () => {
     '03SI9M8q': '黄金構成比バイブル',
     '0cEq9G5i': 'パーツ寿命2倍',
     '0jjHObPt': 'リースはもう終わりにしよう'
+  };
+
+  const GARMIN_NAMES = {
+    'd5c391f0-82a1-4c79-8c82-18deb2cb31b3': 'Aurum'
   };
 
   const classifyOutbound = (url) => {
@@ -113,6 +118,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (host.endsWith('rakuten.co.jp')) {
       return { event: 'rakuten_click', params: {} };
+    }
+    if (host.endsWith('apps.garmin.com')) {
+      const id = (path.match(/\/apps\/([0-9a-f-]{36})/) || [])[1] || '';
+      return { event: 'garmin_click', params: { app_id: id, app_name: GARMIN_NAMES[id] || id } };
     }
     return null;
   };
