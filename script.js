@@ -95,7 +95,10 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const GARMIN_NAMES = {
-    'd5c391f0-82a1-4c79-8c82-18deb2cb31b3': 'Aurum'
+    'd5c391f0-82a1-4c79-8c82-18deb2cb31b3': 'Aurum',
+    'ff485586-320b-4c73-87ee-4d2094541278': 'Cairn',
+    'c2cb128d-3a5c-4b8f-a9bc-aefa42c488cf': 'Cairn Pro',
+    '527bc0eb-6b1a-42a5-9f47-47aabd270082': 'Overwatch'
   };
 
   const classifyOutbound = (url) => {
