@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>登山でGarminのデータフィールドに表示すべき項目｜勾配・VAM・日没までの時間</title>
+<meta name="description" content="登山中にGarminの画面で見ておきたいデータ項目(標高・勾配・VAM・日没までの時間)を解説。標準のデータフィールドで足りない部分と、1画面にまとめる方法を紹介します。">
+<link rel="canonical" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<meta property="og:title" content="登山でGarminのデータフィールドに表示すべき項目｜勾配・VAM・日没までの時間">
+<meta property="og:description" content="登山中にGarminの画面で見ておきたいデータ項目(標高・勾配・VAM・日没までの時間)を解説。標準のデータフィールドで足りない部分と、1画面にまとめる方法を紹介します。">
+<meta property="og:site_name" content="佐藤雄一 公式サイト">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="登山でGarminのデータフィールドに表示すべき項目｜勾配・VAM・日没までの時間">
+<meta name="twitter:description" content="登山中にGarminの画面で見ておきたいデータ項目(標高・勾配・VAM・日没までの時間)を解説。標準のデータフィールドで足りない部分と、1画面にまとめる方法を紹介します。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "登山でGarminのデータフィールドに表示すべき項目｜勾配・VAM・日没までの時間",
+  "description": "登山中にGarminの画面で見ておきたいデータ項目(標高・勾配・VAM・日没までの時間)を解説します。",
+  "image": "https://yuichi-sato.com/assets/img/cairn-icon.png",
+  "author": { "@type": "Person", "name": "佐藤雄一" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html",
+  "datePublished": "2026-09-18",
+  "dateModified": "2026-09-18"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
+    { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
+    { "@type": "ListItem", "position": 3, "name": "登山でGarminのデータフィールドに表示すべき項目" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "VAM(登坂速度)はどうやって計算されますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "一定時間ごとの標高上昇量を経過時間で割って算出します。数値が大きいほど登坂ペースが速いことを示す指標です。" }
+    },
+    {
+      "@type": "Question",
+      "name": "日没までの時間はどうやってわかりますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "GPSで取得した現在地の緯度経度と日時から、天文計算によって日没時刻を求めます。天気アプリのような通信は不要です。" }
+    },
+    {
+      "@type": "Question",
+      "name": "Cairnは無料で使えますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "標高・累積標高・時間・心拍数など6項目を表示する無料版があります。VAMや日没カウントダウンを含む12項目のPro版は、サブスクなしの買い切りで追加できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "どのGarmin機種で使えますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "fēnixシリーズ、epixシリーズ、Venuシリーズ、Forerunner上位モデルなど、Connect IQに対応する主要機種で利用できます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "電波が届かない山奥でも動きますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "GPSと気圧高度計のセンサーのみで動作するため、通信できない山中でも問題なく使用できます。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="ja" aria-label="Switch language / 言語を切り替え / 切换语言">
+          <a class="lang-switch-option" data-lang-option="ja" href="/column/garmin-hiking-datafield-grade-vam-sunset.html">JA</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+        </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/#works">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/#profile">プロフィール</a>
+        <a href="/column/" class="is-active">コラム</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ 登山でGarminのデータフィールドに表示すべき項目</p>
+      <span class="article-tag">アウトドア・アプリ</span>
+      <h1>登山でGarminのデータフィールドに表示すべき項目｜勾配・VAM・日没までの時間</h1>
+      <p class="article-meta">更新日：2026年9月18日</p>
+      <p class="article-lead">登山中にGarminの画面を見たとき、「あとどれくらい登るのか」「今どのくらいのペースで登っているのか」「日が暮れるまでにどれくらい余裕があるのか」が一目でわかると安心です。しかし標準のデータフィールドは距離やペースなどランニング向けの項目が中心で、登り特有の情報が意外と揃っていません。この記事では、登山中に見ておきたいデータ項目と、それを一画面にまとめる方法を紹介します。</p>
+      <p><strong>結論から言うと、標高・勾配・VAM(登坂速度)・日没までの時間の4つを1画面にまとめておくと、ペース配分と行動時間の判断がしやすくなります。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>登山で「勾配」を見るべき理由</h2>
+      <p>距離やペースの数値だけでは、今どれくらいの急斜面を登っているかまではわかりません。勾配(%)がリアルタイムでわかれば、「この先も同じペースで大丈夫か」「そろそろ休憩を入れるべきか」といった判断材料になります。下りでも同様に、急な下り坂の手前で減速する目安になります。</p>
+
+      <h2>VAM(登坂速度)とは何か</h2>
+      <p>VAMは「Velocità Ascensionale Media(平均登坂速度)」の略で、1時間あたりに何メートル登っているかを示す指標です。自分の登坂ペースがコースタイムより速いのか遅いのかをリアルタイムで把握できるため、無理なペース配分を避ける目安になります。</p>
+
+      <h2>日没までの時間はスマホなしでもわかる</h2>
+      <p>下山計画で重要になるのが、日没までの時間です。天気アプリを確認するためにいちいちスマホを取り出さなくても、GPSで取得した現在地の緯度経度と日時から日没時刻は計算できます。電波が届かない山中でも、GPSが入っていれば動作する仕組みです。</p>
+
+      <h2>標準のデータフィールドで足りないもの</h2>
+      <p>Garmin純正のデータフィールドや多くのサードパーティアプリは、ランニングやサイクリング向けに作られていることが多く、標高・勾配・VAM・日没までの時間をまとめて1画面に表示できるものは多くありません。結果として、登山中に複数のデータフィールドを画面切り替えしながら確認することになりがちです。</p>
+
+      <h2>1画面にまとめる方法</h2>
+      <p>この課題を解決するために、登り特化のデータフィールド「Cairn」を開発しました。無料版では標高・累積標高・勾配・時間・距離・心拍数の6項目を、Pro版ではVAM・日没までのカウントダウンなどを追加した12項目を、画面切り替えなしのグリッドで確認できます。設定はほぼ不要で、データフィールドとして追加するだけで使えます。</p>
+
+      <div class="note-box">Cairn Proの日没カウントダウンは、GPSの現在地と日時から求める天文計算のみで動作します。気象データや通信は使わないため、電波の届かない山中でも正確に表示されます。</div>
+
+      <h2>どんな場面で役立つか</h2>
+      <ul>
+        <li><strong>稜線歩きで次の急登に備えたい</strong>：勾配の変化を見ながら早めにペースを落とせる</li>
+        <li><strong>コースタイムとの差を把握したい</strong>：VAMでいまの登坂ペースが速いか遅いかがすぐわかる</li>
+        <li><strong>日没までに下山できるか判断したい</strong>：現在地から逆算した残り時間をその場で確認できる</li>
+      </ul>
+
+      <h2>まとめ</h2>
+      <p>登山では、距離やペースだけでなく、勾配・VAM・日没までの時間といった「登り」に特化した情報が安全な行動計画に役立ちます。これらを1画面にまとめておけば、画面を切り替える手間もなく、必要な情報だけをすぐに確認できます。データフィールドを選ぶ際は、自分の使い方に合った項目が揃っているかをチェックしてみてください。</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../assets/img/cairn-icon.png" alt="Cairn アイコン" width="252" height="252" loading="lazy" decoding="async">
+        <h3>Cairn / Cairn Pro</h3>
+        <p>登り特化のGarminデータフィールド。無料版は標高・勾配・時間など6項目、Pro版はVAM・日没カウントダウンを含む12項目に対応。買い切り・サブスクなし。</p>
+        <div class="cta-badge-row" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+          <a class="garmin-badge" href="https://apps.garmin.com/apps/ff485586-320b-4c73-87ee-4d2094541278" target="_blank" rel="noopener">⌚ Cairn(無料)をストアで見る</a>
+          <a class="garmin-badge" href="https://apps.garmin.com/apps/c2cb128d-3a5c-4b8f-a9bc-aefa42c488cf" target="_blank" rel="noopener">⌚ Cairn Proをストアで見る</a>
+        </div>
+        <p style="margin-top:14px;"><a href="/garmin/cairn/">Cairnの詳しい機能・画面デザインを見る →</a></p>
+      </div>
+
+      <div class="reveal">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Q. VAM(登坂速度)はどうやって計算されますか？</h3>
+          <p>A. 一定時間ごとの標高上昇量を経過時間で割って算出します。数値が大きいほど登坂ペースが速いことを示す指標です。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 日没までの時間はどうやってわかりますか？</h3>
+          <p>A. GPSで取得した現在地の緯度経度と日時から、天文計算によって日没時刻を求めます。天気アプリのような通信は不要です。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Cairnは無料で使えますか？</h3>
+          <p>A. 標高・累積標高・時間・心拍数など6項目を表示する無料版があります。VAMや日没カウントダウンを含む12項目のPro版は、サブスクなしの買い切りで追加できます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. どのGarmin機種で使えますか？</h3>
+          <p>A. fēnixシリーズ、epixシリーズ、Venuシリーズ、Forerunner上位モデルなど、Connect IQに対応する主要機種で利用できます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 電波が届かない山奥でも動きますか？</h3>
+          <p>A. GPSと気圧高度計のセンサーのみで動作するため、通信できない山中でも問題なく使用できます。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/#profile">こちら</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>あわせて読みたい</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/column/smartphone-garmin-quatix8-golf-diving.html">
+            <span class="column-card-tag">スマホ</span>
+            <h2>Garmin quatix 8でゴルフとダイビングが変わった話</h2>
+          </a>
+          <a class="column-card" href="/column/seniorpedometer-guide.html">
+            <span class="column-card-tag">健康・アプリ</span>
+            <h2>シニア向け歩数計アプリの選び方</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/privacy/">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../script.js"></script>
+</body>
+</html>
