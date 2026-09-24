@@ -15,7 +15,7 @@
 </script>
 
 <title>らくらく歩数計｜ボタン操作不要でシニアにやさしい歩数計アプリ</title>
-<meta name="description" content="ボタン操作は不要、自動で歩数を記録するシニアにやさしい歩数計アプリ「らくらく歩数計」の機能と使い方を解説。称号システムや目標達成通知で、ウォーキングが続けやすくなります。">
+<meta name="description" content="ボタン操作は不要、自動で歩数を記録するシニアにやさしい歩数計アプリ「らくらく歩数計」の機能と使い方を解説。称号+旅の地図、歩数貯金、家族に送る、読み上げ、同年代比較まで最新機能を紹介します。">
 <link rel="canonical" href="https://yuichi-sato.com/apps/seniorpedometer/">
 <link rel="stylesheet" href="../../style.css">
 <link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/">
@@ -25,7 +25,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://yuichi-sato.com/apps/seniorpedometer/">
 <meta property="og:title" content="らくらく歩数計｜ボタン操作不要でシニアにやさしい歩数計アプリ">
-<meta property="og:description" content="ボタン操作は不要、自動で歩数を記録するシニアにやさしい歩数計アプリ「らくらく歩数計」の機能と使い方を解説。称号システムや目標達成通知で、ウォーキングが続けやすくなります。">
+<meta property="og:description" content="ボタン操作は不要、自動で歩数を記録するシニアにやさしい歩数計アプリ「らくらく歩数計」の機能と使い方を解説。称号+旅の地図、歩数貯金、家族に送る、読み上げ、同年代比較まで最新機能を紹介します。">
 <meta property="og:site_name" content="佐藤雄一 公式サイト">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
@@ -33,7 +33,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="らくらく歩数計｜ボタン操作不要でシニアにやさしい歩数計アプリ">
-<meta name="twitter:description" content="ボタン操作は不要、自動で歩数を記録するシニアにやさしい歩数計アプリ「らくらく歩数計」の機能と使い方を解説。称号システムや目標達成通知で、ウォーキングが続けやすくなります。">
+<meta name="twitter:description" content="ボタン操作は不要、自動で歩数を記録するシニアにやさしい歩数計アプリ「らくらく歩数計」の機能と使い方を解説。称号+旅の地図、歩数貯金、家族に送る、読み上げ、同年代比較まで最新機能を紹介します。">
 <meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
 
 <script type="application/ld+json">
@@ -43,7 +43,7 @@
   "name": "らくらく歩数計",
   "url": "https://yuichi-sato.com/apps/seniorpedometer/",
   "image": "https://yuichi-sato.com/assets/img/seniorpedometer-icon.png",
-  "description": "ボタン操作は不要。自動で歩数を記録する、シニアにやさしい歩数計アプリ。",
+  "description": "ボタン操作は不要。自動で歩数を記録する、シニアにやさしい歩数計アプリ。称号+旅の地図、歩数貯金、家族に送る、読み上げ、同年代比較に対応。",
   "operatingSystem": "Android",
   "applicationCategory": "HealthApplication",
   "author": { "@type": "Person", "name": "佐藤雄一" },
@@ -90,6 +90,21 @@
       "@type": "Question",
       "name": "親や祖父母のスマホに入れてあげることはできますか？",
       "acceptedAnswer": { "@type": "Answer", "text": "できます。操作はボタン一つで自動記録が始まるシンプルな設計なので、ご家族が代わりに設定してあげるのにも向いています。" }
+    },
+    {
+      "@type": "Question",
+      "name": "歩数貯金とは何ですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "1日5,000歩を基準に、多く歩いた日の余り分を貯金として積み立てる機能です。歩けなかった日があっても貯金が0を下回ることはなく、連続記録が途切れる心配をせずに続けられます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "今日の歩数を家族に伝えることはできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "できます。「家族に送る」ボタンを押すと、今日の歩数・カロリー・現在の称号をまとめた文章が用意され、LINEやメールなど普段お使いのアプリを選んでそのまま共有できます。送信するかどうかはご本人が最後に選べます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "同年代と歩数を比べることはできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "できます。「みんなとくらべる」画面で、ご自身の直近1週間の平均歩数と、年代別の全国平均(令和5年 国民健康・栄養調査のデータ)を比較できます。年代は選択式で、あとから変更もできます。" }
     }
   ]
 }
@@ -133,9 +148,9 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/#works">アプリ</a> ＞ らくらく歩数計</p>
       <span class="article-tag">健康・アプリ</span>
       <h1>らくらく歩数計｜ボタン操作不要でシニアにやさしい歩数計アプリ</h1>
-      <p class="article-meta">更新日：2026年9月14日</p>
-      <p class="article-lead">歩数計アプリを入れてみたものの、操作が複雑で続かなかった——そんな経験はありませんか。らくらく歩数計は、ボタン操作なしで自動的に歩数を記録する、シニアの方にも使いやすい歩数計アプリです。</p>
-      <p><strong>結論から言うと、インストールして許可を出すだけで、あとは持ち歩くだけで歩数が自動で記録されます。</strong></p>
+      <p class="article-meta">更新日：2026年9月25日</p>
+      <p class="article-lead">歩数計アプリを入れてみたものの、操作が複雑で続かなかった——そんな経験はありませんか。らくらく歩数計は、ボタン操作なしで自動的に歩数を記録する、シニアの方にも使いやすい歩数計アプリです。歩けなかった日を責めない「歩数貯金」や、今日の記録を家族に一言で伝えられる「家族に送る」など、続けやすさを後押しする機能も揃っています。</p>
+      <p><strong>結論から言うと、インストールして許可を出すだけで、あとは持ち歩くだけで歩数が自動で記録されます。歩いた分は貯金として積み上がり、離れて暮らす家族にもワンタップで報告できます。</strong></p>
     </div>
 
     <div class="article-content">
@@ -164,15 +179,19 @@
           <tbody>
             <tr><td>自動歩数カウント</td><td>アプリを開かなくても、バックグラウンドで自動的に歩数を記録</td></tr>
             <tr><td>ホーム画面ウィジェット</td><td>今日の歩数・カロリーを大きな文字で表示、サイズも調整可能</td></tr>
-            <tr><td>称号システム</td><td>歩いた距離に応じて称号がアップ。東京から日本列島制覇を目指す、ゲーム感覚の仕掛け</td></tr>
+            <tr><td>称号システム+旅の地図</td><td>10万歩ごとに称号がアップ、東京から日本列島制覇を目指す仕掛け。称号画面には旅のルートマップを表示(中国語・台湾語版は現地の旅ルートに変化)</td></tr>
             <tr><td>目標達成通知</td><td>3,000／5,000／8,000／10,000／15,000歩など、その日の目標達成をお知らせ</td></tr>
+            <tr><td>歩数貯金</td><td>1日5,000歩を基準に、多く歩いた分を貯金。歩けない日があっても0より下にはならない</td></tr>
+            <tr><td>読み上げ</td><td>今日の歩数を音声で読み上げ、画面を見なくても確認可能</td></tr>
+            <tr><td>みんなとくらべる</td><td>直近1週間の平均歩数を、年代別の全国平均(令和5年 国民健康・栄養調査)と比較</td></tr>
+            <tr><td>家族に送る</td><td>今日の歩数・カロリー・現在の称号を、LINEやメールなどでワンタップ共有</td></tr>
           </tbody>
         </table>
       </div>
 
       <div class="app-screenshots">
-        <img src="../../assets/img/seniorpedometer-1-main.png" alt="らくらく歩数計 メイン画面のスクリーンショット" width="384" height="834" loading="lazy" decoding="async">
-        <img src="../../assets/img/seniorpedometer-2-titles.png" alt="らくらく歩数計 称号一覧画面のスクリーンショット" width="384" height="834" loading="lazy" decoding="async">
+        <img src="../../assets/img/seniorpedometer-1-main.png" alt="らくらく歩数計 メイン画面のスクリーンショット" width="384" height="791" loading="lazy" decoding="async">
+        <img src="../../assets/img/seniorpedometer-2-titles.png" alt="らくらく歩数計 称号一覧画面のスクリーンショット" width="384" height="845" loading="lazy" decoding="async">
       </div>
 
       <h2>使い方の流れ</h2>
@@ -200,6 +219,18 @@
       <div class="faq-item">
         <h3>Q. 親や祖父母のスマホに入れてあげることはできますか？</h3>
         <p>A. できます。操作はボタン一つで自動記録が始まるシンプルな設計なので、ご家族が代わりに設定してあげるのにも向いています。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 歩数貯金とは何ですか？</h3>
+        <p>A. 1日5,000歩を基準に、多く歩いた日の余り分を貯金として積み立てる機能です。歩けなかった日があっても貯金が0を下回ることはなく、連続記録が途切れる心配をせずに続けられます。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 今日の歩数を家族に伝えることはできますか？</h3>
+        <p>A. できます。「家族に送る」ボタンを押すと、今日の歩数・カロリー・現在の称号をまとめた文章が用意され、LINEやメールなど普段お使いのアプリを選んでそのまま共有できます。送信するかどうかはご本人が最後に選べます。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 同年代と歩数を比べることはできますか？</h3>
+        <p>A. できます。「みんなとくらべる」画面で、ご自身の直近1週間の平均歩数と、年代別の全国平均(令和5年 国民健康・栄養調査のデータ)を比較できます。年代は選択式で、あとから変更もできます。</p>
       </div>
 
       <div class="cta-card reveal">
