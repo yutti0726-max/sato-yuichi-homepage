@@ -1989,4 +1989,64 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html"/>
   </url>
+  <url>
+    <loc>https://yuichi-sato.com/garmin/empress/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/empress/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/garmin/empress/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/empress/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/garmin/empress/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/empress/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/empress/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/garmin/cairn-cycle/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/garmin/cairn-cycle/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/garmin/cairn-cycle/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/cairn-cycle/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
+  </url>
 </urlset>

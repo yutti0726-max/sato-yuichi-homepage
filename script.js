@@ -98,7 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
     'd5c391f0-82a1-4c79-8c82-18deb2cb31b3': 'Aurum',
     'ff485586-320b-4c73-87ee-4d2094541278': 'Cairn',
     'c2cb128d-3a5c-4b8f-a9bc-aefa42c488cf': 'Cairn Pro',
-    '527bc0eb-6b1a-42a5-9f47-47aabd270082': 'Overwatch'
+    '527bc0eb-6b1a-42a5-9f47-47aabd270082': 'Overwatch',
+    '5c206dca-7ac0-43f8-adea-3a816f3213ed': 'Empress',
+    '3083dfc3-3605-4818-8c74-130cc0c643b7': 'Cairn Cycle',
+    '3b996aba-1782-47a2-a85c-458716340547': 'Cairn Cycle Pro'
   };
 
   const classifyOutbound = (url) => {
