@@ -101,7 +101,9 @@ document.addEventListener('DOMContentLoaded', () => {
     '527bc0eb-6b1a-42a5-9f47-47aabd270082': 'Overwatch',
     '5c206dca-7ac0-43f8-adea-3a816f3213ed': 'Empress',
     '3083dfc3-3605-4818-8c74-130cc0c643b7': 'Cairn Cycle',
-    '3b996aba-1782-47a2-a85c-458716340547': 'Cairn Cycle Pro'
+    '3b996aba-1782-47a2-a85c-458716340547': 'Cairn Cycle Pro',
+    'fe029fb8-c6b1-4b6e-b3d2-3ac25c13a2d4': 'Multitime',
+    '737315f9-223d-4f3d-b7d3-1bc78ac2b70f': 'Multitime Pro'
   };
 
   const classifyOutbound = (url) => {

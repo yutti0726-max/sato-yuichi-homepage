@@ -31,13 +31,14 @@
 - Self-build PC Maintenance & Troubleshooting: double your machine's lifespan — https://amzn.asia/d/0cEq9G5i
 - No More Leasing: cut cost with self-built PCs and self-maintenance for startups and sole proprietors — https://amzn.asia/d/0jjHObPt
 
-## Garmin Connect IQ (watch faces and data fields)
+## Garmin Connect IQ (watch faces, data fields and apps)
 
 - [Aurum](https://yuichi-sato.com/garmin/aurum/): frameless gold watch face built like a fine dial — six finishes (four Grand Roman dials, Chronometer, Digital Luxe)
 - [Empress](https://yuichi-sato.com/garmin/empress/): frameless jewelled chronograph watch face
 - [Overwatch](https://yuichi-sato.com/garmin/overwatch/): data face that switches between 5 layouts automatically
 - [Cairn / Cairn Pro](https://yuichi-sato.com/garmin/cairn/): hiking data field for climbing (elevation, grade, VAM, time to sunset)
 - [Cairn Cycle / Cairn Cycle Pro](https://yuichi-sato.com/garmin/cairn-cycle/): cycling data field for speed and power
+- [Multitime / Multitime Pro](https://yuichi-sato.com/garmin/multitime/): multi-timer watch app — several named timers at once (free: up to 3; Pro: unlimited, per-timer vibration, saved presets)
 - [What your Garmin data field should show when hiking](https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html): grade, VAM (ascent speed) and time to sunset explained (English: https://yuichi-sato.com/en/column/garmin-hiking-datafield-grade-vam-sunset.html)
 
 ## Columns — smartphone file conversion (MediaToolbox)

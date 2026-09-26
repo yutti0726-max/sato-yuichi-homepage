@@ -2101,4 +2101,34 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/cairn-cycle/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
   </url>
+  <url>
+    <loc>https://yuichi-sato.com/garmin/multitime/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/multitime/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/garmin/multitime/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/multitime/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/garmin/multitime/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/multitime/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/multitime/"/>
+  </url>
 </urlset>
