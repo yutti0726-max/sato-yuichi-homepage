@@ -10,6 +10,7 @@
 ## Key pages
 
 - [Home / app lineup](https://yuichi-sato.com/): overview of all apps, books, and profile
+- [About the author](https://yuichi-sato.com/profile/): Yuichi Sato's background (telecom and insurance sales, 100+ custom PC builds, PADI diver), everything he has made (Android apps, Garmin Connect IQ watch faces and data fields, Kindle books), and the site's editorial policy (first-hand experience only, self-promotion and affiliate links disclosed). English: https://yuichi-sato.com/en/profile/
 - [Columns index](https://yuichi-sato.com/column/): full how-to article library
 - [Recommended gear](https://yuichi-sato.com/gear/): PC, keyboard, monitor and desk-setup picks
 - [Privacy policy](https://yuichi-sato.com/privacy/)
