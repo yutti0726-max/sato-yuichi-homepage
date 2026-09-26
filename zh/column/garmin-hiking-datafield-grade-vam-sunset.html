@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>登山时Garmin数据字段该显示什么｜坡度・VAM・日落</title>
+<meta name="description" content="登山时Garmin屏幕上值得关注的数据项目（海拔・坡度・VAM・距日落时间）详解。介绍标准数据字段的不足之处，以及如何把它们集中到一个画面上。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yuichi-sato.com/zh/column/garmin-hiking-datafield-grade-vam-sunset.html">
+<meta property="og:title" content="登山时Garmin数据字段该显示什么｜坡度・VAM・日落">
+<meta property="og:description" content="登山时Garmin屏幕上值得关注的数据项目（海拔・坡度・VAM・距日落时间）详解。介绍标准数据字段的不足之处，以及如何把它们集中到一个画面上。">
+<meta property="og:site_name" content="佐藤雄一">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="登山时Garmin数据字段该显示什么｜坡度・VAM・日落">
+<meta name="twitter:description" content="登山时Garmin屏幕上值得关注的数据项目（海拔・坡度・VAM・距日落时间）详解。介绍标准数据字段的不足之处，以及如何把它们集中到一个画面上。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "登山时Garmin数据字段应该显示哪些项目｜坡度・VAM・距日落时间",
+  "description": "详解登山时Garmin屏幕上值得关注的数据项目（海拔・坡度・VAM・距日落时间）。",
+  "image": "https://yuichi-sato.com/assets/img/cairn-icon.png",
+  "author": { "@type": "Person", "@id": "https://yuichi-sato.com/profile/#person", "name": "佐藤雄一", "url": "https://yuichi-sato.com/zh/profile/" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/garmin-hiking-datafield-grade-vam-sunset.html",
+  "datePublished": "2026-09-18",
+  "dateModified": "2026-09-26"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "专栏", "item": "https://yuichi-sato.com/zh/column/" },
+    { "@type": "ListItem", "position": 3, "name": "登山时Garmin数据字段应该显示哪些项目" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "VAM（爬升速度）是怎么计算的？",
+      "acceptedAnswer": { "@type": "Answer", "text": "用一定时间内的海拔上升量除以经过的时间来计算。数值越大，表示爬升速度越快。" }
+    },
+    {
+      "@type": "Question",
+      "name": "如何知道距离日落还有多久？",
+      "acceptedAnswer": { "@type": "Answer", "text": "根据GPS获取的当前位置经纬度和日期时间，通过天文计算求出日落时刻。不像天气应用那样需要联网。" }
+    },
+    {
+      "@type": "Question",
+      "name": "Cairn可以免费使用吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "有显示海拔、累计爬升、时间、心率等6个项目的免费版。包含VAM和日落倒计时共12个项目的Pro版，可以一次性买断添加，无需订阅。" }
+    },
+    {
+      "@type": "Question",
+      "name": "支持哪些Garmin机型？",
+      "acceptedAnswer": { "@type": "Answer", "text": "支持fēnix系列、epix系列、Venu系列以及Forerunner高端型号等主要的Connect IQ兼容机型。" }
+    },
+    {
+      "@type": "Question",
+      "name": "在没有信号的深山里也能用吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以。它只依靠GPS和气压高度计传感器运行，即使在无法联网的山中也能正常使用。" }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/garmin-hiking-datafield-grade-vam-sunset.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/garmin-hiking-datafield-grade-vam-sunset.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/garmin-hiking-datafield-grade-vam-sunset.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/profile/">个人简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/gear/">推荐器材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 登山时Garmin数据字段应该显示哪些项目</p>
+      <span class="article-tag">户外·应用</span>
+      <h1>登山时Garmin数据字段应该显示哪些项目｜坡度・VAM・距日落时间</h1>
+      <p class="article-meta">更新日期：2026年9月26日</p>
+      <p class="article-lead">登山途中看一眼Garmin的屏幕，如果能立刻知道“还要爬多少”“现在爬升的速度如何”“离天黑还有多少余裕”，就会安心很多。但标准的数据字段大多以距离、配速等跑步项目为主，登山特有的信息出乎意料地不够齐全。本文介绍登山时值得关注的数据项目，以及把它们集中到一个画面上的方法。</p>
+      <p><strong>简单来说，把海拔、坡度、VAM（爬升速度）、距日落时间这4项集中到一个画面上，就能更轻松地判断配速分配和行动时间。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <h2>登山时为什么要看“坡度”？</h2>
+      <p>光看距离和配速的数字，无法知道自己现在正在爬多陡的坡。如果能实时看到坡度（%），就能据此判断“接下来还能保持同样的配速吗”“是不是该休息一下了”。下坡时也一样，可以作为在陡峭下坡前提前减速的参考。</p>
+
+      <h2>VAM（爬升速度）是什么？</h2>
+      <p>VAM是“Velocità Ascensionale Media”（平均爬升速度）的缩写，表示每小时爬升多少米。由于可以实时掌握自己的爬升速度比标准路线用时快还是慢，它可以帮助你避免不合理的配速分配。</p>
+
+      <h2>不用手机也能知道距日落还有多久吗？</h2>
+      <p>在下山计划中，距日落的时间非常重要。不必每次都拿出手机打开天气应用，根据GPS获取的当前位置经纬度和日期时间，就能计算出日落时刻。只要能收到GPS信号，即使在没有网络的山中也能运行。</p>
+
+      <h2>标准数据字段缺少什么？</h2>
+      <p>Garmin原厂的数据字段以及许多第三方应用，大多是为跑步或骑行设计的，能把海拔、坡度、VAM、距日落时间集中显示在一个画面上的并不多。结果，登山途中往往要在多个数据画面之间来回切换查看。</p>
+
+      <h2>如何把它们集中到一个画面上？</h2>
+      <p>为了解决这个问题，我开发了专为爬升打造的数据字段“Cairn”。免费版可以在无需切换画面的网格中查看海拔、累计爬升、坡度、时间、距离、心率6个项目，Pro版则增加了VAM、日落倒计时等，共12个项目。几乎不需要设置，只要添加为数据字段即可使用。</p>
+
+      <div class="note-box">Cairn Pro的日落倒计时，仅通过GPS当前位置与日期时间进行天文计算来运行。不使用气象数据，也不需要联网，因此即使在没有信号的山中也能准确显示。</div>
+
+      <h2>在哪些场景下能派上用场？</h2>
+      <ul>
+        <li><strong>在山脊行走时，想为下一段陡坡做准备</strong>：一边观察坡度变化，一边提前放慢配速</li>
+        <li><strong>想掌握与标准路线用时的差距</strong>：通过VAM马上知道现在的爬升配速是快还是慢</li>
+        <li><strong>想判断能否在日落前下山</strong>：当场确认根据当前位置倒推出的剩余时间</li>
+      </ul>
+
+      <h2>总结</h2>
+      <p>登山时，除了距离和配速之外，坡度、VAM、距日落时间等专门针对“爬升”的信息，对安全的行动计划很有帮助。把它们集中到一个画面上，就不用来回切换画面，只需一眼就能确认所需信息。挑选数据字段时，请确认它是否具备符合自己使用方式的项目。</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../../assets/img/cairn-icon.png" alt="Cairn 图标" width="252" height="252" loading="lazy" decoding="async">
+        <h3>Cairn / Cairn Pro</h3>
+        <p>专为爬升打造的Garmin数据字段。免费版支持海拔、坡度、时间等6个项目，Pro版支持包含VAM、日落倒计时在内的12个项目。一次性买断，无需订阅。</p>
+        <div class="cta-badge-row" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+          <a class="garmin-badge" href="https://apps.garmin.com/apps/ff485586-320b-4c73-87ee-4d2094541278" target="_blank" rel="noopener">⌚ 在商店查看 Cairn(免费)</a>
+          <a class="garmin-badge" href="https://apps.garmin.com/apps/c2cb128d-3a5c-4b8f-a9bc-aefa42c488cf" target="_blank" rel="noopener">⌚ 在商店查看 Cairn Pro</a>
+        </div>
+        <p style="margin-top:14px;"><a href="/zh/garmin/cairn/">查看Cairn的详细功能与画面设计 →</a></p>
+      </div>
+
+      <div class="reveal">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <h3>Q. VAM（爬升速度）是怎么计算的？</h3>
+          <p>A. 用一定时间内的海拔上升量除以经过的时间来计算。数值越大，表示爬升速度越快。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 如何知道距离日落还有多久？</h3>
+          <p>A. 根据GPS获取的当前位置经纬度和日期时间，通过天文计算求出日落时刻。不像天气应用那样需要联网。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Cairn可以免费使用吗？</h3>
+          <p>A. 有显示海拔、累计爬升、时间、心率等6个项目的免费版。包含VAM和日落倒计时共12个项目的Pro版，可以一次性买断添加，无需订阅。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 支持哪些Garmin机型？</h3>
+          <p>A. 支持fēnix系列、epix系列、Venu系列以及Forerunner高端型号等主要的Connect IQ兼容机型。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 在没有信号的深山里也能用吗？</h3>
+          <p>A. 可以。它只依靠GPS和气压高度计传感器运行，即使在无法联网的山中也能正常使用。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・自组电脑100台以上经验／PADI认证潜水员）。详细简介请见<a href="/zh/profile/">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>相关文章</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/smartphone-garmin-quatix8-golf-diving.html">
+            <span class="column-card-tag">手机</span>
+            <h2>Garmin quatix 8让高尔夫和潜水都改变了</h2>
+          </a>
+          <a class="column-card" href="/zh/column/seniorpedometer-guide.html">
+            <span class="column-card-tag">健康·应用</span>
+            <h2>为老年人挑选计步器应用的方法</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>
