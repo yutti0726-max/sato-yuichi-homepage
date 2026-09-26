@@ -33,7 +33,7 @@
 
 ## Garmin Connect IQ (watch faces and data fields)
 
-- [Aurum](https://yuichi-sato.com/garmin/aurum/): gold watch face built like a fine dial
+- [Aurum](https://yuichi-sato.com/garmin/aurum/): frameless gold watch face built like a fine dial — six finishes (four Grand Roman dials, Chronometer, Digital Luxe)
 - [Empress](https://yuichi-sato.com/garmin/empress/): frameless jewelled chronograph watch face
 - [Overwatch](https://yuichi-sato.com/garmin/overwatch/): data face that switches between 5 layouts automatically
 - [Cairn / Cairn Pro](https://yuichi-sato.com/garmin/cairn/): hiking data field for climbing (elevation, grade, VAM, time to sunset)
