@@ -1308,3 +1308,41 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* Garmin 無料版・Pro版の比較表(トップページ)。.article-content の表と同じ見た目にそろえる */
+.compare-block {
+  margin-top: 32px;
+}
+
+.compare-block h4 {
+  margin: 28px 0 12px;
+  font-size: 1rem;
+}
+
+.compare-block .table-wrap {
+  overflow-x: auto;
+  margin: 0 0 16px;
+}
+
+.compare-block table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.compare-block th,
+.compare-block td {
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.compare-block th {
+  background: var(--bg-alt);
+  font-weight: 700;
+}
+
+.compare-block td a {
+  color: var(--garmin-dark);
+}
