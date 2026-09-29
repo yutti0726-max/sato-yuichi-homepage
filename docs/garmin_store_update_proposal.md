@@ -21,9 +21,9 @@ SDK のデバイス定義は「ローカルにダウンロード済みの定義�
 
 | アプリ | 種別 | minApiLevel | 機種数 | 画面 |
 |---|---|---|---|---|
-| Aurum | watchface | 5.0.0 | 14 | AMOLED 円形のみ |
+| Aurum | watchface | 5.0.0 | 13 | AMOLED 円形のみ |
 | Overwatch | watchface | 5.0.0 | 13 | AMOLED 円形のみ |
-| Empress | watchface | 5.0.0 | 14 | AMOLED 円形のみ |
+| Empress | watchface | 5.0.0 | 13 | AMOLED 円形のみ |
 | Cairn / Cairn Pro | datafield | 3.2.0 | 30(無料・Pro 同一) | AMOLED・MIP 円形 |
 | Cairn Cycle / Cairn Cycle Pro | datafield | 3.2.0 | 30(無料・Pro 同一) | AMOLED・MIP 円形 |
 | Multitime / Multitime Pro | watch-app | 3.2.0 | 25(無料・Pro 同一) | AMOLED・MIP 円形、Instinct(セミオクタゴン) |
@@ -35,8 +35,7 @@ SDK のデバイス定義は「ローカルにダウンロード済みの定義�
 共通の13機種:
 Forerunner 265 (`fr265`) / Forerunner 265S (`fr265s`) / Forerunner 965 (`fr965`) / Venu 3 (`venu3`) / Venu 3S (`venu3s`) / fēnix 8 43mm (`fenix843mm`) / fēnix 8 47mm・51mm(tactix 8・quatix 8 含む)(`fenix847mm`) / fēnix 9 43mm (`fenix943mm`) / fēnix 9 47mm・51mm (`fenix947mm`) / fēnix 9 Pro 43mm (`fenix9pro43mm`) / fēnix 9 Pro 47mm (`fenix9pro47mm`) / fēnix 9 Pro 51mm (`fenix9pro51mm`) / epix Pro (Gen 2) 47mm (`epix2pro47mm`)
 
-- Aurum と Empress はこれに `quatix847mm` を加えた14機種。
-- `quatix847mm` はローカル SDK にデバイス定義がありません(SDK 9.2.0 では quatix 8 47mm は `fenix847mm` に統合されて表示)。**ストアでの扱いは不明**。ビルドが通っているなら問題はない可能性が高いものの、次回ビルド時に警告が出ていないか確認してください。
+- 3本とも同じ13機種。quatix 8 47mm は `fenix847mm` に含まれます(Aurum・Empress の manifest にある `quatix847mm` はコメント内のメモで、対応機種としては登録されていません)。
 
 ### 1-2. Cairn / Cairn Pro / Cairn Cycle / Cairn Cycle Pro(4本とも同じ30機種)
 

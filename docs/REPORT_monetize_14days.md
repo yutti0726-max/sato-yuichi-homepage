@@ -128,7 +128,7 @@ git grep -n -e "TODO(要確認)" -e "TODO(画像)" -- ":!docs/REPORT_monetize_14
 |---|---|---|
 | 1 | **Multitime Pro の同時タイマー数**: ストアの説明文とHPの個別ページ・トップのカードは「無制限」だが、ソース(`garmin-multitime/src-pro/Config.mc`)の上限は20個。今回追加した比較表は「最大20個」で記載。ストア・HP個別ページ(ja/en/zh)の表記をどちらに合わせるか判断が必要 | `garmin/multitime/index.html` ほか、`docs/garmin_store_update_proposal.md` |
 | 2 | **Multitime Pro の日本語説明文がストアに無い**(公開APIの掲載言語が英語のみ。他の8本は英日両方) | `docs/garmin_store_update_proposal.md` |
-| 3 | **Aurum / Empress の `quatix847mm`**: ローカルSDK 9.2.0 にこのIDのデバイス定義が無い(quatix 8 47mm は `fenix847mm` に統合)。ビルド警告の有無を次回確認 | `docs/garmin_store_update_proposal.md` |
+| 3 | (取り下げ)当初「Aurum / Empress の manifest にある `quatix847mm` がSDKに無い」と書いたが、manifest のコメント内のメモを誤って拾っていた。実際の対応機種は3本とも13機種で、問題なし | `docs/garmin_store_update_proposal.md` |
 | 4 | **らくらく歩数計・Readshot の未コミット変更**(33件・18件)。GitHubにバックアップされていない | `docs/android_monetization_audit.md` |
 | 5 | **電子書籍内のアソシエイトリンク**: 巻末原稿はタグを外したURLにしてある。Amazonアソシエイト規約の該当条文は未確認 | `docs/kindle_backmatter.md` |
 | 6 | **構成記事の本文**: 型番は実在を確認済みだが、筆者自身の実機検証にもとづく記述ではない部分がある(特に15万円・20万円構成)。公開前に筆者の経験・判断を加筆することを推奨 | `column/pc-build-*.html` |
