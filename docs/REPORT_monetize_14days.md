@@ -50,12 +50,12 @@
 
 | ファイル | 変更内容 |
 |---|---|
-| `column/pc-build-budget-150k-gaming.html`(新規) | 予算15万円のゲーミングPC構成 |
-| `column/pc-build-budget-200k-video-editing.html`(新規) | 予算20万円の動画編集用PC構成 |
+| `docs/drafts/pc-build-budget-150k-gaming.html`(下書き) | 予算15万円のゲーミングPC構成。**公開見送り**(2026-10-01時点の価格では合計約36万円で題名と合わないため) |
+| `docs/drafts/pc-build-budget-200k-video-editing.html`(下書き) | 予算20万円の動画編集用PC構成。**公開見送り**(同、合計約49万円) |
 | `column/pc-build-rtx5060ti-vs-egpu.html`(新規) | RTX 5060 Ti構成と外付けGPU(eGPU)の比較 |
 | `column/home-office-desk-setup.html`(新規) | 在宅ワーク用デスク環境の一式 |
-| `column/index.html` | 自作PC欄の先頭に4本を登録 |
-| `column/pc-parts-priority-cpu-memory-gpu.html` / `column/pc-case-airflow-build-planning.html` / `column/portable-egpu-desk-setup.html` | 本文末尾(著者欄の前)に「予算・用途別の構成例」として4本への内部リンクを追加 |
+| `column/index.html` | 自作PC欄の先頭に公開する2本(eGPU比較・在宅ワーク環境)を登録 |
+| `column/pc-parts-priority-cpu-memory-gpu.html` / `column/pc-case-airflow-build-planning.html` / `column/portable-egpu-desk-setup.html` | 本文末尾(著者欄の前)に「用途別の構成例」として公開する2本への内部リンクを追加 |
 
 ### タスクE・F・レポート
 
@@ -74,53 +74,33 @@ Android・Garmin のリポジトリは一切変更していません(読み取�
 | # | ファイル:行 | 種別 | 内容 |
 |---|---|---|---|
 | 1 | `column/home-office-desk-setup.html:115` | TODO(画像) | 構成全体またはデスクの写真(著者撮影)を入れる |
-| 2 | `column/home-office-desk-setup.html:122` | TODO(要確認) | 価格の目安(キーボード / Keychron Q3 Ultra 8K) |
-| 3 | `column/home-office-desk-setup.html:123` | TODO(要確認) | 価格の目安(静音スイッチ(換装用) / Outemu Silent Peach V3) |
-| 4 | `column/home-office-desk-setup.html:124` | TODO(要確認) | 価格の目安(テンキー / EPOMAKER EK21 VIA) |
-| 5 | `column/home-office-desk-setup.html:125` | TODO(要確認) | 価格の目安(マウス(据え置き) / ATK FIERCE X) |
-| 6 | `column/home-office-desk-setup.html:126` | TODO(要確認) | 価格の目安(マウス(持ち運び) / ロジクール MX ANYWHERE 3S) |
-| 7 | `column/home-office-desk-setup.html:127` | TODO(要確認) | 価格の目安(メインモニター / Titan Army P245MS+(24.5型 WQHD)) |
-| 8 | `column/home-office-desk-setup.html:128` | TODO(要確認) | 価格の目安(サブモニター(モバイル) / EVICIV モバイルモニター 17.3インチ) |
-| 9 | `column/home-office-desk-setup.html:129` | TODO(要確認) | 価格の目安(デスクエクステンダー / サンワダイレクト デスクエクステンダー 折りたたみ クランプ式) |
-| 10 | `column/home-office-desk-setup.html:130` | TODO(要確認) | 価格の目安(リストレスト / Faluber 漆塗り木製リストレスト(黒)) |
-| 11 | `column/home-office-desk-setup.html:134` | TODO(要確認) | 合計金額 |
-| 12 | `column/pc-build-budget-150k-gaming.html:115` | TODO(画像) | 構成全体またはデスクの写真(著者撮影)を入れる |
-| 13 | `column/pc-build-budget-150k-gaming.html:122` | TODO(要確認) | 価格の目安(CPU / AMD Ryzen 5 9600X) |
-| 14 | `column/pc-build-budget-150k-gaming.html:123` | TODO(要確認) | 価格の目安(CPUクーラー / Thermalright Peerless Assassin 120 SE) |
-| 15 | `column/pc-build-budget-150k-gaming.html:124` | TODO(要確認) | 価格の目安(マザーボード / ASUS TUF GAMING B650-PLUS WIFI) |
-| 16 | `column/pc-build-budget-150k-gaming.html:125` | TODO(要確認) | 価格の目安(メモリ / Crucial Pro DDR5-5600 32GB(16GB×2) CP2K16G56C46U5) |
-| 17 | `column/pc-build-budget-150k-gaming.html:126` | TODO(要確認) | 価格の目安(SSD / WD_BLACK SN850X 1TB) |
-| 18 | `column/pc-build-budget-150k-gaming.html:127` | TODO(要確認) | 価格の目安(グラフィックボード / ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition(DUAL-RTX5060TI-O16G)) |
-| 19 | `column/pc-build-budget-150k-gaming.html:128` | TODO(要確認) | 価格の目安(電源 / Corsair RM750e(750W)) |
-| 20 | `column/pc-build-budget-150k-gaming.html:129` | TODO(要確認) | 価格の目安(ケース / Lian Li LANCOOL 207) |
-| 21 | `column/pc-build-budget-150k-gaming.html:133` | TODO(要確認) | 合計金額 |
-| 22 | `column/pc-build-budget-200k-video-editing.html:115` | TODO(画像) | 構成全体またはデスクの写真(著者撮影)を入れる |
-| 23 | `column/pc-build-budget-200k-video-editing.html:122` | TODO(要確認) | 価格の目安(CPU / Intel Core Ultra 7 265K) |
-| 24 | `column/pc-build-budget-200k-video-editing.html:123` | TODO(要確認) | 価格の目安(CPUクーラー / Thermalright Phantom Spirit 120 SE) |
-| 25 | `column/pc-build-budget-200k-video-editing.html:124` | TODO(要確認) | 価格の目安(マザーボード / ASUS TUF GAMING Z890-PLUS WIFI) |
-| 26 | `column/pc-build-budget-200k-video-editing.html:125` | TODO(要確認) | 価格の目安(メモリ / Crucial Pro DDR5-5600 64GB(32GB×2) CP2K32G56C46U5) |
-| 27 | `column/pc-build-budget-200k-video-editing.html:126` | TODO(要確認) | 価格の目安(SSD(システム・作業用) / Crucial T500 2TB) |
-| 28 | `column/pc-build-budget-200k-video-editing.html:127` | TODO(要確認) | 価格の目安(グラフィックボード / ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition(DUAL-RTX5060TI-O16G)) |
-| 29 | `column/pc-build-budget-200k-video-editing.html:128` | TODO(要確認) | 価格の目安(電源 / Corsair RM850e(850W)) |
-| 30 | `column/pc-build-budget-200k-video-editing.html:129` | TODO(要確認) | 価格の目安(ケース / Fractal Design North) |
-| 31 | `column/pc-build-budget-200k-video-editing.html:133` | TODO(要確認) | 合計金額 |
-| 32 | `column/pc-build-rtx5060ti-vs-egpu.html:115` | TODO(画像) | 構成全体またはデスクの写真(著者撮影)を入れる |
-| 33 | `column/pc-build-rtx5060ti-vs-egpu.html:122` | TODO(要確認) | 価格の目安(グラフィックボード(デスクトップ用) / ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition(DUAL-RTX5060TI-O16G)) |
-| 34 | `column/pc-build-rtx5060ti-vs-egpu.html:123` | TODO(要確認) | 価格の目安(外付けGPU(eGPU) / GIGABYTE AORUS RTX 5060 Ti AI BOX(GV-N506TIXEB-16GD)) |
-| 35 | `column/pc-build-rtx5060ti-vs-egpu.html:124` | TODO(要確認) | 価格の目安(eGPUと組み合わせるノートPC(筆者使用) / ASUS Zenbook(Core Ultra 9 386H搭載)) |
-| 36 | `column/pc-build-rtx5060ti-vs-egpu.html:143` | TODO(要確認) | 価格 |
-| 37 | `column/pc-build-rtx5060ti-vs-egpu.html:143` | TODO(要確認) | 価格 |
-| 38 | `docs/android_monetization_audit.md:61` | TODO(要確認) | - **注意: 作業ツリーに未コミットの変更が33件あります**(`app/build.gradle.kts`・`And |
-| 39 | `docs/android_monetization_audit.md:71` | TODO(要確認) | - **注意: 作業ツリーに未コミットの変更が18件あります**(`app/build.gradle.kts` で ve |
-| 40 | `docs/garmin_store_update_proposal.md:130` | TODO(要確認) | > 注意: 現在の Multitime / Multitime Pro の説明文は「UNLIMITED TIMERS / |
-| 41 | `docs/kindle_backmatter.md:21` | TODO(要確認) | - 巻末のリンクには、**Amazon アソシエイトのトラッキングID(`?tag=...`)を付けない**でください。 |
-| 42 | `docs/kindle_backmatter.md:190` | TODO(画像) | > MY 100 DIVES が紙の本(ペーパーバック)として販売されている場合、巻末のURLはクリックできないため、Q |
+| 2 | `column/pc-build-rtx5060ti-vs-egpu.html:115` | TODO(画像) | 構成全体またはデスクの写真(著者撮影)を入れる |
+| 3 | `docs/android_monetization_audit.md:61` | TODO(要確認) | - **注意: 作業ツリーに未コミットの変更が33件あります**(`app/build.gradle.kts`・`AndroidManife |
+| 4 | `docs/android_monetization_audit.md:71` | TODO(要確認) | - **注意: 作業ツリーに未コミットの変更が18件あります**(`app/build.gradle.kts` で versionCode  |
+| 5 | `docs/drafts/pc-build-budget-150k-gaming.html:115` | TODO(画像) | 構成全体またはデスクの写真(著者撮影)を入れる |
+| 6 | `docs/drafts/pc-build-budget-150k-gaming.html:122` | TODO(要確認) | 価格の目安 |
+| 7 | `docs/drafts/pc-build-budget-150k-gaming.html:123` | TODO(要確認) | 価格の目安 |
+| 8 | `docs/drafts/pc-build-budget-150k-gaming.html:124` | TODO(要確認) | 価格の目安 |
+| 9 | `docs/drafts/pc-build-budget-150k-gaming.html:125` | TODO(要確認) | 価格の目安 |
+| 10 | `docs/drafts/pc-build-budget-150k-gaming.html:126` | TODO(要確認) | 価格の目安 |
+| 11 | `docs/drafts/pc-build-budget-150k-gaming.html:127` | TODO(要確認) | 価格の目安 |
+| 12 | `docs/drafts/pc-build-budget-150k-gaming.html:128` | TODO(要確認) | 価格の目安 |
+| 13 | `docs/drafts/pc-build-budget-150k-gaming.html:129` | TODO(要確認) | 価格の目安 |
+| 14 | `docs/drafts/pc-build-budget-150k-gaming.html:133` | TODO(要確認) | 合計金額 |
+| 15 | `docs/drafts/pc-build-budget-200k-video-editing.html:115` | TODO(画像) | 構成全体またはデスクの写真(著者撮影)を入れる |
+| 16 | `docs/drafts/pc-build-budget-200k-video-editing.html:122` | TODO(要確認) | 価格の目安 |
+| 17 | `docs/drafts/pc-build-budget-200k-video-editing.html:123` | TODO(要確認) | 価格の目安 |
+| 18 | `docs/drafts/pc-build-budget-200k-video-editing.html:124` | TODO(要確認) | 価格の目安 |
+| 19 | `docs/drafts/pc-build-budget-200k-video-editing.html:125` | TODO(要確認) | 価格の目安 |
+| 20 | `docs/drafts/pc-build-budget-200k-video-editing.html:126` | TODO(要確認) | 価格の目安 |
+| 21 | `docs/drafts/pc-build-budget-200k-video-editing.html:127` | TODO(要確認) | 価格の目安 |
+| 22 | `docs/drafts/pc-build-budget-200k-video-editing.html:128` | TODO(要確認) | 価格の目安 |
+| 23 | `docs/drafts/pc-build-budget-200k-video-editing.html:129` | TODO(要確認) | 価格の目安 |
+| 24 | `docs/drafts/pc-build-budget-200k-video-editing.html:133` | TODO(要確認) | 合計金額 |
+| 25 | `docs/kindle_backmatter.md:21` | TODO(要確認) | - 巻末のリンクには、**Amazon アソシエイトのトラッキングID(`?tag=...`)を付けない**でください。Amazon アソシ |
+| 26 | `docs/kindle_backmatter.md:190` | TODO(画像) | > MY 100 DIVES が紙の本(ペーパーバック)として販売されている場合、巻末のURLはクリックできないため、QRコードの併記を検討 |
 
-合計 42 件(TODO(要確認) 37 件、TODO(画像) 5 件)。行番号は 2026-09-29 のコミット時点。一覧は次のコマンドで再生成できます:
-
-```
-git grep -n -e "TODO(要確認)" -e "TODO(画像)" -- ":!docs/REPORT_monetize_14days.md"
-```
+合計 26 件(TODO(要確認) 21 件、TODO(画像) 5 件。`docs/drafts/` の下書き2本の分を含む)。行番号は 2026-10-01 時点。再生成: `git grep -n -e "TODO(要確認)" -e "TODO(画像)" -- ":!docs/REPORT_monetize_14days.md"`
 
 ### ファイル内のマーカー以外で、確認が必要な事項
 
@@ -171,3 +151,13 @@ Day 0 = 2026-09-29(火)
 15. **Kindle巻末のリンク**: 電子書籍内でのアソシエイトリンク使用は Amazon の規約で認められていないと理解しているため、HPの短縮URLから `?tag=` を外したものを使った(規約本文は未確認のため上の#5)。
 16. **Androidの調査**: 広告ユニットIDの値は出力・記載せず、「本番ID / テストID / なし」の区分だけにした。`local.properties`・keystore・`google-services.json` は読んでいない。
 17. **画像**: 画像は作成していない。必要な箇所は `TODO(画像)` として残した。
+
+---
+
+## 5. 追記(2026-10-01)
+
+- **構成記事の価格**: 「RTX 5060 Ti構成とeGPUの比較」「在宅ワーク用デスク環境の一式」に、2026年10月1日時点の価格(価格.comの最安値。掲載のない商品はリンク先ショップの表示価格)を記入した。
+- **予算付き2本は公開見送り**: 価格を調べた結果、「予算15万円のゲーミングPC」は合計約36万円、「予算20万円の動画編集用PC」は約49万円になった(メモリ DDR5 32GB が最安でも約6万円、RTX 5060 Ti 16GB が最安でも約13万円)。題名と内容が合わないため、ユーザー判断(案C)で公開を見送り、`docs/drafts/` に下書きとして退避した。
+- **リンク切れ**: おすすめ機材ページ(`gear/index.html` ほか)の Titan Army P245MS+ の楽天リンクは、商品ページがエラーになっている(販売終了とみられる)。在宅ワーク記事では販売終了と明記し、同シリーズの P245MS PRO の価格とリンクを載せた。おすすめ機材ページ側の扱いは要判断 TODO(要確認)。
+- **HPの Multitime 表記**: 「無制限」を実装どおり「最大20個」に修正済み(ストア側も修正済み)。
+- **Aurum・Empress・Overwatch**: 2026-10-01 にストアで47機種対応版を公開。HPの対応機種の記載も更新済み。
