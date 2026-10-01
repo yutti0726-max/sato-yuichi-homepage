@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>RTX 5060 Ti構成と外付けGPU(eGPU)を比較｜自作PCとノートPC+eGPU</title>
+<meta name="description" content="GeForce RTX 5060 Tiを自作デスクトップに組み込む構成と、ノートPCにThunderbolt 5接続の外付けGPU(GIGABYTE AORUS RTX 5060 Ti AI BOX)をつなぐ構成を、性能・持ち運び・設置スペース・拡張性の観点で比較します。">
+<link rel="canonical" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html">
+<meta property="og:title" content="RTX 5060 Ti構成と外付けGPU(eGPU)を比較｜自作PCとノートPC+eGPU">
+<meta property="og:description" content="GeForce RTX 5060 Tiを自作デスクトップに組み込む構成と、ノートPCにThunderbolt 5接続の外付けGPU(GIGABYTE AORUS RTX 5060 Ti AI BOX)をつなぐ構成を、性能・持ち運び・設置スペース・拡張性の観点で比較します。">
+<meta property="og:site_name" content="佐藤雄一 公式サイト">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RTX 5060 Ti構成と外付けGPU(eGPU)を比較｜自作PCとノートPC+eGPU">
+<meta name="twitter:description" content="GeForce RTX 5060 Tiを自作デスクトップに組み込む構成と、ノートPCにThunderbolt 5接続の外付けGPU(GIGABYTE AORUS RTX 5060 Ti AI BOX)をつなぐ構成を、性能・持ち運び・設置スペース・拡張性の観点で比較します。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "RTX 5060 Tiを使うなら、自作デスクトップと外付けGPU(eGPU)のどちらがいい？",
+  "description": "GeForce RTX 5060 Tiを自作デスクトップに組み込む構成と、ノートPCにThunderbolt 5接続の外付けGPU(GIGABYTE AORUS RTX 5060 Ti AI BOX)をつなぐ構成を、性能・持ち運び・設置スペース・拡張性の観点で比較します。",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-parts-bible.jpg",
+  "author": { "@type": "Person", "@id": "https://yuichi-sato.com/profile/#person", "name": "佐藤雄一", "url": "https://yuichi-sato.com/profile/" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html",
+  "datePublished": "2026-09-29",
+  "dateModified": "2026-09-29"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
+    { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
+    { "@type": "ListItem", "position": 3, "name": "RTX 5060 Ti構成とeGPUの比較" }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="ja" aria-label="Switch language / 言語を切り替え / 切换语言">
+          <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-build-rtx5060ti-vs-egpu.html">JA</a>
+          <a class="lang-switch-option" data-lang-option="en" href="/en/column/">EN</a>
+          <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+        </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/#works">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/profile/">プロフィール</a>
+        <a href="/column/" class="is-active">コラム</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ RTX 5060 Ti構成とeGPUの比較</p>
+      <span class="article-tag">自作PC</span>
+      <h1>RTX 5060 Tiを使うなら、自作デスクトップと外付けGPU(eGPU)のどちらがいい？</h1>
+      <p class="article-meta">更新日：2026年9月29日</p>
+      <p class="article-lead">筆者は普段、ノートPCに外付けGPU(eGPU)をつないで使っています。一方で、同じGeForce RTX 5060 Tiはデスクトップに直接挿して使うこともできます。どちらを選ぶべきかは「PCを持ち歩くかどうか」でほぼ決まります。この記事では2つの構成を並べて比較します。</p>
+      <p><strong>結論から言うと、PCを持ち歩かないなら自作デスクトップ、外でもノートPCを使い帰宅後に性能が欲しいならeGPU、という選び方がおすすめです。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="disclosure-box">
+        <strong>【広告】</strong> この記事には、Amazonアソシエイトのプログラムによるアフィリエイトリンクが含まれています。
+      </div>
+
+      <!-- TODO(画像): 構成全体またはデスクの写真(著者撮影)を入れる -->
+
+      <h2>結論：構成表</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>パーツ</th><th>製品</th><th>価格の目安</th><th>購入リンク</th></tr></thead>
+          <tbody>
+            <tr><td>グラフィックボード(デスクトップ用)</td><td>ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition(DUAL-RTX5060TI-O16G)</td><td>約143,600円(価格.com)</td><td><a href="https://www.amazon.co.jp/s?k=DUAL-RTX5060TI-O16G&tag=yuttitti-22" target="_blank" rel="noopener sponsored">Amazonで探す</a></td></tr>
+            <tr><td>外付けGPU(eGPU)</td><td>GIGABYTE AORUS RTX 5060 Ti AI BOX(GV-N506TIXEB-16GD)</td><td>約205,000円(価格.com)</td><td><a href="https://www.amazon.co.jp/dp/B0GKFHSPN8?tag=yuttitti-22" target="_blank" rel="noopener sponsored">Amazonで見る</a></td></tr>
+            <tr><td>eGPUと組み合わせるノートPC(筆者使用)</td><td>ASUS Zenbook(Core Ultra 9 386H搭載)</td><td>約344,800円(Amazon。2026年10月1日時点では一時的に在庫切れ)</td><td><a href="https://www.amazon.co.jp/dp/B0GX5K8T86?tag=yuttitti-22" target="_blank" rel="noopener sponsored">Amazonで見る</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="gear-note">デスクトップに組み込む場合は、グラフィックボードのほかに CPU・マザーボード・メモリ・SSD・電源・ケースが別に必要です。2026年10月時点ではメモリとグラフィックボードの価格が高く、本体一式の費用は大きく変わるため、パーツを選ぶときに最新の価格を確認してください。</p>
+      <p class="gear-note">※ 価格は2026年10月1日時点の目安です(価格.comの最安値。価格.comに掲載がない商品はリンク先ショップの表示価格)。価格や在庫は日々変わるため、購入前に各リンク先で最新の情報をご確認ください。</p>
+
+      <h2>自作デスクトップとeGPUの比較</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>比較項目</th><th>自作デスクトップ+RTX 5060 Ti</th><th>ノートPC+eGPU(AORUS RTX 5060 Ti AI BOX)</th></tr></thead>
+          <tbody>
+            <tr><td>GPUの接続</td><td>マザーボードのPCIeスロットに直接接続</td><td>Thunderbolt 5ケーブルで接続</td></tr>
+            <tr><td>同じGPUでの性能</td><td>接続帯域の制約が少なく、GPUの性能を引き出しやすい</td><td>接続帯域の制約があるため、同じGPUでもデスクトップより性能が下がる場合がある</td></tr>
+            <tr><td>持ち運び</td><td>できない</td><td>ノートPCだけ持ち出せる</td></tr>
+            <tr><td>設置スペース</td><td>ミドルタワーケース分が必要</td><td>ボックスは約117×243×45mm(メーカー公表値)</td></tr>
+            <tr><td>周辺機器の接続</td><td>ケーブルは個別に接続</td><td>ボックスがハブを兼ね、ケーブル1本でディスプレイやUSB機器がつながる</td></tr>
+            <tr><td>ノートPCへの給電</td><td>—</td><td>Thunderbolt 5経由で最大100W(メーカー公表値)</td></tr>
+            <tr><td>将来のアップグレード</td><td>GPU・CPU・メモリを個別に交換できる</td><td>GPUはボックスごとの交換になる</td></tr>
+            <tr><td>初期費用(2026年10月1日時点の目安)</td><td>グラフィックボード単体で約143,600円(本体のほかのパーツは別途)</td><td>ボックスで約205,000円(ノートPCは別途)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>どちらを選ぶべきか</h2>
+      <h3>自作デスクトップが向いている人</h3>
+      <p>PCを持ち歩かず、机の上で使うのが前提の人です。GPUを直接挿すので性能を引き出しやすく、CPUやメモリ、ストレージもあとから個別に強化できます。同じ予算なら、性能あたりのコストはデスクトップのほうが有利になりやすい構成です。</p>
+      <h3>eGPUが向いている人</h3>
+      <p>外ではノートPCを軽く使い、家では重い作業やゲームもしたい人です。AORUS RTX 5060 Ti AI BOXはThunderbolt 5で接続し、ノートPCへの給電(最大100W)やディスプレイ出力、USB機器のハブも兼ねるので、帰宅してケーブルを1本挿すだけで作業環境が切り替わります。筆者の使い方は<a href="/column/portable-egpu-desk-setup.html">ノートPC+eGPUで作る省スペースデスク環境</a>で紹介しています。</p>
+      <h3>eGPUを選ぶときの確認点</h3>
+      <p>ノートPC側がThunderbolt 5(または対応する規格)の端子を持っているかで、得られる性能が変わります。購入前に、手持ちのノートPCの端子の規格を必ず確認してください。</p>
+
+      <h2>予算を下げる場合の代替パーツ</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>変更するパーツ</th><th>代替案</th><th>注意点</th></tr></thead>
+          <tbody>
+            <tr><td>デスクトップのGPU</td><td>GeForce RTX 5060(8GB)</td><td>ビデオメモリが半分になるため、高画質設定では設定を下げる場面が増えます</td></tr>
+            <tr><td>eGPU</td><td>手持ちのノートPCを流用する</td><td>ノートPCを新調せず、Thunderbolt対応の既存機に接続すれば費用はボックス代だけ</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h2>予算を上げる場合の代替パーツ</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>変更するパーツ</th><th>代替案</th><th>ねらい</th></tr></thead>
+          <tbody>
+            <tr><td>デスクトップのGPU</td><td>GeForce RTX 5070</td><td>WQHDで高いフレームレートを狙うなら</td></tr>
+            <tr><td>eGPU</td><td>より上位GPUを搭載したeGPUボックス</td><td>接続帯域の制約はあるため、上位GPUほど性能差が出やすい点は理解しておく</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>組み立て・保守の注意点</h2>
+      <ul>
+        <li>グラフィックボードやeGPUのケーブルは、必ず電源を切ってから抜き挿しします。筆者は通電中にグラフィックボードの補助電源を挿して壊した経験があります(<a href="/column/pc-build-power-explosion-mistake.html">そのときの記事</a>)。</li>
+        <li>eGPUでゲームをするときは、ノートPC本体の画面を消して外部ディスプレイだけに表示すると、処理をゲームに集中させられます。</li>
+        <li>eGPUボックスも内部にファンとホコリがたまります。デスクトップと同じく、定期的に吸気口の掃除をします。</li>
+      </ul>
+      <p>パーツ構成の考え方や、長く使うためのメンテナンス方法は、Kindle本で詳しく解説しています。</p>
+      <ul>
+        <li><a href="https://amzn.asia/d/03SI9M8q?tag=yuttitti-22" target="_blank" rel="noopener sponsored">パソコンの黄金構成比で自作できるパーツ構成&amp;神ガジェット最適化バイブル【2026年最新版】</a>(Kindle)／<a href="/books/pc-parts-bible/">本の内容を見る</a></li>
+        <li><a href="https://amzn.asia/d/0cEq9G5i?tag=yuttitti-22" target="_blank" rel="noopener sponsored">パーツ寿命を2倍に伸ばす「自作PCメンテナンス&amp;トラブルシューティング」徹底解説</a>(Kindle)／<a href="/books/pc-maintenance/">本の内容を見る</a></li>
+      </ul>
+
+      <div class="disclosure-box">
+        <strong>【アフィリエイトについて】</strong> この記事の商品リンクには、Amazonアソシエイト・楽天アフィリエイトのプログラムによるアフィリエイトリンクが含まれています。リンク経由で商品が購入された場合、当サイトに紹介料が支払われることがあります。価格や在庫は変動するため、購入前に各リンク先の最新情報をご確認ください。
+      </div>
+
+      <p class="gear-note"><a class="topic-card-more" href="/gear/">筆者が実際に使っている機材は「おすすめ機材」ページにまとめています →</a></p>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・100台以上の自作PC実績／PADI認定ダイバー）。詳しいプロフィールは<a href="/profile/">こちら</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>あわせて読みたい</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/column/portable-egpu-desk-setup.html">
+            <span class="column-card-tag">自作PC</span>
+            <h2>ノートPC+eGPUで作る省スペースデスク環境</h2>
+          </a>
+          <a class="column-card" href="/column/home-office-desk-setup.html">
+            <span class="column-card-tag">自作PC</span>
+            <h2>在宅ワーク用デスク環境の一式</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/privacy/">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# GitHub Pages (Jekyll) の設定。
+# docs/ と scripts/ は作業用ファイルなので、yuichi-sato.com 上には公開しない。
+exclude:
+  - docs
+  - scripts
