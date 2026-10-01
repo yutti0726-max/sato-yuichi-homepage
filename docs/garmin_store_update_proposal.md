@@ -126,7 +126,7 @@ Free forever for up to 3 timers at once. Need more? Multitime Pro runs up to 20 
 タイマー3個までならずっと無料。もっと使いたい方へ:上位版の Multitime Pro は、最大20個のタイマーの同時実行、タイマーごとの振動パターン、自分だけのプリセット保存に対応します。買い切り US$2.49(サブスクなし)です。
 ```
 
-> 注意: 現在の Multitime / Multitime Pro の説明文は「UNLIMITED TIMERS / タイマー数が無制限」と書いていますが、ソース(`garmin-multitime/src-pro/Config.mc`)では `MAX_TIMERS = 20` が上限です。上の案は「最大20個」に直しています。HP の Multitime 個別ページ(`garmin/multitime/index.html` と en/zh)とトップの Multitime Pro カードも「無制限」表記のままなので、あわせて直すかどうかを判断してください(TODO(要確認))。
+> (対応済み 2026-10-01)Multitime / Multitime Pro の説明文とHPの「無制限」表記は、ソース(`garmin-multitime/src-pro/Config.mc`、`MAX_TIMERS = 20`)に合わせて「最大20個」に修正した。
 
 ---
 
@@ -362,5 +362,5 @@ https://yuichi-sato.com
 - [ ] 説明文の変更は「詳細を編集」から行う(再審査なしで即時反映された実績あり: 2026-09-29 の SIGN フッター追加時)
 - [ ] 各言語(en / ja)の両方を更新する
 - [ ] TRIAL & PURCHASE の段落が残っていることを確認する
-- [ ] Multitime の「無制限」表記を「最大20個」に直す(ストア・HP の両方)
+- [x] Multitime の「無制限」表記を「最大20個」に直す(ストア・HP の両方、2026-10-01 対応済み)
 - [ ] 対応機種を追加する場合は、manifest 追加 → 全機種ビルド → シミュレーター目視 → 署名 `.iq` を新バージョンとしてアップロード(こちらは再審査が必要)

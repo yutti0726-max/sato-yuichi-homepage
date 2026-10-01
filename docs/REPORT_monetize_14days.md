@@ -126,7 +126,7 @@ git grep -n -e "TODO(要確認)" -e "TODO(画像)" -- ":!docs/REPORT_monetize_14
 
 | # | 内容 | 関連ファイル |
 |---|---|---|
-| 1 | **Multitime Pro の同時タイマー数**: ストアの説明文とHPの個別ページ・トップのカードは「無制限」だが、ソース(`garmin-multitime/src-pro/Config.mc`)の上限は20個。今回追加した比較表は「最大20個」で記載。ストア・HP個別ページ(ja/en/zh)の表記をどちらに合わせるか判断が必要 | `garmin/multitime/index.html` ほか、`docs/garmin_store_update_proposal.md` |
+| 1 | (対応済み 2026-10-01)**Multitime Pro の同時タイマー数**: 「無制限」表記を実装どおり「最大20個」に統一した。HP(トップ・個別ページ ja/en/zh、llms.txt)はこのPRで修正、ストアは Multitime / Multitime Pro の英日説明文を修正済み | `garmin/multitime/index.html` ほか |
 | 2 | **Multitime Pro の日本語説明文がストアに無い**(公開APIの掲載言語が英語のみ。他の8本は英日両方) | `docs/garmin_store_update_proposal.md` |
 | 3 | (取り下げ)当初「Aurum / Empress の manifest にある `quatix847mm` がSDKに無い」と書いたが、manifest のコメント内のメモを誤って拾っていた。実際の対応機種は3本とも13機種で、問題なし | `docs/garmin_store_update_proposal.md` |
 | 4 | **らくらく歩数計・Readshot の未コミット変更**(33件・18件)。GitHubにバックアップされていない | `docs/android_monetization_audit.md` |
