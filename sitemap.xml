@@ -583,7 +583,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -593,7 +593,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -1023,7 +1023,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
@@ -1033,7 +1033,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
@@ -1083,7 +1083,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
@@ -1093,7 +1093,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
@@ -1123,7 +1123,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
@@ -1133,7 +1133,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-parts-priority-cpu-memory-gpu.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
@@ -2143,18 +2143,62 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/home-office-desk-setup.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/column/home-office-desk-setup.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/column/home-office-desk-setup.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/home-office-desk-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/home-office-desk-setup.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/column/pc-build-rtx5060ti-vs-egpu.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-rtx5060ti-vs-egpu.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
   </url>
   <url>

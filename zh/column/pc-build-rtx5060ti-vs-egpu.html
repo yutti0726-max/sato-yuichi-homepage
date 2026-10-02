@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>RTX 5060 Ti台式机与外置显卡(eGPU)比较｜自组电脑vs笔记本+eGPU</title>
+<meta name="description" content="比较GeForce RTX 5060 Ti的两种用法：装进自组台式机，或通过Thunderbolt 5将外置显卡(GIGABYTE AORUS RTX 5060 Ti AI BOX)连接到笔记本电脑。从性能、便携性、占用空间和扩展性等方面进行比较。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pc-build-rtx5060ti-vs-egpu.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html">
+<meta property="og:title" content="RTX 5060 Ti台式机与外置显卡(eGPU)比较｜自组电脑vs笔记本+eGPU">
+<meta property="og:description" content="比较GeForce RTX 5060 Ti的两种用法：装进自组台式机，或通过Thunderbolt 5将外置显卡(GIGABYTE AORUS RTX 5060 Ti AI BOX)连接到笔记本电脑。从性能、便携性、占用空间和扩展性等方面进行比较。">
+<meta property="og:site_name" content="佐藤雄一">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RTX 5060 Ti台式机与外置显卡(eGPU)比较｜自组电脑vs笔记本+eGPU">
+<meta name="twitter:description" content="比较GeForce RTX 5060 Ti的两种用法：装进自组台式机，或通过Thunderbolt 5将外置显卡(GIGABYTE AORUS RTX 5060 Ti AI BOX)连接到笔记本电脑。从性能、便携性、占用空间和扩展性等方面进行比较。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "使用RTX 5060 Ti，选自组台式机还是外置显卡(eGPU)？",
+  "description": "比较GeForce RTX 5060 Ti装进自组台式机与通过Thunderbolt 5外置显卡连接笔记本电脑两种用法。",
+  "image": "https://yuichi-sato.com/assets/img/book-pc-parts-bible.jpg",
+  "author": { "@type": "Person", "@id": "https://yuichi-sato.com/profile/#person", "name": "佐藤雄一", "url": "https://yuichi-sato.com/zh/profile/" },
+  "publisher": { "@type": "Person", "name": "佐藤雄一" },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html",
+  "datePublished": "2026-09-29",
+  "dateModified": "2026-10-03"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "专栏", "item": "https://yuichi-sato.com/zh/column/" },
+    { "@type": "ListItem", "position": 3, "name": "RTX 5060 Ti台式机与eGPU比较" }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/pc-build-rtx5060ti-vs-egpu.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/pc-build-rtx5060ti-vs-egpu.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/pc-build-rtx5060ti-vs-egpu.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/profile/">简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/gear/">推荐装备</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ RTX 5060 Ti台式机与eGPU比较</p>
+      <span class="article-tag">自组电脑</span>
+      <h1>使用RTX 5060 Ti，选自组台式机还是外置显卡(eGPU)？</h1>
+      <p class="article-meta">更新日期：2026年10月3日</p>
+      <p class="article-lead">我平时是把外置显卡(eGPU)接在笔记本电脑上使用的。而同样的GeForce RTX 5060 Ti，也可以直接插在台式机上使用。该选哪一种，几乎只取决于一个问题：“你会不会带着电脑出门”。本文将两种配置放在一起比较。</p>
+      <p><strong>简单来说，如果电脑不离开桌面，就选自组台式机；如果在外用笔记本，回家后又想要更强的性能，就选eGPU。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="disclosure-box">
+        <strong>【广告】</strong> 本文包含Amazon联盟计划的推广链接。
+      </div>
+
+      <!-- TODO(画像): 構成全体またはデスクの写真(著者撮影)を入れる -->
+
+      <h2>配置一览</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>部件</th><th>产品</th><th>参考价格(日本)</th><th>购买链接</th></tr></thead>
+          <tbody>
+            <tr><td>显卡(台式机用)</td><td>ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition(DUAL-RTX5060TI-O16G)</td><td>约143,600日元(价格.com)</td><td><a href="https://www.amazon.co.jp/s?k=DUAL-RTX5060TI-O16G&tag=yuttitti-22" target="_blank" rel="noopener sponsored">在Amazon搜索</a></td></tr>
+            <tr><td>外置显卡(eGPU)</td><td>GIGABYTE AORUS RTX 5060 Ti AI BOX(GV-N506TIXEB-16GD)</td><td>约205,000日元(价格.com)</td><td><a href="https://www.amazon.co.jp/dp/B0GKFHSPN8?tag=yuttitti-22" target="_blank" rel="noopener sponsored">在Amazon查看</a></td></tr>
+            <tr><td>搭配eGPU的笔记本电脑(本人使用)</td><td>ASUS Zenbook(搭载Core Ultra 9 386H)</td><td>约344,800日元(Amazon；2026年10月1日暂时缺货)</td><td><a href="https://www.amazon.co.jp/dp/B0GX5K8T86?tag=yuttitti-22" target="_blank" rel="noopener sponsored">在Amazon查看</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="gear-note">组装台式机时，除显卡外还需要CPU、主板、内存、SSD、电源和机箱。2026年10月日本的内存和显卡价格偏高，整机费用变化很大，选择部件时请确认最新价格。</p>
+      <p class="gear-note">※ 价格为2026年10月1日日本的参考价格(价格.com的最低价；价格.com未收录的商品为链接商店的显示价格)。价格和库存每天都在变化，购买前请在各链接确认最新信息。</p>
+
+      <h2>自组台式机与eGPU的比较</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>比较项目</th><th>自组台式机+RTX 5060 Ti</th><th>笔记本+eGPU(AORUS RTX 5060 Ti AI BOX)</th></tr></thead>
+          <tbody>
+            <tr><td>显卡连接方式</td><td>直接插在主板的PCIe插槽上</td><td>通过Thunderbolt 5线缆连接</td></tr>
+            <tr><td>同一显卡的性能</td><td>带宽限制少，更容易发挥显卡性能</td><td>受连接带宽限制，同一显卡的性能可能低于台式机</td></tr>
+            <tr><td>便携性</td><td>无法携带</td><td>可以只带走笔记本电脑</td></tr>
+            <tr><td>占用空间</td><td>需要放置中塔机箱的空间</td><td>显卡盒约117×243×45mm(厂商公布值)</td></tr>
+            <tr><td>连接外设</td><td>各条线缆分别连接</td><td>显卡盒兼作扩展坞，一根线即可连接显示器和USB设备</td></tr>
+            <tr><td>为笔记本供电</td><td>—</td><td>通过Thunderbolt 5最高100W(厂商公布值)</td></tr>
+            <tr><td>今后的升级</td><td>显卡、CPU、内存都可以单独更换</td><td>升级显卡需要整盒更换</td></tr>
+            <tr><td>初期费用(2026年10月1日参考)</td><td>仅显卡约143,600日元(其他部件另计)</td><td>显卡盒约205,000日元(笔记本另计)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>该选哪一种？</h2>
+      <h3>适合自组台式机的人</h3>
+      <p>电脑不外带、只在桌上使用的人。显卡直接插在主板上，更容易发挥性能，之后还能单独升级CPU、内存和存储。同样的预算下，台式机通常性价比更高。</p>
+      <h3>适合eGPU的人</h3>
+      <p>在外想轻便地用笔记本，回家后又想处理繁重工作或玩游戏的人。AORUS RTX 5060 Ti AI BOX通过Thunderbolt 5连接，同时还能为笔记本供电(最高100W)、输出到显示器并兼作USB扩展坞，回家后插上一根线就能切换整个工作环境。我的用法请参见<a href="/zh/column/portable-egpu-desk-setup.html">用笔记本电脑+eGPU打造省空间的顶级桌面环境</a>。</p>
+      <h3>选购eGPU时的确认要点</h3>
+      <p>能获得多少性能，取决于笔记本是否有Thunderbolt 5(或兼容规格)的接口。购买前请务必确认自己笔记本的接口规格。</p>
+
+      <h2>降低预算时的替代方案</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>更换部件</th><th>替代方案</th><th>注意事项</th></tr></thead>
+          <tbody>
+            <tr><td>台式机显卡</td><td>GeForce RTX 5060(8GB)</td><td>显存减半，在高画质下需要降低设置的情况会增多</td></tr>
+            <tr><td>eGPU</td><td>沿用手头的笔记本电脑</td><td>如果现有笔记本支持Thunderbolt，只需购买显卡盒</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h2>提高预算时的替代方案</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>更换部件</th><th>替代方案</th><th>目的</th></tr></thead>
+          <tbody>
+            <tr><td>台式机显卡</td><td>GeForce RTX 5070</td><td>想在WQHD下追求高帧率时</td></tr>
+            <tr><td>eGPU</td><td>搭载更高端显卡的eGPU盒</td><td>带宽限制依然存在，显卡越高端差距越容易显现，需要事先了解</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>组装与维护的注意事项</h2>
+      <ul>
+        <li>插拔显卡或eGPU的线缆时，一定要先关闭电源。我曾在通电状态下插上显卡的辅助供电线，结果把硬件弄坏了(<a href="/zh/column/pc-build-power-explosion-mistake.html">当时的文章</a>)。</li>
+        <li>用eGPU玩游戏时，关闭笔记本自带的屏幕、只在外接显示器上显示，可以让系统集中处理游戏。</li>
+        <li>eGPU盒内部也有风扇，同样会积灰。和台式机一样，要定期清理进风口。</li>
+      </ul>
+      <p>关于部件搭配的思路和长期使用的保养方法，我在Kindle书中做了详细说明(日文版)。</p>
+      <ul>
+        <li><a href="https://amzn.asia/d/03SI9M8q?tag=yuttitti-22" target="_blank" rel="noopener sponsored">《电脑黄金配置比自组指南＆神级配件优化圣经》(2026年最新版)</a>(Kindle)／<a href="/zh/books/pc-parts-bible/">查看书籍内容</a></li>
+        <li><a href="https://amzn.asia/d/0cEq9G5i?tag=yuttitti-22" target="_blank" rel="noopener sponsored">《让配件寿命翻倍：自组电脑维护与故障排查完全指南》</a>(Kindle)／<a href="/zh/books/pc-maintenance/">查看书籍内容</a></li>
+      </ul>
+
+      <div class="disclosure-box">
+        <strong>【关于推广链接】</strong> 本文的商品链接包含Amazon联盟计划及乐天联盟计划的推广链接。如通过链接购买商品，本站可能会获得推广费用。价格和库存会变动，购买前请在各链接确认最新信息。
+      </div>
+
+      <p class="gear-note"><a class="topic-card-more" href="/zh/gear/">我实际使用的装备汇总在“推荐装备”页面 →</a></p>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・自组电脑100台以上经验／PADI认证潜水员）。详细简介请见<a href="/zh/profile/">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>延伸阅读</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/column/portable-egpu-desk-setup.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>用笔记本电脑+eGPU打造省空间的顶级桌面环境</h2>
+          </a>
+          <a class="column-card" href="/zh/column/home-office-desk-setup.html">
+            <span class="column-card-tag">自组电脑</span>
+            <h2>居家办公桌面环境一套配置</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

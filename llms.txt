@@ -93,6 +93,8 @@
 ## Columns — PC building
 
 - [Which PC parts actually matter — the limits of the GPU, and why CPU and memory count](https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html)
+- [RTX 5060 Ti in a custom desktop vs. an external GPU (eGPU) with a laptop](https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html) (English: https://yuichi-sato.com/en/column/pc-build-rtx5060ti-vs-egpu.html)
+- [A complete home-office desk setup — keyboard, monitors, mice, numpad, wrist rest](https://yuichi-sato.com/column/home-office-desk-setup.html) (English: https://yuichi-sato.com/en/column/home-office-desk-setup.html)
 - [PC build failure story — exploding a GPU by plugging a cable in while powered on](https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html)
 - [PC case selection mistakes — airflow and cable planning matter more than looks](https://yuichi-sato.com/column/pc-case-airflow-build-planning.html)
 - [Mouse and keyboard: "fit" over "spec"](https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html)
