@@ -1017,6 +1017,23 @@ a {
   margin-bottom: 8px;
 }
 
+.article-figure {
+  margin: 0 0 28px;
+}
+
+.article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.article-figure figcaption {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 .article-content table {
   width: 100%;
   border-collapse: collapse;
