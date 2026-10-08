@@ -47,7 +47,7 @@
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/zh/column/pdftoolkit-rotate-extract-guide.html",
   "datePublished": "2026-09-07",
-  "dateModified": "2026-09-07"
+  "dateModified": "2026-10-09"
 }
 </script>
 <script type="application/ld+json">
@@ -69,8 +69,8 @@
   "step": [
     { "@type": "HowToStep", "position": 1, "name": "打开PDF", "text": "打开想要修正方向的PDF，进入页面列表。" },
     { "@type": "HowToStep", "position": 2, "name": "打开页面菜单", "text": "从想要旋转的页面缩略图打开菜单。" },
-    { "@type": "HowToStep", "position": 3, "name": "选择旋转", "text": "选择旋转，每次转动90度，直到方向正确为止。" },
-    { "@type": "HowToStep", "position": 4, "name": "保存", "text": "保存更改。" }
+    { "@type": "HowToStep", "position": 3, "name": "选择旋转", "text": "选择旋转。每点一次，页面顺时针转90度，并立即保存。" },
+    { "@type": "HowToStep", "position": 4, "name": "必要时重复", "text": "重复操作，直到方向正确为止。" }
   ]
 }
 </script>
@@ -80,10 +80,10 @@
   "@type": "HowTo",
   "name": "在PDF工具箱中只提取需要页面的步骤",
   "step": [
-    { "@type": "HowToStep", "position": 1, "name": "打开PDF", "text": "打开作为提取来源的PDF。" },
-    { "@type": "HowToStep", "position": 2, "name": "选择提取功能", "text": "选择页面提取功能。" },
+    { "@type": "HowToStep", "position": 1, "name": "打开提取页面", "text": "从工具中打开提取页面，选择作为提取来源的PDF。" },
+    { "@type": "HowToStep", "position": 2, "name": "取消全选", "text": "一开始全部页面都是选中状态，先点击取消全选。" },
     { "@type": "HowToStep", "position": 3, "name": "选择需要的页面", "text": "勾选想要取出的页面。" },
-    { "@type": "HowToStep", "position": 4, "name": "保存为新PDF", "text": "将选中的页面汇总保存为一个新的PDF。" }
+    { "@type": "HowToStep", "position": 4, "name": "保存为新PDF", "text": "点击提取页面，将选中的页面保存为一个新的PDF。" }
   ]
 }
 </script>
@@ -105,7 +105,7 @@
     {
       "@type": "Question",
       "name": "“提取”和“分割”有什么区别？",
-      "acceptedAnswer": { "@type": "Answer", "text": "提取是从不连续的位置选出需要的页面，汇总为一个新的PDF；分割则是按连续的页面范围，将文件切分为多个PDF。如果想把第1～3页和第8页汇总到一个文件中，用提取；如果想把第1～3页和第4页以后分成两个文件，用分割。" }
+      "acceptedAnswer": { "@type": "Answer", "text": "提取是从不连续的位置选出需要的页面，汇总为一个新的PDF；分割则是按固定的页数，将文件切分为多个PDF。如果想把第1～3页和第8页汇总到一个文件中，用提取；如果想每10页分成一个文件，用分割。" }
     },
     {
       "@type": "Question",
@@ -167,7 +167,7 @@
       <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 如何旋转与提取PDF页面</p>
       <span class="article-tag">PDF·应用</span>
       <h1>如何旋转与提取PDF页面｜从修正方向到只取出需要的页面</h1>
-      <p class="article-meta">更新日期：2026年9月7日</p>
+      <p class="article-meta">更新日期：2026年10月9日</p>
       <p class="article-lead">扫描的PDF中有一页方向变成了横向，或者想从大份资料中只取出几页发给别人——这类针对单个页面的小调整，同样可以仅用手机应用完成。</p>
       <p><strong>简单来说，使用PDF工具箱的页面旋转功能可以逐页修正方向，使用页面提取功能则可以只把需要的页面取出，生成新的PDF。</strong></p>
     </div>
@@ -181,21 +181,21 @@
       <ol>
         <li>打开想要修正方向的PDF，进入页面列表</li>
         <li>从想要旋转的页面缩略图打开菜单</li>
-        <li>选择旋转，每次转动90度，直到方向正确为止</li>
-        <li>保存更改</li>
+        <li>选择“旋转”。每点一次，页面顺时针转90度，并立即保存</li>
+        <li>重复操作，直到方向正确为止</li>
       </ol>
       <p>由于可以针对每一页单独旋转，即使PDF中只有部分页面方向不对，也能精准地只修正那几页。</p>
 
       <h2>只提取需要页面的步骤是？</h2>
       <ol>
-        <li>打开作为提取来源的PDF</li>
-        <li>选择页面提取功能</li>
+        <li>从“工具”（扳手图标）打开“提取页面”，选择作为提取来源的PDF</li>
+        <li>一开始全部页面都是选中状态，先点击“取消全选”</li>
         <li>勾选想要取出的页面</li>
-        <li>将选中的页面汇总保存为一个新的PDF</li>
+        <li>点击“提取 N 页”，将选中的页面保存为一个新的PDF</li>
       </ol>
       <p>由于原始PDF会保持不变，可以放心地将大份资料中的一部分作为单独文件取出，而不会破坏原始数据。</p>
 
-      <div class="note-box">“提取”和“分割”听起来相似，但用途不同。<strong>提取</strong>是从不连续的位置选出需要的页面，汇总为一个文件；<strong>分割</strong>则是按连续的页面范围，把文件本身切分成多份。详见<a href="/zh/column/pdftoolkit-split-guide.html">如何分割PDF</a>。</div>
+      <div class="note-box">“提取”和“分割”听起来相似，但用途不同。<strong>提取</strong>是从不连续的位置选出需要的页面，汇总为一个文件；<strong>分割</strong>则是按固定的页数，把文件本身切分成多份。详见<a href="/zh/column/pdftoolkit-split-guide.html">如何分割PDF</a>。</div>
 
       <h2>也可以把页面导出为图片吗？</h2>
       <p>如果只想把某一页分享到社交媒体或聊天工具中，也可以将该页导出为图片。从页面列表中选择该页，导出为图片后，即可以JPEG或PNG格式发送或发布。相比直接发送整个PDF文件，这种方式不受查看环境限制，分享起来更方便。</p>
@@ -229,7 +229,7 @@
         </div>
         <div class="faq-item">
           <h3>Q. “提取”和“分割”有什么区别？</h3>
-          <p>A. 提取是从不连续的位置选出需要的页面，汇总为一个新的PDF；分割则是按连续的页面范围，将文件切分为多个PDF。如果想把第1～3页和第8页汇总到一个文件中，用提取；如果想把第1～3页和第4页以后分成两个文件，用分割。</p>
+          <p>A. 提取是从不连续的位置选出需要的页面，汇总为一个新的PDF；分割则是按固定的页数，将文件切分为多个PDF。如果想把第1～3页和第8页汇总到一个文件中，用提取；如果想每10页分成一个文件，用分割。</p>
         </div>
         <div class="faq-item">
           <h3>Q. 提取之后原始PDF还会保留吗？</h3>

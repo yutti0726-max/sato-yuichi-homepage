@@ -63,6 +63,11 @@
 - [Rotate and extract PDF pages](https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html)
 - [Add a handwritten signature to a PDF](https://yuichi-sato.com/column/pdftoolkit-signature-guide.html)
 - [Convert photos into a single PDF for submission](https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html)
+- [Turn an ID (front and back) into one PDF on Android](https://yuichi-sato.com/column/pdftoolkit-id-documents-pdf.html)
+- [Combine receipts into one PDF for expense reports and tax filing](https://yuichi-sato.com/column/pdftoolkit-receipts-to-pdf.html)
+- [Write on a PDF form on your phone and send it back](https://yuichi-sato.com/column/pdftoolkit-fill-form-return.html)
+- [PDF too big to send? Compress, split or extract pages](https://yuichi-sato.com/column/pdftoolkit-too-big-to-send.html)
+- [Reorder and delete PDF pages on your phone](https://yuichi-sato.com/column/pdftoolkit-reorder-delete-pages.html)
 
 ## Columns — step counter app (Rakuraku Step Counter)
 
