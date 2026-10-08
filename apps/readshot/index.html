@@ -15,7 +15,7 @@
 </script>
 
 <title>Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ</title>
-<meta name="description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・URLはタップでブラウザが開く・端末内処理でプライバシーも安心。">
+<meta name="description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・共有・検索・読み上げ、URLやQRコードもタップで開ける、端末内処理でプライバシーも安心。">
 <link rel="canonical" href="https://yuichi-sato.com/apps/readshot/">
 <link rel="stylesheet" href="../../style.css">
 <link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/">
@@ -25,7 +25,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://yuichi-sato.com/apps/readshot/">
 <meta property="og:title" content="Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ">
-<meta property="og:description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・URLはタップでブラウザが開く・端末内処理でプライバシーも安心。">
+<meta property="og:description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・共有・検索・読み上げ、URLやQRコードもタップで開ける、端末内処理でプライバシーも安心。">
 <meta property="og:site_name" content="佐藤雄一 公式サイト">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
@@ -33,7 +33,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ">
-<meta name="twitter:description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・URLはタップでブラウザが開く・端末内処理でプライバシーも安心。">
+<meta name="twitter:description" content="スクリーンショットを撮った瞬間に自動で文字認識(OCR)するアプリReadshotの機能を解説。好きな部分だけコピー・共有・検索・読み上げ、URLやQRコードもタップで開ける、端末内処理でプライバシーも安心。">
 <meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
 
 <script type="application/ld+json">
@@ -83,6 +83,15 @@
     },
     {
       "@type": "Question",
+      "name": "QRコードも読み取れますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "読み取れます。スクリーンショットに写ったQRコードを読み取り、リンクを開いたり、Wi-FiのQRコードならパスワードをコピーしたりできます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "認識した文字を読み上げたり、Web検索したりできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "できます。認識した文字は、範囲を選んで(選ばなければ全文)音声で読み上げたり、ワンタップでWeb検索したりできます。Web検索を実行したときだけ、選んだ文字が検索に使われます。" }
+    },    {
+      "@type": "Question",
       "name": "認識した文字や画像は外部に送信されますか？",
       "acceptedAnswer": { "@type": "Answer", "text": "送信されません。文字認識はすべて端末内で処理され、画像や認識テキストが外部サーバーに送られることはありません。" }
     }
@@ -128,7 +137,7 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/#works">アプリ</a> ＞ Readshot</p>
       <span class="article-tag">スクショ・アプリ</span>
       <h1>Readshot｜スクショを撮るだけで文字を読み取るOCRアプリ</h1>
-      <p class="article-meta">更新日：2026年9月14日</p>
+      <p class="article-meta">更新日：2026年10月8日</p>
       <p class="article-lead">画面に表示された文字を手入力し直すのは面倒です。Readshotは、スクリーンショットを撮った瞬間に自動で文字を認識(OCR)し、そのままコピー・共有できるアプリです。</p>
       <p><strong>結論から言うと、スクショを撮るだけで、画面上の文字を手入力せずにコピーできるようになります。</strong></p>
     </div>
@@ -140,7 +149,6 @@
         <h3>Readshot</h3>
         <p>スクリーンショットを撮るだけで自動的に文字を読み取る、OCR内蔵のスクリーンショット管理アプリ。</p>
         <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.readshot" target="_blank" rel="noopener">📲 無料でダウンロード</a>
-        <p class="app-note">※ 現在公開準備中のため、公開までリンク先が表示されない場合があります。</p>
       </div>
 
       <h2>どんな人におすすめですか？</h2>
@@ -158,13 +166,13 @@
           <thead><tr><th>機能</th><th>できること</th></tr></thead>
           <tbody>
             <tr><td>自動検知＋その場でOCR</td><td>スクリーンショットを撮った瞬間に自動で検知し、端末内で文字認識(OCR)を実行。結果をすぐポップアップ表示</td></tr>
-            <tr><td>好きな部分だけコピー・共有</td><td>認識した文字は範囲をドラッグで選んでコピー・共有(範囲選択しなければ全文コピー)</td></tr>
-            <tr><td>URLはタップでブラウザが開く</td><td>認識した文章中のURLは自動でリンク化され、タップでそのままブラウザが開く</td></tr>
-            <tr><td>履歴一覧</td><td>過去に撮ったスクリーンショットの認識結果を、あとから一覧で見返せる</td></tr>
+            <tr><td>好きな部分だけコピー・共有・検索・読み上げ</td><td>認識した文字は範囲をドラッグで選んで、コピー・共有・Web検索・音声での読み上げができる(範囲選択しなければ全文)</td></tr>
+            <tr><td>URL・電話番号・メールはタップで開ける</td><td>認識した文章中のURL・電話番号・メールアドレスは自動でリンク化され、タップでブラウザ・電話・メールが開く</td></tr>
+            <tr><td>QRコードの読み取り</td><td>スクリーンショットに写ったQRコードを読み取り、リンクを開く・Wi-Fiのパスワードをコピーできる</td></tr>
+            <tr><td>履歴一覧＋キーワード検索</td><td>過去に撮ったスクリーンショットの認識結果を一覧で見返し、キーワードで検索できる</td></tr>
             <tr><td>個別削除・一括クリーンアップ</td><td>履歴だけでなく、端末に保存されているスクリーンショット画像本体もまとめて削除・整理できる</td></tr>
             <tr><td>メモ機能</td><td>自由に文字を書き込んだり、コピーした文章を貼り付けて保存できるメモ帳(URLのタップにも対応)</td></tr>
-          </tbody>
-        </table>
+          </tbody>        </table>
       </div>
 
       <h2>使い方の流れ</h2>
@@ -186,6 +194,13 @@
         <p>A. 見返せます。履歴一覧から過去に撮ったスクリーンショットの認識結果をあとから確認できます。</p>
       </div>
       <div class="faq-item">
+        <h3>Q. QRコードも読み取れますか？</h3>
+        <p>A. 読み取れます。スクリーンショットに写ったQRコードを読み取り、リンクを開いたり、Wi-FiのQRコードならパスワードをコピーしたりできます。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 認識した文字を読み上げたり、Web検索したりできますか？</h3>
+        <p>A. できます。認識した文字は、範囲を選んで(選ばなければ全文)音声で読み上げたり、ワンタップでWeb検索したりできます。Web検索を実行したときだけ、選んだ文字が検索に使われます。</p>
+      </div>      <div class="faq-item">
         <h3>Q. 認識した文字や画像は外部に送信されますか？</h3>
         <p>A. 送信されません。文字認識はすべて端末内で処理され、画像や認識テキストが外部サーバーに送られることはありません。</p>
       </div>
@@ -194,7 +209,6 @@
         <h3>スクショの文字入力をなくしたい方へ</h3>
         <p>手入力の手間を減らしたい方へ — Readshotなら、撮った瞬間に文字がコピーできる状態になります。</p>
         <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.snaptools.readshot" target="_blank" rel="noopener">📲 無料でダウンロード</a>
-        <p class="app-note">※ 現在公開準備中のため、公開までリンク先が表示されない場合があります。</p>
       </div>
 
       <div class="author-box">

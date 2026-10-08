@@ -21,7 +21,7 @@
 - [MediaToolbox](https://play.google.com/store/apps/details?id=com.satoyuichi.mediatoolbox): video/image/audio/PDF converter — resize video to MP4, resize images, extract audio to M4A, PDF↔image
 - [PDF Toolkit](https://play.google.com/store/apps/details?id=com.snaptools.pdfkit): scan to PDF, merge/split/compress, OCR text recognition, rotate/extract pages, handwritten signature
 - [Rakuraku Step Counter / らくらく歩数計](https://play.google.com/store/apps/details?id=com.yutti.seniorpedometer): automatic step tracking designed for seniors, no button operation
-- [Readshot](https://play.google.com/store/apps/details?id=com.snaptools.readshot): screenshot manager with built-in OCR — copy text from any screenshot instantly
+- [Readshot](https://play.google.com/store/apps/details?id=com.snaptools.readshot): screenshot OCR app, live on Google Play (Oct 2026) — copy, share, search or read aloud text from any screenshot; reads QR codes; on-device processing
 - [HagLog / ハグログ](https://play.google.com/store/apps/details?id=com.snaptools.haglog): digital baby record book — photo diary, growth records, hand/footprints, printable memory PDF
 
 ## Books (Kindle)
