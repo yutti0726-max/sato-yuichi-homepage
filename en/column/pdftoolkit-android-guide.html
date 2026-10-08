@@ -47,7 +47,7 @@
   "publisher": { "@type": "Person", "name": "Yuichi Sato" },
   "mainEntityOfPage": "https://yuichi-sato.com/en/column/pdftoolkit-android-guide.html",
   "datePublished": "2026-09-03",
-  "dateModified": "2026-10-03"
+  "dateModified": "2026-10-08"
 }
 </script>
 <script type="application/ld+json">
@@ -105,6 +105,16 @@
       "@type": "Question",
       "name": "Can I reorder pages or delete pages I don't need?",
       "acceptedAnswer": { "@type": "Answer", "text": "Yes. From a document's page-order screen you can rearrange pages and remove the ones you don't need." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I fill in PDF form fields on my phone?",
+      "acceptedAnswer": { "@type": "Answer", "text": "PDF Toolkit has no feature for typing into a PDF's form fields with the keyboard. Instead, “Sign / write” lets you write directly on top of a blank field with your finger. Ink comes in three colors (black, blue and red), and saving overwrites the original PDF, so it is safest to keep a separate copy of the original before you write." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I erase what I wrote on a PDF afterward?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Before saving, “Undo” removes your last stroke and “Clear” removes everything you wrote. Once you save, the writing is merged into the page as an image and overwrites the original PDF, so you can not remove it separately afterward." }
     }
   ]
 }
@@ -151,7 +161,7 @@
       <p class="breadcrumb"><a href="/en/">Home</a> ＞ <a href="/en/column/">Column</a> ＞ How to Edit PDFs on Android</p>
       <span class="article-tag">PDF & Apps</span>
       <h1>How to Edit a PDF on Your Phone (Android): What You Can and Can't Do, and a Free App</h1>
-      <p class="article-meta">Updated: October 3, 2026</p>
+      <p class="article-meta">Updated: October 8, 2026</p>
       <p class="article-lead">"I want to merge PDFs." "I want to delete a page." "I want to shrink a PDF that's too heavy to send." "I need to sign this." A lot of PDF editing on Android can be done with a free app, no computer required. Rewriting the text that's already in a PDF, though, is hard to do on a phone. This article separates what you can and can't edit on your phone, then walks through the PDF editing app "PDF Toolkit" feature by feature.</p>
       <p><strong>In short: merging, splitting, reordering, deleting and rotating pages, compressing the file, OCR, and handwritten signatures or notes all work on your phone with the free app "PDF Toolkit". Rewriting text that's already in the PDF doesn't — the reliable fix is to correct the original file (such as a Word document) and create the PDF again.</strong></p>
     </div>
@@ -171,10 +181,11 @@
         <tr><td>Reorder pages or delete pages you don't need</td><td>Yes</td><td>From the document's page-order screen</td></tr>
         <tr><td>Fix a sideways or upside-down page</td><td>Yes</td><td>Page rotation</td></tr>
         <tr><td>Make the file smaller</td><td>Yes</td><td>"Compress PDF". Pages become images, so text can no longer be searched or copied</td></tr>
-        <tr><td>Write a signature or notes by hand</td><td>Yes</td><td>"Sign / write" — draw directly with your finger</td></tr>
+        <tr><td>Write a signature or notes by hand</td><td>Yes</td><td>"Sign / write" — draw directly with your finger. Saving overwrites the original PDF</td></tr>
         <tr><td>Make scanned text searchable and copyable</td><td>Yes</td><td>"Make text searchable" (OCR)</td></tr>
         <tr><td>Rewrite text that's already in the PDF</td><td>No</td><td>Correct the original file (Word, Google Docs and so on) and export a new PDF</td></tr>
         <tr><td>Type new text with the keyboard</td><td>No</td><td>Only handwritten text and drawings can be added</td></tr>
+        <tr><td>Type into a PDF's form fields with the keyboard</td><td>No</td><td>You can still fill a field by writing over it by hand</td></tr>
       </table>
       </div>
       <p>A PDF is closer to a printed page than to an editable document, so it isn't designed for rewriting the original text. When the wording needs to change, the most reliable route is to fix the file the PDF was made from and save it as a PDF again. If you don't have the original, or the fix is small, you can also write the correction in by hand.</p>
@@ -188,10 +199,10 @@
         <tr><td>Merge PDFs</td><td>Combine multiple PDFs into one file</td><td><a href="/en/column/pdftoolkit-merge-compress.html">How to merge and compress PDFs</a></td></tr>
         <tr><td>Compress PDFs</td><td>Shrink the file size to make it easier to email</td><td><a href="/en/column/pdftoolkit-merge-compress.html">How to merge and compress PDFs</a></td></tr>
         <tr><td>Split PDFs</td><td>Cut out just the page range you need as a new PDF</td><td><a href="/en/column/pdftoolkit-split-guide.html">How to split a PDF</a></td></tr>
-        <tr><td>OCR text recognition</td><td>Make scanned text searchable and copyable</td><td><a href="/en/column/pdftoolkit-ocr-guide.html">How to make PDF text searchable and copyable</a></td></tr>
+        <tr><td>OCR text recognition</td><td>Make scanned text searchable and copyable</td><td><a href="/en/column/pdftoolkit-ocr-guide.html">How to search words in a PDF on Android</a></td></tr>
         <tr><td>Rotate & extract pages</td><td>Fix page orientation, or export just the pages you need</td><td><a href="/en/column/pdftoolkit-rotate-extract-guide.html">How to rotate and extract PDF pages</a></td></tr>
         <tr><td>Reorder & delete pages</td><td>Change the page order or remove pages you don't need</td><td>—</td></tr>
-        <tr><td>Handwritten signature & notes</td><td>Write a signature or notes directly onto the PDF</td><td><a href="/en/column/pdftoolkit-signature-guide.html">How to add a handwritten signature to a PDF</a></td></tr>
+        <tr><td>Handwritten signature & notes</td><td>Write a signature or notes directly onto the PDF</td><td><a href="/en/column/pdftoolkit-signature-guide.html">How to write on and sign a PDF on Android</a></td></tr>
       </table>
       </div>
 
@@ -261,6 +272,14 @@
         <div class="faq-item">
           <h3>Q. Can I reorder pages or delete pages I don't need?</h3>
           <p>A. Yes. From a document's page-order screen you can rearrange pages and remove the ones you don't need.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Can I fill in PDF form fields on my phone?</h3>
+          <p>A. PDF Toolkit has no feature for typing into a PDF's form fields with the keyboard. Instead, “Sign / write” lets you write directly on top of a blank field with your finger. Ink comes in three colors (black, blue and red), and saving overwrites the original PDF, so it is safest to keep a separate copy of the original before you write.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. Can I erase what I wrote on a PDF afterward?</h3>
+          <p>A. Before saving, “Undo” removes your last stroke and “Clear” removes everything you wrote. Once you save, the writing is merged into the page as an image and overwrites the original PDF, so you can not remove it separately afterward.</p>
         </div>
       </div>
 

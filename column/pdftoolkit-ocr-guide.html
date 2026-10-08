@@ -14,8 +14,8 @@
   gtag('config', 'G-KVFRTBGBBQ');
 </script>
 
-<title>PDFの文字を検索・コピーできるようにする方法｜スマホでOCR</title>
-<meta name="description" content="スキャンしたPDFの文字が検索・コピーできない。そんなときにスマホアプリのOCR機能で文字を認識させ、検索・コピー可能なPDFに変換する方法を解説します。">
+<title>スマホでPDF内の単語を検索する方法｜検索できないPDFはOCRで解決</title>
+<meta name="description" content="スマホでPDFの中の単語を検索するには、PDF閲覧アプリの検索機能を使います。スキャンしたPDFで見つからないときは、OCR(文字認識)で検索・コピーできるPDFに変換する方法を解説します。">
 <link rel="canonical" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
 <link rel="stylesheet" href="../style.css">
 <link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
@@ -24,30 +24,30 @@
 <link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html">
-<meta property="og:title" content="PDFの文字を検索・コピーできるようにする方法｜スマホでOCR">
-<meta property="og:description" content="スキャンしたPDFの文字が検索・コピーできない。そんなときにスマホアプリのOCR機能で文字を認識させ、検索・コピー可能なPDFに変換する方法を解説します。">
+<meta property="og:title" content="スマホでPDF内の単語を検索する方法｜検索できないPDFはOCRで解決">
+<meta property="og:description" content="スマホでPDFの中の単語を検索するには、PDF閲覧アプリの検索機能を使います。スキャンしたPDFで見つからないときは、OCR(文字認識)で検索・コピーできるPDFに変換する方法を解説します。">
 <meta property="og:site_name" content="佐藤雄一 公式サイト">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PDFの文字を検索・コピーできるようにする方法｜スマホでOCR">
-<meta name="twitter:description" content="スキャンしたPDFの文字が検索・コピーできない。そんなときにスマホアプリのOCR機能で文字を認識させ、検索・コピー可能なPDFに変換する方法を解説します。">
+<meta name="twitter:title" content="スマホでPDF内の単語を検索する方法｜検索できないPDFはOCRで解決">
+<meta name="twitter:description" content="スマホでPDFの中の単語を検索するには、PDF閲覧アプリの検索機能を使います。スキャンしたPDFで見つからないときは、OCR(文字認識)で検索・コピーできるPDFに変換する方法を解説します。">
 <meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "PDFの文字を検索・コピーできるようにする方法｜スマホでOCR",
-  "description": "スキャンしたPDFの文字をOCR機能で認識させ、検索・コピー可能なPDFに変換する方法を解説します。",
+  "headline": "スマホでPDF内の単語を検索する方法｜検索できないPDFはOCRで解決",
+  "description": "スマホでPDFの中の単語を検索するには、PDF閲覧アプリの検索機能を使います。スキャンしたPDFで見つからないときは、OCR(文字認識)で検索・コピーできるPDFに変換する方法を解説します。",
   "image": "https://yuichi-sato.com/assets/img/pdftoolkit-icon.png",
   "author": { "@type": "Person", "@id": "https://yuichi-sato.com/profile/#person", "name": "佐藤雄一", "url": "https://yuichi-sato.com/profile/" },
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html",
   "datePublished": "2026-09-03",
-  "dateModified": "2026-09-03"
+  "dateModified": "2026-10-08"
 }
 </script>
 <script type="application/ld+json">
@@ -57,7 +57,7 @@
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://yuichi-sato.com/" },
     { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://yuichi-sato.com/column/" },
-    { "@type": "ListItem", "position": 3, "name": "PDFの文字を検索・コピーできるようにする方法" }
+    { "@type": "ListItem", "position": 3, "name": "スマホでPDF内の単語を検索する方法" }
   ]
 }
 </script>
@@ -67,9 +67,11 @@
   "@type": "HowTo",
   "name": "PDFツールキットでPDFをOCR処理する手順",
   "step": [
-    { "@type": "HowToStep", "position": 1, "name": "PDFを開く", "text": "PDFツールキットで、文字を認識させたいPDFを開く。" },
-    { "@type": "HowToStep", "position": 2, "name": "OCR機能を選択", "text": "メニューからOCR(文字認識)機能を選択する。" },
-    { "@type": "HowToStep", "position": 3, "name": "処理を実行", "text": "処理を実行すると、PDF内の文字が認識され、検索・コピーできる状態になる。" }
+    { "@type": "HowToStep", "position": 1, "name": "ツールを開く", "text": "PDFツールキットのライブラリ画面上部にある「ツール」(レンチのアイコン)を開く。" },
+    { "@type": "HowToStep", "position": 2, "name": "検索できるPDFにするを選ぶ", "text": "ツール一覧から「検索できるPDFにする」をタップする。" },
+    { "@type": "HowToStep", "position": 3, "name": "書類の言語を選ぶ", "text": "書類の言語として日本語または中国語を選ぶ。" },
+    { "@type": "HowToStep", "position": 4, "name": "PDFを選ぶ", "text": "文字を認識させたいPDFをファイルから選ぶ。" },
+    { "@type": "HowToStep", "position": 5, "name": "処理の完了を待つ", "text": "処理が終わると、検索・コピーできる検索可能PDFがライブラリに追加される。" }
   ]
 }
 </script>
@@ -102,6 +104,26 @@
       "@type": "Question",
       "name": "OCR処理したPDFは元のレイアウトが崩れますか？",
       "acceptedAnswer": { "@type": "Answer", "text": "PDFツールキットのOCRは、見た目のページ画像はそのままに、裏側に検索可能な文字情報を追加する形式のため、レイアウトは崩れません。" }
+    },
+    {
+      "@type": "Question",
+      "name": "スマホでPDFの中の単語を検索するにはどうすればいいですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "PDF閲覧アプリの検索機能(虫眼鏡アイコンやメニューの「検索」)に単語を入力します。PDFに文字情報が入っていれば、該当する箇所が強調表示されます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "PDFで単語を検索してもヒットしないのはなぜですか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "スキャンやカメラ撮影で作ったPDFは、ページ全体が画像として保存されていて、検索の対象になる文字情報を持っていないためです。OCR(文字認識)で文字情報を追加すると、検索できるようになります。" }
+    },
+    {
+      "@type": "Question",
+      "name": "OCR処理をすると元のPDFは上書きされますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "上書きされません。PDFツールキットは、処理した結果を「検索可能PDF」という新しい書類としてライブラリに追加します。" }
+    },
+    {
+      "@type": "Question",
+      "name": "PDFを圧縮したあとでも検索できますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "できません。PDFツールキットの圧縮はページを画像として作り直す仕組みのため、圧縮したPDFは検索・コピーができなくなります。検索したいPDFは圧縮せずに残し、軽くしたいときは圧縮したコピーを別に作ってください。" }
     }
   ]
 }
@@ -145,16 +167,19 @@
 <main>
   <div class="wrap article-body">
     <div class="article-header">
-      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ PDFの文字を検索・コピーできるようにする方法</p>
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ スマホでPDF内の単語を検索する方法</p>
       <span class="article-tag">PDF・アプリ</span>
-      <h1>PDFの文字を検索・コピーできるようにする方法｜スマホでOCR</h1>
-      <p class="article-meta">更新日：2026年9月3日</p>
-      <p class="article-lead">紙の書類をスキャンしてPDF化したものの、中の文字が検索もコピーもできない。そんな経験はないでしょうか。これはPDFが「画像」として保存されているために起こる、よくあるつまずきポイントです。この記事では、スマホアプリのOCR機能でPDFの文字を検索・コピーできる状態にする方法を解説します。</p>
-      <p><strong>結論から言うと、OCR(文字認識)機能を使えば、スキャンしたPDFの見た目を変えずに、検索・コピーできる文字情報を追加できます。</strong></p>
+      <h1>スマホでPDF内の単語を検索する方法｜検索できないPDFはOCRで解決</h1>
+      <p class="article-meta">更新日：2026年10月8日</p>
+      <p class="article-lead">スマホでPDFを開いたとき、中の単語を探したくなることは多いはずです。たいていのPDF閲覧アプリには検索機能がありますが、スキャンした書類や写真から作ったPDFでは、検索しても何もヒットしないことがあります。この記事では、PDFの中の単語を検索する基本の方法と、検索できないPDFをOCR(文字認識)で検索できる状態にする方法を解説します。</p>
+      <p><strong>結論から言うと、文字情報を持つPDFは閲覧アプリの検索機能でそのまま探せます。スキャンしたPDFのように検索に出てこないものは、OCR(文字認識)で検索・コピーできる文字情報を追加すれば、見た目を変えずに単語を検索できるようになります。</strong></p>
     </div>
 
     <div class="article-content">
 
+      <h2>スマホでPDFの中の単語を検索する基本の方法は？</h2>
+      <p>PDFを開いたまま単語を探すには、PDF閲覧アプリの検索機能を使います。アプリによって位置は異なりますが、画面上部の虫眼鏡アイコンやメニューの「検索」から単語を入力すると、該当する箇所が強調表示され、次の候補へ順にジャンプできます。</p>
+      <p>ただし、この検索が働くのは、PDFの中に「文字情報」が入っている場合だけです。検索してもまったくヒットしないとき、あるいは画面上の文字を長押ししても選択できないときは、そのPDFがページ全体を画像として保存している可能性が高く、検索の前に文字情報を追加するひと手間が必要です。</p>
       <h2>なぜスキャンしたPDFの文字は検索・コピーできないのか？</h2>
       <p>紙の書類をカメラで撮影してPDF化した場合、そのPDFはページ全体が1枚の「画像」として保存されています。見た目には文字が写っていても、コンピューター上ではただの画像データであり、文字情報としては認識されていません。そのため、検索窓に単語を入力しても該当ページがヒットせず、文字をドラッグしてコピーすることもできません。</p>
 
@@ -163,13 +188,18 @@
 
       <h2>PDFツールキットでOCR処理をする手順は？</h2>
       <ol>
-        <li>PDFツールキットで、文字を認識させたいPDFを開く</li>
-        <li>メニューからOCR(文字認識)機能を選択する</li>
-        <li>処理を実行すると、PDF内の文字が認識され、検索・コピーできる状態になる</li>
+        <li>PDFツールキットのライブラリ画面上部にある「ツール」(レンチのアイコン)を開く</li>
+        <li>「検索できるPDFにする」をタップする</li>
+        <li>書類の言語(日本語または中国語)を選ぶ</li>
+        <li>文字を認識させたいPDFをファイルから選ぶ</li>
+        <li>処理が終わると、検索・コピーできる「検索可能PDF」がライブラリに追加される</li>
       </ol>
-      <p>処理はすべて端末内で完結するため、契約書や個人情報を含む書類でも外部サーバーに送信されることなく処理できます。</p>
+      <p>日本語を選んでも、同じページにある英数字は一緒に認識されます。処理結果は元のPDFを上書きせず、別の書類としてライブラリに追加されます。</p>
+      <p>文字の認識そのものは端末の中で行われ、PDFの内容が外部サーバーに送信されることはありません。ただし、検索用の文字情報を埋め込むために、Googleのオープンソースフォント(Noto Sans JP)を初回だけダウンロードします。そのため、最初の1回だけインターネット接続が必要で、2回目以降は不要です。</p>
 
       <div class="note-box">OCRの認識精度は、撮影・スキャン時の画質に大きく左右されます。傾きや影がなく、文字がくっきり写っている状態でスキャンしておくと、後のOCR処理の精度も上がります。</div>
+
+      <div class="note-box">PDFツールキットでPDFを圧縮すると、ページが画像として作り直されるため、せっかく追加した検索用の文字情報も消えてしまいます。画質も下がるので、圧縮後のファイルにOCRをかけると認識精度が落ちることもあります。OCR済みのPDFは原本として残し、メールで送る軽いファイルが必要なときだけ、そのコピーを圧縮するのがおすすめです。</div>
 
       <h2>OCR処理はどんな場面で役立つ？</h2>
       <ul>
@@ -209,6 +239,22 @@
         <div class="faq-item">
           <h3>Q. OCR処理したPDFは元のレイアウトが崩れますか？</h3>
           <p>A. PDFツールキットのOCRは、見た目のページ画像はそのままに、裏側に検索可能な文字情報を追加する形式のため、レイアウトは崩れません。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. スマホでPDFの中の単語を検索するにはどうすればいいですか？</h3>
+          <p>A. PDF閲覧アプリの検索機能(虫眼鏡アイコンやメニューの「検索」)に単語を入力します。PDFに文字情報が入っていれば、該当する箇所が強調表示されます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. PDFで単語を検索してもヒットしないのはなぜですか？</h3>
+          <p>A. スキャンやカメラ撮影で作ったPDFは、ページ全体が画像として保存されていて、検索の対象になる文字情報を持っていないためです。OCR(文字認識)で文字情報を追加すると、検索できるようになります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. OCR処理をすると元のPDFは上書きされますか？</h3>
+          <p>A. 上書きされません。PDFツールキットは、処理した結果を「検索可能PDF」という新しい書類としてライブラリに追加します。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. PDFを圧縮したあとでも検索できますか？</h3>
+          <p>A. できません。PDFツールキットの圧縮はページを画像として作り直す仕組みのため、圧縮したPDFは検索・コピーができなくなります。検索したいPDFは圧縮せずに残し、軽くしたいときは圧縮したコピーを別に作ってください。</p>
         </div>
       </div>
 

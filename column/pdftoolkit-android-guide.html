@@ -47,7 +47,7 @@
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/column/pdftoolkit-android-guide.html",
   "datePublished": "2026-09-03",
-  "dateModified": "2026-10-03"
+  "dateModified": "2026-10-08"
 }
 </script>
 <script type="application/ld+json">
@@ -105,6 +105,16 @@
       "@type": "Question",
       "name": "PDFのページの順番を入れ替えたり、不要なページを削除したりできますか？",
       "acceptedAnswer": { "@type": "Answer", "text": "はい。書類の画面の「ページを並べ替え」から、ページの順番の入れ替えと不要なページの削除ができます。" }
+    },
+    {
+      "@type": "Question",
+      "name": "PDFのフォーム(入力欄)にスマホで入力できますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "PDFツールキットには、フォームの入力欄にキーボードで文字を入力する機能はありません。代わりに「サイン・書き込み」で、記入欄の上に指で直接書き込めます。色は黒・青・赤の3色で、保存すると元のPDFに上書きされるため、原本は書き込む前に別途保存しておくと安心です。" }
+    },
+    {
+      "@type": "Question",
+      "name": "PDFへの書き込みは、あとから消せますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "保存する前なら、「元に戻す」で最後に書いた1画を取り消したり、「消去」で書き込みをすべて消したりできます。保存すると書き込みはページの画像として元のPDFに上書きされるため、あとから書き込みだけを消すことはできません。" }
     }
   ]
 }
@@ -151,7 +161,7 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ スマホでPDFを編集する方法</p>
       <span class="article-tag">PDF・アプリ</span>
       <h1>スマホ(Android)でPDFを編集する方法｜できること・できないことと無料アプリ</h1>
-      <p class="article-meta">更新日：2026年10月3日</p>
+      <p class="article-meta">更新日：2026年10月8日</p>
       <p class="article-lead">「PDFを結合したい」「いらないページを消したい」「重くて送れないPDFを軽くしたい」「書類にサインを入れたい」。スマホ(Android)でのPDF編集は、パソコンがなくても無料アプリでかなりの部分ができます。ただし「PDFの文字を直接書き換える」ような編集は、スマホでは難しいのが実情です。この記事では、スマホでできる編集とできない編集を分けたうえで、PDF編集アプリ「PDFツールキット」の使い方を機能別に紹介します。</p>
       <p><strong>結論から言うと、ページの結合・分割・並べ替え・削除・回転、ファイルの圧縮、文字認識(OCR)、手書きのサインや書き込みは、無料アプリ「PDFツールキット」でスマホだけでできます。一方、PDFに元から書かれている文字を直接書き換えることはできないので、元のファイル(Wordなど)を直してPDFを作り直すのが確実です。</strong></p>
     </div>
@@ -171,10 +181,11 @@
         <tr><td>ページの順番を入れ替える・不要なページを消す</td><td>できる</td><td>書類の画面の「ページを並べ替え」から</td></tr>
         <tr><td>横向き・逆さまのページを直す</td><td>できる</td><td>ページの回転</td></tr>
         <tr><td>ファイルを軽くする</td><td>できる</td><td>「PDFを圧縮」。ページは画像になるため、文字の検索・コピーはできなくなります</td></tr>
-        <tr><td>手書きでサインやメモを書き込む</td><td>できる</td><td>「サイン・書き込み」。指で直接書き込みます</td></tr>
+        <tr><td>手書きでサインやメモを書き込む</td><td>できる</td><td>「サイン・書き込み」。指で直接書き込みます。保存すると元のPDFに上書きされます</td></tr>
         <tr><td>スキャンしたPDFの文字を検索・コピーできるようにする</td><td>できる</td><td>「検索できるPDFにする」(OCR)</td></tr>
         <tr><td>PDFに元からある文字を書き換える</td><td>できない</td><td>元のファイル(Word・Googleドキュメントなど)を直して、PDFを作り直すのが確実</td></tr>
         <tr><td>キーボードで文字を打ち込んで追加する</td><td>できない</td><td>追加できるのは指で書いた文字・図だけです</td></tr>
+        <tr><td>PDFのフォーム(入力欄)にキーボードで入力する</td><td>できない</td><td>入力欄の上に指で手書きして埋めることはできます</td></tr>
       </table>
       </div>
       <p>PDFは「印刷した紙」に近い形式で、元の文字を書き換えることを前提にしていません。文字の修正が必要なときは、PDFになる前の元のファイルを直して、もう一度PDFとして保存し直すのがいちばん確実です。元のファイルがない場合や、ちょっとした訂正で済む場合は、手書きの書き込み機能で訂正を書き加える方法もあります。</p>
@@ -188,10 +199,10 @@
         <tr><td>PDFを結合</td><td>複数のPDFを1つのファイルにまとめる</td><td><a href="/column/pdftoolkit-merge-compress.html">スマホでPDFを結合・圧縮する方法</a></td></tr>
         <tr><td>PDFを圧縮</td><td>ファイルサイズを縮小してメール添付しやすくする</td><td><a href="/column/pdftoolkit-merge-compress.html">スマホでPDFを結合・圧縮する方法</a></td></tr>
         <tr><td>PDFを分割</td><td>必要なページ範囲だけを新しいPDFとして切り出す</td><td><a href="/column/pdftoolkit-split-guide.html">PDFを分割する方法</a></td></tr>
-        <tr><td>OCR文字認識</td><td>スキャンした文字を検索・コピーできる状態にする</td><td><a href="/column/pdftoolkit-ocr-guide.html">PDFの文字を検索・コピーできるようにする方法</a></td></tr>
+        <tr><td>OCR文字認識</td><td>スキャンした文字を検索・コピーできる状態にする</td><td><a href="/column/pdftoolkit-ocr-guide.html">スマホでPDF内の単語を検索する方法</a></td></tr>
         <tr><td>ページの回転・抽出</td><td>向きの直しや、必要なページだけの書き出し</td><td><a href="/column/pdftoolkit-rotate-extract-guide.html">PDFのページを回転・抽出する方法</a></td></tr>
         <tr><td>ページの並べ替え・削除</td><td>ページの順番を入れ替えたり、不要なページを消したりする</td><td>—</td></tr>
-        <tr><td>手書きサイン・書き込み</td><td>PDF上に直接サインや文字を書き込む</td><td><a href="/column/pdftoolkit-signature-guide.html">PDFに手書きでサイン・書き込みを追加する方法</a></td></tr>
+        <tr><td>手書きサイン・書き込み</td><td>PDF上に直接サインや文字を書き込む</td><td><a href="/column/pdftoolkit-signature-guide.html">AndroidでPDFに書き込み・手書きサインする方法</a></td></tr>
       </table>
       </div>
 
@@ -261,6 +272,14 @@
         <div class="faq-item">
           <h3>Q. PDFのページの順番を入れ替えたり、不要なページを削除したりできますか？</h3>
           <p>A. はい。書類の画面の「ページを並べ替え」から、ページの順番の入れ替えと不要なページの削除ができます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. PDFのフォーム(入力欄)にスマホで入力できますか？</h3>
+          <p>A. PDFツールキットには、フォームの入力欄にキーボードで文字を入力する機能はありません。代わりに「サイン・書き込み」で、記入欄の上に指で直接書き込めます。色は黒・青・赤の3色で、保存すると元のPDFに上書きされるため、原本は書き込む前に別途保存しておくと安心です。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. PDFへの書き込みは、あとから消せますか？</h3>
+          <p>A. 保存する前なら、「元に戻す」で最後に書いた1画を取り消したり、「消去」で書き込みをすべて消したりできます。保存すると書き込みはページの画像として元のPDFに上書きされるため、あとから書き込みだけを消すことはできません。</p>
         </div>
       </div>
 
