@@ -1363,3 +1363,72 @@ a {
 .compare-block td a {
   color: var(--garmin-dark);
 }
+
+/* mascot (image character) */
+
+.mascot {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.mascot-hero {
+  width: min(250px, 64vw);
+  margin: 32px auto 0;
+  opacity: 0;
+  animation: hero-fade-up 0.7s ease 0.35s forwards, mascot-bob 5s ease-in-out 1.2s infinite;
+}
+
+@keyframes mascot-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.section > .wrap {
+  position: relative;
+}
+
+.mascot-corner {
+  position: absolute;
+  right: 24px;
+  top: -62px;
+  height: 104px;
+  width: auto;
+}
+
+.mascot-footer {
+  height: 92px;
+  width: auto;
+  margin: 0 auto 10px;
+}
+
+@media (max-width: 719px) {
+  .mascot-corner {
+    right: 16px;
+    top: -48px;
+    height: 78px;
+  }
+
+  .mascot-footer {
+    height: 80px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mascot-hero {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+.nobr {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.hero h1.h1-fit {
+  font-size: clamp(1.25rem, 6vw, 3rem);
+}
