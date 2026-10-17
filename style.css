@@ -1432,3 +1432,13 @@ a {
 .hero h1.h1-fit {
   font-size: clamp(1.25rem, 6vw, 3rem);
 }
+
+.app-feature-art {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin: 0 0 24px;
+}

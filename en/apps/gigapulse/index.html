@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>GigaPulse | Data Usage, CPU and Memory Widget</title>
+<meta name="description" content="GigaPulse shows mobile data, CPU and memory usage on a home-screen widget, with per-app data ranking, limit alerts and one-tap memory release.">
+<link rel="canonical" href="https://yuichi-sato.com/en/apps/gigapulse/">
+<link rel="stylesheet" href="../../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/gigapulse/">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/gigapulse/">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/gigapulse/">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/gigapulse/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuichi-sato.com/en/apps/gigapulse/">
+<meta property="og:title" content="GigaPulse | Data Usage, CPU and Memory Widget">
+<meta property="og:description" content="GigaPulse shows mobile data, CPU and memory usage on a home-screen widget, with per-app data ranking, limit alerts and one-tap memory release.">
+<meta property="og:site_name" content="Yuichi Sato">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GigaPulse | Data Usage, CPU and Memory Widget">
+<meta name="twitter:description" content="GigaPulse shows mobile data, CPU and memory usage on a home-screen widget, with per-app data ranking, limit alerts and one-tap memory release.">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GigaPulse",
+  "url": "https://yuichi-sato.com/en/apps/gigapulse/",
+  "image": "https://yuichi-sato.com/assets/img/gigapulse-icon.png",
+  "description": "An Android app that shows mobile data, CPU and memory usage on a home-screen widget, with per-app data ranking, usage-limit alerts and one-tap memory release.",
+  "operatingSystem": "Android",
+  "applicationCategory": "UtilitiesApplication",
+  "author": { "@type": "Person", "@id": "https://yuichi-sato.com/profile/#person", "name": "Yuichi Sato", "url": "https://yuichi-sato.com/en/profile/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yuichi-sato.com/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Apps", "item": "https://yuichi-sato.com/en/apps/" },
+    { "@type": "ListItem", "position": 3, "name": "GigaPulse" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where is my data usage shown?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The home-screen widget always shows today's data usage and this month's data usage. Open the app to see your monthly usage rate and month-end forecast too." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I see which apps are using data?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The per-app ranking covers today, 7 days, this month and last month, for mobile or Wi-Fi. Sorting by background data makes it easier to find apps using data when you are not." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does memory release really free up memory?",
+      "acceptedAnswer": { "@type": "Answer", "text": "One tap asks Android to end background processes of apps you are not using. You can compare memory usage before and after, but the effect is temporary." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does CPU usage show “OS limit”?",
+      "acceptedAnswer": { "@type": "Answer", "text": "On Android 8 and later, some devices do not let apps read CPU usage. GigaPulse then shows “OS limit.”" }
+    },
+    {
+      "@type": "Question",
+      "name": "Can it delete cache or junk files?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. GigaPulse shows data usage, CPU and memory, and has no storage-cleaner feature." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is free to use with ads. A one-time PRO purchase removes the ads." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/apps/gigapulse/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/apps/gigapulse/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/apps/gigapulse/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/en/#works">Apps</a>
+        <a href="/en/#books">Books</a>
+        <a href="/en/profile/">Profile</a>
+        <a href="/en/column/">Column</a>
+        <a href="/en/gear/">Gear</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/en/">Home</a> &gt; <a href="/en/apps/">Apps</a> &gt; GigaPulse</p>
+      <span class="article-tag">Tools &amp; Apps</span>
+      <h1>GigaPulse | Data Usage, CPU and Memory Widget</h1>
+      <p class="article-meta">Updated: October 18, 2026</p>
+      <p class="article-lead">Running low on data? GigaPulse is an Android app that puts your mobile data, CPU and memory usage right on your home screen in a widget. It also shows which apps are using data, so you can avoid going over your limit.</p>
+      <p><strong>In short, a glance at your home screen tells you today's and this month's data usage, and you get a notification as you approach your limit.</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="/assets/img/gigapulse-icon.png" alt="GigaPulse icon" width="252" height="252" loading="lazy" decoding="async">
+        <h3>GigaPulse</h3>
+        <p>Mobile data, CPU and memory at a glance on your home screen, with a per-app ranking and limit alerts.</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse" target="_blank" rel="noopener">📲 Free Download</a>
+        <p class="app-note">* Still preparing for release — this link may not work until it goes live.</p>
+      </div>
+
+      <h2>Who is this for?</h2>
+      <p>It suits people who:</p>
+      <ul>
+        <li>Want to avoid hitting their data limit and getting slowed down</li>
+        <li>Want to know which apps are using data</li>
+        <li>Want mobile data, CPU and memory visible at a glance on the home screen</li>
+        <li>Want a month-end forecast and a per-day allowance</li>
+        <li>Want to tidy up background apps with one tap</li>
+      </ul>
+
+      <h2>Key features</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Feature</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td>Home-screen widget</td><td>Always shows today's data and this month's data. CPU and memory usage are optional. Tap to open the app, tap the lightning button to free up memory</td></tr>
+            <tr><td>Per-app data ranking</td><td>Today / 7 days / this month / last month, mobile or Wi-Fi. Can also be sorted by background data</td></tr>
+            <tr><td>Monthly and daily limit alerts</td><td>Set your monthly allowance and your carrier's billing day (1st-31st). Usage is shown as a ring, with an automatic month-end forecast and a per-day allowance. Early-warning and limit alerts, plus an optional daily limit</td></tr>
+            <tr><td>Memory release</td><td>One tap asks Android to end background processes of apps you are not using. See memory usage before and after</td></tr>
+            <tr><td>Real-time speed and 30-day chart</td><td>Current speed and a chart of the last 30 days of data usage</td></tr>
+            <tr><td>Live mode (optional)</td><td>Shows current speed and usage in a persistent notification (off by default; works only while the screen is on)</td></tr>
+            <tr><td>Themes and sizes</td><td>Widget in 2x2, 4x2 and 4x4 sizes and four themes: Midnight, Aurora, Light and Glass. The app itself supports dark and light</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/img/gigapulse-1-dashboard.webp" alt="GigaPulse dashboard screenshot" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/gigapulse-2-memory.webp" alt="GigaPulse memory release screenshot" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/gigapulse-3-cpu-graph.webp" alt="GigaPulse CPU and memory graph screenshot" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/gigapulse-4-limits.webp" alt="GigaPulse data limit and alert settings screenshot" width="417" height="834" loading="lazy" decoding="async">
+      </div>
+
+      <h2>How it works</h2>
+      <p>On first launch the app guides you to grant "Usage access," the permission needed to count data usage. Then add the GigaPulse widget to your home screen and set your monthly data allowance and your carrier's billing day. After that, a glance at the home screen shows today's and this month's data usage.</p>
+
+      <div class="note-box">Your data usage is processed only on your device and is not sent out. The "Usage access" permission is required. On Android 8 and later, some devices block CPU usage for apps; GigaPulse then shows "OS limit." Memory release asks Android to end background processes, and its effect is temporary. GigaPulse is not a storage cleaner: it does not delete cache or junk files. GigaPulse is an Android-only app.</div>
+
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3>Q. Where is my data usage shown?</h3>
+        <p>A. The home-screen widget always shows today's data usage and this month's data usage. Open the app to see your monthly usage rate and month-end forecast too.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Can I see which apps are using data?</h3>
+        <p>A. The per-app ranking covers today, 7 days, this month and last month, for mobile or Wi-Fi. Sorting by background data makes it easier to find apps using data when you are not.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Does memory release really free up memory?</h3>
+        <p>A. One tap asks Android to end background processes of apps you are not using. You can compare memory usage before and after, but the effect is temporary.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Why does CPU usage show “OS limit”?</h3>
+        <p>A. On Android 8 and later, some devices do not let apps read CPU usage. GigaPulse then shows “OS limit.”</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Can it delete cache or junk files?</h3>
+        <p>A. No. GigaPulse shows data usage, CPU and memory, and has no storage-cleaner feature.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Is it free?</h3>
+        <p>A. Yes, it is free to use with ads. A one-time PRO purchase removes the ads.</p>
+      </div>
+
+      <div class="cta-card reveal">
+        <h3>Worried about running out of data?</h3>
+        <p>A glance at your home screen shows today's and this month's data usage. Keep track of your data with GigaPulse.</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse" target="_blank" rel="noopener">📲 Free Download</a>
+        <p class="app-note">* Still preparing for release — this link may not work until it goes live.</p>
+      </div>
+
+      <div class="author-box">
+        <strong>Author: Yuichi Sato</strong> (entrepreneur and app developer). Read the full profile <a href="/en/profile/">here</a>.
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <img class="mascot mascot-footer" src="/assets/img/char/pop-selfie.webp" alt="" width="270" height="300" loading="lazy" decoding="async">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/en/privacy/">Privacy Policy</a> ・ <a href="https://x.com/yutti0726" target="_blank" rel="noopener">X (Twitter)</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="../../../script.js"></script>
+</body>
+</html>

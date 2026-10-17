@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>GigaPulse｜在桌面小组件上查看流量、CPU与内存</title>
+<meta name="description" content="介绍可在桌面小组件上查看移动数据流量、CPU和内存使用情况的Android应用“GigaPulse”：应用流量排行、每月流量上限提醒，以及一键释放内存。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/apps/gigapulse/">
+<link rel="stylesheet" href="../../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/gigapulse/">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/gigapulse/">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/gigapulse/">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/gigapulse/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuichi-sato.com/zh/apps/gigapulse/">
+<meta property="og:title" content="GigaPulse｜在桌面小组件上查看流量、CPU与内存">
+<meta property="og:description" content="介绍可在桌面小组件上查看移动数据流量、CPU和内存使用情况的Android应用“GigaPulse”：应用流量排行、每月流量上限提醒，以及一键释放内存。">
+<meta property="og:site_name" content="佐藤雄一">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GigaPulse｜在桌面小组件上查看流量、CPU与内存">
+<meta name="twitter:description" content="介绍可在桌面小组件上查看移动数据流量、CPU和内存使用情况的Android应用“GigaPulse”：应用流量排行、每月流量上限提醒，以及一键释放内存。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GigaPulse",
+  "url": "https://yuichi-sato.com/zh/apps/gigapulse/",
+  "image": "https://yuichi-sato.com/assets/img/gigapulse-icon.png",
+  "description": "在桌面小组件上查看移动数据流量、CPU和内存使用情况的Android应用，支持应用流量排行、每月流量上限提醒和一键释放内存。",
+  "operatingSystem": "Android",
+  "applicationCategory": "UtilitiesApplication",
+  "author": { "@type": "Person", "@id": "https://yuichi-sato.com/profile/#person", "name": "佐藤雄一", "url": "https://yuichi-sato.com/zh/profile/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://yuichi-sato.com/zh/" },
+    { "@type": "ListItem", "position": 2, "name": "应用", "item": "https://yuichi-sato.com/zh/apps/" },
+    { "@type": "ListItem", "position": 3, "name": "GigaPulse" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "流量会显示在哪里？",
+      "acceptedAnswer": { "@type": "Answer", "text": "桌面小组件会始终显示今天的流量和本月的流量。打开应用后，还可以查看本月的使用率和月底预计用量。" }
+    },
+    {
+      "@type": "Question",
+      "name": "能看出是哪些应用在使用流量吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "应用流量排行可按今天、7天、本月、上月，以及移动数据/Wi-Fi查看。按“后台流量”排序，更容易找到没在使用却在耗流量的应用。" }
+    },
+    {
+      "@type": "Question",
+      "name": "释放内存真的能腾出内存吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "一键请求Android结束未使用应用的后台处理，可以对比释放前后的内存使用率，但效果是暂时的。" }
+    },
+    {
+      "@type": "Question",
+      "name": "CPU使用率为什么显示“系统限制”？",
+      "acceptedAnswer": { "@type": "Answer", "text": "在Android 8及以上版本中，部分设备因系统限制，应用无法获取CPU使用率，此时会显示“系统限制”。" }
+    },
+    {
+      "@type": "Question",
+      "name": "能删除缓存或垃圾文件吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "不能。GigaPulse用来查看数据流量、CPU和内存，不具备存储清理功能。" }
+    },
+    {
+      "@type": "Question",
+      "name": "免费吗？",
+      "acceptedAnswer": { "@type": "Answer", "text": "可以免费使用（含广告）。购买买断制的PRO版，即可隐藏广告。" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/apps/gigapulse/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/apps/gigapulse/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/apps/gigapulse/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/#works">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/profile/">个人简介</a>
+        <a href="/zh/column/">专栏</a>
+        <a href="/zh/gear/">推荐器材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/apps/">应用</a> ＞ GigaPulse</p>
+      <span class="article-tag">工具・应用</span>
+      <h1>GigaPulse｜在桌面小组件上查看流量、CPU与内存</h1>
+      <p class="article-meta">更新日期：2026年10月18日</p>
+      <p class="article-lead">流量够用吗？GigaPulse是一款Android应用，可以在桌面小组件上直观显示移动数据流量、CPU和内存的使用情况。还能看出是哪些应用在使用流量，帮助你避免流量超标。</p>
+      <p><strong>简单来说，只要看一眼桌面，就能知道今天和本月的流量用量，接近上限时还会用通知提醒你。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="/assets/img/gigapulse-icon.png" alt="GigaPulse 图标" width="252" height="252" loading="lazy" decoding="async">
+        <h3>GigaPulse</h3>
+        <p>在桌面上一眼看到数据流量、CPU和内存，附带应用流量排行和上限提醒。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse" target="_blank" rel="noopener">📲 免费下载</a>
+        <p class="app-note">※ 目前处于上线准备阶段，正式上线前链接可能暂时无法显示。</p>
+      </div>
+
+      <h2>适合什么样的人？</h2>
+      <p>适合以下人群：</p>
+      <ul>
+        <li>想避免流量超标、被限速的人</li>
+        <li>想知道是哪些应用在使用流量的人</li>
+        <li>想在桌面上一眼看到流量、CPU和内存状况的人</li>
+        <li>想知道月底预计用量和每天可用流量的人</li>
+        <li>想一键整理后台应用的人</li>
+      </ul>
+
+      <h2>主要功能</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>功能</th><th>可以做什么</th></tr></thead>
+          <tbody>
+            <tr><td>桌面小组件</td><td>始终显示今天的流量和本月的流量。CPU和内存使用率可选，点按即可打开应用，点按闪电按钮可释放内存</td></tr>
+            <tr><td>应用流量排行</td><td>按今天、7天、本月、上月，以及移动数据/Wi-Fi统计。也可按“后台流量”排序</td></tr>
+            <tr><td>每月・每日上限提醒</td><td>设置每月流量额度和运营商的结算日（每月1～31日）。用圆环显示使用率，自动计算月底预计用量和每天可用的量。接近上限时提前警告，超出时通知（也可设置每日上限）</td></tr>
+            <tr><td>内存释放</td><td>一键请求Android结束未使用应用的后台处理，并查看释放前后的内存使用率</td></tr>
+            <tr><td>实时网速・30天图表</td><td>显示当前网速，以及过去30天的流量图表</td></tr>
+            <tr><td>实时模式（可选）</td><td>在通知中常驻显示当前网速和流量（默认关闭，仅在屏幕亮起时运行）</td></tr>
+            <tr><td>主题与尺寸</td><td>小组件有2x2、4x2、4x4三种尺寸，以及午夜、极光、浅色、玻璃四种主题。应用本身支持深色/浅色</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/img/gigapulse-1-dashboard.webp" alt="GigaPulse 仪表盘界面截图" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/gigapulse-2-memory.webp" alt="GigaPulse 内存释放界面截图" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/gigapulse-3-cpu-graph.webp" alt="GigaPulse CPU与内存图表界面截图" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/gigapulse-4-limits.webp" alt="GigaPulse 流量上限与提醒设置界面截图" width="417" height="834" loading="lazy" decoding="async">
+      </div>
+
+      <h2>使用流程</h2>
+      <p>首次启动时，应用会引导你授予“使用情况访问权限”（统计流量所需的权限）。授权后，把GigaPulse小组件添加到桌面，并设置每月流量额度和运营商的结算日。之后只要看一眼桌面，就能知道今天和本月的流量用量。</p>
+
+      <div class="note-box">流量数据只在设备本地处理，不会向外发送。需要“使用情况访问权限”。在Android 8及以上版本中，部分设备因系统限制无法获取CPU使用率，此时会显示“系统限制”。内存释放是请求Android结束后台进程的功能，效果是暂时的。不具备清理存储空间缓存和垃圾文件的清理功能。GigaPulse仅支持Android。</div>
+
+      <h2>常见问题</h2>
+      <div class="faq-item">
+        <h3>Q. 流量会显示在哪里？</h3>
+        <p>A. 桌面小组件会始终显示今天的流量和本月的流量。打开应用后，还可以查看本月的使用率和月底预计用量。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 能看出是哪些应用在使用流量吗？</h3>
+        <p>A. 应用流量排行可按今天、7天、本月、上月，以及移动数据/Wi-Fi查看。按“后台流量”排序，更容易找到没在使用却在耗流量的应用。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 释放内存真的能腾出内存吗？</h3>
+        <p>A. 一键请求Android结束未使用应用的后台处理，可以对比释放前后的内存使用率，但效果是暂时的。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. CPU使用率为什么显示“系统限制”？</h3>
+        <p>A. 在Android 8及以上版本中，部分设备因系统限制，应用无法获取CPU使用率，此时会显示“系统限制”。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 能删除缓存或垃圾文件吗？</h3>
+        <p>A. 不能。GigaPulse用来查看数据流量、CPU和内存，不具备存储清理功能。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 免费吗？</h3>
+        <p>A. 可以免费使用（含广告）。购买买断制的PRO版，即可隐藏广告。</p>
+      </div>
+
+      <div class="cta-card reveal">
+        <h3>担心流量超标的你</h3>
+        <p>只要看一眼桌面，就能知道今天和本月的流量用量。用GigaPulse随时掌握数据流量吧。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse" target="_blank" rel="noopener">📲 免费下载</a>
+        <p class="app-note">※ 目前处于上线准备阶段，正式上线前链接可能暂时无法显示。</p>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・应用开发者）。详细个人简介请见<a href="/zh/profile/">这里</a>。
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <img class="mascot mascot-footer" src="/assets/img/char/pop-selfie.webp" alt="" width="270" height="300" loading="lazy" decoding="async">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/zh/privacy/">隐私政策</a> ・ <a href="https://x.com/yutti0726" target="_blank" rel="noopener">X（推特）</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../../script.js"></script>
+</body>
+</html>

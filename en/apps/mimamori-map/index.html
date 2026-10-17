@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>Mimamori Map | Share Location and Battery by Mutual Consent</title>
+<meta name="description" content="Mimamori Map is an Android app for sharing location and battery level with family and friends only with mutual consent. No ads, no usage analytics.">
+<link rel="canonical" href="https://yuichi-sato.com/en/apps/mimamori-map/">
+<link rel="stylesheet" href="../../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mimamori-map/">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/mimamori-map/">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/mimamori-map/">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/mimamori-map/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuichi-sato.com/en/apps/mimamori-map/">
+<meta property="og:title" content="Mimamori Map | Share Location and Battery by Mutual Consent">
+<meta property="og:description" content="Mimamori Map is an Android app for sharing location and battery level with family and friends only with mutual consent. No ads, no usage analytics.">
+<meta property="og:site_name" content="Yuichi Sato">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mimamori Map | Share Location and Battery by Mutual Consent">
+<meta name="twitter:description" content="Mimamori Map is an Android app for sharing location and battery level with family and friends only with mutual consent. No ads, no usage analytics.">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Mimamori Map",
+  "url": "https://yuichi-sato.com/en/apps/mimamori-map/",
+  "image": "https://yuichi-sato.com/assets/img/mimamori-icon.png",
+  "description": "An Android app for looking out for family and friends: share location and battery level only with people who approve each other. No ads and no usage analytics.",
+  "operatingSystem": "Android",
+  "applicationCategory": "LifestyleApplication",
+  "author": { "@type": "Person", "@id": "https://yuichi-sato.com/profile/#person", "name": "Yuichi Sato", "url": "https://yuichi-sato.com/en/profile/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yuichi-sato.com/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Apps", "item": "https://yuichi-sato.com/en/apps/" },
+    { "@type": "ListItem", "position": 3, "name": "Mimamori Map" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can someone see my location without my knowing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. You connect with an invite code or QR code, and nothing is visible until the other person approves. A notification is always shown while your location is collected, and there is no hidden mode." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I stop sharing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "You can stop sharing with each person at any time, with one switch or from the notification." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my location shared while the app is closed?",
+      "acceptedAnswer": { "@type": "Answer", "text": "If you allow “Allow all the time” location access, it is shared while sharing is on, even when the app is closed. If you do not allow it, sharing works only while the app is open." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there ads or usage analytics?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. The app does not access your contacts either." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I delete my account and data?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, from inside the app at any time." }
+    },
+    {
+      "@type": "Question",
+      "name": "What age is it for?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It is intended for people aged 18 and over." }
+    },
+    {
+      "@type": "Question",
+      "name": "If updates stop, does that mean something has happened to the other person?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Not necessarily. Updates also stop with no signal, an empty battery or power-saving settings. The app separates what is confirmed (such as them turning sharing off) from what is only a guess. In an emergency, contact them directly or call emergency services." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/en/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="en" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/apps/mimamori-map/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/apps/mimamori-map/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/apps/mimamori-map/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/en/#works">Apps</a>
+        <a href="/en/#books">Books</a>
+        <a href="/en/profile/">Profile</a>
+        <a href="/en/column/">Column</a>
+        <a href="/en/gear/">Gear</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/en/">Home</a> &gt; <a href="/en/apps/">Apps</a> &gt; Mimamori Map</p>
+      <span class="article-tag">Looking Out &amp; Apps</span>
+      <h1>Mimamori Map | Share Location and Battery by Mutual Consent</h1>
+      <p class="article-meta">Updated: October 18, 2026</p>
+      <p class="article-lead">A family member who lives far away, a friend you are meeting up with. “Where are you now?” “Is your battery OK?” Mimamori Map lets you look out for each other, with mutual consent. You share your location and battery level only with people who have approved each other, and only while you have sharing turned on.</p>
+      <p><strong>In short, you connect with an invite code, nothing is visible until the other person approves, and you can stop sharing with each person at any time.</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="/assets/img/mimamori-icon.png" alt="Mimamori Map icon" width="252" height="252" loading="lazy" decoding="async">
+        <h3>Mimamori Map</h3>
+        <p>Share location and battery level only with people you approve. No ads, no usage analytics.</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.yuichisato.locationshare" target="_blank" rel="noopener">📲 Free Download</a>
+        <p class="app-note">* Still preparing for release — this link may not work until it goes live.</p>
+      </div>
+
+      <h2>Who is this for?</h2>
+      <p>It suits people who:</p>
+      <ul>
+        <li>Want a gentle way to check in on family who live far away, with mutual consent</li>
+        <li>Want to share their location and battery level with friends when meeting up, traveling or at events</li>
+        <li>Prefer a transparent location-sharing app built on mutual consent, with no hidden mode</li>
+        <li>Want fine control over who they share with and for how long</li>
+      </ul>
+
+      <h2>Key features</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Feature</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td>Approval-based connections</td><td>Connect with an invite code (valid for 10 minutes, single use) or a QR code. Nothing is visible until the other person approves</td></tr>
+            <tr><td>Sharing on or off per person</td><td>Stop sharing at any time with one switch, or from the notification</td></tr>
+            <tr><td>Location, battery and update time</td><td>See where someone was last seen, their battery level, and when the information was last updated</td></tr>
+            <tr><td>When updates stop</td><td>Separates what is confirmed (for example, they turned sharing off) from what is only a guess (for example, the battery may have run out)</td></tr>
+            <tr><td>Chat</td><td>One-to-one. Text and stamps (24 stamps in 3 packs), read receipts, and deleting messages you sent</td></tr>
+            <tr><td>Route recording (optional)</td><td>Record your own routes. They stay on your device and are never uploaded or shared</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <img class="app-feature-art" src="/assets/img/mimamori-feature-en.webp" alt="Mimamori Map: share your location, only with people you approve" width="1024" height="500" loading="lazy" decoding="async">
+
+      <h2>Our approach to privacy</h2>
+      <ul>
+        <li>Nothing is shared until both of you agree</li>
+        <li>While your location is being collected, a notification is always shown. There is no hidden mode</li>
+        <li>No ads and no usage analytics. The app does not access your contacts</li>
+        <li>You can delete your account and your data from inside the app at any time</li>
+      </ul>
+
+      <h2>How location is used</h2>
+      <p>To share your location while the app is closed or not in use, the app asks for “Allow all the time” location access. It uses your location only to share it with the people you approved, and only while sharing is on. If you do not allow it, sharing works only while the app is open.</p>
+
+      <h2>How it works</h2>
+      <p>Open the app, create an account, and give the person you want to look out for an invite code or QR code. When they approve, you are connected. Your location and battery level are shared with each person only while you have sharing turned on for that person. A notification is always shown while your location is being collected.</p>
+
+      <div class="note-box">Mimamori Map is not an emergency service and cannot guarantee anyone's safety. Updates can be delayed or missing, for example because of no signal, an empty battery, power-saving settings or permissions. It is intended for people aged 18 and over. It is an Android-only app, available in English, Japanese, Simplified Chinese and Traditional Chinese.</div>
+
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3>Q. Can someone see my location without my knowing?</h3>
+        <p>A. No. You connect with an invite code or QR code, and nothing is visible until the other person approves. A notification is always shown while your location is collected, and there is no hidden mode.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. How do I stop sharing?</h3>
+        <p>A. You can stop sharing with each person at any time, with one switch or from the notification.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Is my location shared while the app is closed?</h3>
+        <p>A. If you allow “Allow all the time” location access, it is shared while sharing is on, even when the app is closed. If you do not allow it, sharing works only while the app is open.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Are there ads or usage analytics?</h3>
+        <p>A. No. The app does not access your contacts either.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Can I delete my account and data?</h3>
+        <p>A. Yes, from inside the app at any time.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. What age is it for?</h3>
+        <p>A. It is intended for people aged 18 and over.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. If updates stop, does that mean something has happened to the other person?</h3>
+        <p>A. Not necessarily. Updates also stop with no signal, an empty battery or power-saving settings. The app separates what is confirmed (such as them turning sharing off) from what is only a guess. In an emergency, contact them directly or call emergency services.</p>
+      </div>
+
+      <div class="cta-card reveal">
+        <h3>Look out for each other, with mutual consent</h3>
+        <p>Mimamori Map shares your location and battery level only with people who have approved each other, and only while sharing is on.</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.yuichisato.locationshare" target="_blank" rel="noopener">📲 Free Download</a>
+        <p class="app-note">* Still preparing for release — this link may not work until it goes live.</p>
+      </div>
+
+      <div class="author-box">
+        <strong>Author: Yuichi Sato</strong> (entrepreneur and app developer). Read the full profile <a href="/en/profile/">here</a>.
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <img class="mascot mascot-footer" src="/assets/img/char/pop-selfie.webp" alt="" width="270" height="300" loading="lazy" decoding="async">
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/en/privacy/">Privacy Policy</a> ・ <a href="https://x.com/yutti0726" target="_blank" rel="noopener">X (Twitter)</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="../../../script.js"></script>
+</body>
+</html>
