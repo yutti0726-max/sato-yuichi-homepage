@@ -73,7 +73,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/profile/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/profile/"/>
@@ -82,8 +82,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/profile/"/>
   </url>
   <url>
+    <loc>https://yuichi-sato.com/character/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/character/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/character/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/character/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/character/"/>
+  </url>
+  <url>
     <loc>https://yuichi-sato.com/en/profile/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/profile/"/>
@@ -92,14 +102,34 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/profile/"/>
   </url>
   <url>
+    <loc>https://yuichi-sato.com/en/character/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/character/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/character/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/character/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/character/"/>
+  </url>
+  <url>
     <loc>https://yuichi-sato.com/zh/profile/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/profile/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/profile/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/profile/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/profile/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/character/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/character/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/character/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/character/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/character/"/>
   </url>
   <url>
     <loc>https://yuichi-sato.com/gear/</loc>

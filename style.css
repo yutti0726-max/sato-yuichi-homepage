@@ -1442,3 +1442,154 @@ a {
   border: 1px solid var(--border);
   margin: 0 0 24px;
 }
+
+/* character page */
+
+.mascot-link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.mascot-link .mascot-footer {
+  margin-bottom: 10px;
+}
+
+.mascot-link:hover .mascot {
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.18));
+}
+
+.hero-char-link {
+  margin: 12px 0 0;
+  text-align: center;
+}
+
+.char-hero {
+  display: block;
+  width: min(420px, 80%);
+  height: auto;
+  margin: 0 auto 32px;
+}
+
+.char-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 0 0 40px;
+}
+
+.char-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-top-width: 4px;
+  border-radius: 16px;
+  padding: 24px 24px 20px;
+  text-align: center;
+}
+
+.char-sai {
+  border-top-color: #2457a6;
+}
+
+.char-jino {
+  border-top-color: #f69349;
+}
+
+.char-card > img {
+  display: block;
+  height: 200px;
+  width: auto;
+  margin: 0 auto 12px;
+}
+
+.char-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.4rem;
+}
+
+.char-en {
+  margin-left: 0.4em;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.char-chip {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 2px 12px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.char-chip-blue {
+  background: #2457a6;
+}
+
+.char-chip-orange {
+  background: #c65f0b;
+}
+
+.char-catch {
+  margin: 0 0 12px;
+  font-weight: 700;
+}
+
+.char-card p {
+  text-align: left;
+}
+
+.char-card .char-catch {
+  text-align: center;
+}
+
+.char-facts {
+  margin: 16px 0 0;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+  text-align: left;
+  font-size: 0.92rem;
+}
+
+.char-facts dt {
+  margin-top: 8px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.char-facts dd {
+  margin: 2px 0 0;
+}
+
+.char-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 16px;
+  margin: 0 0 32px;
+}
+
+.char-gallery figure {
+  margin: 0;
+  text-align: center;
+}
+
+.char-gallery img {
+  display: block;
+  height: 120px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto 6px;
+}
+
+.char-gallery figcaption {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 719px) {
+  .char-grid {
+    grid-template-columns: 1fr;
+  }
+}

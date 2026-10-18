@@ -123,3 +123,7 @@
 - Full URL list (all languages): https://yuichi-sato.com/sitemap.xml
 - English column index: https://yuichi-sato.com/en/column/
 - Chinese column index: https://yuichi-sato.com/zh/column/
+
+## Official mascots
+
+- [Sai & Jino / サイ ＆ ジーノ](https://yuichi-sato.com/character/): the official SIGN mascots, twin map-pin partners born by splitting the brand name SIGN into SI (blue) and GN (orange)
