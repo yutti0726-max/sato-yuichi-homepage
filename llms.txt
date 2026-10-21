@@ -16,14 +16,14 @@
 - [Privacy policy](https://yuichi-sato.com/privacy/)
 - English home: https://yuichi-sato.com/en/  ·  Chinese home: https://yuichi-sato.com/zh/
 
-## Apps (all free, Android)
+## Apps (Android; all free to download — most show ads, and some offer a one-time in-app purchase to remove them)
 
-- [MediaToolbox](https://play.google.com/store/apps/details?id=com.satoyuichi.mediatoolbox): video/image/audio/PDF converter — resize video to MP4, resize images, extract audio to M4A, PDF↔image
-- [PDF Toolkit](https://play.google.com/store/apps/details?id=com.snaptools.pdfkit): scan to PDF, merge/split/compress, OCR text recognition, rotate/extract pages, handwritten signature
-- [Rakuraku Step Counter / らくらく歩数計](https://play.google.com/store/apps/details?id=com.yutti.seniorpedometer): automatic step tracking designed for seniors, no button operation
-- [Readshot](https://play.google.com/store/apps/details?id=com.snaptools.readshot): screenshot OCR app, live on Google Play (Oct 2026) — copy, share, search or read aloud text from any screenshot; reads QR codes; on-device processing
-- [HagLog / ハグログ](https://play.google.com/store/apps/details?id=com.snaptools.haglog): digital baby record book — photo diary, growth records, hand/footprints, printable memory PDF
-- [GigaPulse](https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse): data usage, CPU and memory home-screen widget with per-app data ranking, limit alerts and one-tap memory release (in closed testing; ja/en)
+- [MediaToolbox](https://play.google.com/store/apps/details?id=com.satoyuichi.mediatoolbox): video/image/audio/PDF converter — resize video to MP4, resize images, extract audio to M4A, PDF↔image; free with ads, a one-time purchase hides the ads
+- [PDF Toolkit](https://play.google.com/store/apps/details?id=com.snaptools.pdfkit): scan to PDF, merge/split/compress, OCR text recognition, rotate/extract pages, handwritten signature; free with ads and a small watermark on exported PDFs, a one-time PRO purchase (480 yen in Japan) removes both
+- [Rakuraku Step Counter / らくらく歩数計](https://play.google.com/store/apps/details?id=com.yutti.seniorpedometer): automatic step tracking designed for seniors, no button operation; optional SMS watch-over alert to a registered family number; free with a banner ad, no in-app purchases
+- [Readshot](https://play.google.com/store/apps/details?id=com.snaptools.readshot): screenshot OCR app, live on Google Play (Oct 2026) — copy, share, search or read aloud text from any screenshot; reads QR codes; on-device processing; free with ads, a one-time purchase (480 yen in Japan) hides the ads
+- [HagLog / ハグログ](https://play.google.com/store/apps/details?id=com.snaptools.haglog): digital baby record book — photo diary, growth records, hand/footprints, monthly-photo growth collage, tooth chart, doctor-visit summary, printable memory PDF (in closed testing); free with ads, a one-time purchase (480 yen in Japan) hides the ads
+- [GigaPulse](https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse): data usage, CPU and memory home-screen widget with per-app data ranking, limit alerts and one-tap memory release (in closed testing; ja/en); free with ads, a one-time PRO purchase hides the ads
 - [Mimamori Map / みまもりマップ](https://play.google.com/store/apps/details?id=com.yuichisato.locationshare): share location and battery level with family and friends only with mutual consent; no ads, no usage analytics (in closed testing; 18+; ja/en/zh)
 
 ## Books (Kindle)
