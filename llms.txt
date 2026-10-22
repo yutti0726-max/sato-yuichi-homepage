@@ -24,7 +24,7 @@
 - [Readshot](https://play.google.com/store/apps/details?id=com.snaptools.readshot): screenshot OCR app, live on Google Play (Oct 2026) — copy, share, search or read aloud text from any screenshot; reads QR codes; on-device processing; free with ads (a banner and a full-screen ad that may appear after a bulk clean-up), no in-app purchases
 - [HagLog / ハグログ](https://play.google.com/store/apps/details?id=com.snaptools.haglog): digital baby record book — photo diary, growth records, hand/footprints, monthly-photo growth collage, tooth chart, doctor-visit summary, printable memory PDF (in closed testing); free with ads, a one-time purchase (480 yen in Japan) hides the ads
 - [GigaPulse](https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse): data usage, CPU and memory home-screen widget with per-app data ranking, limit alerts and one-tap memory release (in closed testing; ja/en); free with ads, a one-time PRO purchase hides the ads
-- [Mimamori Map / みまもりマップ](https://play.google.com/store/apps/details?id=com.yuichisato.locationshare): share location and battery level with family and friends only with mutual consent; no ads, no usage analytics (in closed testing; 18+; ja/en/zh)
+- [Imadoko Share / いまどこシェア](https://play.google.com/store/apps/details?id=com.yuichisato.locationshare): share location and battery level with friends, family and couples only with mutual consent; no ads, no usage analytics (in closed testing; 18+; ja/en/zh)
 
 ## Books (Kindle)
 
