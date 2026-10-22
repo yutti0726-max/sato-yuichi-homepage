@@ -8,9 +8,9 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 
 | パラメータ | 値 | 例 |
 |---|---|---|
-| `utm_source` | 媒体 | `x` / `reddit` / `garmin_forum` / `instagram` / `threads` / `tiktok` |
-| `utm_medium` | 種類 | `social`(SNS)/ `forum`(掲示板) |
-| `utm_campaign` | 投稿の種類 | `profile`(プロフィール欄)/ `pinned`(固定ポスト)/ `kaiunbi`(開運日の定期投稿)/ `launch`(新製品の告知)/ `sns_hub_202610`(SNS 導線づくりの投稿。リンク集 `/links/` や製品ページへ送る。2026年10月開始。製品ページへ送るときは `utm_content=<製品>` を付ける) |
+| `utm_source` | 媒体 | `x` / `reddit` / `garmin_forum` / `instagram` / `threads` / `tiktok` / `google_play`(Google Play の掲載) |
+| `utm_medium` | 種類 | `social`(SNS)/ `forum`(掲示板)/ `store`(アプリストアの掲載) |
+| `utm_campaign` | 投稿の種類 | `profile`(プロフィール欄)/ `pinned`(固定ポスト)/ `kaiunbi`(開運日の定期投稿)/ `launch`(新製品の告知)/ `sns_hub_202610`(SNS 導線づくりの投稿。リンク集 `/links/` や製品ページへ送る。2026年10月開始。製品ページへ送るときは `utm_content=<製品>` を付ける)/ `developer_site`(ストアの掲載の「ウェブサイト」欄) |
 | `utm_content` | 個別の投稿 | 日付 `20261005` や製品名 `kichijitsu` |
 
 - 値は半角英小文字・数字・アンダースコアだけにする(日本語は文字化けして集計が割れるため)。
@@ -35,6 +35,18 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 
 ストア(apps.garmin.com)へのリンクにはUTMを付けても集計できない(GA4が入っていない)ので、
 SNSにはなるべくHPの製品ページを載せ、HPからストアへ送る。
+
+## ストアの掲載からHPへ送るURL(2026-10-23 追加。T-049)
+
+| 使う場所 | URL |
+|---|---|
+| Google Play の各アプリの「ウェブサイト」欄(Play Console のストアの設定 → 連絡先の詳細。アプリごとに設定できる) | `https://yuichi-sato.com/apps/<アプリ>/?utm_source=google_play&utm_medium=store&utm_campaign=developer_site&utm_content=<アプリ>` |
+| Google Play・Garmin のストアの説明文の末尾 | `https://yuichi-sato.com/apps/<アプリ>/` または `https://yuichi-sato.com/garmin/<製品>/`(UTMは付けない) |
+
+- `<アプリ>` は `/apps/` の下のフォルダ名(`pdftoolkit`、`mediatoolbox`、`readshot`、`seniorpedometer` など)、`<製品>` は `/garmin/` の下のフォルダ名。
+- 英語の説明文(Garmin のストアなど)の末尾には `/en/garmin/<製品>/`・`/en/apps/<アプリ>/` を使う(中国語の掲載なら `/zh/`)。Google Play の「ウェブサイト」欄は言語ごとに分けられないので、日本語のページのままにする。
+- 説明文の中のURLは、2026-10-23 に apps.garmin.com で見た範囲ではリンクにならない(文字だけ)。読んだ人が手で打つか写すので、短いURLにする。Google Play の説明文のURLがリンクになるかは未確認。
+- 「ウェブサイト」欄にUTMを付けるのは、Play からの流入をアプリごとに分けて見るため。Play のアプリから開かれたときに参照元が残るかは未確認なので、UTMで確実に区別する。
 
 ## GA4での見方
 
