@@ -10,7 +10,7 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 |---|---|---|
 | `utm_source` | 媒体 | `x` / `reddit` / `garmin_forum` / `instagram` / `threads` / `tiktok` |
 | `utm_medium` | 種類 | `social`(SNS)/ `forum`(掲示板) |
-| `utm_campaign` | 投稿の種類 | `profile`(プロフィール欄)/ `pinned`(固定ポスト)/ `kaiunbi`(開運日の定期投稿)/ `launch`(新製品の告知)/ `sns_hub_202610`(リンク集 `/links/` へ送る投稿。2026年10月開始) |
+| `utm_campaign` | 投稿の種類 | `profile`(プロフィール欄)/ `pinned`(固定ポスト)/ `kaiunbi`(開運日の定期投稿)/ `launch`(新製品の告知)/ `sns_hub_202610`(SNS 導線づくりの投稿。リンク集 `/links/` や製品ページへ送る。2026年10月開始。製品ページへ送るときは `utm_content=<製品>` を付ける) |
 | `utm_content` | 個別の投稿 | 日付 `20261005` や製品名 `kichijitsu` |
 
 - 値は半角英小文字・数字・アンダースコアだけにする(日本語は文字化けして集計が割れるため)。
