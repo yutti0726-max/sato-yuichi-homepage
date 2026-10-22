@@ -2521,4 +2521,34 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/devices/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/devices/"/>
   </url>
+  <url>
+    <loc>https://yuichi-sato.com/links/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/links/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/links/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/links/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/links/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/links/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/links/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/links/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/links/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/links/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/links/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/links/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/links/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/links/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/links/"/>
+  </url>
 </urlset>

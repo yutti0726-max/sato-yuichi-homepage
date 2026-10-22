@@ -8,9 +8,9 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 
 | パラメータ | 値 | 例 |
 |---|---|---|
-| `utm_source` | 媒体 | `x` / `reddit` / `garmin_forum` / `instagram` / `threads` |
+| `utm_source` | 媒体 | `x` / `reddit` / `garmin_forum` / `instagram` / `threads` / `tiktok` |
 | `utm_medium` | 種類 | `social`(SNS)/ `forum`(掲示板) |
-| `utm_campaign` | 投稿の種類 | `profile`(プロフィール欄)/ `pinned`(固定ポスト)/ `kaiunbi`(開運日の定期投稿)/ `launch`(新製品の告知) |
+| `utm_campaign` | 投稿の種類 | `profile`(プロフィール欄)/ `pinned`(固定ポスト)/ `kaiunbi`(開運日の定期投稿)/ `launch`(新製品の告知)/ `sns_hub_202610`(リンク集 `/links/` へ送る投稿。2026年10月開始) |
 | `utm_content` | 個別の投稿 | 日付 `20261005` や製品名 `kichijitsu` |
 
 - 値は半角英小文字・数字・アンダースコアだけにする(日本語は文字化けして集計が割れるため)。
@@ -25,6 +25,13 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 | Xの開運日の投稿(10/5の例) | `https://yuichi-sato.com/garmin/kichijitsu/?utm_source=x&utm_medium=social&utm_campaign=kaiunbi&utm_content=20261005` |
 | Garmin公式フォーラムの投稿 | `https://yuichi-sato.com/garmin/<製品>/?utm_source=garmin_forum&utm_medium=forum&utm_campaign=launch&utm_content=<製品>` |
 | Reddit | `https://yuichi-sato.com/garmin/<製品>/?utm_source=reddit&utm_medium=social&utm_campaign=launch&utm_content=<製品>` |
+| TikTokのプロフィールのウェブサイト欄(リンク集) | `https://yuichi-sato.com/links/?utm_source=tiktok&utm_medium=social&utm_campaign=profile` |
+| Instagramのプロフィールのウェブサイト欄(リンク集) | `https://yuichi-sato.com/links/?utm_source=instagram&utm_medium=social&utm_campaign=profile` |
+| Xのプロフィールのウェブサイト欄をリンク集にする場合 | `https://yuichi-sato.com/links/?utm_source=x&utm_medium=social&utm_campaign=profile` |
+| Xの投稿からリンク集へ送る(10/22の例) | `https://yuichi-sato.com/links/?utm_source=x&utm_medium=social&utm_campaign=sns_hub_202610&utm_content=20261022` |
+
+リンク集(`/links/`・`/en/links/`・`/zh/links/`)の中のリンクは内部リンクなので、UTMを付けない(GA4はセッションの流入元を入口のURLのUTMで記録するため、サイト内のリンクにUTMを付けると流入元が上書きされる)。
+英語・中国語の投稿から送るときは、パスを `/en/links/`・`/zh/links/` に変え、UTMは同じ規則で付ける。
 
 ストア(apps.garmin.com)へのリンクにはUTMを付けても集計できない(GA4が入っていない)ので、
 SNSにはなるべくHPの製品ページを載せ、HPからストアへ送る。
