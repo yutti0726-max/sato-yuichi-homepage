@@ -14,8 +14,8 @@
   gtag('config', 'G-KVFRTBGBBQ');
 </script>
 
-<title>歩数計アプリのバッテリー消費は大丈夫？「身体活動」権限の理由</title>
-<meta name="description" content="歩数計アプリのバッテリー（電池）消費は、GPSのような常時測位ではないため少なめです。インストール時に出てくる「身体活動」権限が何のために必要なのか、仕組みと許可の出し方を解説します。">
+<title>歩数が0のまま？歩数計の「身体活動」権限の許可の出し方と電池消費</title>
+<meta name="description" content="Androidの歩数計アプリで歩数が0のまま増えないときは、「身体活動」の権限を確かめます。スマホ内蔵の歩数センサーを読むための権限です。設定画面からの許可の出し方と、GPSより電池(バッテリー)の負担が小さい仕組みを解説します。">
 <link rel="canonical" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html">
 <link rel="stylesheet" href="../style.css">
 <link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html">
@@ -24,16 +24,16 @@
 <link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html">
-<meta property="og:title" content="歩数計アプリのバッテリー消費は大丈夫？「身体活動」権限の理由">
-<meta property="og:description" content="歩数計アプリのバッテリー（電池）消費は、GPSのような常時測位ではないため少なめです。インストール時に出てくる「身体活動」権限が何のために必要なのか、仕組みと許可の出し方を解説します。">
+<meta property="og:title" content="歩数が0のまま？歩数計の「身体活動」権限の許可の出し方と電池消費">
+<meta property="og:description" content="Androidの歩数計アプリで歩数が0のまま増えないときは、「身体活動」の権限を確かめます。スマホ内蔵の歩数センサーを読むための権限です。設定画面からの許可の出し方と、GPSより電池(バッテリー)の負担が小さい仕組みを解説します。">
 <meta property="og:site_name" content="佐藤雄一 公式サイト">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="歩数計アプリのバッテリー消費は大丈夫？「身体活動」権限の理由">
-<meta name="twitter:description" content="歩数計アプリのバッテリー（電池）消費は、GPSのような常時測位ではないため少なめです。インストール時に出てくる「身体活動」権限が何のために必要なのか、仕組みと許可の出し方を解説します。">
+<meta name="twitter:title" content="歩数が0のまま？歩数計の「身体活動」権限の許可の出し方と電池消費">
+<meta name="twitter:description" content="Androidの歩数計アプリで歩数が0のまま増えないときは、「身体活動」の権限を確かめます。スマホ内蔵の歩数センサーを読むための権限です。設定画面からの許可の出し方と、GPSより電池(バッテリー)の負担が小さい仕組みを解説します。">
 <meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
 
 <script type="application/ld+json">
@@ -47,7 +47,7 @@
   "publisher": { "@type": "Person", "name": "佐藤雄一" },
   "mainEntityOfPage": "https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html",
   "datePublished": "2026-09-07",
-  "dateModified": "2026-09-07"
+  "dateModified": "2026-10-23"
 }
 </script>
 <script type="application/ld+json">
@@ -87,7 +87,7 @@
     {
       "@type": "Question",
       "name": "歩数計アプリを常に動かしていると電池はすぐ減りますか？",
-      "acceptedAnswer": { "@type": "Answer", "text": "歩数計アプリは、GPSのように位置情報を常時測位するのではなく、スマホに内蔵された低消費電力な歩数センサーの値を積算する仕組みのため、一般的なGPSアプリに比べて電池への負担は小さいです。" }
+      "acceptedAnswer": { "@type": "Answer", "text": "歩数計アプリは、GPSのように位置情報を常時測位するのではなく、スマホに内蔵された低消費電力な歩数センサーの値を積算する仕組みのため、一般的なGPSアプリに比べて電池への負担が小さくなる仕組みです。実際の消費量は端末によって異なります。" }
     },
     {
       "@type": "Question",
@@ -154,9 +154,9 @@
       <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/column/">コラム</a> ＞ 歩数計アプリのバッテリー消費は大丈夫？「身体活動」権限の理由</p>
       <span class="article-tag">健康・アプリ</span>
       <h1>歩数計アプリのバッテリー消費は大丈夫？「身体活動」権限の理由</h1>
-      <p class="article-meta">更新日：2026年9月7日</p>
+      <p class="article-meta">更新日：2026年10月23日</p>
       <p class="article-lead">歩数計アプリを入れたとき、「身体活動へのアクセスを許可しますか？」という確認が出て、何のための権限か分からず不安になったことはないでしょうか。ここでは、この権限が必要な理由と、常時バックグラウンドで動かしても電池は大丈夫なのかを解説します。</p>
-      <p><strong>結論から言うと、「身体活動」権限はスマホ内蔵の歩数センサーを読み取るためのもので、GPSのような常時測位ではないため、一般的なイメージほど電池は消費しません。</strong></p>
+      <p><strong>結論から言うと、「身体活動」権限はスマホ内蔵の歩数センサーを読み取るためのものです。GPSのような常時測位ではないため、GPSを使うアプリより電池の負担が小さい仕組みです(実際の消費量は端末や設定によって変わります)。</strong></p>
     </div>
 
     <div class="article-content">
@@ -165,9 +165,9 @@
       <p>今のスマホには、あらかじめ歩数を数えるための専用センサー(歩数計センサー)が内蔵されています。歩数計アプリは、このセンサーが積算した値を読み取ることで歩数を表示しています。「身体活動」権限は、アプリがこのセンサーの値にアクセスすることをAndroidに許可するためのものです。この許可がないと、アプリを開いても歩数が0のまま増えません。</p>
 
       <h2>バックグラウンドで動かし続けても電池は大丈夫？</h2>
-      <p>不安に感じる方が多いポイントですが、歩数計アプリの多くはGPSを使った位置追跡アプリとは仕組みが異なります。GPSは電波を使って現在地を常時計算するため電池を多く使いますが、歩数計は端末に内蔵された低消費電力な歩数センサーの積算値を定期的に読み取っているだけです。そのため、地図アプリやナビアプリを使い続ける場合に比べて、電池への影響は小さく抑えられています。</p>
+      <p>不安に感じる方が多いポイントですが、歩数計アプリの多くはGPSを使った位置追跡アプリとは仕組みが異なります。GPSは電波を使って現在地を常時計算するため電池を多く使いますが、歩数計は端末に内蔵された低消費電力な歩数センサーの積算値を定期的に読み取っているだけです。そのため、地図アプリやナビアプリを使い続ける場合に比べて、電池への負担は小さくなりやすい仕組みです。実際の消費量は、端末や使い方によって変わります。</p>
 
-      <div class="note-box">歩数計アプリの電池使用量が気になる場合は、端末の「設定」→「バッテリー」→「アプリごとの電池使用量」で、実際にどれくらい消費しているか確認できます。GPSを常時使うアプリと比べてみると、消費量の違いが分かりやすいです。</div>
+      <div class="note-box">歩数計アプリの電池使用量が気になる場合は、端末の「設定」→「バッテリー」→「アプリごとの電池使用量」で、実際にどれくらい消費しているか確認できます。GPSを常時使うアプリと比べてみるのも、ひとつの方法です。</div>
 
       <h2>権限の許可ボタンを押しても反応しないときは？</h2>
       <p>一度「許可しない」を選んだり、しばらくアプリを開かずにいてスマホの「未使用のアプリの権限を削除」機能で自動的に権限が外れたりすると、アプリ内の許可ボタンを押してもダイアログ自体が表示されなくなることがあります。これはAndroidの仕様で、一度明確に拒否された権限は、アプリ側から再度ダイアログを出せないようになっているためです。この場合は、端末の設定画面から直接許可を出す必要があります。</p>
@@ -184,7 +184,7 @@
       <p>権限が正しく許可されていても、スマホの「バッテリー最適化」機能が働いていると、バックグラウンドでの計測アプリが一時的に止められてしまうことがあります。歩数計アプリはバッテリー最適化の対象外に設定しておくと、日をまたいでも安定して記録が続きます。</p>
 
       <h2>まとめ</h2>
-      <p>歩数計アプリの「身体活動」権限は、内蔵センサーの値を読み取るためのもので、GPSのように位置を追跡し続けるものではありません。電池への影響は限定的なので、安心して許可し、記録を毎日の習慣にしてみてください。</p>
+      <p>歩数計アプリの「身体活動」権限は、内蔵センサーの値を読み取るためのもので、GPSのように位置を追跡し続けるものではありません。GPSより電池の負担が小さい仕組みなので、気になる場合は許可したあとに電池使用量も確かめながら、記録を毎日の習慣にしてみてください。</p>
 
       <div class="cta-card reveal">
         <img class="app-icon" src="../assets/img/seniorpedometer-icon.png" alt="らくらく歩数計 アイコン" width="252" height="252" loading="lazy" decoding="async">
@@ -203,7 +203,7 @@
         </div>
         <div class="faq-item">
           <h3>Q. 歩数計アプリを常に動かしていると電池はすぐ減りますか？</h3>
-          <p>A. 歩数計アプリは、GPSのように位置情報を常時測位するのではなく、スマホに内蔵された低消費電力な歩数センサーの値を積算する仕組みのため、一般的なGPSアプリに比べて電池への負担は小さいです。</p>
+          <p>A. 歩数計アプリは、GPSのように位置情報を常時測位するのではなく、スマホに内蔵された低消費電力な歩数センサーの値を積算する仕組みのため、一般的なGPSアプリに比べて電池への負担が小さくなる仕組みです。実際の消費量は端末によって異なります。</p>
         </div>
         <div class="faq-item">
           <h3>Q. 権限の許可ボタンを押しても反応しないことがあるのはなぜですか？</h3>
