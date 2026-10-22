@@ -1593,3 +1593,25 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* アプリ一覧(apps/index.html・en・zh)の用途別の見出し。ページ内リンク(column-jumpnav)で飛んだとき、
+   固定のヘッダーに見出しが隠れないようにする(.gear-section-title と同じ値) */
+.apps-hub-heading {
+  scroll-margin-top: 90px;
+}
+
+@media (max-width: 719px) {
+  .apps-hub-heading {
+    scroll-margin-top: 190px;
+  }
+}
+
+/* アプリ一覧のカードのアプリ名を h2 から h3 に変えた(見出しの階層を「すべてのアプリ」の下にするため)。
+   以前の h2 は .article-content h2 の見た目だったので、h3 でも同じ見た目を保つ */
+.article-content h3.app-name {
+  font-size: 1.25rem;
+  margin: 40px 0 16px;
+  padding-left: 14px;
+  border-left: 4px solid var(--accent);
+  color: inherit;
+}
