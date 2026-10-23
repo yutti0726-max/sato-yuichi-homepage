@@ -33,7 +33,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/"/>
@@ -2473,7 +2473,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/kichijitsu/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/kichijitsu/"/>
@@ -2580,5 +2580,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/pdftoolkit-pdf-conversion-guide.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/pdftoolkit-pdf-conversion-guide.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/pdftoolkit-pdf-conversion-guide.html"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/goods/kichijitsu-techo-2027/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/goods/kichijitsu-techo-2027/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/goods/kichijitsu-techo-2027/"/>
   </url>
 </urlset>

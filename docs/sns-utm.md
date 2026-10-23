@@ -11,7 +11,7 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 | `utm_source` | 媒体 | `x` / `reddit` / `garmin_forum` / `instagram` / `threads` / `tiktok` / `google_play`(Google Play の掲載) |
 | `utm_medium` | 種類 | `social`(SNS)/ `forum`(掲示板)/ `store`(アプリストアの掲載) |
 | `utm_campaign` | 投稿の種類 | `profile`(プロフィール欄)/ `pinned`(固定ポスト)/ `kaiunbi`(開運日の定期投稿)/ `launch`(新製品の告知)/ `sns_hub_202610`(SNS 導線づくりの投稿。リンク集 `/links/` や製品ページへ送る。2026年10月開始。製品ページへ送るときは `utm_content=<製品>` を付ける)/ `developer_site`(ストアの掲載の「ウェブサイト」欄) |
-| `utm_content` | 個別の投稿 | 日付 `20261005` や製品名 `kichijitsu` |
+| `utm_content` | 個別の投稿 | 日付 `20261005` や製品名 `kichijitsu` / `kichijitsu_techo`(2027年 吉日デジタル手帳。商品ページ `/goods/kichijitsu-techo-2027/`)。同じ製品で投稿が複数あるときは `kichijitsu_techo_20261024` のように投稿日(8桁)を後ろに付ける |
 
 - 値は半角英小文字・数字・アンダースコアだけにする(日本語は文字化けして集計が割れるため)。
 - 同じ投稿の中では同じURLを使う。
@@ -25,6 +25,8 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 | Xの開運日の投稿(10/5の例) | `https://yuichi-sato.com/garmin/kichijitsu/?utm_source=x&utm_medium=social&utm_campaign=kaiunbi&utm_content=20261005` |
 | Garmin公式フォーラムの投稿 | `https://yuichi-sato.com/garmin/<製品>/?utm_source=garmin_forum&utm_medium=forum&utm_campaign=launch&utm_content=<製品>` |
 | Reddit | `https://yuichi-sato.com/garmin/<製品>/?utm_source=reddit&utm_medium=social&utm_campaign=launch&utm_content=<製品>` |
+| Xの告知の投稿(2027年 吉日デジタル手帳。1本だけのとき。複数のときは `kichijitsu_techo_20261024` のように投稿日8桁を付ける) | `https://yuichi-sato.com/goods/kichijitsu-techo-2027/?utm_source=x&utm_medium=social&utm_campaign=launch&utm_content=kichijitsu_techo` |
+| Instagramの告知(2027年 吉日デジタル手帳。ストーリーズのリンクなど) | `https://yuichi-sato.com/goods/kichijitsu-techo-2027/?utm_source=instagram&utm_medium=social&utm_campaign=launch&utm_content=kichijitsu_techo` |
 | TikTokのプロフィールのウェブサイト欄(リンク集) | `https://yuichi-sato.com/links/?utm_source=tiktok&utm_medium=social&utm_campaign=profile` |
 | Instagramのプロフィールのウェブサイト欄(リンク集) | `https://yuichi-sato.com/links/?utm_source=instagram&utm_medium=social&utm_campaign=profile` |
 | Xのプロフィールのウェブサイト欄をリンク集にする場合 | `https://yuichi-sato.com/links/?utm_source=x&utm_medium=social&utm_campaign=profile` |

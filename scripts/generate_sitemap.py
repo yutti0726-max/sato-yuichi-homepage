@@ -35,7 +35,7 @@ RULES = [
     (r'^$', 'weekly', '1.0', '0.9'),
     (r'^column/$', 'weekly', '0.8', '0.8'),
     (r'^apps/$', 'weekly', '0.8', '0.7'),
-    (r'^(apps|books|garmin)/[^/]+/$', 'monthly', '0.9', '0.9'),
+    (r'^(apps|books|garmin|goods)/[^/]+/$', 'monthly', '0.9', '0.9'),
     (r'^column/.+\.html$', 'monthly', '0.7', '0.7'),
     (r'^(gear|profile)/$', 'monthly', '0.8', '0.7'),
     (r'^privacy/$', 'yearly', '0.3', '0.3'),
