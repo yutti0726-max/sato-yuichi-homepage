@@ -1615,3 +1615,63 @@ a {
   border-left: 4px solid var(--accent);
   color: inherit;
 }
+
+/* LINEスタンプのページ(/line-stickers/) */
+.sticker-sample {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 8px;
+}
+
+.sticker-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.sticker-words li {
+  margin: 0;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card-bg);
+  font-size: 0.9rem;
+}
+
+/* メニューが7項目(LINEスタンプを追加)になったため、タブレット〜小さめのパソコンの幅では詰めて1行に収める */
+@media (min-width: 720px) and (max-width: 1099px) {
+  .site-header nav {
+    gap: 2px;
+  }
+
+  .site-header nav a {
+    padding: 8px 10px;
+    font-size: 0.88rem;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 899px) {
+  .logo-text {
+    display: none;
+  }
+
+  .site-header nav a {
+    padding: 7px 7px;
+    font-size: 0.8rem;
+  }
+}
+
+/* スマホ幅: メニューが7項目になっても、上部に固定されるヘッダーを2行に収める */
+@media (max-width: 719px) {
+  .site-header nav {
+    gap: 6px;
+  }
+
+  .site-header nav a {
+    padding: 8px 10px;
+  }
+}
