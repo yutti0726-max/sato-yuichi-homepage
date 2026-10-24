@@ -2619,4 +2619,34 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/line-stickers/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/line-stickers/"/>
   </url>
+  <url>
+    <loc>https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/apps/seniorpedometer/privacy-ios/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/apps/seniorpedometer/privacy-ios/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/seniorpedometer/privacy-ios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
+  </url>
 </urlset>
