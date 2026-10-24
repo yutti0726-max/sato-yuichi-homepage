@@ -1459,6 +1459,59 @@ a {
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.18));
 }
 
+/* トップの最初の画面の SNS とスタンプのボタン */
+.hero-sns {
+  list-style: none;
+  margin: 0 auto 18px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  opacity: 0;
+  animation: hero-fade-up 0.7s ease 0.2s forwards;
+}
+
+.hero-sns-btn {
+  display: inline-block;
+  padding: 7px 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.hero-sns-btn:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.hero-sns-btn:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.hero-sns-line {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.hero-sns-line:hover {
+  background: var(--accent-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-sns {
+    animation: none;
+    opacity: 1;
+  }
+}
+
 .hero-char-link {
   margin: 12px 0 0;
   text-align: center;
