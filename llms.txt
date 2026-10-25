@@ -30,8 +30,8 @@
 ## Books (Kindle)
 
 - MY 100 DIVES: fill-in scuba diving logbook (depth, temperature, pressure, weight, visibility, sign-off) — https://amzn.asia/d/0fyPEuUH
-- The "Golden Ratio" PC Build Bible [2026 Edition]: no-waste parts selection from someone who has built 100+ PCs — https://amzn.asia/d/03SI9M8q
-- Self-build PC Maintenance & Troubleshooting: double your machine's lifespan — https://amzn.asia/d/0cEq9G5i
+- The Golden Ratio PC Build Bible: Three Balanced Custom-PC Builds and Desk Upgrades for 2026 — three balanced builds with US parts (about $1,100, $1,800 and $3,000–3,500, mostly Oct 2026 prices) from someone who has built 100+ PCs — English edition https://www.amazon.com/dp/B0HP6WHM2Q / Japanese edition https://amzn.asia/d/03SI9M8q
+- Double Your PC's Lifespan: A Practical Guide to Custom-PC Maintenance & Troubleshooting — hands-on maintenance to help your PC last longer, plus troubleshooting for when it won't boot — English edition https://www.amazon.com/dp/B0HP2DCKD7 / Japanese edition https://amzn.asia/d/0cEq9G5i
 - No More Leasing: cut cost with self-built PCs and self-maintenance for startups and sole proprietors — https://amzn.asia/d/0jjHObPt
 
 ## Garmin Connect IQ (watch faces, data fields and apps)
