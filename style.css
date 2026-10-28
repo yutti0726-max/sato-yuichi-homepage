@@ -694,6 +694,19 @@ a {
   transform: translateY(0) scale(0.97);
 }
 
+/* 公開準備中(クローズドテスト中)のアプリ: 押せない「近日公開」の表示。
+   公開したら <a class="play-badge"> に戻す(docs/closed-test-buttons.md)。 */
+.play-badge.play-badge-soon,
+.play-badge.play-badge-soon:hover,
+.play-badge.play-badge-soon:active {
+  background: var(--bg-alt);
+  color: var(--text-muted);
+  box-shadow: inset 0 0 0 1px var(--border);
+  transform: none;
+  cursor: default;
+  word-break: keep-all;
+}
+
 .app-note {
   margin: 12px 0 0;
   font-size: 0.85rem;
