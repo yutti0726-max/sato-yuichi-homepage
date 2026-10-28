@@ -27,9 +27,9 @@
 - [GigaPulse](https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse): data usage, CPU and memory home-screen widget with per-app data ranking, limit alerts and one-tap memory release (in closed testing; ja/en); free with ads, a one-time PRO purchase hides the ads
 - [Imadoko Share / いまどこシェア](https://play.google.com/store/apps/details?id=com.yuichisato.locationshare): share location and battery level with friends, family and couples only with mutual consent; no ads, no usage analytics (in closed testing; 18+; ja/en/zh)
 
-## Books (Kindle)
+## Books (Kindle & paperback)
 
-- MY 100 DIVES: fill-in scuba diving logbook (depth, temperature, pressure, weight, visibility, sign-off) — https://amzn.asia/d/0fyPEuUH
+- MY 100 DIVES: fill-in scuba diving logbook, paperback only (depth, temperature, pressure, weight, visibility, sign-off) — https://amzn.asia/d/0fyPEuUH
 - The Golden Ratio PC Build Bible: Three Balanced Custom-PC Builds and Desk Upgrades for 2026 — three balanced builds with US parts (about $1,100, $1,800 and $3,000–3,500, mostly Oct 2026 prices) from someone who has built 100+ PCs — English edition https://www.amazon.com/dp/B0HP6WHM2Q / Japanese edition https://amzn.asia/d/03SI9M8q
 - Double Your PC's Lifespan: A Practical Guide to Custom-PC Maintenance & Troubleshooting — hands-on maintenance to help your PC last longer, plus troubleshooting for when it won't boot — English edition https://www.amazon.com/dp/B0HP2DCKD7 / Japanese edition https://amzn.asia/d/0cEq9G5i
 - No More Leasing: cut cost with self-built PCs and self-maintenance for startups and sole proprietors — https://amzn.asia/d/0jjHObPt
