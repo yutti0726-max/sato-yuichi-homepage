@@ -117,6 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const id = u.searchParams.get('id') || '';
       return { event: 'play_store_click', params: { app_id: id, app_name: APP_NAMES[id] || id } };
     }
+    /* ペーパーバック（MY 100 DIVES）を含む、amzn.asia の本のリンクすべて。
+       イベント名は過去の集計とそろえるため kindle_click のまま。 */
     if (host.endsWith('amzn.asia')) {
       const key = (path.match(/\/d\/([A-Za-z0-9]+)/) || [])[1] || '';
       return { event: 'kindle_click', params: { book_id: key, book_name: BOOK_NAMES[key] || key } };
