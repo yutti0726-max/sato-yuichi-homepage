@@ -94,7 +94,7 @@
             <tr><td>共享状态</td><td>共享中／您已关闭／定位服务已关闭／未获权限，以及最后一次发送信息的时间</td><td>向对方显示当前状态，以及更新中断的原因线索</td><td>与位置相同的人</td></tr>
             <tr><td>消息和贴纸</td><td>消息内容、贴纸种类、发送时间、已读时间</td><td>与对方一对一聊天</td><td>只有聊天对象</td></tr>
             <tr><td>连接</td><td>对方的显示名称、批准和同意状态、日期时间</td><td>管理连接</td><td>对方</td></tr>
-            <tr><td>仅保存在 iPhone 上的信息</td><td>您的轨迹（移动记录）和应用设置</td><td>让您查看自己的移动历史</td><td><strong>不会发送到 iPhone 之外。</strong> 对方也看不到</td></tr>
+            <tr><td>保存在 iPhone 上的信息</td><td>您的轨迹（移动记录）和应用设置</td><td>让您查看自己的移动历史</td><td><strong>不会发送到服务器。</strong> 对方也看不到</td></tr>
           </tbody>
         </table>
       </div>
@@ -106,7 +106,7 @@
 
       <h2>2. 信息存储位置与第三方</h2>
       <ul>
-        <li>除仅保存在 iPhone 上的信息外，其他信息都由 Google Firebase（Authentication 和 Cloud Firestore）存储和处理。Google 是按照我们的指示处理信息的服务提供商。数据存储位置：Cloud Firestore：东京（asia-northeast1）。本应用与 Android 版“现在在哪儿”使用相同的机制，也可以与使用 Android 版的人建立连接。</li>
+        <li>除保存在 iPhone 上的信息外，其他信息都由 Google Firebase（Authentication 和 Cloud Firestore）存储和处理。Google 是按照我们的指示处理信息的服务提供商。数据存储位置：Cloud Firestore：东京（asia-northeast1）。本应用与 Android 版“现在在哪儿”使用相同的机制，也可以与使用 Android 版的人建立连接。</li>
         <li>为防止滥用，本应用使用 Firebase App Check（Apple 的 DeviceCheck）。Apple 的机制会确认请求来自正版应用，本应用会把由此得到的令牌附在发往 Firebase 的请求中。我们不会为此发送您的位置或消息。</li>
         <li>您的位置通过 iPhone 的定位服务（Apple 的 Core Location）获取。</li>
         <li>地图使用 Apple 地图显示。显示地图时，本应用会从 Apple 接收所显示范围的地图数据。</li>
@@ -115,7 +115,7 @@
         <li>“通过 Apple 登录”和“使用 Google 登录”是可选的（也可以使用电子邮件地址和密码）。Apple 或 Google 会确认您的身份，并把电子邮件地址和标识符交给身份验证服务（Firebase Authentication）。本应用不会向 Apple 索取您的姓名。身份验证服务可能会把 Google 提供的名称和头像网址作为登录记录保留，但本应用不会在屏幕上或向其他人使用这些信息。</li>
         <li>除上述服务提供商外，我们不会向第三方提供或出售您的信息。如收到依法提出的披露要求，我们会依照法律处理。</li>
         <li>本应用集成了上述 Firebase 和 Apple 的组件，以及用于“使用 Google 登录”的 Google 组件（Google Sign-In）。这些组件可能会为了自身运行而与 Google 或 Apple 通信。它们具体发送了什么，我们无法确认。</li>
-        <li>通信经过加密（TLS）。从服务器获取的信息只保存在本应用的内存中，不会保存到 iPhone 的存储空间。轨迹不在 iCloud 等备份的范围内。</li>
+        <li>通信经过加密（TLS）。从服务器获取的信息只保存在本应用的内存中，不会保存到 iPhone 的存储空间。轨迹不在 iCloud 等备份的范围内。如果您使用 iPhone 的备份（iCloud 云备份或备份到电脑），应用设置可能会包含在备份或换机时的数据迁移中。</li>
       </ul>
 
       <h2>3. 位置信息的处理方式（重要）</h2>
@@ -153,7 +153,7 @@
       <h2>8. 联系我们</h2>
       <p>佐藤 雄一 (Yuichi Sato)：<a href="mailto:yutti0726@gmail.com">yutti0726@gmail.com</a></p>
 
-      <p class="gear-note">制定日期：2026年10月29日<br>修订日期：2026年10月30日</p>
+      <p class="gear-note">制定日期：2026年10月29日<br>修订日期：2026年10月31日</p>
 
     </div>
   </div>

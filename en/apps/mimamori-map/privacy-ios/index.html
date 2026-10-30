@@ -94,7 +94,7 @@
             <tr><td>Sharing status</td><td>Sharing / turned off by you / Location Services off / no permission, and the time information was last sent</td><td>Showing the other person the current status and clues about why updates stopped</td><td>The same people as your location</td></tr>
             <tr><td>Messages and stamps</td><td>Message text, stamp type, time sent, time read</td><td>One-to-one chat with the other person</td><td>Only the person you are chatting with</td></tr>
             <tr><td>Connections</td><td>The other person's display name, approval and consent status, dates and times</td><td>Managing your connections</td><td>The other person</td></tr>
-            <tr><td>On your iPhone only</td><td>Your routes (movement history) and app settings</td><td>Letting you see your own movement history</td><td><strong>Never sent outside your iPhone.</strong> Not visible to the other person either</td></tr>
+            <tr><td>Stored on your iPhone</td><td>Your routes (movement history) and app settings</td><td>Letting you see your own movement history</td><td><strong>Never sent to the server.</strong> Not visible to the other person either</td></tr>
           </tbody>
         </table>
       </div>
@@ -106,7 +106,7 @@
 
       <h2>2. Where information is stored, and third parties</h2>
       <ul>
-        <li>Everything except the information that stays on your iPhone is stored and processed by Google Firebase (Authentication and Cloud Firestore). Google acts as a service provider processing information on our instructions. Data location: Cloud Firestore: Tokyo (asia-northeast1). The App uses the same system as the Android version of "Imadoko Share", so you can also connect with people who use the Android version.</li>
+        <li>Everything except the information stored on your iPhone is stored and processed by Google Firebase (Authentication and Cloud Firestore). Google acts as a service provider processing information on our instructions. Data location: Cloud Firestore: Tokyo (asia-northeast1). The App uses the same system as the Android version of "Imadoko Share", so you can also connect with people who use the Android version.</li>
         <li>To help prevent abuse, the App uses Firebase App Check with Apple's DeviceCheck. Apple's system confirms that a request comes from the genuine App, and the App attaches the resulting token to its requests to Firebase. We do not send your location or messages for this purpose.</li>
         <li>Your location is obtained through your iPhone's Location Services (Apple's Core Location).</li>
         <li>Maps are displayed with Apple Maps. When a map is shown, the App receives map data for the area shown from Apple.</li>
@@ -115,7 +115,7 @@
         <li>"Sign in with Apple" and "Sign in with Google" are optional (you can also use an email address and password). Apple or Google verifies who you are and passes your email address and an identifier to the authentication service (Firebase Authentication). The App does not ask Apple for your name. The authentication service may keep the name and profile picture URL that Google passes, as part of the sign-in record, but the App does not use them on screen or for other people.</li>
         <li>Except for the providers above, we do not provide or sell your information to third parties. If we receive a legal request for disclosure, we respond in accordance with the law.</li>
         <li>The App includes the Firebase and Apple components described above, and Google's component for "Sign in with Google" (Google Sign-In). These components may communicate with Google or Apple as needed for their own operation. We have not been able to verify what they send.</li>
-        <li>Communication is encrypted (TLS). Information from the server is kept only in the App's memory and is not saved to your iPhone's storage. Your routes are excluded from backups such as iCloud.</li>
+        <li>Communication is encrypted (TLS). Information from the server is kept only in the App's memory and is not saved to your iPhone's storage. Your routes are excluded from backups such as iCloud. If you use iPhone backups (iCloud Backup or a computer), your app settings may be included in those backups or in a transfer to a new iPhone.</li>
       </ul>
 
       <h2>3. How your location is handled (important)</h2>
@@ -153,7 +153,7 @@
       <h2>8. Contact</h2>
       <p>佐藤 雄一 (Yuichi Sato): <a href="mailto:yutti0726@gmail.com">yutti0726@gmail.com</a></p>
 
-      <p class="gear-note">Effective date: October 29, 2026<br>Last updated: October 30, 2026</p>
+      <p class="gear-note">Effective date: October 29, 2026<br>Last updated: October 31, 2026</p>
 
     </div>
   </div>
