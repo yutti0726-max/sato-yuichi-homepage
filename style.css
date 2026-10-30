@@ -667,6 +667,14 @@ a {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+/* 画面の画素が小さい機種(MIP・白黒など)の画像は、引き伸ばしてぼかさないよう、
+   実寸を上限にして表示する(大きい画像と並べても縦の中央にそろえる)。 */
+.app-screenshots img.shot-native {
+  height: auto;
+  max-height: 320px;
+  align-self: center;
+}
+
 .app-screenshots img:hover {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
@@ -853,6 +861,11 @@ a {
 
   .app-screenshots img {
     height: 240px;
+  }
+
+  .app-screenshots img.shot-native {
+    height: auto;
+    max-height: 240px;
   }
 
   .hero-break {

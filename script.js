@@ -104,7 +104,9 @@ document.addEventListener('DOMContentLoaded', () => {
     '3b996aba-1782-47a2-a85c-458716340547': 'Cairn Cycle Pro',
     'fe029fb8-c6b1-4b6e-b3d2-3ac25c13a2d4': 'Multitime',
     '737315f9-223d-4f3d-b7d3-1bc78ac2b70f': 'Multitime Pro',
-    '735866ea-b92b-45f6-a148-a1b6a345e642': 'Platina'
+    '735866ea-b92b-45f6-a148-a1b6a345e642': 'Platina',
+    '49a04616-6cd6-49b3-8333-a86bfda44905': 'Tide Phase',
+    'c35a01ea-2d30-4a48-8047-d9c9c92620f8': 'Tide Phase Lite'
   };
 
   const classifyOutbound = (url) => {
