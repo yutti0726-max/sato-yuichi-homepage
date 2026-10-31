@@ -3,6 +3,8 @@
 作成日: 2026-09-29
 対象: Aurum / Overwatch / Empress / Cairn / Cairn Pro / Cairn Cycle / Cairn Cycle Pro / Multitime / Multitime Pro
 
+> **注記(2026-10-31)**: この文書は 2026-09-29 時点の提案で、その後のストアの文とは違うところがある。今のストアの文は、各製品のリポジトリの `output/store/` の控え(正本)を見ること。とくに、4-4〜4-6 の Pro 版の案にある「is listed free」(ストアでは無料表示)の文は誤りで、ストアとホームページでは 2026-10-30 に直した(T-104)。無料版の案(3章)は 2026-10-31 に今のストアの文に合わせた(T-106)。
+
 ## この文書の根拠
 
 | 情報 | 取得元 |
@@ -91,39 +93,41 @@ Forerunner 265 (`fr265`) / Forerunner 265S (`fr265s`) / Forerunner 965 (`fr965`)
 
 ## 3. 無料版の説明文の冒頭に入れる「Pro 版の案内文」
 
-現在の無料版の説明文には「WANT MORE?」の段落で Pro の案内が既にありますが、**説明文の中ほど**にあり、ストアの一覧・プレビューでは見えません。冒頭(アプリ名の直後の1段落目)に短い案内を入れる案です。価格・機能はすべて現行の Pro 版と同じ内容です。
+現在の無料版の説明文には「WANT MORE?」の段落で Pro の案内が既にありますが、**説明文の中ほど**にあり、ストアの一覧・プレビューでは見えません。冒頭(アプリ名の直後の1段落目)に短い案内を入れる案です。機能は現行の Pro 版と同じ内容です。
+
+> (2026-10-31 に更新。T-106)下の3つの案から、Pro の価格・支払いの文(「Free for your first 5 activities, then a one-time US$2.49.」など)を外し、今のストアの文に合わせた。無料版の説明文の中ほどの「Pro は別の無料ダウンロード」の文も、ストアでは「Cairn Pro is a separate app in the Connect IQ Store; see its store page for details.」「Cairn Pro は Connect IQ ストアで公開している別のアプリです。詳しくは Cairn Pro のストアのページをご覧ください。」の形に変えた(Cairn Cycle・Multitime も同じ形。Multitime は 2026-10-29)。全文の正本は `garmin-cairn/output/store/free-description-update-20261031.md`、`garmin-cairn-cycle/output/store/free-description-update-20261031.md`、`garmin-multitime/output/store/free-listing-update-20261029.md`。
 
 ### Cairn(無料)
 
 英語:
 ```
-Free, with no ads and no permissions. Want twelve metrics instead of six? Cairn Pro adds climb rate (VAM), total descent, distance to your ascent goal, time until sunset, temperature and watch battery. Free for your first 5 activities, then a one-time US$2.49.
+Free, with no ads and no permissions. Want twelve metrics instead of six? Cairn Pro adds climb rate (VAM), total descent, distance to your ascent goal, time until sunset, temperature and watch battery.
 ```
 日本語:
 ```
-無料・広告なし・権限なし。6項目では足りない方へ:上位版の Cairn Pro は、昇降レート(VAM)・累積下降・登坂目標までの残り・日没までの時間・気温・時計のバッテリーを加えた12項目を1画面に表示します。最初の5アクティビティは無料、その後は買い切り US$2.49 です。
+無料・広告なし・権限なし。6項目では足りない方へ:上位版の Cairn Pro は、昇降レート(VAM)・累積下降・登坂目標までの残り・日没までの時間・気温・時計のバッテリーを加えた12項目を1画面に表示します。
 ```
 
 ### Cairn Cycle(無料)
 
 英語:
 ```
-Free, with no ads and no permissions. Want twelve metrics instead of six? Cairn Cycle Pro adds average speed, average power, elevation, grade, temperature and watch battery. Free for your first 5 activities, then a one-time US$2.49.
+Free, with no ads and no permissions. Want twelve metrics instead of six? Cairn Cycle Pro adds average speed, average power, elevation, grade, temperature and watch battery.
 ```
 日本語:
 ```
-無料・広告なし・権限なし。6項目では足りない方へ:上位版の Cairn Cycle Pro は、平均速度・平均パワー・標高・勾配・気温・時計のバッテリーを加えた12項目を1画面に表示します。最初の5アクティビティは無料、その後は買い切り US$2.49 です。
+無料・広告なし・権限なし。6項目では足りない方へ:上位版の Cairn Cycle Pro は、平均速度・平均パワー・標高・勾配・気温・時計のバッテリーを加えた12項目を1画面に表示します。
 ```
 
 ### Multitime(無料)
 
 英語:
 ```
-Free forever for up to 3 timers at once. Need more? Multitime Pro runs up to 20 timers at once, gives each timer its own vibration pattern and saves your own presets. One-time US$2.49, no subscription.
+Free forever for up to 3 timers at once. Need more? Multitime Pro runs up to 20 timers at once, gives each timer its own vibration pattern and saves your own presets.
 ```
 日本語:
 ```
-タイマー3個までならずっと無料。もっと使いたい方へ:上位版の Multitime Pro は、最大20個のタイマーの同時実行、タイマーごとの振動パターン、自分だけのプリセット保存に対応します。買い切り US$2.49(サブスクなし)です。
+タイマー3個までならずっと無料。もっと使いたい方へ:上位版の Multitime Pro は、最大20個のタイマーの同時実行、タイマーごとの振動パターン、自分だけのプリセット保存に対応します。
 ```
 
 > (対応済み 2026-10-01)Multitime / Multitime Pro の説明文とHPの「無制限」表記は、ソース(`garmin-multitime/src-pro/Config.mc`、`MAX_TIMERS = 20`)に合わせて「最大20個」に修正した。
@@ -351,6 +355,8 @@ https://yuichi-sato.com
 
 > Multitime Pro の現在の掲載は**英語版のみで、日本語の説明文がありません**(公開APIの `appLocalizations` が `en` のみ)。他の8本は英日両方あります。日本語版の追加を推奨します(文面は無料版 Multitime の日本語説明文と、上の英語案をもとに作成可能)。
 
+> (2026-10-31 注記)今は日本語の説明文もある。T-104 の控え `garmin-multitime/output/store/pro-description-update-20261030.md` を参照。
+
 ### 4-7. 日本語版について
 
 日本語の説明文は、上の英語案と同じ構成(冒頭で価値と無料お試し → 機能 → 試用と購入 → プライバシー → フッター)に並べ替えることを推奨します。文言は現在の日本語掲載文をそのまま流用でき、新しい事実の追加はありません。
@@ -362,5 +368,6 @@ https://yuichi-sato.com
 - [ ] 説明文の変更は「詳細を編集」から行う(再審査なしで即時反映された実績あり: 2026-09-29 の SIGN フッター追加時)
 - [ ] 各言語(en / ja)の両方を更新する
 - [ ] TRIAL & PURCHASE の段落が残っていることを確認する
+- [ ] 無料版の説明文に、Pro の価格・支払い(US$・KiezelPay・買い切りなど)を書かない(2026-10-31 追記。T-106)
 - [x] Multitime の「無制限」表記を「最大20個」に直す(ストア・HP の両方、2026-10-01 対応済み)
 - [ ] 対応機種を追加する場合は、manifest 追加 → 全機種ビルド → シミュレーター目視 → 署名 `.iq` を新バージョンとしてアップロード(こちらは再審査が必要)
