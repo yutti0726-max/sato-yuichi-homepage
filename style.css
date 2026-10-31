@@ -1703,6 +1703,32 @@ a {
   margin: 0 auto 8px;
 }
 
+/* 動くスタンプのページ(line-stickers/animated/・en・zh)の動きの見本(APNG。320×270 を 160×135 で表示) */
+.sticker-anim-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  margin: 0 0 8px;
+}
+
+.sticker-anim-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.sticker-anim-grid img {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 6px;
+}
+
+.sticker-anim-grid figcaption {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
 .sticker-words {
   display: flex;
   flex-wrap: wrap;
