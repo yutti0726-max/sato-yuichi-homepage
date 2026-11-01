@@ -1685,6 +1685,18 @@ a {
   }
 }
 
+/* アプリの紹介ページ(apps の下の各アプリの index.html・en・zh)の「iPhone 版について」の見出し(id="iphone")。
+   note-box の「#iphone」のリンクで飛んだとき、固定のヘッダーに見出しが隠れないようにする(.apps-hub-heading と同じ値) */
+#iphone {
+  scroll-margin-top: 90px;
+}
+
+@media (max-width: 719px) {
+  #iphone {
+    scroll-margin-top: 190px;
+  }
+}
+
 /* アプリ一覧のカードのアプリ名を h2 から h3 に変えた(見出しの階層を「すべてのアプリ」の下にするため)。
    以前の h2 は .article-content h2 の見た目だったので、h3 でも同じ見た目を保つ */
 .article-content h3.app-name {
