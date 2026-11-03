@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------------------------------------------------------------
      アウトバウンドクリック計測（GA4）
-     Google Play / Kindle / Amazon物販 / 楽天 / Garmin Connect IQ への
+     Google Play / Kindle / Amazon物販 / 楽天 / Garmin Connect IQ / BOOTH への
      遷移を記録する。全ページで共通の script.js なので、ページ側の
      変更は不要。
      --------------------------------------------------------------- */
@@ -106,7 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
     '737315f9-223d-4f3d-b7d3-1bc78ac2b70f': 'Multitime Pro',
     '735866ea-b92b-45f6-a148-a1b6a345e642': 'Platina',
     '49a04616-6cd6-49b3-8333-a86bfda44905': 'Tide Phase',
-    'c35a01ea-2d30-4a48-8047-d9c9c92620f8': 'Tide Phase Lite'
+    'c35a01ea-2d30-4a48-8047-d9c9c92620f8': 'Tide Phase Lite',
+    'c26d9468-9a73-4932-aadd-7ce45b962118': 'Kichijitsu',
+    'eea677ed-f063-4f2d-ba0d-63d464e12072': 'Kichijitsu Calendar'
+  };
+
+  const BOOTH_NAMES = {
+    '9032113': '2027 Kichijitsu Techo'
   };
 
   const classifyOutbound = (url) => {
@@ -135,6 +141,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (host.endsWith('apps.garmin.com')) {
       const id = (path.match(/\/apps\/([0-9a-f-]{36})/) || [])[1] || '';
       return { event: 'garmin_click', params: { app_id: id, app_name: GARMIN_NAMES[id] || id } };
+    }
+    /* BOOTH(デジタル商品。吉日デジタル手帳など) */
+    if (host === 'booth.pm' || host.endsWith('.booth.pm')) {
+      const item = (path.match(/\/items\/([0-9]+)/) || [])[1] || '';
+      return { event: 'booth_click', params: { item_id: item, item_name: BOOTH_NAMES[item] || item } };
     }
     return null;
   };
