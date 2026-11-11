@@ -156,11 +156,13 @@
       <ul>
         <li><strong>iPhone and iPad</strong>: Apple's Vision (the text recognition built into the operating system) reads the text on the device. The App does not send usage statistics for text recognition.</li>
         <li><strong>Windows</strong>: The text recognition and ink (handwriting) recognition built into Windows read the text on the device.</li>
-        <li><strong>Android</strong>: Google's ML Kit, used through Google Play services, reads the text on the device. Before the feature is turned on, a consent screen explains it, and the feature is turned on only after you agree.
+        <li><strong>Android</strong>: Google's ML Kit reads the text on the device. ML Kit is used once you turn the feature on and agree on the consent screen.
           <ul>
+            <li>Text in photos: ML Kit's text recognition is used through Google Play services. Google Play services downloads the data used for recognition.</li>
+            <li>Handwritten text: ML Kit's handwriting recognition (Digital Ink) is built into the App. ML Kit downloads the recognition data for each language from Google.</li>
             <li>Your photos, pen strokes and the recognized text are not sent to Google.</li>
-            <li>ML Kit sends usage statistics to Google, such as device model, operating system, app name and version, processing speed, and the features used.</li>
-            <li>Data used for recognition is downloaded from Google Play services and Google.</li>
+            <li>ML Kit sends usage statistics to Google. According to Google's disclosure, these include device information (such as manufacturer, model and OS version), app information (package name and version), device or other identifiers, a per-installation identifier, and performance metrics, settings, input and output sizes, feature versions, event types and error codes. For handwriting recognition, the language you set is also included.</li>
+            <li>Google states that it uses this information for diagnostics and usage analytics, that it is encrypted in transit, and that the per-installation identifier is not intended to uniquely identify a user or device. For details, see <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener">Google's ML Kit data disclosure</a>.</li>
             <li>When you turn the feature off, the App stops using ML Kit for recognition. However, statistics collected while it was on may be sent after you turn it off, and downloads of data that were already requested may continue.</li>
           </ul>
         </li>
@@ -181,7 +183,7 @@
           <ul>
             <li>Billing (BILLING): to buy Pro on Google Play.</li>
             <li>View network connections (ACCESS_NETWORK_STATE): to check whether the device can connect and whether it is on Wi-Fi (for example, when downloading data used for recognition).</li>
-            <li>Run at startup (RECEIVE_BOOT_COMPLETED), prevent the device from sleeping (WAKE_LOCK) and run foreground service (FOREGROUND_SERVICE): used by the ML Kit components for "Search text in photos and handwriting" to download data used for recognition in the background, and to continue after the device restarts.</li>
+            <li>Run at startup (RECEIVE_BOOT_COMPLETED), prevent the device from sleeping (WAKE_LOCK) and run foreground service (FOREGROUND_SERVICE): used by the ML Kit components for handwriting recognition in "Search text in photos and handwriting" to download the data used for reading handwriting in the background, and to continue after the device restarts.</li>
           </ul>
         </li>
         <li><strong>Internet access</strong>: Used for sync and backup (Pro) and the other purposes listed in section 9.</li>
@@ -194,7 +196,7 @@
         <li><strong>Google sign-in</strong> (accounts.google.com and others): sign-in and consent for using Google Drive</li>
         <li><strong>iCloud</strong> (Apple; iPhone and iPad only): sync and backup, when you choose iCloud</li>
         <li><strong>App stores</strong> (App Store, Google Play, Microsoft Store): buying Pro and restoring purchases</li>
-        <li><strong>Google ML Kit and Google Play services</strong> (Android only): sending usage statistics and downloading data used for recognition while "Search text in photos and handwriting" is on. After you turn it off, statistics collected while it was on may still be sent and data downloads may continue (see section 7)</li>
+        <li><strong>Google ML Kit and Google Play services</strong> (Android only): sending usage statistics and downloading data used for recognition while "Search text in photos and handwriting" is on (data for photos is downloaded by Google Play services, and data for handwriting by ML Kit from Google). After you turn it off, statistics collected while it was on may still be sent and data downloads may continue (see section 7)</li>
       </ul>
 
       <h2>10. In-app purchase and sharing Pro</h2>

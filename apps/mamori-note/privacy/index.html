@@ -156,11 +156,13 @@
       <ul>
         <li><strong>iPhone・iPad</strong>: Apple の Vision(OS に備わっている文字の読み取りの仕組み)を使い、端末の中で読み取ります。読み取りのために、本アプリが使い方の統計を送ることはありません。</li>
         <li><strong>Windows</strong>: Windows に備わっている文字の読み取りと、インク(手書き)の認識の仕組みを使い、端末の中で読み取ります。</li>
-        <li><strong>Android</strong>: Google の ML Kit を、Google Play 開発者サービスを通じて使い、端末の中で読み取ります。オンにするときは同意の画面でお知らせし、同意を得てからオンにします。
+        <li><strong>Android</strong>: Google の ML Kit を使い、端末の中で読み取ります。ML Kit は、利用者がこの機能をオンにし、同意の画面で同意してから使います。
           <ul>
+            <li>写真の文字: ML Kit の文字認識を、Google Play 開発者サービスを通じて使います。読み取りに使うデータは、Google Play 開発者サービスが取得します。</li>
+            <li>手書きの文字: ML Kit の手書きの認識(Digital Ink)を本アプリに組み込んで使います。言語ごとの読み取りに使うデータは、ML Kit が Google から取得します。</li>
             <li>写真・手書きの線・読み取った文字は、Google に送りません。</li>
-            <li>ML Kit は、使い方の統計(端末の機種、OS、アプリの名前と版、処理の速さ、使った機能など)を Google に送ります。</li>
-            <li>読み取りに使うデータを、Google Play 開発者サービスと Google から取り寄せます。</li>
+            <li>ML Kit は、使い方の統計を Google に送ります。Google の開示によると、送られるのは、端末の情報(製造元・機種・OS の版など)、アプリの情報(パッケージ名・版)、端末の識別子またはその他の識別子、インストールごとの識別子、性能の指標・設定・入力と出力の大きさ・機能の版・出来事の種類・エラーのコードなどです。手書きの認識では、設定した言語も含まれます。</li>
+            <li>Google は、これらの情報を診断と利用の分析に使うこと、送るときは暗号化すること、インストールごとの識別子は利用者や端末を一意に識別するためのものではないことを説明しています。詳しくは <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener">ML Kit のデータの開示(Google)</a>をご覧ください。</li>
             <li>オフにすると、本アプリは読み取りに ML Kit を使わなくなります。ただし、オンのあいだにためられた統計がオフにしたあとに送られたり、すでに頼んだデータの取得が続いたりすることがあります。</li>
           </ul>
         </li>
@@ -181,7 +183,7 @@
           <ul>
             <li>課金(BILLING): Google Play で Pro を購入するために使います。</li>
             <li>ネットワーク接続の表示(ACCESS_NETWORK_STATE): 通信できるか・Wi-Fi につながっているかを確かめるために使います(読み取りに使うデータの取得など)。</li>
-            <li>起動時の実行(RECEIVE_BOOT_COMPLETED)・スリープの無効化(WAKE_LOCK)・フォアグラウンド サービスの実行(FOREGROUND_SERVICE): 「写真と手書きの文字の検索」で使う ML Kit の部品が、読み取りに使うデータの取得をバックグラウンドで進めたり、端末の再起動のあとに続けたりするために使います。</li>
+            <li>起動時の実行(RECEIVE_BOOT_COMPLETED)・スリープの無効化(WAKE_LOCK)・フォアグラウンド サービスの実行(FOREGROUND_SERVICE): 「写真と手書きの文字の検索」の手書きの認識で使う ML Kit の部品が、手書きの読み取りに使うデータの取得をバックグラウンドで進めたり、端末の再起動のあとに続けたりするために使います。</li>
           </ul>
         </li>
         <li><strong>インターネットの通信</strong>: 同期とバックアップ(Pro)などに使います。通信する相手は 9 のとおりです。</li>
@@ -194,7 +196,7 @@
         <li><strong>Google のログイン</strong>(accounts.google.com など): Google Drive を使うときのログインと許可</li>
         <li><strong>iCloud</strong>(Apple。iPhone・iPad だけ): iCloud を保存先に選んだときの同期とバックアップ</li>
         <li><strong>各ストア</strong>(App Store・Google Play・Microsoft Store): Pro の購入と、購入の復元</li>
-        <li><strong>Google の ML Kit と Google Play 開発者サービス</strong>(Android だけ): 「写真と手書きの文字の検索」をオンにしたときの、使い方の統計の送信と、読み取りに使うデータの取得。オフにしたあとも、オンのあいだにためた統計の送信やデータの取得が続くことがあります(7 を参照)</li>
+        <li><strong>Google の ML Kit と Google Play 開発者サービス</strong>(Android だけ): 「写真と手書きの文字の検索」をオンにしたときの、使い方の統計の送信と、読み取りに使うデータの取得(写真の分は Google Play 開発者サービスが、手書きの分は ML Kit が Google から取得します)。オフにしたあとも、オンのあいだにためた統計の送信やデータの取得が続くことがあります(7 を参照)</li>
       </ul>
 
       <h2>10. アプリ内課金と Pro の共有</h2>

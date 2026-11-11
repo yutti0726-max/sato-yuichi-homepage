@@ -156,11 +156,13 @@
       <ul>
         <li><strong>iPhone、iPad</strong>：使用 Apple 的 Vision（操作系统内置的文字识别功能），在设备中识别。本应用不会为文字识别发送使用统计。</li>
         <li><strong>Windows</strong>：使用 Windows 内置的文字识别和墨迹（手写）识别功能，在设备中识别。</li>
-        <li><strong>Android</strong>：通过 Google Play 服务使用 Google 的 ML Kit，在设备中识别。打开该功能时，会通过同意界面加以说明，在用户同意后才会打开。
+        <li><strong>Android</strong>：使用 Google 的 ML Kit，在设备中识别。ML Kit 在用户打开该功能并在同意界面中同意后才会使用。
           <ul>
+            <li>照片中的文字：通过 Google Play 服务使用 ML Kit 的文字识别。识别所用的数据由 Google Play 服务获取。</li>
+            <li>手写的文字：本应用内置并使用 ML Kit 的手写识别（Digital Ink）。各语言识别所用的数据由 ML Kit 从 Google 获取。</li>
             <li>照片、手写笔迹和识别出的文字不会发送给 Google。</li>
-            <li>ML Kit 会向 Google 发送使用统计（设备型号、操作系统、应用名称和版本、处理速度、使用的功能等）。</li>
-            <li>识别所用的数据会从 Google Play 服务和 Google 获取。</li>
+            <li>ML Kit 会向 Google 发送使用统计。根据 Google 的披露，发送的内容包括设备信息（制造商、型号、操作系统版本等）、应用信息（软件包名称、版本）、设备标识符或其他标识符、每次安装的标识符，以及性能指标、设置、输入和输出的大小、功能版本、事件类型、错误代码等。手写识别还包括所设置的语言。</li>
+            <li>Google 说明，这些信息用于诊断和使用情况分析，发送时会加密，每次安装的标识符并非用于唯一识别用户或设备。详情请参阅<a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener">Google 的 ML Kit 数据披露</a>。</li>
             <li>关闭该功能后，本应用将不再使用 ML Kit 进行识别。但是，打开期间积累的统计可能会在关闭后发送，已请求的数据获取也可能会继续进行。</li>
           </ul>
         </li>
@@ -181,7 +183,7 @@
           <ul>
             <li>结算（BILLING）：用于在 Google Play 购买 Pro。</li>
             <li>查看网络连接（ACCESS_NETWORK_STATE）：用于确认能否联网、是否连接 Wi-Fi（例如获取识别所用的数据时）。</li>
-            <li>开机启动（RECEIVE_BOOT_COMPLETED）、防止休眠（WAKE_LOCK）、运行前台服务（FOREGROUND_SERVICE）：供“照片和手写文字的搜索”所用的 ML Kit 组件在后台获取识别所用的数据，以及在设备重启后继续获取。</li>
+            <li>开机启动（RECEIVE_BOOT_COMPLETED）、防止休眠（WAKE_LOCK）、运行前台服务（FOREGROUND_SERVICE）：供“照片和手写文字的搜索”中手写识别所用的 ML Kit 组件在后台获取识别手写所用的数据，以及在设备重启后继续获取。</li>
           </ul>
         </li>
         <li><strong>网络通信</strong>：用于同步和备份（Pro）等。通信的对象见第 9 条。</li>
@@ -194,7 +196,7 @@
         <li><strong>Google 登录</strong>（accounts.google.com 等）：使用 Google Drive 时的登录和授权</li>
         <li><strong>iCloud</strong>（Apple，仅限 iPhone、iPad）：选择 iCloud 作为保存位置时的同步和备份</li>
         <li><strong>各应用商店</strong>（App Store、Google Play、Microsoft Store）：购买 Pro 和恢复购买</li>
-        <li><strong>Google 的 ML Kit 和 Google Play 服务</strong>（仅限 Android）：打开“照片和手写文字的搜索”时，用于发送使用统计和获取识别所用的数据。关闭后，打开期间积累的统计仍可能被发送，数据获取也可能继续进行（参见第 7 条）</li>
+        <li><strong>Google 的 ML Kit 和 Google Play 服务</strong>（仅限 Android）：打开“照片和手写文字的搜索”时，用于发送使用统计和获取识别所用的数据（照片所用的数据由 Google Play 服务获取，手写所用的数据由 ML Kit 从 Google 获取）。关闭后，打开期间积累的统计仍可能被发送，数据获取也可能继续进行（参见第 7 条）</li>
       </ul>
 
       <h2>10. 应用内购买与 Pro 的共享</h2>
