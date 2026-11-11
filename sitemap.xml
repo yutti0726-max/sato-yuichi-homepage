@@ -2957,22 +2957,4 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/books/my-100-peaks/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/books/my-100-peaks/"/>
   </url>
-  <url>
-    <loc>https://yuichi-sato.com/en/garmin/custom/</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/custom/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/custom/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/custom/"/>
-  </url>
-  <url>
-    <loc>https://yuichi-sato.com/garmin/custom/</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/custom/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/custom/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/custom/"/>
-  </url>
 </urlset>
