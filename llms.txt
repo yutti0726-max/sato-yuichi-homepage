@@ -47,6 +47,7 @@
 - [Garmin compatibility chart — which watches each app supports](https://yuichi-sato.com/garmin/devices/): model-by-model table (Venu 4, fēnix 7/8/9, Forerunner 70–970, epix, Instinct, vívoactive and more) for all published Garmin apps; AMOLED vs MIP explained (English: https://yuichi-sato.com/en/garmin/devices/)
 - [Multitime / Multitime Pro](https://yuichi-sato.com/garmin/multitime/): multi-timer watch app — several named timers at once (free: up to 3; Pro: up to 20, per-timer vibration, saved presets)
 - [Kichijitsu / Kichijitsu Calendar](https://yuichi-sato.com/garmin/kichijitsu/): Japanese lucky-day watch face (rokuyo, Ichiryu Manbai-bi, Tenshanichi, lunar date; three designs) and a free companion app listing the next 180 days of lucky days
+- [Custom watch faces for clubs, teams and shops](https://yuichi-sato.com/garmin/custom/): commissioned Connect IQ watch faces in a group's logo and colours, usually based on an existing SIGN face; price quoted per project; published publicly on the Connect IQ store; an independent service, not affiliated with Garmin (English: https://yuichi-sato.com/en/garmin/custom/)
 - [What your Garmin data field should show when hiking](https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html): grade, VAM (ascent speed) and time to sunset explained (English: https://yuichi-sato.com/en/column/garmin-hiking-datafield-grade-vam-sunset.html)
 
 ## Columns — smartphone file conversion (MediaToolbox)
