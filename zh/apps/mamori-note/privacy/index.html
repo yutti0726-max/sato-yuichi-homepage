@@ -152,16 +152,16 @@
       </ul>
 
       <h2>7. 照片和手写文字的搜索</h2>
-      <p>本应用会识别照片和手写笔记中的文字，以便搜索。在所有设备上，文字识别都在设备中进行。</p>
+      <p>本应用会识别照片和手写笔记中的文字，以便搜索（Pro 功能）。该功能最初为关闭状态，用户在设置中打开后才会使用。在所有设备上，文字识别都在设备中进行。</p>
       <ul>
-        <li><strong>iPhone、iPad</strong>：只使用 Apple 的 Vision（操作系统内置的文字识别功能）。</li>
-        <li><strong>Windows</strong>：使用 Windows 内置的文字识别功能。</li>
-        <li><strong>Android</strong>：只有在用户打开“照片和手写文字的搜索”时，才使用 Google 的 ML Kit。关闭时不使用 ML Kit。
+        <li><strong>iPhone、iPad</strong>：使用 Apple 的 Vision（操作系统内置的文字识别功能），在设备中识别。本应用不会为文字识别发送使用统计。</li>
+        <li><strong>Windows</strong>：使用 Windows 内置的文字识别和墨迹（手写）识别功能，在设备中识别。</li>
+        <li><strong>Android</strong>：通过 Google Play 服务使用 Google 的 ML Kit，在设备中识别。打开该功能时，会通过同意界面加以说明，在用户同意后才会打开。
           <ul>
-            <li>照片和识别出的文字的内容不会发送给 Google。</li>
-            <li>ML Kit 会向 Google 发送使用统计（设备型号、操作系统、应用名称和版本、处理速度、使用的功能）。</li>
-            <li>首次使用时，会从 Google 获取用于识别手写日语的数据。</li>
-            <li>打开该功能的界面上也会说明以上内容。</li>
+            <li>照片、手写笔迹和识别出的文字不会发送给 Google。</li>
+            <li>ML Kit 会向 Google 发送使用统计（设备型号、操作系统、应用名称和版本、处理速度、使用的功能等）。</li>
+            <li>识别所用的数据会从 Google Play 服务和 Google 获取。</li>
+            <li>关闭该功能后，本应用将不再使用 ML Kit 进行识别。但是，打开期间积累的统计可能会在关闭后发送，已请求的数据获取也可能会继续进行。</li>
           </ul>
         </li>
       </ul>
@@ -177,6 +177,13 @@
       <ul>
         <li><strong>面部和指纹验证（面容 ID、指纹、Windows Hello）</strong>：仅用于打开保险库和加锁文件夹（参见第 5.1 条）。</li>
         <li><strong>打印</strong>：使用操作系统的打印界面，不为打印请求权限。</li>
+        <li><strong>Android 的其他权限</strong>：
+          <ul>
+            <li>结算（BILLING）：用于在 Google Play 购买 Pro。</li>
+            <li>查看网络连接（ACCESS_NETWORK_STATE）：用于确认能否联网、是否连接 Wi-Fi（例如获取识别所用的数据时）。</li>
+            <li>开机启动（RECEIVE_BOOT_COMPLETED）、防止休眠（WAKE_LOCK）、运行前台服务（FOREGROUND_SERVICE）：供“照片和手写文字的搜索”所用的 ML Kit 组件在后台获取识别所用的数据，以及在设备重启后继续获取。</li>
+          </ul>
+        </li>
         <li><strong>网络通信</strong>：用于同步和备份（Pro）等。通信的对象见第 9 条。</li>
       </ul>
 
@@ -187,13 +194,15 @@
         <li><strong>Google 登录</strong>（accounts.google.com 等）：使用 Google Drive 时的登录和授权</li>
         <li><strong>iCloud</strong>（Apple，仅限 iPhone、iPad）：选择 iCloud 作为保存位置时的同步和备份</li>
         <li><strong>各应用商店</strong>（App Store、Google Play、Microsoft Store）：购买 Pro 和恢复购买</li>
-        <li><strong>Google 的 ML Kit</strong>（仅限 Android）：打开“照片和手写文字的搜索”时（参见第 7 条）</li>
+        <li><strong>Google 的 ML Kit 和 Google Play 服务</strong>（仅限 Android）：打开“照片和手写文字的搜索”时，用于发送使用统计和获取识别所用的数据。关闭后，打开期间积累的统计仍可能被发送，数据获取也可能继续进行（参见第 7 条）</li>
       </ul>
 
       <h2>10. 应用内购买与 Pro 的共享</h2>
       <ul>
-        <li>Pro 为一次性购买，可以在 iPhone 和 iPad 的 App Store、Android 的 Google Play、Windows 的 Microsoft Store 中购买。付款由各应用商店处理，我们不会收到用户的付款信息（卡号等）。各应用商店中的购买信息，按照各应用商店的隐私政策处理。</li>
-        <li>使用同一恢复密钥关联的设备之间，只要在其中任意一台上购买 Pro，其他设备也可以使用 Pro。为此，用于确认购买的信息（购买的商店和商品等）会用加密数据的密钥加密后，保存在用户自己云端的“まもりノート”文件夹中。这些信息不会发送给我们。</li>
+        <li>Pro 有一次性购买和按年订阅两种方式，可以在 iPhone 和 iPad 的 App Store、Android 的 Google Play、Windows 的 Microsoft Store 中购买。付款由各应用商店处理，我们不会收到用户的付款信息（卡号等）。各应用商店中的购买信息，按照各应用商店的隐私政策处理。</li>
+        <li>订阅的取消，请按照各应用商店的方式在各应用商店中进行。</li>
+        <li>本应用在设备的内存中处理 Google Play 的购买令牌（用于识别购买的信息），不会将其保存在设备的记录或云端中。</li>
+        <li>使用同一恢复密钥关联的设备之间，只要在其中任意一台上购买 Pro，其他设备也可以使用 Pro。为此，本应用会在用户自己云端（Google Drive 或 iCloud）的“まもりノート”文件夹中，放置一个用于确认 Pro 的小记录。记录的名称是根据购买的标识生成的摘要，其内容（购买的商店和商品等）会用加密数据的密钥加密。按年订阅时，记录带有期限（14 天）。重新确认过购买的设备会更新该记录，过期的记录不会被使用。本应用不会把这些信息发送给我们（我们没有服务器）。</li>
       </ul>
 
       <h2>11. 导出、打印与交接</h2>
@@ -244,7 +253,7 @@
       <a href="mailto:yutti0726@gmail.com">yutti0726@gmail.com</a></p>
       <p>通过咨询邮件收到的信息，仅用于回复。</p>
 
-      <p class="gear-note">制定日期：2026年11月2日</p>
+      <p class="gear-note">制定日期：2026年11月2日<br>修订日期：2026年11月11日</p>
 
     </div>
   </div>

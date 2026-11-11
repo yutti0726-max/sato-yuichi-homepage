@@ -152,16 +152,16 @@
       </ul>
 
       <h2>7. Searching text in photos and handwriting</h2>
-      <p>The App can recognize text in photos and handwritten notes so that you can search it. On every device, text recognition is done on the device.</p>
+      <p>The App can recognize text in photos and handwritten notes so that you can search it (a Pro feature). The feature is off at first and is used once you turn it on in Settings. On every device, text recognition is done on the device.</p>
       <ul>
-        <li><strong>iPhone and iPad</strong>: Only Apple's Vision (the text recognition built into the operating system) is used.</li>
-        <li><strong>Windows</strong>: The text recognition built into Windows is used.</li>
-        <li><strong>Android</strong>: Google's ML Kit is used only when you turn on "Search text in photos and handwriting". When it is off, ML Kit is not used.
+        <li><strong>iPhone and iPad</strong>: Apple's Vision (the text recognition built into the operating system) reads the text on the device. The App does not send usage statistics for text recognition.</li>
+        <li><strong>Windows</strong>: The text recognition and ink (handwriting) recognition built into Windows read the text on the device.</li>
+        <li><strong>Android</strong>: Google's ML Kit, used through Google Play services, reads the text on the device. Before the feature is turned on, a consent screen explains it, and the feature is turned on only after you agree.
           <ul>
-            <li>The contents of your photos and of the recognized text are not sent to Google.</li>
-            <li>ML Kit sends usage statistics to Google: device model, operating system, app name and version, processing speed, and the features used.</li>
-            <li>The first time you use it, data for recognizing handwritten Japanese is downloaded from Google.</li>
-            <li>The App also explains these points on the screen where you turn the feature on.</li>
+            <li>Your photos, pen strokes and the recognized text are not sent to Google.</li>
+            <li>ML Kit sends usage statistics to Google, such as device model, operating system, app name and version, processing speed, and the features used.</li>
+            <li>Data used for recognition is downloaded from Google Play services and Google.</li>
+            <li>When you turn the feature off, the App stops using ML Kit for recognition. However, statistics collected while it was on may be sent after you turn it off, and downloads of data that were already requested may continue.</li>
           </ul>
         </li>
       </ul>
@@ -177,6 +177,13 @@
       <ul>
         <li><strong>Face and fingerprint authentication (Face ID, fingerprint, Windows Hello)</strong>: Used only to open the vault and locked folders (see section 5.1).</li>
         <li><strong>Printing</strong>: The operating system's print screen is used. No permission is requested for printing.</li>
+        <li><strong>Other Android permissions</strong>:
+          <ul>
+            <li>Billing (BILLING): to buy Pro on Google Play.</li>
+            <li>View network connections (ACCESS_NETWORK_STATE): to check whether the device can connect and whether it is on Wi-Fi (for example, when downloading data used for recognition).</li>
+            <li>Run at startup (RECEIVE_BOOT_COMPLETED), prevent the device from sleeping (WAKE_LOCK) and run foreground service (FOREGROUND_SERVICE): used by the ML Kit components for "Search text in photos and handwriting" to download data used for recognition in the background, and to continue after the device restarts.</li>
+          </ul>
+        </li>
         <li><strong>Internet access</strong>: Used for sync and backup (Pro) and the other purposes listed in section 9.</li>
       </ul>
 
@@ -187,13 +194,15 @@
         <li><strong>Google sign-in</strong> (accounts.google.com and others): sign-in and consent for using Google Drive</li>
         <li><strong>iCloud</strong> (Apple; iPhone and iPad only): sync and backup, when you choose iCloud</li>
         <li><strong>App stores</strong> (App Store, Google Play, Microsoft Store): buying Pro and restoring purchases</li>
-        <li><strong>Google ML Kit</strong> (Android only): when "Search text in photos and handwriting" is on (see section 7)</li>
+        <li><strong>Google ML Kit and Google Play services</strong> (Android only): sending usage statistics and downloading data used for recognition while "Search text in photos and handwriting" is on. After you turn it off, statistics collected while it was on may still be sent and data downloads may continue (see section 7)</li>
       </ul>
 
       <h2>10. In-app purchase and sharing Pro</h2>
       <ul>
-        <li>Pro is a one-time purchase, available from the App Store on iPhone and iPad, Google Play on Android, and the Microsoft Store on Windows. Payment is processed by each store, and we never receive your payment details (such as card numbers). Purchase information at each store is handled under that store's privacy policy.</li>
-        <li>Devices linked with the same recovery key share Pro: buy it on any one of them, and you can use Pro on the others too. To make this work, information for confirming the purchase (such as the store and the product) is encrypted with the key that encrypts your data and stored in the "まもりノート" folder in your own cloud. This information is never sent to us.</li>
+        <li>Pro is available in two forms: a one-time purchase and a yearly subscription. You can buy it from the App Store on iPhone and iPad, Google Play on Android, and the Microsoft Store on Windows. Payment is processed by each store, and we never receive your payment details (such as card numbers). Purchase information at each store is handled under that store's privacy policy.</li>
+        <li>Subscriptions are cancelled through each store, following that store's own process.</li>
+        <li>The App handles the Google Play purchase token (information that identifies a purchase) in your device's memory and does not save it on the device or in the cloud.</li>
+        <li>Devices linked with the same recovery key share Pro: buy it on any one of them, and you can use Pro on the others too. To make this work, a small record for confirming Pro is placed in the "まもりノート" folder in your own cloud (Google Drive or iCloud). The record is named with a digest made from the purchase's identifier, and its contents (such as the store and the product) are encrypted with the key that encrypts your data. For a yearly subscription, the record has an expiry (14 days). A device that has checked the purchase again replaces the record, and an expired record is not used. The App does not send any of this information to us (we do not run any server).</li>
       </ul>
 
       <h2>11. Export, printing and handover</h2>
@@ -244,7 +253,7 @@
       <a href="mailto:yutti0726@gmail.com">yutti0726@gmail.com</a></p>
       <p>Information you send us by email is used only to reply to you.</p>
 
-      <p class="gear-note">Effective date: November 2, 2026</p>
+      <p class="gear-note">Effective date: November 2, 2026<br>Last updated: November 11, 2026</p>
 
     </div>
   </div>
