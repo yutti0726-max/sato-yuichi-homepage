@@ -121,6 +121,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const host = u.hostname;
     const path = u.pathname;
 
+    /* オリジナル ウォッチフェイスの制作のページ(/garmin/custom/・/en/garmin/custom/)の
+       問い合わせのメールのリンク。ほかのページの mailto は数えない。
+       GA4 にメールアドレスを送らないよう、link_url・link_text を固定の値で上書きする。 */
+    if (u.protocol === 'mailto:') {
+      if (!/^\/(en\/)?garmin\/custom\//.test(location.pathname)) return null;
+      return { event: 'custom_faces_mail_click', params: { link_url: 'mailto', link_text: 'contact_email' } };
+    }
+
     if (host.endsWith('play.google.com')) {
       const id = u.searchParams.get('id') || '';
       return { event: 'play_store_click', params: { app_id: id, app_name: APP_NAMES[id] || id } };
