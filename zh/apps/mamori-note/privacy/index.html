@@ -89,7 +89,7 @@
 
       <h2>2. 我们获取的信息</h2>
       <p>本应用没有向我们发送信息的机制（没有崩溃报告、使用情况分析，也没有在应用内发送咨询的功能）。本应用不会把笔记、照片、密码或购买信息发送给我们。本应用不需要注册我们的账号，也没有广告。</p>
-      <p>不过，根据用户使用的功能，本应用会直接与 Google、Apple 及各应用商店通信（参见第 9 条）。</p>
+      <p>不过，根据用户使用的功能，本应用会直接与 Google、Apple 及各应用商店通信（参见第 9 条）。此外，在 Android 版中，即使用户不使用任何功能，每次启动时，Google Play 的购买组件也会确认购买状态，并向 Google 发送该组件的诊断记录（参见第 7.2 条和第 9 条）。</p>
 
       <h2>3. 保存在设备中的信息</h2>
       <ul>
@@ -151,7 +151,8 @@
         <li>您可以随时在 Google 账号的设置中撤销本应用的访问权限。撤销后，本应用将无法与 Google Drive 同步。撤销权限不会删除 Google Drive 中的数据和设备中的数据。如果还想删除 Drive 中的数据，请参见第 14 条。</li>
       </ul>
 
-      <h2>7. 照片和手写文字的搜索</h2>
+      <h2>7. 文字搜索，以及 Google 组件发送的信息</h2>
+      <h3>7.1 照片和手写文字的搜索</h3>
       <p>本应用会识别照片和手写笔记中的文字，以便搜索（Pro 功能）。该功能最初为关闭状态，用户在设置中打开后才会使用。在所有设备上，文字识别都在设备中进行。</p>
       <ul>
         <li><strong>iPhone、iPad</strong>：使用 Apple 的 Vision（操作系统内置的文字识别功能），在设备中识别。本应用不会为文字识别发送使用统计。</li>
@@ -168,6 +169,17 @@
         </li>
       </ul>
       <p>识别出的文字为便于搜索而保存在设备中。从保险库和加锁文件夹中识别出的文字会加密保存，不会加入普通的搜索索引。</p>
+
+      <h3>7.2 Google Play 购买组件发送的诊断记录（Android）</h3>
+      <p>Android 版使用 Google 的 Google Play Billing Library（Google Play 的购买组件）来购买 Pro。</p>
+      <ul>
+        <li>每次启动本应用时（确认购买状态时），该组件会向 Google 的日志接收端（firebaselogging.googleapis.com）发送有关组件运行情况的诊断记录。无论文字搜索是打开还是关闭，也无论是否已购买 Pro，都会发送。每次的数据量约为几 KB。在购买或恢复购买等使用该组件时，也可能发送。</li>
+        <li>记录的内容由 Google 的组件决定，我们不会收到这些记录，也无法选择其内容或停止发送。</li>
+        <li>根据公开的信息，记录中包含购买处理的结果和时间、应用的包名和版本、组件的版本、设备信息（机型、系统版本、语言、国家/地区、网络类型等）等，据称不包含购买令牌。Google 并未正式公开其细节，我们也无法确认。</li>
+        <li>本应用不会把笔记、照片和密码交给该组件，因此记录中不会包含这些信息。</li>
+        <li>发送时会加密（HTTPS）。</li>
+        <li>iPhone、iPad 和 Windows 版不会进行这种发送。</li>
+      </ul>
 
       <h2>8. 本应用使用的权限</h2>
       <h3>8.1 相机和照片</h3>
@@ -190,18 +202,20 @@
       </ul>
 
       <h2>9. 通信的对象</h2>
-      <p>本应用会根据用户使用的功能，与以下对象通信，不与我们的服务器通信。界面和 PDF 使用的字体已内置在本应用中。</p>
+      <p>本应用会与以下对象通信。除了 Android 上 Google Play 购买组件的通信（每次启动时）以外，都根据用户使用的功能进行通信。本应用不与我们的服务器通信。界面和 PDF 使用的字体已内置在本应用中。</p>
       <ul>
         <li><strong>Google Drive</strong>（www.googleapis.com）：选择 Google Drive 作为保存位置时的同步和备份</li>
         <li><strong>Google 登录</strong>（accounts.google.com 等）：使用 Google Drive 时的登录和授权</li>
         <li><strong>iCloud</strong>（Apple，仅限 iPhone、iPad）：选择 iCloud 作为保存位置时的同步和备份</li>
-        <li><strong>各应用商店</strong>（App Store、Google Play、Microsoft Store）：购买 Pro 和恢复购买</li>
-        <li><strong>Google 的 ML Kit 和 Google Play 服务</strong>（仅限 Android）：打开“照片和手写文字的搜索”时，用于发送使用统计和获取识别所用的数据（照片所用的数据由 Google Play 服务获取，手写所用的数据由 ML Kit 从 Google 获取）。关闭后，打开期间积累的统计仍可能被发送，数据获取也可能继续进行（参见第 7 条）</li>
+        <li><strong>各应用商店</strong>（App Store、Google Play、Microsoft Store）：购买 Pro 和恢复购买。在 Android 上，每次启动时还会向 Google Play 确认购买状态</li>
+        <li><strong>Google 的日志接收端</strong>（firebaselogging.googleapis.com，仅限 Android）：Google Play 的购买组件每次启动时发送诊断记录（参见第 7.2 条）</li>
+        <li><strong>Google 的 ML Kit 和 Google Play 服务</strong>（仅限 Android）：打开“照片和手写文字的搜索”时，用于发送使用统计和获取识别所用的数据（照片所用的数据由 Google Play 服务获取，手写所用的数据由 ML Kit 从 Google 获取）。关闭后，打开期间积累的统计仍可能被发送，数据获取也可能继续进行（参见第 7.1 条）</li>
       </ul>
 
       <h2>10. 应用内购买与 Pro 的共享</h2>
       <ul>
         <li>Pro 有一次性购买和按年订阅两种方式，可以在 iPhone 和 iPad 的 App Store、Android 的 Google Play、Windows 的 Microsoft Store 中购买。付款由各应用商店处理，我们不会收到用户的付款信息（卡号等）。各应用商店中的购买信息，按照各应用商店的隐私政策处理。</li>
+        <li>在 Android 上，用于购买的 Google Play 购买组件每次启动时都会向 Google 发送该组件的诊断记录（参见第 7.2 条）。</li>
         <li>订阅的取消，请按照各应用商店的方式在各应用商店中进行。</li>
         <li>本应用在设备的内存中处理 Google Play 的购买令牌（用于识别购买的信息），不会将其保存在设备的记录或云端中。</li>
         <li>在 App Store（iPhone、iPad）上的购买，会在设备中通过 Apple 的 StoreKit 进行确认。本应用不会从 Apple 接收卡号等支付信息。</li>
@@ -223,7 +237,7 @@
       </ul>
 
       <h2>12. 向第三方提供信息</h2>
-      <p>我们不会向第三方出售用户的个人信息。我们不会通过本应用接收任何信息，因此也不会由我们向第三方提供。如第 9 条所述，本应用会根据用户使用的功能，直接与 Google、Apple 及各应用商店通信。保存到用户云端的数据，会先在设备中加密后再发送。在 Android 上打开“照片和手写文字的搜索”时，如第 7 条所述，ML Kit 会向 Google 发送使用统计。</p>
+      <p>我们不会向第三方出售用户的个人信息。我们不会通过本应用接收任何信息，因此也不会由我们向第三方提供。如第 9 条所述，本应用会直接与 Google、Apple 及各应用商店通信。保存到用户云端的数据，会先在设备中加密后再发送。在 Android 上，如第 7.2 条所述，Google Play 的购买组件每次启动时都会向 Google 发送诊断记录。此外，在 Android 上打开“照片和手写文字的搜索”时，如第 7.1 条所述，ML Kit 会向 Google 发送使用统计。</p>
 
       <h2>13. 关于儿童使用</h2>
       <p>本应用不以儿童为对象。本应用不会获取包括儿童在内的任何用户的个人信息。</p>
@@ -256,7 +270,7 @@
       <a href="mailto:yutti0726@gmail.com">yutti0726@gmail.com</a></p>
       <p>通过咨询邮件收到的信息，仅用于回复。</p>
 
-      <p class="gear-note">制定日期：2026年11月2日<br>修订日期：2026年11月11日</p>
+      <p class="gear-note">制定日期：2026年11月2日<br>修订日期：2026年11月13日</p>
 
     </div>
   </div>

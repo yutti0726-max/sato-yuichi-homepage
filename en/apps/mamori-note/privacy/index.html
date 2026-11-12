@@ -89,7 +89,7 @@
 
       <h2>2. Information we collect</h2>
       <p>The App has no way of sending information to us: there is no crash reporting, no usage analytics, and no in-app contact form. The App never sends your notes, photos, passwords or purchase information to us. There is no account to register with us, and the App shows no ads.</p>
-      <p>Depending on the features you use, however, the App communicates directly with Google, Apple and the app stores (see section 9).</p>
+      <p>Depending on the features you use, however, the App communicates directly with Google, Apple and the app stores (see section 9). In addition, on Android, each time the App starts, the Google Play purchase component checks the status of purchases and sends diagnostic logs about itself to Google, even if you use no features at all (see sections 7.2 and 9).</p>
 
       <h2>3. Information stored on your device</h2>
       <ul>
@@ -151,7 +151,8 @@
         <li>You can revoke the App's access at any time from your Google account settings. Once revoked, the App can no longer sync with Google Drive. Revoking access does not delete your data in Google Drive or on your devices. To delete the data in your Drive as well, see section 14.</li>
       </ul>
 
-      <h2>7. Searching text in photos and handwriting</h2>
+      <h2>7. Text search, and information sent by Google components</h2>
+      <h3>7.1 Searching text in photos and handwriting</h3>
       <p>The App can recognize text in photos and handwritten notes so that you can search it (a Pro feature). The feature is off at first and is used once you turn it on in Settings. On every device, text recognition is done on the device.</p>
       <ul>
         <li><strong>iPhone and iPad</strong>: Apple's Vision (the text recognition built into the operating system) reads the text on the device. The App does not send usage statistics for text recognition.</li>
@@ -168,6 +169,17 @@
         </li>
       </ul>
       <p>Recognized text is stored on your device for search. Text recognized from the vault and locked folders is stored encrypted and is not added to the ordinary search index.</p>
+
+      <h3>7.2 Diagnostic logs sent by the Google Play purchase component (Android)</h3>
+      <p>On Android, the App uses Google's Google Play Billing Library (the Google Play purchase component) for buying Pro.</p>
+      <ul>
+        <li>Each time the App starts (when it checks the status of purchases), this component sends diagnostic logs about how the component works to Google's logging endpoint (firebaselogging.googleapis.com). It does so whether text search is on or off and whether or not you have bought Pro. Each transmission is a few KB. It may also send them when the component is used for buying or restoring purchases.</li>
+        <li>What the logs contain is decided by Google's component. We do not receive them, and we cannot choose their content or stop them from being sent.</li>
+        <li>According to publicly available information, the logs include the result and timing of purchase processing, the App's package name and version, the component's version, and device information (such as model, OS version, language, country and network type), and do not include the purchase token. Google has not officially published the full details, and we cannot verify them.</li>
+        <li>The App does not pass your notes, photos or passwords to this component, so they are not included in the logs.</li>
+        <li>The logs are encrypted in transit (HTTPS).</li>
+        <li>The iPhone, iPad and Windows versions do not send these logs.</li>
+      </ul>
 
       <h2>8. Permissions used by the App</h2>
       <h3>8.1 Camera and photos</h3>
@@ -190,18 +202,20 @@
       </ul>
 
       <h2>9. Who the App communicates with</h2>
-      <p>The App communicates with the following, depending on the features you use. It does not communicate with any server of ours. The fonts used on screen and in PDFs are included in the App.</p>
+      <p>The App communicates with the following. Except for the Google Play purchase component on Android (which communicates each time the App starts), it does so depending on the features you use. It does not communicate with any server of ours. The fonts used on screen and in PDFs are included in the App.</p>
       <ul>
         <li><strong>Google Drive</strong> (www.googleapis.com): sync and backup, when you choose Google Drive</li>
         <li><strong>Google sign-in</strong> (accounts.google.com and others): sign-in and consent for using Google Drive</li>
         <li><strong>iCloud</strong> (Apple; iPhone and iPad only): sync and backup, when you choose iCloud</li>
-        <li><strong>App stores</strong> (App Store, Google Play, Microsoft Store): buying Pro and restoring purchases</li>
-        <li><strong>Google ML Kit and Google Play services</strong> (Android only): sending usage statistics and downloading data used for recognition while "Search text in photos and handwriting" is on (data for photos is downloaded by Google Play services, and data for handwriting by ML Kit from Google). After you turn it off, statistics collected while it was on may still be sent and data downloads may continue (see section 7)</li>
+        <li><strong>App stores</strong> (App Store, Google Play, Microsoft Store): buying Pro and restoring purchases. On Android, the App also checks the status of purchases with Google Play each time it starts</li>
+        <li><strong>Google logging endpoint</strong> (firebaselogging.googleapis.com; Android only): the Google Play purchase component sends diagnostic logs each time the App starts (see section 7.2)</li>
+        <li><strong>Google ML Kit and Google Play services</strong> (Android only): sending usage statistics and downloading data used for recognition while "Search text in photos and handwriting" is on (data for photos is downloaded by Google Play services, and data for handwriting by ML Kit from Google). After you turn it off, statistics collected while it was on may still be sent and data downloads may continue (see section 7.1)</li>
       </ul>
 
       <h2>10. In-app purchase and sharing Pro</h2>
       <ul>
         <li>Pro is available in two forms: a one-time purchase and a yearly subscription. You can buy it from the App Store on iPhone and iPad, Google Play on Android, and the Microsoft Store on Windows. Payment is processed by each store, and we never receive your payment details (such as card numbers). Purchase information at each store is handled under that store's privacy policy.</li>
+        <li>On Android, the Google Play purchase component used for purchases sends diagnostic logs about itself to Google each time the App starts (see section 7.2).</li>
         <li>Subscriptions are cancelled through each store, following that store's own process.</li>
         <li>The App handles the Google Play purchase token (information that identifies a purchase) in your device's memory and does not save it on the device or in the cloud.</li>
         <li>Purchases on the App Store (iPhone and iPad) are verified on your device using Apple's StoreKit. The App does not receive payment details such as card numbers from Apple.</li>
@@ -223,7 +237,7 @@
       </ul>
 
       <h2>12. Sharing with third parties</h2>
-      <p>We do not sell personal information. As we receive no information through the App, we have none to pass on to any third party. As described in section 9, the App communicates directly with Google, Apple and the app stores depending on the features you use. Data placed in your cloud is encrypted on your device before it is sent. On Android, if you turn on "Search text in photos and handwriting", ML Kit sends usage statistics to Google as described in section 7.</p>
+      <p>We do not sell personal information. As we receive no information through the App, we have none to pass on to any third party. As described in section 9, the App communicates directly with Google, Apple and the app stores. Data placed in your cloud is encrypted on your device before it is sent. On Android, the Google Play purchase component sends diagnostic logs to Google each time the App starts, as described in section 7.2. Also on Android, if you turn on "Search text in photos and handwriting", ML Kit sends usage statistics to Google as described in section 7.1.</p>
 
       <h2>13. Children</h2>
       <p>The App is not directed at children. No personal information about any user, including children, is collected through the App.</p>
@@ -256,7 +270,7 @@
       <a href="mailto:yutti0726@gmail.com">yutti0726@gmail.com</a></p>
       <p>Information you send us by email is used only to reply to you.</p>
 
-      <p class="gear-note">Effective date: November 2, 2026<br>Last updated: November 11, 2026</p>
+      <p class="gear-note">Effective date: November 2, 2026<br>Last updated: November 13, 2026</p>
 
     </div>
   </div>
