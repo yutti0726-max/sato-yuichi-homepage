@@ -1,4 +1,50 @@
+/* ---------------------------------------------------------------
+   お問い合わせフォーム(Google フォーム)の設定。ここ1か所だけを書き換える。
+   - url: フォームの「回答用」の URL(https://docs.google.com/forms/d/e/…/viewform)。
+     短縮の URL(forms.gle)では製品名・種類をあらかじめ入れられないので、長い URL を使う。
+   - entryType・entryProduct: あらかじめ入れる項目の番号(「entry.123456789」の形。
+     フォームの「事前入力した URL を取得」で作った URL の中にある)。
+   - typeCustom: 「種類」の選択肢の文字(フォームの選択肢と1字も違わないこと)。
+   url が 'FORM_URL_TODO' のままのあいだは、ボタンは /contact/ に行くだけ(差し替えない)。
+   --------------------------------------------------------------- */
+const CONTACT_FORM = {
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSf29FyllDEjyIAHg73Zc94-iTohRqeNSxmC-XIxQWw3koIBLQ/viewform',
+  entryType: 'entry.1070849450',
+  entryProduct: 'entry.505538422',
+  typeCustom: '受託制作の相談 / Custom work request / 定制委托咨询'
+};
+
 document.addEventListener('DOMContentLoaded', () => {
+  /* お問い合わせフォームのボタン(<a class="contact-form-link" href="/contact/">)の href を、
+     CONTACT_FORM から組み立てたフォームの URL に差し替え、新しいタブで開くようにする。
+     JS が動かないときや、設定がまだのときは /contact/ に行く。 */
+  const contactTypes = { custom: CONTACT_FORM.typeCustom };
+  const isSet = (v) => typeof v === 'string' && v !== '' && !/_TODO$/.test(v);
+  const isEntry = (v) => isSet(v) && /^entry\.[0-9]+$/.test(v);
+
+  const buildContactFormUrl = (product, type) => {
+    if (!isSet(CONTACT_FORM.url)) return null;
+    let u;
+    try { u = new URL(CONTACT_FORM.url); } catch (e) { return null; }
+    const typeText = contactTypes[type] || '';
+    const fills = [];
+    if (product && isEntry(CONTACT_FORM.entryProduct)) fills.push([CONTACT_FORM.entryProduct, product]);
+    if (typeText && isEntry(CONTACT_FORM.entryType)) fills.push([CONTACT_FORM.entryType, typeText]);
+    if (fills.length) {
+      u.searchParams.set('usp', 'pp_url');
+      fills.forEach(([k, v]) => u.searchParams.set(k, v));
+    }
+    return u.href;
+  };
+
+  document.querySelectorAll('a.contact-form-link').forEach((a) => {
+    const href = buildContactFormUrl(a.dataset.contactProduct || '', a.dataset.contactType || '');
+    if (!href) return;
+    a.href = href;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+
   const revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
     const revealObserver = new IntersectionObserver((entries) => {
@@ -75,8 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------------------------------------------------------------
      アウトバウンドクリック計測（GA4）
-     Google Play / Kindle / Amazon物販 / 楽天 / Garmin Connect IQ / BOOTH への
-     遷移を記録する。全ページで共通の script.js なので、ページ側の
+     Google Play / Kindle / Amazon物販 / 楽天 / Garmin Connect IQ / BOOTH /
+     お問い合わせフォーム(Google フォーム)への遷移を記録する。全ページで共通の script.js なので、ページ側の
      変更は不要。
      --------------------------------------------------------------- */
   const APP_NAMES = {
@@ -115,7 +161,10 @@ document.addEventListener('DOMContentLoaded', () => {
     '9032113': '2027 Kichijitsu Techo'
   };
 
-  const classifyOutbound = (url) => {
+  const isCustomFacesPage = () => /^\/(en\/)?garmin\/custom\//.test(location.pathname);
+
+  /* 返す値は、送るイベントの配列(なければ null)。 */
+  const classifyOutbound = (url, link) => {
     let u;
     try { u = new URL(url); } catch (e) { return null; }
     const host = u.hostname;
@@ -125,10 +174,36 @@ document.addEventListener('DOMContentLoaded', () => {
        問い合わせのメールのリンク。ほかのページの mailto は数えない。
        GA4 にメールアドレスを送らないよう、link_url・link_text を固定の値で上書きする。 */
     if (u.protocol === 'mailto:') {
-      if (!/^\/(en\/)?garmin\/custom\//.test(location.pathname)) return null;
-      return { event: 'custom_faces_mail_click', params: { link_url: 'mailto', link_text: 'contact_email' } };
+      if (!isCustomFacesPage()) return null;
+      return [{ event: 'custom_faces_mail_click', params: { link_url: 'mailto', link_text: 'contact_email' } }];
     }
 
+    /* お問い合わせフォーム(Google フォーム)へのリンク。
+       制作のページでは、問い合わせの数(T-136 の E-021)を続けて数えるため、
+       メールのときと同じ custom_faces_mail_click も送る(link_url・link_text で、メールとフォームを分けられる)。 */
+    if ((host === 'docs.google.com' && path.startsWith('/forms/')) || host === 'forms.gle') {
+      const data = (link && link.dataset) || {};
+      const hits = [{
+        event: 'contact_form_click',
+        params: {
+          contact_product: data.contactProduct || '',
+          contact_type: data.contactType || '',
+          page_path: location.pathname,
+          page_lang: document.documentElement.lang || 'ja'
+        }
+      }];
+      if (isCustomFacesPage()) {
+        hits.push({ event: 'custom_faces_mail_click', params: { link_url: 'contact_form', link_text: 'contact_form' } });
+      }
+      return hits;
+    }
+
+    const hit = classifyStore(host, path, u);
+    return hit ? [hit] : null;
+  };
+
+  /* ストア・販売先へのリンク(1つのイベント。なければ null) */
+  const classifyStore = (host, path, u) => {
     if (host.endsWith('play.google.com')) {
       const id = u.searchParams.get('id') || '';
       return { event: 'play_store_click', params: { app_id: id, app_name: APP_NAMES[id] || id } };
@@ -162,16 +237,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const link = e.target.closest && e.target.closest('a[href]');
     if (!link) return;
 
-    const hit = classifyOutbound(link.href);
-    if (!hit) return;
+    const hits = classifyOutbound(link.href, link);
+    if (!hits) return;
 
     if (typeof gtag !== 'function') return;
 
-    gtag('event', hit.event, Object.assign({
-      link_url: link.href,
-      link_text: (link.textContent || '').trim().slice(0, 100),
-      page_path: location.pathname,
-      page_lang: document.documentElement.lang || 'ja'
-    }, hit.params));
+    hits.forEach((hit) => {
+      gtag('event', hit.event, Object.assign({
+        link_url: link.href,
+        link_text: (link.textContent || '').trim().slice(0, 100),
+        page_path: location.pathname,
+        page_lang: document.documentElement.lang || 'ja'
+      }, hit.params));
+    });
   }, { capture: true });
 });

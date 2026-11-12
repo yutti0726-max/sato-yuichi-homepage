@@ -15,6 +15,7 @@
 - [Recommended gear](https://yuichi-sato.com/gear/): PC, keyboard, monitor and desk-setup picks
 - [Links (SIGN link hub)](https://yuichi-sato.com/links/): one-page list of SIGN's Garmin watch faces and apps, Android apps, Kindle books and the Sai & Jino mascots, plus TikTok, Instagram and X. English: https://yuichi-sato.com/en/links/  ·  Chinese: https://yuichi-sato.com/zh/links/
 - [Privacy policy](https://yuichi-sato.com/privacy/)
+- [Contact](https://yuichi-sato.com/contact/): contact form (Google Forms, no sign-in needed) for questions, bug reports, suggestions, requests and custom work enquiries about the apps, Garmin watch faces, books and LINE stickers; replies by email only when an address is given. English: https://yuichi-sato.com/en/contact/  ·  Chinese: https://yuichi-sato.com/zh/contact/
 - English home: https://yuichi-sato.com/en/  ·  Chinese home: https://yuichi-sato.com/zh/
 
 ## Apps (Android; all free to download — most show ads, and some offer a one-time in-app purchase to remove them)

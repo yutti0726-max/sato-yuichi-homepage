@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yuichi-sato.com/privacy/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/privacy/"/>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/privacy/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/privacy/"/>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/privacy/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/privacy/"/>
@@ -33,7 +33,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/"/>
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/"/>
@@ -53,7 +53,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/"/>
@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -73,7 +73,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/profile/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/profile/"/>
@@ -83,7 +83,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/character/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/character/"/>
@@ -93,7 +93,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/profile/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/profile/"/>
@@ -103,7 +103,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/character/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/character/"/>
@@ -113,7 +113,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/profile/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/profile/"/>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/character/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/character/"/>
@@ -133,7 +133,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/gear/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/gear/"/>
@@ -143,7 +143,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/gear/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/gear/"/>
@@ -153,7 +153,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/gear/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/gear/"/>
@@ -163,7 +163,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-license-guide.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
@@ -173,7 +173,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-ear-equalizing-tips.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
@@ -183,7 +183,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-beginner-gear-guide.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
@@ -193,7 +193,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
@@ -203,7 +203,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-rescue-diver-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
@@ -213,7 +213,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-glossary.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-glossary.html"/>
@@ -223,7 +223,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-after-dive-safety.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
@@ -233,7 +233,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-marine-life-encounters.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
@@ -243,7 +243,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-prescription-mask-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
@@ -253,7 +253,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-seasickness-remedy.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
@@ -263,7 +263,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
@@ -273,7 +273,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-weight-fin-adjustment.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
@@ -283,7 +283,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-underwater-photography.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
@@ -293,7 +293,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/keyboard-mod-silent-typing.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
@@ -303,7 +303,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/portable-egpu-desk-setup.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
@@ -313,7 +313,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
@@ -323,7 +323,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
@@ -333,7 +333,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
@@ -343,7 +343,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
@@ -353,7 +353,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-case-airflow-build-planning.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
@@ -363,7 +363,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
@@ -373,7 +373,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-video-compress.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
@@ -383,7 +383,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
@@ -393,7 +393,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-encode-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
@@ -403,7 +403,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-image-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
@@ -413,7 +413,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-image-resize.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
@@ -423,7 +423,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-audio-extract.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
@@ -433,7 +433,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
@@ -443,7 +443,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-android-guide.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
@@ -453,7 +453,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
@@ -463,7 +463,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-split-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
@@ -473,7 +473,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-merge-compress.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
@@ -483,7 +483,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
@@ -493,7 +493,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-scan-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
@@ -503,7 +503,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
@@ -513,7 +513,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-signature-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
@@ -523,7 +523,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-id-documents-pdf.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-id-documents-pdf.html"/>
@@ -533,7 +533,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-receipts-to-pdf.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-receipts-to-pdf.html"/>
@@ -543,7 +543,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-fill-form-return.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-fill-form-return.html"/>
@@ -553,7 +553,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-too-big-to-send.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-too-big-to-send.html"/>
@@ -563,7 +563,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-reorder-delete-pages.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-reorder-delete-pages.html"/>
@@ -573,7 +573,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
@@ -583,7 +583,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
@@ -593,7 +593,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-widget-guide.html</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
@@ -603,7 +603,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
@@ -613,7 +613,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/readshot-screenshot-text-copy.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
@@ -623,7 +623,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
@@ -633,7 +633,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
@@ -643,7 +643,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
@@ -653,7 +653,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
@@ -663,7 +663,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -673,7 +673,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -683,7 +683,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-video-compress.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
@@ -693,7 +693,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-video-compress.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-video-compress.html"/>
@@ -703,7 +703,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-mp4-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
@@ -713,7 +713,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-mp4-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-mp4-convert.html"/>
@@ -723,7 +723,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-encode-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
@@ -733,7 +733,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-encode-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-encode-guide.html"/>
@@ -743,7 +743,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-audio-extract.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
@@ -753,7 +753,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-audio-extract.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-audio-extract.html"/>
@@ -763,7 +763,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-image-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
@@ -773,7 +773,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-image-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-convert.html"/>
@@ -783,7 +783,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-image-resize.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
@@ -793,7 +793,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-image-resize.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-image-resize.html"/>
@@ -803,7 +803,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/mediatoolbox-pdf-to-image.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
@@ -813,7 +813,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/mediatoolbox-pdf-to-image.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/mediatoolbox-pdf-to-image.html"/>
@@ -823,7 +823,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-merge-compress.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
@@ -833,7 +833,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-merge-compress.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-merge-compress.html"/>
@@ -843,7 +843,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-image-to-pdf.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
@@ -853,7 +853,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-image-to-pdf.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-image-to-pdf.html"/>
@@ -863,7 +863,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-android-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
@@ -873,7 +873,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-android-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-android-guide.html"/>
@@ -883,7 +883,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-ocr-guide.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
@@ -893,7 +893,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-ocr-guide.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-ocr-guide.html"/>
@@ -903,7 +903,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-split-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
@@ -913,7 +913,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-split-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-split-guide.html"/>
@@ -923,7 +923,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-scan-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
@@ -933,7 +933,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-scan-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-scan-guide.html"/>
@@ -943,7 +943,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-rotate-extract-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
@@ -953,7 +953,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-rotate-extract-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-rotate-extract-guide.html"/>
@@ -963,7 +963,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-signature-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
@@ -973,7 +973,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-id-documents-pdf.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-id-documents-pdf.html"/>
@@ -983,7 +983,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-receipts-to-pdf.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-receipts-to-pdf.html"/>
@@ -993,7 +993,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-fill-form-return.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-fill-form-return.html"/>
@@ -1003,7 +1003,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-too-big-to-send.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-too-big-to-send.html"/>
@@ -1013,7 +1013,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-reorder-delete-pages.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-reorder-delete-pages.html"/>
@@ -1023,7 +1023,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-signature-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-signature-guide.html"/>
@@ -1033,7 +1033,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-id-documents-pdf.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-id-documents-pdf.html"/>
@@ -1043,7 +1043,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-receipts-to-pdf.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-receipts-to-pdf.html"/>
@@ -1053,7 +1053,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-fill-form-return.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-fill-form-return.html"/>
@@ -1063,7 +1063,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-too-big-to-send.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-too-big-to-send.html"/>
@@ -1073,7 +1073,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-reorder-delete-pages.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-reorder-delete-pages.html"/>
@@ -1083,7 +1083,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
@@ -1093,7 +1093,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-guide.html"/>
@@ -1103,7 +1103,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-battery-permission-guide.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
@@ -1113,7 +1113,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-battery-permission-guide.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-battery-permission-guide.html"/>
@@ -1123,7 +1123,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-widget-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
@@ -1133,7 +1133,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-widget-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-widget-guide.html"/>
@@ -1143,7 +1143,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/seniorpedometer-motivation-titles-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
@@ -1153,7 +1153,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/seniorpedometer-motivation-titles-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/seniorpedometer-motivation-titles-guide.html"/>
@@ -1163,7 +1163,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/readshot-screenshot-text-copy.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
@@ -1173,7 +1173,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/readshot-screenshot-text-copy.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/readshot-screenshot-text-copy.html"/>
@@ -1183,7 +1183,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/keyboard-mod-silent-typing.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
@@ -1193,7 +1193,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/keyboard-mod-silent-typing.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/keyboard-mod-silent-typing.html"/>
@@ -1203,7 +1203,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/portable-egpu-desk-setup.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
@@ -1213,7 +1213,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/portable-egpu-desk-setup.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/portable-egpu-desk-setup.html"/>
@@ -1223,7 +1223,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-build-power-explosion-mistake.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
@@ -1233,7 +1233,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-build-power-explosion-mistake.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-power-explosion-mistake.html"/>
@@ -1243,7 +1243,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-audio-soundcard-headphones.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
@@ -1253,7 +1253,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-audio-soundcard-headphones.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-audio-soundcard-headphones.html"/>
@@ -1263,7 +1263,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-case-airflow-build-planning.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
@@ -1273,7 +1273,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-case-airflow-build-planning.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-case-airflow-build-planning.html"/>
@@ -1283,7 +1283,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-input-devices-fit-over-spec.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
@@ -1293,7 +1293,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-input-devices-fit-over-spec.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-input-devices-fit-over-spec.html"/>
@@ -1303,7 +1303,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-parts-priority-cpu-memory-gpu.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
@@ -1313,7 +1313,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-parts-priority-cpu-memory-gpu.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-parts-priority-cpu-memory-gpu.html"/>
@@ -1323,7 +1323,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-license-guide.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
@@ -1333,7 +1333,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-license-guide.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-license-guide.html"/>
@@ -1343,7 +1343,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-ear-equalizing-tips.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
@@ -1353,7 +1353,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-ear-equalizing-tips.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-ear-equalizing-tips.html"/>
@@ -1363,7 +1363,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-beginner-gear-guide.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
@@ -1373,7 +1373,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-beginner-gear-guide.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-beginner-gear-guide.html"/>
@@ -1383,7 +1383,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-spots-kerama-shakotan.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
@@ -1393,7 +1393,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-spots-kerama-shakotan.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-spots-kerama-shakotan.html"/>
@@ -1403,7 +1403,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-rescue-diver-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
@@ -1413,7 +1413,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-rescue-diver-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-rescue-diver-guide.html"/>
@@ -1423,7 +1423,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-glossary.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-glossary.html"/>
@@ -1433,7 +1433,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-glossary.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-glossary.html"/>
@@ -1443,7 +1443,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-after-dive-safety.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
@@ -1453,7 +1453,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-after-dive-safety.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-after-dive-safety.html"/>
@@ -1463,7 +1463,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-marine-life-encounters.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
@@ -1473,7 +1473,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-marine-life-encounters.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-marine-life-encounters.html"/>
@@ -1483,7 +1483,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-prescription-mask-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
@@ -1493,7 +1493,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-prescription-mask-guide.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-prescription-mask-guide.html"/>
@@ -1503,7 +1503,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-seasickness-remedy.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
@@ -1513,7 +1513,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-seasickness-remedy.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-seasickness-remedy.html"/>
@@ -1523,7 +1523,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-equipment-trouble-trust-instructor.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
@@ -1533,7 +1533,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-equipment-trouble-trust-instructor.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-equipment-trouble-trust-instructor.html"/>
@@ -1543,7 +1543,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-weight-fin-adjustment.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
@@ -1553,7 +1553,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-weight-fin-adjustment.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-weight-fin-adjustment.html"/>
@@ -1563,7 +1563,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-underwater-photography.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
@@ -1573,7 +1573,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-underwater-photography.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-photography.html"/>
@@ -1583,7 +1583,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/diving-underwater-video-mp4-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
@@ -1593,7 +1593,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/diving-underwater-video-mp4-convert.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/diving-underwater-video-mp4-convert.html"/>
@@ -1603,7 +1603,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/golf-consistent-scoring-without-practice.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
@@ -1613,7 +1613,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/golf-consistent-scoring-without-practice.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/golf-consistent-scoring-without-practice.html"/>
@@ -1623,7 +1623,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/dance-breakdance-rhythm-tone-deaf.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
@@ -1633,7 +1633,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/dance-breakdance-rhythm-tone-deaf.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/dance-breakdance-rhythm-tone-deaf.html"/>
@@ -1643,7 +1643,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/darts-barrel-selection-grouping-mental.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
@@ -1653,7 +1653,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/darts-barrel-selection-grouping-mental.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/darts-barrel-selection-grouping-mental.html"/>
@@ -1663,7 +1663,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/billiards-home-table-cue-ball-control.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
@@ -1673,7 +1673,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/billiards-home-table-cue-ball-control.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/billiards-home-table-cue-ball-control.html"/>
@@ -1683,7 +1683,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/smartphone-ios-vs-android-sales-experience.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-ios-vs-android-sales-experience.html"/>
@@ -1693,7 +1693,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/smartphone-ios-vs-android-sales-experience.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-ios-vs-android-sales-experience.html"/>
@@ -1703,7 +1703,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/smartphone-ios-vs-android-sales-experience.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-ios-vs-android-sales-experience.html"/>
@@ -1713,7 +1713,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/smartphone-android-ecosystem-switch.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-android-ecosystem-switch.html"/>
@@ -1723,7 +1723,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/smartphone-android-ecosystem-switch.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-android-ecosystem-switch.html"/>
@@ -1733,7 +1733,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/smartphone-android-ecosystem-switch.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-android-ecosystem-switch.html"/>
@@ -1743,7 +1743,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/smartphone-garmin-quatix8-golf-diving.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-garmin-quatix8-golf-diving.html"/>
@@ -1753,7 +1753,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/smartphone-garmin-quatix8-golf-diving.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-garmin-quatix8-golf-diving.html"/>
@@ -1763,7 +1763,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/smartphone-garmin-quatix8-golf-diving.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/smartphone-garmin-quatix8-golf-diving.html"/>
@@ -1773,7 +1773,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-vs-iphone-subscription.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-vs-iphone-subscription.html"/>
@@ -1783,7 +1783,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-vs-iphone-subscription.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-vs-iphone-subscription.html"/>
@@ -1793,7 +1793,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-vs-iphone-subscription.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-vs-iphone-subscription.html"/>
@@ -1803,7 +1803,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/oppo-find-x9-ultra-review.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/oppo-find-x9-ultra-review.html"/>
@@ -1813,7 +1813,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/oppo-find-x9-ultra-review.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/oppo-find-x9-ultra-review.html"/>
@@ -1823,7 +1823,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/oppo-find-x9-ultra-review.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/oppo-find-x9-ultra-review.html"/>
@@ -1833,7 +1833,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/mediatoolbox/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mediatoolbox/"/>
@@ -1843,7 +1843,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/mediatoolbox/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mediatoolbox/"/>
@@ -1853,7 +1853,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/mediatoolbox/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mediatoolbox/"/>
@@ -1863,7 +1863,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/pdftoolkit/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/pdftoolkit/"/>
@@ -1873,7 +1873,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/pdftoolkit/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/pdftoolkit/"/>
@@ -1883,7 +1883,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/pdftoolkit/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/pdftoolkit/"/>
@@ -1893,7 +1893,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/seniorpedometer/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/"/>
@@ -1903,7 +1903,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/seniorpedometer/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/"/>
@@ -1913,7 +1913,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/seniorpedometer/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/"/>
@@ -1923,7 +1923,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/readshot/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/"/>
@@ -1933,7 +1933,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/readshot/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/"/>
@@ -1943,7 +1943,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/readshot/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/"/>
@@ -1953,7 +1953,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/haglog/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/haglog/"/>
@@ -1963,7 +1963,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/gigapulse/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/gigapulse/"/>
@@ -1973,7 +1973,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/mimamori-map/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mimamori-map/"/>
@@ -1983,7 +1983,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/haglog/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/haglog/"/>
@@ -1993,7 +1993,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/gigapulse/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/gigapulse/"/>
@@ -2003,7 +2003,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/mimamori-map/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mimamori-map/"/>
@@ -2013,7 +2013,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/haglog/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/haglog/"/>
@@ -2023,7 +2023,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/gigapulse/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/gigapulse/"/>
@@ -2033,7 +2033,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/mimamori-map/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mimamori-map/"/>
@@ -2043,7 +2043,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/books/my-100-dives/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/my-100-dives/"/>
@@ -2053,7 +2053,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/books/my-100-dives/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/my-100-dives/"/>
@@ -2063,7 +2063,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/books/my-100-dives/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/my-100-dives/"/>
@@ -2073,7 +2073,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/books/pc-parts-bible/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-parts-bible/"/>
@@ -2083,7 +2083,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/books/pc-parts-bible/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-parts-bible/"/>
@@ -2093,7 +2093,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/books/pc-parts-bible/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-parts-bible/"/>
@@ -2103,7 +2103,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/books/pc-maintenance/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-maintenance/"/>
@@ -2113,7 +2113,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/books/pc-maintenance/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-maintenance/"/>
@@ -2123,7 +2123,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/books/pc-maintenance/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-maintenance/"/>
@@ -2133,7 +2133,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/books/pc-lease-goodbye/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-lease-goodbye/"/>
@@ -2143,7 +2143,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/books/pc-lease-goodbye/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-lease-goodbye/"/>
@@ -2153,7 +2153,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/books/pc-lease-goodbye/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/pc-lease-goodbye/"/>
@@ -2163,7 +2163,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/aurum/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/aurum/"/>
@@ -2173,7 +2173,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/aurum/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/aurum/"/>
@@ -2183,7 +2183,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/aurum/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/aurum/"/>
@@ -2193,7 +2193,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/cairn/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn/"/>
@@ -2203,7 +2203,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/cairn/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn/"/>
@@ -2213,7 +2213,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/cairn/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn/"/>
@@ -2223,7 +2223,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/overwatch/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/overwatch/"/>
@@ -2233,7 +2233,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/overwatch/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/overwatch/"/>
@@ -2243,7 +2243,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/overwatch/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/overwatch/"/>
@@ -2253,7 +2253,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html"/>
@@ -2263,7 +2263,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/garmin-hiking-datafield-grade-vam-sunset.html</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html"/>
@@ -2273,7 +2273,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/garmin-hiking-datafield-grade-vam-sunset.html</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/garmin-hiking-datafield-grade-vam-sunset.html"/>
@@ -2283,7 +2283,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/empress/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/empress/"/>
@@ -2293,7 +2293,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/empress/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/empress/"/>
@@ -2303,7 +2303,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/empress/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/empress/"/>
@@ -2313,7 +2313,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/cairn-cycle/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
@@ -2323,7 +2323,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/cairn-cycle/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
@@ -2333,7 +2333,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/cairn-cycle/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/cairn-cycle/"/>
@@ -2343,7 +2343,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/multitime/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/multitime/"/>
@@ -2353,7 +2353,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/multitime/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/multitime/"/>
@@ -2363,7 +2363,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/multitime/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/multitime/"/>
@@ -2373,7 +2373,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/"/>
@@ -2383,7 +2383,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/home-office-desk-setup.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
@@ -2393,7 +2393,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/home-office-desk-setup.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
@@ -2403,7 +2403,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/home-office-desk-setup.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/home-office-desk-setup.html"/>
@@ -2413,7 +2413,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
@@ -2423,7 +2423,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pc-build-rtx5060ti-vs-egpu.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
@@ -2433,7 +2433,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pc-build-rtx5060ti-vs-egpu.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pc-build-rtx5060ti-vs-egpu.html"/>
@@ -2443,7 +2443,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/"/>
@@ -2453,7 +2453,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/"/>
@@ -2463,7 +2463,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/kichijitsu/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/kichijitsu/"/>
@@ -2473,7 +2473,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/kichijitsu/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/kichijitsu/"/>
@@ -2483,7 +2483,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/kichijitsu/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/kichijitsu/"/>
@@ -2493,7 +2493,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/devices/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/devices/"/>
@@ -2503,7 +2503,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/devices/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/devices/"/>
@@ -2513,7 +2513,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/devices/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/devices/"/>
@@ -2523,7 +2523,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/links/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/links/"/>
@@ -2533,7 +2533,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/links/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/links/"/>
@@ -2543,7 +2543,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/links/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/links/"/>
@@ -2553,7 +2553,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/pdftoolkit-pdf-conversion-guide.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-pdf-conversion-guide.html"/>
@@ -2563,7 +2563,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/pdftoolkit-pdf-conversion-guide.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-pdf-conversion-guide.html"/>
@@ -2573,7 +2573,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/pdftoolkit-pdf-conversion-guide.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/pdftoolkit-pdf-conversion-guide.html"/>
@@ -2583,7 +2583,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/goods/kichijitsu-techo-2027/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/goods/kichijitsu-techo-2027/"/>
@@ -2591,7 +2591,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/line-stickers/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/line-stickers/"/>
@@ -2601,7 +2601,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/line-stickers/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/line-stickers/"/>
@@ -2611,7 +2611,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/line-stickers/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/line-stickers/"/>
@@ -2621,7 +2621,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
@@ -2631,7 +2631,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/seniorpedometer/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
@@ -2641,7 +2641,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/seniorpedometer/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/seniorpedometer/privacy-ios/"/>
@@ -2651,7 +2651,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/platina/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/platina/"/>
@@ -2661,7 +2661,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/platina/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/platina/"/>
@@ -2671,7 +2671,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/platina/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/platina/"/>
@@ -2681,7 +2681,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/pdftoolkit/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/pdftoolkit/privacy-ios/"/>
@@ -2691,7 +2691,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/pdftoolkit/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/pdftoolkit/privacy-ios/"/>
@@ -2701,7 +2701,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/pdftoolkit/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/pdftoolkit/privacy-ios/"/>
@@ -2711,7 +2711,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/haglog/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/haglog/privacy-ios/"/>
@@ -2721,7 +2721,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/haglog/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/haglog/privacy-ios/"/>
@@ -2731,7 +2731,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/haglog/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/haglog/privacy-ios/"/>
@@ -2741,7 +2741,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/mediatoolbox/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mediatoolbox/privacy-ios/"/>
@@ -2751,7 +2751,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/mediatoolbox/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mediatoolbox/privacy-ios/"/>
@@ -2761,7 +2761,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/mediatoolbox/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mediatoolbox/privacy-ios/"/>
@@ -2771,7 +2771,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/mimamori-map/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mimamori-map/privacy-ios/"/>
@@ -2781,7 +2781,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/mimamori-map/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mimamori-map/privacy-ios/"/>
@@ -2791,7 +2791,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/mimamori-map/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mimamori-map/privacy-ios/"/>
@@ -2801,7 +2801,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/readshot/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/privacy-ios/"/>
@@ -2811,7 +2811,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/readshot/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/privacy-ios/"/>
@@ -2821,7 +2821,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/readshot/privacy-ios/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/readshot/privacy-ios/"/>
@@ -2831,7 +2831,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/garmin/tide-phase/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/tide-phase/"/>
@@ -2841,7 +2841,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/garmin/tide-phase/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/tide-phase/"/>
@@ -2851,7 +2851,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/garmin/tide-phase/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/tide-phase/"/>
@@ -2861,7 +2861,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/line-stickers/animated/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/line-stickers/animated/"/>
@@ -2871,7 +2871,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/line-stickers/animated/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/line-stickers/animated/"/>
@@ -2881,7 +2881,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/line-stickers/animated/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/line-stickers/animated/"/>
@@ -2891,7 +2891,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/apps/mamori-note/privacy/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mamori-note/privacy/"/>
@@ -2901,7 +2901,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/apps/mamori-note/privacy/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mamori-note/privacy/"/>
@@ -2911,7 +2911,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/apps/mamori-note/privacy/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mamori-note/privacy/"/>
@@ -2921,7 +2921,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/kichijitsu-calendar/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/kichijitsu-calendar/"/>
@@ -2929,7 +2929,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/books/my-100-peaks/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/my-100-peaks/"/>
@@ -2939,7 +2939,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/books/my-100-peaks/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/my-100-peaks/"/>
@@ -2949,7 +2949,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/books/my-100-peaks/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/books/my-100-peaks/"/>
@@ -2974,5 +2974,35 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/garmin/custom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/custom/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/custom/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/contact/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/contact/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/contact/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/contact/"/>
   </url>
 </urlset>
