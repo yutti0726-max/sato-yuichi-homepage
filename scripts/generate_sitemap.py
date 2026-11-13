@@ -87,7 +87,7 @@ def existing_meta():
 
 def rule_for(loc):
     path = loc[len(BASE):]
-    lang_path = re.sub(r'^(en|zh)/', '', path)
+    lang_path = re.sub(r'^(en|zh|zh-hant)/', '', path)
     is_ja = lang_path == path
     for pat, cf, pr_ja, pr_other in RULES:
         if re.match(pat, lang_path):

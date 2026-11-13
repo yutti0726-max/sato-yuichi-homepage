@@ -167,6 +167,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const classifyOutbound = (url, link) => {
     let u;
     try { u = new URL(url); } catch (e) { return null; }
+
+    /* トップの最初の画面の、受託制作と問い合わせのボタン(サイトの中へのリンク) */
+    if (link && link.dataset && link.dataset.heroCta) {
+      return [{ event: 'hero_cta_click', params: { hero_cta: link.dataset.heroCta } }];
+    }
     const host = u.hostname;
     const path = u.pathname;
 
