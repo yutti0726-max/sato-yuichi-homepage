@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '9032113': '2027 Kichijitsu Techo'
   };
 
-  const isCustomFacesPage = () => /^\/(en\/)?garmin\/custom\//.test(location.pathname);
+  const isCustomFacesPage = () => /^\/(en\/|zh\/)?garmin\/custom\//.test(location.pathname);
 
   /* 返す値は、送るイベントの配列(なければ null)。 */
   const classifyOutbound = (url, link) => {
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const host = u.hostname;
     const path = u.pathname;
 
-    /* オリジナル ウォッチフェイスの制作のページ(/garmin/custom/・/en/garmin/custom/)の
+    /* オリジナル ウォッチフェイスの制作のページ(/garmin/custom/・/en/・/zh/garmin/custom/)の
        問い合わせのメールのリンク。ほかのページの mailto は数えない。
        GA4 にメールアドレスを送らないよう、link_url・link_text を固定の値で上書きする。 */
     if (u.protocol === 'mailto:') {
