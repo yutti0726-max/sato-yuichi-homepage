@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>まもりノート｜メモ・手書き・パスワードの保管庫をまとめたノートアプリ</title>
+<meta name="description" content="メモ・チェックリスト・写真・手書きを入れ子のフォルダで整理できるノートアプリ。Pro ではパスワードの保管庫・鍵つきフォルダ・Google Drive と iCloud の同期も。開発者のサーバーはなく、広告もありません。Windows 版を公開中。">
+<link rel="canonical" href="https://yuichi-sato.com/apps/mamori-note/">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/apps/mamori-note/">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/apps/mamori-note/">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/apps/mamori-note/">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/apps/mamori-note/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuichi-sato.com/apps/mamori-note/">
+<meta property="og:title" content="まもりノート｜メモ・手書き・パスワードの保管庫をまとめたノートアプリ">
+<meta property="og:description" content="メモ・チェックリスト・写真・手書きを入れ子のフォルダで整理できるノートアプリ。Pro ではパスワードの保管庫・鍵つきフォルダ・Google Drive と iCloud の同期も。開発者のサーバーはなく、広告もありません。Windows 版を公開中。">
+<meta property="og:site_name" content="佐藤雄一 公式サイト">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="まもりノート｜メモ・手書き・パスワードの保管庫をまとめたノートアプリ">
+<meta name="twitter:description" content="メモ・チェックリスト・写真・手書きを入れ子のフォルダで整理できるノートアプリ。Pro ではパスワードの保管庫・鍵つきフォルダ・Google Drive と iCloud の同期も。開発者のサーバーはなく、広告もありません。Windows 版を公開中。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "まもりノート",
+  "alternateName": "Mamori Note",
+  "url": "https://yuichi-sato.com/apps/mamori-note/",
+  "image": "https://yuichi-sato.com/assets/img/mamori-note/icon.png",
+  "description": "メモ・チェックリスト・写真・手書きを入れ子のフォルダで整理できるノートアプリ。Pro ではパスワードの保管庫・鍵つきフォルダ・Google Drive と iCloud の同期も。広告なし。",
+  "operatingSystem": "Windows",
+  "applicationCategory": "ProductivityApplication",
+  "author": {
+    "@type": "Person",
+    "@id": "https://yuichi-sato.com/profile/#person",
+    "name": "佐藤雄一",
+    "url": "https://yuichi-sato.com/profile/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ホーム",
+      "item": "https://yuichi-sato.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "アプリ",
+      "item": "https://yuichi-sato.com/apps/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "まもりノート"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "無料で使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ダウンロードは無料です。メモ・フォルダ・チェックリスト・写真・手書き・検索・かんたん表示・書き出しは無料で使えます。パスワードの保管庫・同期とバックアップ・PDF の書き出し・引き継ぎを作ることなどは Pro(アプリ内購入。買い切りと年額の定期購入)です。広告はありません。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Pro でなくなったら、データはどうなりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "メモ・写真・パスワードはそのまま残ります。保管庫と鍵つきフォルダは、見る・コピー・鍵を外すことができ、バックアップの世代から元に戻すこともできます。同期と自動のバックアップは止まります。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "開発者に、メモやパスワードを見られることはありますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "開発者はサーバーを持たず、アプリからメモ・写真・パスワードを開発者に送ることはありません。クラウドに置くデータは端末の中で暗号化してから送り、開発者・Google・Apple が中身を読めない作りにしています。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "回復キーをなくしたら、どうなりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "開発者は回復キーを持っていないため、回復キーの紙とすべての端末をなくすと、だれもデータを開けなくなります。紙を人に見られた・端末をなくした、などのときは、回復キーを作り直せます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "iPhone や Android でも使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "iPhone・iPad・Android・Windows 向けのアプリで、いまは Windows 版を Microsoft Store で公開しています。Android 版と iPhone・iPad 版は準備中です。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "1台で買った Pro を、ほかの端末でも使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "同じ回復キーでつなぎ、同じ同期先(Google Drive か iCloud)で同期している端末どうしなら、どれか1台で購入した Pro をほかの端末でも使えます。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="ja" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/apps/mamori-note/">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/apps/mamori-note/">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/apps/mamori-note/">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/apps/" class="is-active">アプリ</a>
+        <a href="/#books">書籍</a>
+        <a href="/profile/">プロフィール</a>
+        <a href="/column/">コラム</a>
+        <a href="/line-stickers/">LINEスタンプ</a>
+        <a href="/gear/">おすすめ機材</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/">ホーム</a> ＞ <a href="/apps/">アプリ</a> ＞ まもりノート</p>
+      <span class="article-tag">メモ・アプリ</span>
+      <h1>まもりノート｜メモ・手書き・パスワードの保管庫をまとめたノートアプリ</h1>
+      <p class="article-meta">更新日：2026年11月16日</p>
+      <p class="article-lead">まもりノートは、メモ・チェックリスト・写真・手書きを、入れ子のフォルダで整理できるノートアプリです。Pro では、ID・パスワードの保管庫、フォルダごとに鍵をかけられる鍵つきフォルダ、あなた自身の Google Drive・iCloud を使った同期とバックアップ、もしもの時に家族へ渡すメモを選ぶ引き継ぎも使えます。広告はありません。</p>
+      <p><strong>結論から言うと、開発者はサーバーを持たず、データはあなたの端末と、あなた自身の Google Drive・iCloud にだけ置くノートアプリです。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="/assets/img/mamori-note/icon.png" alt="まもりノート アイコン" width="252" height="252" loading="lazy" decoding="async">
+        <h3>まもりノート</h3>
+        <p>メモ・写真・手書きと、パスワードの保管庫(Pro)を1つにまとめた、広告のないノートアプリです。</p>
+        <a class="play-badge" href="https://apps.microsoft.com/detail/9n373n0tb663?hl=ja-jp" target="_blank" rel="noopener">Microsoft Store で見る(Windows 版)</a>
+        <p class="app-note">※ ダウンロードは無料です。Pro はアプリ内購入(買い切りと年額の定期購入)で、Windows 版での購入は準備中です。Android 版と iPhone・iPad 版も準備中です。</p>
+      </div>
+
+      <h2>どんな人におすすめですか？</h2>
+      <p>次のような方に向いています。</p>
+      <ul>
+        <li>メモ・写真・手書きを、フォルダを重ねて整理したい方</li>
+        <li>ペンで手書きのメモを取りたい方(筆圧に対応したペンでは、線の太さが変わります)</li>
+        <li>ID・パスワードを、メモと同じアプリで管理したい方(保管庫は Pro)</li>
+        <li>自分のデータを、開発者のサーバーではなく、自分の端末と自分の Google Drive・iCloud に置きたい方</li>
+        <li>もしもの時に家族へ渡したいメモやパスワードを、選んでまとめておきたい方(作るのは Pro)</li>
+        <li>文字とボタンを大きくして使いたい方(かんたん表示)</li>
+      </ul>
+
+      <h2>主な機能</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>機能</th><th>できること</th></tr></thead>
+          <tbody>
+            <tr><td>メモとチェックリスト</td><td>文字のメモと、項目にチェックを付けられるチェックリスト。よく見るメモはピン留めできる</td></tr>
+            <tr><td>入れ子のフォルダ</td><td>フォルダの中にフォルダを作って、段を重ねて整理できる</td></tr>
+            <tr><td>写真と手書き</td><td>写真をメモに付ける。手書きのページにペン・マーカー・消しゴムで書ける。筆圧に対応したペンでは線の太さが変わる</td></tr>
+            <tr><td>検索</td><td>メモの題名・本文・チェックリストの項目の言葉で探せる</td></tr>
+            <tr><td>写真と手書きの文字の検索(Pro)</td><td>写真と手書きの中の文字を端末の中で読み取り、検索に入れる。最初はオフで、設定でオンにしたときに使う</td></tr>
+            <tr><td>ゴミ箱</td><td>消したメモとフォルダは、30日のあいだ元に戻せる</td></tr>
+            <tr><td>パスワードの保管庫(Pro)</td><td>ID・パスワード・URL・メモを、端末の中で暗号化して保存。パスワードを作る機能もある。開き方は iPhone・iPad・Android が Face ID・指紋または PIN、Windows が Windows Hello または長い合言葉</td></tr>
+            <tr><td>鍵つきフォルダ</td><td>フォルダごとに鍵をかけ、中のメモ・写真・手書きを端末の中で暗号化して保存。鍵をかけるのと中を直すのは Pro、開く・鍵を外すのは無料</td></tr>
+            <tr><td>同期とバックアップ(Pro)</td><td>あなた自身の Google Drive(4つの機種)か iCloud(iPhone・iPad だけ)で同期。1日1回のバックアップの世代を最大17まで残す</td></tr>
+            <tr><td>PDF の書き出し(Pro)</td><td>メモ1つ、またはフォルダごとに目次つきの1つの PDF にまとめる</td></tr>
+            <tr><td>もしもの時の引き継ぎ</td><td>家族に渡すメモと保管庫の項目を選び、引き継ぎシート(印刷・PDF)と、合言葉で暗号化したファイルを作る(作るのは Pro)。受け取ったファイルを見る・印刷するのは無料</td></tr>
+            <tr><td>書き出しと読み込み</td><td>データを、合言葉で暗号化した1つのファイル(.mamori)に書き出し、別の端末で読み込める。書き出しは無料。鍵つきの中身と保管庫の項目の読み込みは Pro</td></tr>
+            <tr><td>かんたん表示</td><td>文字とボタンを大きくし、細かい操作を隠せる</td></tr>
+            <tr><td>ステッカーと表紙</td><td>サイ＆ジーノのステッカーとフォルダの表紙のテーマ。無料でステッカー8種類・表紙3種類、Pro でステッカー40種類・表紙9種類</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/img/mamori-note/ja-notes.webp" alt="まもりノート フォルダの中のメモの一覧の画面" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/mamori-note/ja-editor.webp" alt="まもりノート 写真と手書きを付けたメモの画面" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/mamori-note/ja-vault.webp" alt="まもりノート パスワードの保管庫の画面" width="417" height="834" loading="lazy" decoding="async">
+        <img src="/assets/img/mamori-note/ja-handover.webp" alt="まもりノート もしもの時の引き継ぎで入れるものを選ぶ画面" width="417" height="834" loading="lazy" decoding="async">
+      </div>
+      <p class="app-note">※ 画面は Android 版の見本のデータです。</p>
+
+      <h2>プライバシーの考え方</h2>
+      <ul>
+        <li>開発者はサーバーを持っていません。データは、あなたの端末と、あなた自身の Google Drive・iCloud にだけ置きます。</li>
+        <li>アプリから開発者に、メモ・写真・パスワード・購入の情報を送ることはありません。開発者のアカウントの登録はなく、広告もありません。</li>
+        <li>クラウドに置くデータは、端末の中で暗号化してから送ります。開発者・Google・Apple が中身を読めない作りにしています。</li>
+        <li>保管庫と鍵つきフォルダの中身は、端末の中でも暗号化して保存します。</li>
+        <li>Google Drive は、このアプリが作ったファイルだけを扱う権限で使います。Drive にあるほかのファイルは見えません。</li>
+        <li>写真と手書きの文字の読み取りは、どの機種でも端末の中で行います。</li>
+        <li>Android 版では、Google の部品が Google に情報を送ります。Google Play の購入の部品は、起動のたびに診断の記録を送ります。写真と手書きの文字の検索をオンにすると、ML Kit が使い方の統計を送ります(写真・手書き・読み取った文字は送りません)。</li>
+        <li>クラウドのデータは、あなたがフォルダやファイルを消したり、Google Drive・iCloud の契約をやめたりすると残らなくなります。開発者はデータの写しを持っていないため、開発者から元に戻すことはできません。</li>
+      </ul>
+      <p>詳しくは、<a href="/apps/mamori-note/privacy/">まもりノート プライバシーポリシー</a>をご覧ください。</p>
+
+      <h2>回復キーについて</h2>
+      <p>回復キーは、保管庫か同期を初めて使うときにアプリが作ります。2台目以降の端末で同期を始めるときや、非常時に使います。印刷するか PDF にして、大切に保管してください。開発者は回復キーを持っていません。回復キーの紙とすべての端末をなくすと、開発者を含めて、だれもデータを開けなくなります。</p>
+
+      <h2>使い方の流れ</h2>
+      <p>アプリを入れると、すぐにメモ・チェックリスト・写真・手書きを作って、フォルダで整理できます。Pro で同期を使うときは、保存先に Google Drive か iCloud を選びます(1台の端末で選べるのはどちらか1つ)。初めて保管庫か同期を使うときに回復キーが作られるので、印刷して保管してください。2台目の端末は、回復キーを使って同期を始めます。</p>
+
+      <div class="note-box">まもりノートは、iPhone・iPad・Android・Windows 向けのアプリです。いまは Windows 版を Microsoft Store で公開しています。Android 版と iPhone・iPad 版は準備中です。iCloud の同期は iPhone・iPad だけで使え、4つの機種で同期するときは Google Drive を使います。表示の言語は日本語・英語・中国語(簡体字・繁体字)で、端末の言語に合わせて表示し、ほかの言語の端末では英語で表示します。本アプリは、子どもを対象としたアプリではありません。</div>
+      <p class="app-note">※ アプリのアイコンと、ステッカー・表紙などのサイ＆ジーノの絵は、AI(Canva の AI)で作った絵をもとにしています。</p>
+
+      <h2>よくある質問</h2>
+      <div class="faq-item">
+        <h3>Q. 無料で使えますか？</h3>
+        <p>A. ダウンロードは無料です。メモ・フォルダ・チェックリスト・写真・手書き・検索・かんたん表示・書き出しは無料で使えます。パスワードの保管庫・同期とバックアップ・PDF の書き出し・引き継ぎを作ることなどは Pro(アプリ内購入。買い切りと年額の定期購入)です。広告はありません。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. Pro でなくなったら、データはどうなりますか？</h3>
+        <p>A. メモ・写真・パスワードはそのまま残ります。保管庫と鍵つきフォルダは、見る・コピー・鍵を外すことができ、バックアップの世代から元に戻すこともできます。同期と自動のバックアップは止まります。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 開発者に、メモやパスワードを見られることはありますか？</h3>
+        <p>A. 開発者はサーバーを持たず、アプリからメモ・写真・パスワードを開発者に送ることはありません。クラウドに置くデータは端末の中で暗号化してから送り、開発者・Google・Apple が中身を読めない作りにしています。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 回復キーをなくしたら、どうなりますか？</h3>
+        <p>A. 開発者は回復キーを持っていないため、回復キーの紙とすべての端末をなくすと、だれもデータを開けなくなります。紙を人に見られた・端末をなくした、などのときは、回復キーを作り直せます。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. iPhone や Android でも使えますか？</h3>
+        <p>A. iPhone・iPad・Android・Windows 向けのアプリで、いまは Windows 版を Microsoft Store で公開しています。Android 版と iPhone・iPad 版は準備中です。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Q. 1台で買った Pro を、ほかの端末でも使えますか？</h3>
+        <p>A. 同じ回復キーでつなぎ、同じ同期先(Google Drive か iCloud)で同期している端末どうしなら、どれか1台で購入した Pro をほかの端末でも使えます。</p>
+      </div>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="/assets/img/mamori-note/icon.png" alt="まもりノート アイコン" width="252" height="252" loading="lazy" decoding="async">
+        <h3>メモとパスワードを、あなたの端末とあなたのクラウドに</h3>
+        <p>まもりノートは、データを開発者のサーバーに置かず、あなたの端末と、あなた自身の Google Drive・iCloud にだけ置きます。</p>
+        <a class="play-badge" href="https://apps.microsoft.com/detail/9n373n0tb663?hl=ja-jp" target="_blank" rel="noopener">Microsoft Store で見る(Windows 版)</a>
+        <p class="app-note">※ ダウンロードは無料です。Pro はアプリ内購入(買い切りと年額の定期購入)で、Windows 版での購入は準備中です。Android 版と iPhone・iPad 版も準備中です。</p>
+      </div>
+
+      <div class="contact-box">
+        <h2>お問い合わせ・不具合の報告</h2>
+        <p>この製品についてのご質問・不具合のご報告・改善のご提案は、お問い合わせフォームからお送りください。下のボタンからは、製品名を入れた状態でフォームが開きます。不具合のときに書いていただきたいことは、<a href="/contact/">お問い合わせのページ</a>にまとめています。</p>
+        <a class="contact-form-link contact-btn" data-contact-product="まもりノート (Mamori Note)" href="/contact/">お問い合わせフォームを開く</a>
+      </div>
+
+      <div class="author-box">
+        <strong>著者：佐藤雄一</strong>（実業家・アプリ開発者）。詳しいプロフィールは<a href="/profile/">こちら</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>ほかのアプリ</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/apps/haglog/">
+            <span class="column-card-tag">育児・アプリ</span>
+            <h2>ハグログ｜写真日記・成長記録が残せるデジタル母子手帳アプリ</h2>
+          </a>
+          <a class="column-card" href="/apps/seniorpedometer/">
+            <span class="column-card-tag">健康・アプリ</span>
+            <h2>らくらく歩数計｜ボタン操作不要でシニアにやさしい歩数計アプリ</h2>
+          </a>
+          <a class="column-card" href="/apps/">
+            <span class="column-card-tag">アプリ</span>
+            <h2>アプリ一覧</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="mascot-link" href="/character/" aria-label="SIGN公式キャラクター サイ ＆ ジーノの紹介ページへ"><img class="mascot mascot-footer" src="/assets/img/char/pop-selfie.webp" alt="" width="270" height="300" loading="lazy" decoding="async"></a>
+    <p>&copy; 2026 Yuichi Sato ・ <a href="/apps/">アプリ</a> ・ <a href="/privacy/">プライバシーポリシー</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="https://x.com/yutti0726" target="_blank" rel="noopener">X(旧Twitter)</a> ・ <a href="https://www.tiktok.com/@yuichi.sato.tech" target="_blank" rel="noopener">TikTok</a> ・ <a href="https://www.instagram.com/yuichi.sato.tech/" target="_blank" rel="noopener">Instagram</a> ・ <a href="https://www.youtube.com/@yutti0726" target="_blank" rel="noopener">YouTube</a> ・ <a href="/links/">リンク集</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="トップに戻る">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

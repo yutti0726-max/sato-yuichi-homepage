@@ -133,6 +133,11 @@ document.addEventListener('DOMContentLoaded', () => {
     'com.snaptools.haglog': 'ハグログ'
   };
 
+  /* Microsoft Store の製品 ID(小文字)→ 名前 */
+  const MS_STORE_NAMES = {
+    '9n373n0tb663': 'まもりノート'
+  };
+
   const BOOK_NAMES = {
     '0fyPEuUH': 'MY 100 DIVES',
     '03SI9M8q': '黄金構成比バイブル',
@@ -212,6 +217,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (host.endsWith('play.google.com')) {
       const id = u.searchParams.get('id') || '';
       return { event: 'play_store_click', params: { app_id: id, app_name: APP_NAMES[id] || id } };
+    }
+    if (host === 'apps.microsoft.com') {
+      const id = ((path.match(/\/detail\/([0-9A-Za-z]{12})/) || [])[1] || '').toLowerCase();
+      return { event: 'ms_store_click', params: { app_id: id, app_name: MS_STORE_NAMES[id] || id } };
     }
     /* ペーパーバック（MY 100 DIVES）を含む、amzn.asia の本のリンクすべて。
        イベント名は過去の集計とそろえるため kindle_click のまま。 */
