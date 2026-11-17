@@ -29,6 +29,8 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 | Instagramの告知(2027年 吉日デジタル手帳。ストーリーズのリンクなど) | `https://yuichi-sato.com/goods/kichijitsu-techo-2027/?utm_source=instagram&utm_medium=social&utm_campaign=launch&utm_content=kichijitsu_techo` |
 | TikTokのプロフィールのウェブサイト欄(リンク集) | `https://yuichi-sato.com/links/?utm_source=tiktok&utm_medium=social&utm_campaign=profile` |
 | Instagramのプロフィールのウェブサイト欄(リンク集) | `https://yuichi-sato.com/links/?utm_source=instagram&utm_medium=social&utm_campaign=profile` |
+| Threadsのプロフィールのリンク(リンク集) | `https://yuichi-sato.com/links/`(UTM は付けない。Threads が開くときに `utm_source=threads&utm_medium=social&utm_content=link_in_bio` を自動で付ける。Web 版で UTM 付きの URL を入れると、保存のときに中身が崩れる。2026-11-17 に確認) |
+| YouTubeのチャンネルのリンク欄(日本語。リンク集) | `https://yuichi-sato.com/links/?utm_source=youtube&utm_medium=social&utm_campaign=profile` |
 | Xのプロフィールのウェブサイト欄をリンク集にする場合 | `https://yuichi-sato.com/links/?utm_source=x&utm_medium=social&utm_campaign=profile` |
 | Xの投稿からリンク集へ送る(10/22の例) | `https://yuichi-sato.com/links/?utm_source=x&utm_medium=social&utm_campaign=sns_hub_202610&utm_content=20261022` |
 | Xの告知の投稿(オリジナル ウォッチフェイスの制作。2026-11。英語・中国語の投稿は `/en/garmin/custom/` へ) | `https://yuichi-sato.com/garmin/custom/?utm_source=x&utm_medium=social&utm_campaign=custom_faces` |
