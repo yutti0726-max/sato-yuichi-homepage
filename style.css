@@ -703,7 +703,8 @@ a {
 }
 
 /* 公開準備中(クローズドテスト中)のアプリ: 押せない「近日公開」の表示。
-   公開したら <a class="play-badge"> に戻す(docs/closed-test-buttons.md)。 */
+   札には data-pending="<slug>:<store>" を付け、公開したら <a class="play-badge"> に切り替える
+   (台帳 scripts/store_buttons.json・点検 scripts/check_store_buttons.py。旧の記録は docs/closed-test-buttons.md)。 */
 .play-badge.play-badge-soon,
 .play-badge.play-badge-soon:hover,
 .play-badge.play-badge-soon:active {

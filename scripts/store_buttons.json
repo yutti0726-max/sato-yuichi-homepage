@@ -1,0 +1,22 @@
+{
+  "_about": "ストアのボタンの台帳。state が pending のものは、サイトからストアへリンクしない(近日公開の札だけ)。公開を確かめたら、手順書(web-seo の store-button-switch.md)に沿って live に変える。点検は python -I scripts/check_store_buttons.py",
+  "entries": [
+    {"slug": "mediatoolbox", "name": "Media Toolbox", "store": "play", "state": "live", "url": "https://play.google.com/store/apps/details?id=com.satoyuichi.mediatoolbox"},
+    {"slug": "pdftoolkit", "name": "PDF Toolkit", "store": "play", "state": "live", "url": "https://play.google.com/store/apps/details?id=com.snaptools.pdfkit"},
+    {"slug": "seniorpedometer", "name": "らくらく歩数計", "store": "play", "state": "live", "url": "https://play.google.com/store/apps/details?id=com.yutti.seniorpedometer"},
+    {"slug": "readshot", "name": "Readshot", "store": "play", "state": "live", "url": "https://play.google.com/store/apps/details?id=com.snaptools.readshot"},
+    {"slug": "haglog", "name": "ハグログ", "store": "play", "state": "live", "url": "https://play.google.com/store/apps/details?id=com.snaptools.haglog"},
+    {"slug": "mamori-note", "name": "まもりノート", "store": "msstore", "state": "live", "url": "https://apps.microsoft.com/detail/9n373n0tb663"},
+
+    {"slug": "gigapulse", "name": "GigaPulse", "store": "play", "state": "pending", "url": "https://play.google.com/store/apps/details?id=com.satoyuichi.gigapulse"},
+    {"slug": "mimamori-map", "name": "いまどこシェア", "store": "play", "state": "pending", "url": "https://play.google.com/store/apps/details?id=com.yuichisato.locationshare"},
+    {"slug": "mamori-note", "name": "まもりノート", "store": "play", "state": "pending", "url": "https://play.google.com/store/apps/details?id=com.yuichisato.mamorinote"},
+    {"slug": "mamori-note", "name": "まもりノート", "store": "appstore", "state": "pending", "url": null},
+    {"slug": "seniorpedometer", "name": "らくらく歩数計", "store": "appstore", "state": "pending", "url": "https://apps.apple.com/jp/app/id6829205907"},
+    {"slug": "pdftoolkit", "name": "PDF Toolkit", "store": "appstore", "state": "pending", "url": "https://apps.apple.com/jp/app/id6829205995"},
+    {"slug": "haglog", "name": "ハグログ", "store": "appstore", "state": "pending", "url": "https://apps.apple.com/jp/app/id6829206007"},
+    {"slug": "mediatoolbox", "name": "Media Toolbox", "store": "appstore", "state": "pending", "url": "https://apps.apple.com/jp/app/id6829206126"},
+    {"slug": "readshot", "name": "Readshot", "store": "appstore", "state": "pending", "url": "https://apps.apple.com/jp/app/id6829206332"},
+    {"slug": "mimamori-map", "name": "いまどこシェア", "store": "appstore", "state": "pending", "url": "https://apps.apple.com/jp/app/id6829206408"}
+  ]
+}
