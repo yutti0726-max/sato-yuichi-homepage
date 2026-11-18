@@ -14,6 +14,20 @@ GA4(測定ID G-KVFRTBGBBQ)は追加設定なしでUTMを読み取るので、「
 | `utm_content` | 個別の投稿 | 日付 `20261005` や製品名 `kichijitsu` / `kichijitsu_techo`(2027年 吉日デジタル手帳。商品ページ `/goods/kichijitsu-techo-2027/`)。同じ製品で投稿が複数あるときは `kichijitsu_techo_20261024` のように投稿日(8桁)を後ろに付ける |
 
 - 値は半角英小文字・数字・アンダースコアだけにする(日本語は文字化けして集計が割れるため)。
+- **シリーズの動画の投稿の `utm_content`**(2026-11-19 追加): 名前は `行き先_シリーズ_話` にそろえる。
+  - 例: `line_stickers_sjn_ep47`(行き先 `line_stickers`・シリーズ `sjn`・話 `ep47`)。
+  - 例: `kuchiwaru_ep21`(シリーズ `kuchiwaru`・話 `ep21`)。ザツまるの投稿はリンク集 `/links/` へ送っていて、いまは行き先を付けていない(第1〜20話の投稿文で確認。2026-11-19)。
+  - 「どれが好き？」の投稿は、上の表のとおり `gfq<回>_<製品>`(例 `gfq01_empress`)のままにする。
+  - 前から使っている値(`line_stickers_sjn_ep37`・`kuchiwaru_ep12`・`gfq02_platina` など)は変えない。
+  - 新しいシリーズや新しい行き先を作るときも、この形にする。
+  - 言語は `utm_content` に入れない。各言語の投稿は、その言語のページ(`/`・`/en/`・`/zh/`)へ送っている。
+    - GA4 では、ディメンション「ランディング ページ + クエリ文字列」で言語を見分ける。
+    - 同じ回の投稿は、言語が違っても同じ値にする(例: `line_stickers_sjn_ep46` は `/line-stickers/`・`/en/line-stickers/`・`/zh/line-stickers/` で同じ)。
+    - 繁体字と簡体字の投稿は、どちらも `/zh/` へ送るので見分けられない。
+    - 見分けたいときは、繁体字の投稿の値の末尾に `_hant` を付ける(例: `line_stickers_sjn_ep47_hant`)。付けるかは、マスターSNS が決める。
+  - `utm_source`(媒体)・`utm_medium`(`social`)・`utm_campaign`(投稿の種類)の決まりは変えない。
+  - プロフィール欄は `utm_campaign=profile` のまま。Threads のプロフィールには UTM を付けない(下の表のとおり)。
+  - GA4 では「セッションの手動広告コンテンツ」(= utm_content)で、シリーズ・話ごとに見る(下の「GA4での見方」)。
 - 同じ投稿の中では同じURLを使う。
 
 ## そのまま使えるURL
