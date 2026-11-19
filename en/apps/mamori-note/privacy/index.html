@@ -100,6 +100,7 @@
         <li>The contents of the vault and of locked folders (text, photos and thumbnails, pen strokes, and recognized text) are encrypted even on your device (see section 5).</li>
         <li>Notes you delete in the App go to the Trash, where you can restore them for 30 days.</li>
         <li>If you use a backup of the device itself, such as iCloud Backup on iPhone and iPad or Android's backup, your ordinary notes and other data on the device may be included in that backup. Such backups are handled by the operating system.</li>
+        <li>Files attached to notes (PDFs and document files) are also kept in the app's storage on the device, like photos. Files in ordinary folders rely on the operating system's file protection, like photos, and for files in locked folders, the contents, names, and types are encrypted on the device.</li>
       </ul>
 
       <h2>4. Information stored in your cloud, and encryption (Pro)</h2>
@@ -110,6 +111,7 @@
         <li><strong>iCloud (iPhone and iPad only)</strong>: Used for sync and backup between iPhone and iPad. It is not available on Android or Windows. If you use the App across all four kinds of device, please choose Google Drive.</li>
         <li><strong>Backup generations</strong>: Separately from sync, the App stores an encrypted snapshot of your data once a day and keeps up to 17 generations (7 daily, 4 weekly and 6 monthly).</li>
         <li><strong>When data is not kept</strong>: Data in your cloud will no longer be kept if you delete the folder or its files, or if you end your Google Drive or iCloud subscription. Because we hold no copy of your data, we cannot restore it for you. The App lets you know when your cloud storage is running low.</li>
+        <li><strong>Attached files</strong>: Files attached to notes are also encrypted on the device before they are placed in the "Mamori Note" folder in your Google Drive or iCloud, like photos. Files over 32 MB are not synced and stay only on the device where they were attached (they are not included in backup generations either).</li>
       </ul>
       <p>Information handled by Google Drive and iCloud is processed under the terms and privacy policies of Google and Apple respectively.</p>
 
@@ -236,10 +238,12 @@
         <li><strong>Manual export</strong>: You can export your data as a single file encrypted with a passphrase.</li>
         <li>PDF export and handover export remove extra information attached to photos, such as their location.</li>
         <li>You decide where exported files are saved or sent, and you are responsible for looking after them and any printed copies. Files saved outside the App and printed paper are not deleted when you delete the App.</li>
+        <li><strong>Sending notes</strong>: You can send notes you choose (a single note or a whole folder) to people you choose as two files: a PDF and a file that opens in Mamori Note (through the share screen on phones, or by saving files on Windows). Neither file has a passphrase, so anyone who receives them can open them. Notes in locked folders and vault contents are not included. Files you send do not reach us. After you send them, they are handled by the recipient's device and by the apps used to send them (such as email or messaging apps), and this app cannot delete them.</li>
+        <li><strong>Opening in another app</strong>: When you open an attached file in another app, a copy for opening it is made in a temporary place on the device and passed to that app. After that, the file is handled according to that app. The copy is deleted the next time you open a file in another app, when this app starts, or when locked folders are locked. Until then, and while the other app is open, it may remain.</li>
       </ul>
 
       <h2>12. Sharing with third parties</h2>
-      <p>We do not sell personal information. As we receive no information through the App, we have none to pass on to any third party. As described in section 9, the App communicates directly with Google, Apple and the app stores. Data placed in your cloud is encrypted on your device before it is sent. On Android, the Google Play purchase component sends diagnostic logs to Google each time the App starts, as described in section 7.2. Also on Android, if you turn on "Search text in photos and handwriting", ML Kit sends usage statistics to Google as described in section 7.1.</p>
+      <p>We do not sell personal information. As we receive no information through the App, we have none to pass on to any third party. As described in section 9, the App communicates directly with Google, Apple and the app stores. Data placed in your cloud is encrypted on your device before it is sent. On Android, the Google Play purchase component sends diagnostic logs to Google each time the App starts, as described in section 7.2. Also on Android, if you turn on "Search text in photos and handwriting", ML Kit sends usage statistics to Google as described in section 7.1. Files you give to others with "Send notes" go to the people and by the means you choose, and do not pass through us (see 11).</p>
 
       <h2>13. Children</h2>
       <p>The App is not directed at children. No personal information about any user, including children, is collected through the App.</p>
@@ -272,7 +276,7 @@
       <a href="mailto:yutti0726@gmail.com">yutti0726@gmail.com</a></p>
       <p>Information you send us by email is used only to reply to you.</p>
 
-      <p class="gear-note">Effective date: November 2, 2026<br>Last updated: November 13, 2026</p>
+      <p class="gear-note">Effective date: November 2, 2026<br>Last updated: November 20, 2026</p>
 
     </div>
   </div>
