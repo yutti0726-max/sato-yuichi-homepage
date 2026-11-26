@@ -39,11 +39,14 @@
 
 ## Garmin Connect IQ (watch faces, data fields and apps)
 
+- [All Garmin watch faces, data fields and apps by type](https://yuichi-sato.com/garmin/): list of the 16 Connect IQ products by SIGN — luxury analog, digital, Japanese calendar, hiking/cycling data fields and timers — with free, paid and trial info (English: https://yuichi-sato.com/en/garmin/  ·  Chinese: https://yuichi-sato.com/zh/garmin/)
 - [Aurum](https://yuichi-sato.com/garmin/aurum/): frameless gold watch face built like a fine dial — six finishes (four Grand Roman dials, Chronometer, Digital Luxe)
 - [Platina](https://yuichi-sato.com/garmin/platina/): platinum-tone luxury watch face — five finishes × three layouts (Dress, Moonphase, GMT)
 - [Tide Phase / Tide Phase Lite](https://yuichi-sato.com/garmin/tide-phase/): fishing watch face showing today's Japanese tide period (spring to neap) and moon age from the lunar calendar date — a guide, not tide times; paid version adds sunrise/sunset and a 7-day strip, Lite is free
 - [Empress](https://yuichi-sato.com/garmin/empress/): frameless jewelled chronograph watch face
 - [Overwatch](https://yuichi-sato.com/garmin/overwatch/): data face that switches between 5 layouts automatically
+- [Sai and Jino (サイ＆ジーノ)](https://yuichi-sato.com/garmin/sai-jino/): character digital watch face — SIGN's twin mascots stand below the time; the sky and pictures change for morning, noon, evening and night, with a picture for reaching the step goal
+- [Wagashi Pastel (和菓子パステル)](https://yuichi-sato.com/garmin/wagashi-pastel/): digital watch face with a Japanese sweet (wagashi) and matching pastel colours for each month; can be fixed to one month
 - [Cairn / Cairn Pro](https://yuichi-sato.com/garmin/cairn/): hiking data field for climbing (elevation, grade, VAM, time to sunset)
 - [Cairn Cycle / Cairn Cycle Pro](https://yuichi-sato.com/garmin/cairn-cycle/): cycling data field for speed and power
 - [Garmin compatibility chart — which watches each app supports](https://yuichi-sato.com/garmin/devices/): model-by-model table (Venu 4, fēnix 7/8/9, Forerunner 70–970, epix, Instinct, vívoactive and more) for all published Garmin apps; AMOLED vs MIP explained (English: https://yuichi-sato.com/en/garmin/devices/)

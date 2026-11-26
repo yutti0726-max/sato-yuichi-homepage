@@ -34,7 +34,7 @@ EXCLUDE_DIRS = {'.git', 'docs', 'scripts', 'node_modules', '.github', '.claude'}
 RULES = [
     (r'^$', 'weekly', '1.0', '0.9'),
     (r'^column/$', 'weekly', '0.8', '0.8'),
-    (r'^apps/$', 'weekly', '0.8', '0.7'),
+    (r'^(apps|garmin)/$', 'weekly', '0.8', '0.7'),
     (r'^(apps|books|garmin|goods)/[^/]+/$', 'monthly', '0.9', '0.9'),
     (r'^column/.+\.html$', 'monthly', '0.7', '0.7'),
     (r'^(gear|profile)/$', 'monthly', '0.8', '0.7'),
