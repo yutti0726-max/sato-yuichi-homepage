@@ -130,7 +130,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'com.snaptools.pdfkit': 'PDF Toolkit',
     'com.yutti.seniorpedometer': 'らくらく歩数計',
     'com.snaptools.readshot': 'Readshot',
-    'com.snaptools.haglog': 'ハグログ'
+    'com.snaptools.haglog': 'ハグログ',
+    'com.yuichisato.locationshare': 'いまどこシェア'
   };
 
   /* Microsoft Store の製品 ID(小文字)→ 名前 */
