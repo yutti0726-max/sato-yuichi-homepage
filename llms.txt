@@ -92,6 +92,10 @@
 
 - [Copy text from a screenshot in a second](https://yuichi-sato.com/column/readshot-screenshot-text-copy.html)
 
+## Columns — location sharing (Imadoko Share)
+
+- [Share location on the way home and at meetups, with consent](https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html): situations (the way home, meetups and trips, parents far away), agreeing on consent first, and how to stop sharing or delete data (English: https://yuichi-sato.com/en/column/imadoko-share-way-home-meetup.html)
+
 ## Columns — scuba diving
 
 - [How to get a PADI C-card (diving licence) — cost, steps, first-hand account](https://yuichi-sato.com/column/diving-license-guide.html)

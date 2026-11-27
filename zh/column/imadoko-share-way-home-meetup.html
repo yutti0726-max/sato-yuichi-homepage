@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVFRTBGBBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KVFRTBGBBQ');
+</script>
+
+<title>回家路上、碰面时如何共享位置｜双方同意与随时停止</title>
+<meta name="description" content="“我这就回家”的联系、和朋友碰面、与住在远方的父母互相关照。介绍在双方同意的前提下共享位置和电量的使用场景，以及批准、停止共享和删除数据的方法。由应用开发者撰写。">
+<link rel="canonical" href="https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html">
+<link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/imadoko-share-way-home-meetup.html">
+<link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html">
+<link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html">
+<meta property="og:title" content="回家路上、碰面时如何共享位置｜双方同意与随时停止">
+<meta property="og:description" content="“我这就回家”的联系、和朋友碰面、与住在远方的父母互相关照。介绍在双方同意的前提下共享位置和电量的使用场景，以及批准、停止共享和删除数据的方法。由应用开发者撰写。">
+<meta property="og:site_name" content="佐藤雄一">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="回家路上、碰面时如何共享位置｜双方同意与随时停止">
+<meta name="twitter:description" content="“我这就回家”的联系、和朋友碰面、与住在远方的父母互相关照。介绍在双方同意的前提下共享位置和电量的使用场景，以及批准、停止共享和删除数据的方法。由应用开发者撰写。">
+<meta name="twitter:image" content="https://yuichi-sato.com/assets/img/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "回家路上、碰面时如何共享位置｜双方同意与随时停止",
+  "description": "“我这就回家”的联系、和朋友碰面、与住在远方的父母互相关照。介绍在双方同意的前提下共享位置和电量的使用场景，以及批准、停止共享和删除数据的方法。由应用开发者撰写。",
+  "image": "https://yuichi-sato.com/assets/img/mimamori-icon.png",
+  "author": {
+    "@type": "Person",
+    "@id": "https://yuichi-sato.com/profile/#person",
+    "name": "佐藤雄一",
+    "url": "https://yuichi-sato.com/zh/profile/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "佐藤雄一"
+  },
+  "mainEntityOfPage": "https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://yuichi-sato.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "专栏",
+      "item": "https://yuichi-sato.com/zh/column/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "回家路上、碰面时如何共享位置"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "能在对方不知情的情况下查看其位置吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "位置只有在对方批准、并且收集位置期间显示通知的情况下才会共享，没有隐藏模式。通过邀请码或二维码建立连接，在对方批准之前什么都看不到。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如何停止共享？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "随时可以通过每个对象的开关，或通知中的“停止”来停止。停止时，也可以把你最后的位置从对方的屏幕上移除。还可以解除连接或屏蔽。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "对方也需要安装应用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "需要。双方都要安装“现在在哪儿”并建立连接。截至撰写本文时，公开的是 Android 版（Google Play）。可以通过应用中的“邀请家人和朋友”发送下载途径和步骤。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "更新停止了，是不是对方出了什么事？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不一定。没有信号、电量耗尽或省电设置等情况也会导致更新停止。应用会把确定的信息和仅仅是推测的内容分开显示。紧急情况下，请直接联系对方或拨打紧急电话。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "可以用来照看孩子吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "“现在在哪儿”的适用对象为18岁以上的用户。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "有广告或使用情况分析吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "没有。应用也不会访问你的通讯录。"
+      }
+    }
+  ]
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9665371559562936"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo notranslate" href="/zh/" translate="no">Yuichi Sato</a>
+    <div class="header-controls">
+      <div class="lang-switch" data-lang="zh" aria-label="Switch language / 言語を切り替え / 切换语言">
+        <a class="lang-switch-option" data-lang-option="ja" href="/column/imadoko-share-way-home-meetup.html">JA</a>
+        <a class="lang-switch-option" data-lang-option="en" href="/en/column/imadoko-share-way-home-meetup.html">EN</a>
+        <a class="lang-switch-option" data-lang-option="zh" href="/zh/column/imadoko-share-way-home-meetup.html">中</a>
+        <span class="lang-switch-thumb" aria-hidden="true"></span>
+      </div>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="菜单" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+    <div class="header-right" id="siteNav">
+      <nav>
+        <a href="/zh/apps/">应用</a>
+        <a href="/zh/#books">书籍</a>
+        <a href="/zh/profile/">简介</a>
+        <a href="/zh/column/" class="is-active">专栏</a>
+        <a href="/zh/line-stickers/">LINE 贴图</a>
+        <a href="/zh/gear/">推荐装备</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap article-body">
+    <div class="article-header">
+      <p class="breadcrumb"><a href="/zh/">首页</a> ＞ <a href="/zh/column/">专栏</a> ＞ 回家路上、碰面时如何共享位置</p>
+      <span class="article-tag">位置共享·应用</span>
+      <h1>回家路上、碰面时如何共享位置｜双方同意与随时停止</h1>
+      <p class="article-meta">更新日期：2026年11月27日</p>
+      <p class="article-lead">发出“我这就回家”之后，你是否想过，要是能知道对方大概走到哪儿就好了？在人多的地方和朋友碰面时，或者担心住在远方的父母手机有没有充电时，也是一样。本文按场景介绍与家人、朋友共享位置的用法，以及开始之前需要先约定的两件事：“同意”和“停止的方法”。</p>
+      <p><strong>只在对方批准、并且自己开启的期间共享位置，就能根据场景轻松地按需使用。一开始就一起确认停止的方法，这一点很重要。</strong></p>
+    </div>
+
+    <div class="article-content">
+
+      <div class="disclosure-box">
+        <strong>【广告】</strong> 本文包含笔者开发的 Android 应用“现在在哪儿”的介绍。
+      </div>
+
+      <h2>共享位置之前，应该和对方约定什么？</h2>
+      <p>位置是非常私人的信息。开始之前，请和对方商量好：在什么场景、和谁、共享到什么时候。</p>
+      <ul>
+        <li><strong>和谁</strong>：只与双方都批准的人共享</li>
+        <li><strong>什么时候</strong>：只在需要时开启，比如回家路上或活动当天</li>
+        <li><strong>怎么停止</strong>：两个人都要知道如何关闭共享、如何解除连接</li>
+      </ul>
+      <p>“现在在哪儿”把这三点做进了应用的机制里。通过邀请码（10 分钟内有效，仅可使用一次）或二维码建立连接，在对方批准之前，位置和电量都看不到。批准的画面会提醒你确认显示名称，只批准你认识的人。</p>
+
+      <h2>场景1：回家路上发一句“我这就回家”</h2>
+      <p>晚归时打字联系也挺麻烦。“现在在哪儿”的一对一聊天里有快捷短语，点一下就会放进输入框，可以选择“我这就回家”“我到了”“能来接我吗？”等（只有按下发送按钮才会发出）。</p>
+      <p>开启共享后，对方的画面上会显示你最后已知的位置，以及信息的更新时间。不用打电话，也更容易确认你大概走到了哪里。到家后发一句“我到了”，如果不再需要，就把共享关掉。</p>
+      <p>另外，由于信号、电量、省电设置或权限设置等原因，位置更新可能延迟或无法送达。请同时留意显示的更新时间。</p>
+
+      <h2>场景2：旅行或活动时和朋友会合</h2>
+      <p>在人多的地方，“你在哪儿？”往往要来回问好几次。双方都开启共享的话，就能在地图上看到彼此最后的位置和更新时间。聊天的快捷短语里还有“我会晚一点到”“你在哪儿？”“收到”。</p>
+      <p>电量以及是否正在充电也会共享。电量在 20% 以下时会醒目地显示为“电量低”，可以借此提醒对方在联系不上之前先约好会合地点。</p>
+      <p>如果只是当天需要，结束后请为每个人分别关闭共享。如果之后不打算保持连接，也可以解除连接。</p>
+
+      <h2>场景3：与住在远方的父母互相了解近况</h2>
+      <p>不至于每天打电话，但还是想稍微留意一下彼此的情况。这时，可以在双方同意的前提下互相共享位置和电量。看到电量或充电的情况，也可以成为问一句“手机记得充电了吗？”的契机。</p>
+      <p>开始时，需要父母本人安装应用并亲自批准。回家探望时，可以一起确认以下四项。这是应用帮助“共享经常中断时，请检查这些项目”中，针对共享中途停止时列出的检查项目：</p>
+      <ol>
+        <li>将位置权限设为“始终允许”</li>
+        <li>允许通知</li>
+        <li>开启设备的定位服务</li>
+        <li>将此应用排除在电池优化之外</li>
+      </ol>
+      <p>部分机型有厂商自带的省电功能，即使做了上述设置，应用也可能被停止。</p>
+      <p>更新中断时，应用会把“确定的信息”和“推测”（例如电量可能耗尽）分开显示。对方关闭共享时，会立即显示为“已确认”。一段时间（约 12 分钟）没有收到任何信息时，会显示“联系中断”。推测并不代表发生了什么事。如果担心，请直接联系对方。</p>
+
+      <h2>如何停止共享、删除数据？</h2>
+      <p>“现在在哪儿”提供以下停止和删除的方法。开始之前，请和对方一起确认。</p>
+      <ul>
+        <li><strong>对某个人停止</strong>：关闭对该对象的共享开关。停止后，你最后共享的位置会保留在对方的屏幕上，但关闭时可以选择“同时从对方的屏幕上移除我最后的位置”。对方会看到“共享已关闭（对方已关闭）”</li>
+        <li><strong>从通知中停止</strong>：收集位置期间，始终会显示通知。随时可以点通知中的“停止”</li>
+        <li><strong>解除连接</strong>：你们将立即看不到彼此的位置、电量和聊天。如需重新连接，需要新的邀请码</li>
+        <li><strong>屏蔽</strong>：在解除连接的基础上，对方将无法再使用你的邀请码。可以在设置中解除屏蔽</li>
+        <li><strong>删除账号</strong>：在“设置”中选择“删除账号”，会删除你的个人资料、位置和你发送的消息，并结束你的连接。你在已结束或仍在等待批准的连接中发送的消息，可能无法在应用中删除</li>
+      </ul>
+      <p>位置只有在对方批准、并且收集位置期间显示通知的情况下才会共享，没有隐藏模式。没有广告，也没有使用情况分析，应用不会访问你的通讯录。你还可以选择记录自己的轨迹，轨迹只保存在你的设备上，不会上传，也不会共享。</p>
+
+      <h2>“现在在哪儿”能做什么</h2>
+      <ul>
+        <li><strong>批准制的连接</strong>：邀请码（10 分钟内有效，仅可使用一次）或二维码。对方批准之前什么都看不到</li>
+        <li><strong>按对象开关共享</strong>：随时可以用一个开关或在通知中停止</li>
+        <li><strong>位置、电量、更新时间</strong>：最后已知位置、电量和是否正在充电、信息的更新时间</li>
+        <li><strong>更新中断时的显示</strong>：把确定的信息和推测分开显示</li>
+        <li><strong>一对一聊天</strong>：文字和贴纸（3 组共 24 张）、已读确认、删除自己发送的消息、快捷短语</li>
+        <li><strong>邀请家人和朋友</strong>：可以通过消息发送下载途径和开始步骤</li>
+        <li><strong>轨迹记录（可选）</strong>：只保存在设备上。可以设置保存期限、删除，或导出为 GPX</li>
+      </ul>
+
+      <div class="note-box"><strong>请注意：</strong>“现在在哪儿”不是紧急服务，无法保证任何人的安全。由于没有信号、电量耗尽、省电设置或权限设置等原因，更新可能延迟或无法送达。紧急情况下，请直接联系对方或拨打紧急电话。适用对象为18岁以上的用户。</div>
+
+      <h2>总结</h2>
+      <p>回家路上、和朋友碰面、与住在远方的父母互相关照。只要确定场景、与对方达成同意、并且知道停止的方法，就能只在需要时共享位置。“现在在哪儿”是一款只与互相批准的人、只在开启共享期间共享位置和电量的 Android 应用。</p>
+
+      <div class="cta-card reveal">
+        <img class="app-icon" src="../../assets/img/mimamori-icon.png" alt="现在在哪儿 图标" width="252" height="252" loading="lazy" decoding="async">
+        <h3>现在在哪儿</h3>
+        <p>在双方同意的前提下共享位置和电量的 Android 应用。没有广告，也没有使用情况分析。</p>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.yuichisato.locationshare" target="_blank" rel="noopener">📲 在 Google Play 查看</a>
+      </div>
+
+      <p>主要功能、位置信息的用途和常见问题，请见<a href="/zh/apps/mimamori-map/">“现在在哪儿”的介绍页面</a>。</p>
+
+      <div class="reveal">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <h3>Q. 能在对方不知情的情况下查看其位置吗？</h3>
+          <p>A. 位置只有在对方批准、并且收集位置期间显示通知的情况下才会共享，没有隐藏模式。通过邀请码或二维码建立连接，在对方批准之前什么都看不到。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 如何停止共享？</h3>
+          <p>A. 随时可以通过每个对象的开关，或通知中的“停止”来停止。停止时，也可以把你最后的位置从对方的屏幕上移除。还可以解除连接或屏蔽。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 对方也需要安装应用吗？</h3>
+          <p>A. 需要。双方都要安装“现在在哪儿”并建立连接。截至撰写本文时，公开的是 Android 版（Google Play）。可以通过应用中的“邀请家人和朋友”发送下载途径和步骤。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 更新停止了，是不是对方出了什么事？</h3>
+          <p>A. 不一定。没有信号、电量耗尽或省电设置等情况也会导致更新停止。应用会把确定的信息和仅仅是推测的内容分开显示。紧急情况下，请直接联系对方或拨打紧急电话。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 可以用来照看孩子吗？</h3>
+          <p>A. “现在在哪儿”的适用对象为18岁以上的用户。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Q. 有广告或使用情况分析吗？</h3>
+          <p>A. 没有。应用也不会访问你的通讯录。</p>
+        </div>
+      </div>
+
+      <div class="author-box">
+        <strong>作者：佐藤雄一</strong>（实业家・应用开发者）。详细个人简介请见<a href="/zh/profile/">这里</a>。
+      </div>
+
+      <div class="related-articles reveal">
+        <h2>延伸阅读</h2>
+        <div class="related-grid">
+          <a class="column-card" href="/zh/apps/mimamori-map/">
+            <span class="column-card-tag">位置共享·应用</span>
+            <h2>现在在哪儿｜朋友、家人、情侣的位置共享应用</h2>
+          </a>
+          <a class="column-card" href="/zh/apps/">
+            <span class="column-card-tag">应用</span>
+            <h2>应用列表</h2>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="mascot-link" href="/zh/character/" aria-label="认识SIGN官方吉祥物 Sai 与 Jino"><img class="mascot mascot-footer" src="/assets/img/char/pip-tea.webp" alt="" width="195" height="300" loading="lazy" decoding="async"></a>
+    <p>© 2026 Yuichi Sato ・ <a href="/zh/apps/">应用</a> ・ <a href="/zh/privacy/">隐私政策</a> ・ <a href="/zh/contact/">联系我们</a> ・ <a href="https://x.com/yutti0726" target="_blank" rel="noopener">X（推特）</a> ・ <a href="https://www.tiktok.com/@yuichi.sato.tech" target="_blank" rel="noopener">TikTok</a> ・ <a href="https://www.instagram.com/yuichi.sato.tech/" target="_blank" rel="noopener">Instagram</a> ・ <a href="https://www.threads.com/@yuichi.sato.tech" target="_blank" rel="noopener">Threads</a> ・ <a href="https://www.youtube.com/@yutti0726" target="_blank" rel="noopener">YouTube</a> ・ <a href="/zh/links/">链接汇总</a></p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+<script src="../../script.js"></script>
+</body>
+</html>

@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/column/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -663,7 +663,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/en/column/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -673,7 +673,7 @@
   </url>
   <url>
     <loc>https://yuichi-sato.com/zh/column/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/"/>
@@ -3194,5 +3194,35 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/garmin/wagashi-pastel/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/garmin/wagashi-pastel/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/garmin/wagashi-pastel/"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/en/column/imadoko-share-way-home-meetup.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html"/>
+  </url>
+  <url>
+    <loc>https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yuichi-sato.com/en/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://yuichi-sato.com/zh/column/imadoko-share-way-home-meetup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yuichi-sato.com/column/imadoko-share-way-home-meetup.html"/>
   </url>
 </urlset>
